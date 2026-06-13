@@ -70,6 +70,8 @@
   .todo li{font-size:13px;color:var(--ink-soft);padding-left:13px;position:relative}
   .todo li::before{content:"・";position:absolute;left:0;color:var(--calm)}
   .c-thread{white-space:nowrap;color:var(--ink-soft)}
+  .c-thread a{color:var(--accent);text-decoration:none}
+  .c-thread a:hover{text-decoration:underline}
   .c-post{white-space:nowrap;color:var(--calm);font-size:12.5px}
   .c-post .warn{display:block;color:var(--soon);font-size:11px;margin-top:3px}
   .c-post .newbadge{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;
@@ -118,8 +120,24 @@
 <!-- 中身のデータ。更新するのはこの data.js だけ。index.html はさわらない。 -->
 <script src="data.js"></script>
 <script>
-const DATA = window.CLASSROOM_DATA || {update:'(未設定)',updateISO:'2026-01-01',items:[]};
+const DATA = window.CLASSROOM_DATA || {updateISO:'2026-01-01',updateTime:'',items:[]};
 const ITEMS = DATA.items;
+
+// スレッド名 → Classroom URL（リンク表示用）
+const THREAD_LINKS = {
+  '82回生':'https://classroom.google.com/c/ODU4NTUxNTUzOTEy',
+  '1年 数学':'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0',
+  '数学':'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0',
+  '総務':'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx',
+  '英語':'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5',
+  '理科1分野':'https://classroom.google.com/c/ODY1MzczNzE0NDA5',
+  '国語':'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5',
+  '地理':'https://classroom.google.com/c/ODY1MzU4MzYwMzcx',
+  '1-3 HR':'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3',
+  'バスケ':'https://classroom.google.com/c/MzI3NTczNzQyMTQy',
+};
+// 日付なし項目の並び順（小さいほど先）
+function undatedRank(it){ const m={'次回の授業':1,'当面の間':2,'夏休み':3,'常時':4}; return m[it.dateLabel]||9; }
 
 let done={}; try{done=JSON.parse(localStorage.getItem('classroom_done_v1')||'{}');}catch(e){done={};}
 function saveDone(){try{localStorage.setItem('classroom_done_v1',JSON.stringify(done));}catch(e){}}
@@ -129,7 +147,9 @@ const WD=['日','月','火','水','木','金','土'];
 function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d);}
 function dleft(s){return Math.round((pd(s)-today)/86400000);}
 document.getElementById('todayLabel').textContent=`今日 ${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
-document.getElementById('updateLabel').textContent=`Update: ${DATA.update}`;
+const _ud=pd(DATA.updateISO);
+const UPDSTR=`${_ud.getFullYear()}/${String(_ud.getMonth()+1).padStart(2,'0')}/${String(_ud.getDate()).padStart(2,'0')} (${WD[_ud.getDay()]})${DATA.updateTime?' '+DATA.updateTime:''}`;
+document.getElementById('updateLabel').textContent=`Update: ${UPDSTR}`;
 
 // Update基準で「24時間以内（更新日当日〜前日）」の投稿をNew扱いにする
 const UPDATE=pd(DATA.updateISO); UPDATE.setHours(0,0,0,0);
@@ -151,7 +171,8 @@ function render(){
     const list=ITEMS.map((it,i)=>({it,i})).filter(x=>x.it.cat===cat)
       .sort((a,b)=>{ const ad=a.it.date,bd=b.it.date;
         if(ad&&bd)return ad<bd?-1:ad>bd?1:a.i-b.i;
-        if(ad&&!bd)return -1; if(!ad&&bd)return 1; return a.i-b.i; });
+        if(ad&&!bd)return -1; if(!ad&&bd)return 1;
+        return (undatedRank(a.it)-undatedRank(b.it))||(a.i-b.i); });
     let shown=0;
     list.forEach(({it})=>{
       const u=urg(it),isDone=!!done[it.id],isPast=u==='past';
@@ -166,7 +187,7 @@ function render(){
         <td class="c-sub"><span class="tag">${it.subject}</span></td>
         <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}
           ${it.details&&it.details.length?`<ul>${it.details.map(d=>`<li>${d}</li>`).join('')}</ul>`:''}</td>
-        <td class="c-thread">${it.thread}</td>
+        <td class="c-thread">${THREAD_LINKS[it.thread]?`<a href="${THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}</td>
         <td class="c-post">${it.poster}（${it.posted}）${isNew(it)?'<span class="newbadge">New</span>':''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
       tb.appendChild(tr);
     });
@@ -180,7 +201,7 @@ function render(){
 ['hideDone','hidePast','hideOpt','hideClub'].forEach(id=>{ const el=document.getElementById(id);
   el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked); render(); }; });
 document.getElementById('foot').innerHTML=
-  `相対日付（昨日・本日・明日・次回の授業 など）は、元データの更新日 ${DATA.update} を基準に絶対日付へ変換しています。`+
+  `相対日付（昨日・本日・明日・次回の授業 など）は、元データの更新日 ${UPDSTR} を基準に絶対日付へ変換しています。`+
   '「あと◯日」は、このページを開いた日を基準に自動計算され、過ぎた予定は自動で薄く表示されます。'+
   'チェックの状態はこの端末のブラウザに保存されます。';
 render();
