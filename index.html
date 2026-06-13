@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>1-3 Classroomまとめ</title>
+<title>82回生 1年3組 やることまとめ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -135,6 +135,7 @@ const THREAD_LINKS = {
   '地理':'https://classroom.google.com/c/ODY1MzU4MzYwMzcx',
   '1-3 HR':'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3',
   'バスケ':'https://classroom.google.com/c/MzI3NTczNzQyMTQy',
+  'ロイロノート':'https://loilonote.app',
 };
 // 日付なし項目の並び順（小さいほど先）
 function undatedRank(it){ const m={'次回の授業':1,'当面の間':2,'夏休み':3,'常時':4}; return m[it.dateLabel]||9; }
@@ -149,13 +150,13 @@ function dleft(s){return Math.round((pd(s)-today)/86400000);}
 document.getElementById('todayLabel').textContent=`今日 ${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
 const _ud=pd(DATA.updateISO);
 const UPDSTR=`${_ud.getFullYear()}/${String(_ud.getMonth()+1).padStart(2,'0')}/${String(_ud.getDate()).padStart(2,'0')} (${WD[_ud.getDay()]})${DATA.updateTime?' '+DATA.updateTime:''}`;
-document.getElementById('updateLabel').textContent=`Update: ${UPDSTR}`;
+document.getElementById('updateLabel').textContent=`Update: ${UPDSTR} 時点`;
 
 // Update基準で「24時間以内（更新日当日〜前日）」の投稿をNew扱いにする
 const UPDATE=pd(DATA.updateISO); UPDATE.setHours(0,0,0,0);
 function parsePosted(s){ const p=s.split('/').map(Number);
   return p.length===3 ? new Date(p[0],p[1]-1,p[2]) : new Date(UPDATE.getFullYear(),p[0]-1,p[1]); }
-function isNew(it){ const d=Math.round((UPDATE-parsePosted(it.posted))/86400000); return d>=0 && d<=1; }
+function isNew(it){ if(!it.posted) return false; const d=Math.round((UPDATE-parsePosted(it.posted))/86400000); return d>=0 && d<=1; }
 
 function urg(it){ if(!it.date)return'flat'; const d=dleft(it.date);
   if(d<0)return'past'; if(d<=1)return'now'; if(d<=4)return'soon'; if(d<=10)return'week'; return'flat'; }
@@ -188,7 +189,7 @@ function render(){
         <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}
           ${it.details&&it.details.length?`<ul>${it.details.map(d=>`<li>${d}</li>`).join('')}</ul>`:''}</td>
         <td class="c-thread">${THREAD_LINKS[it.thread]?`<a href="${THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}</td>
-        <td class="c-post">${it.poster}（${it.posted}）${isNew(it)?'<span class="newbadge">New</span>':''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
+        <td class="c-post">${it.poster||''}${it.posted?`（${it.posted}）`:''}${isNew(it)?'<span class="newbadge">New</span>':''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
       tb.appendChild(tr);
     });
     if(!shown)tb.innerHTML='<tr><td colspan="6" style="color:var(--ink-soft);text-align:center;padding:18px">表示する項目はありません。</td></tr>';
@@ -201,8 +202,7 @@ function render(){
 ['hideDone','hidePast','hideOpt','hideClub'].forEach(id=>{ const el=document.getElementById(id);
   el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked); render(); }; });
 document.getElementById('foot').innerHTML=
-  `相対日付（昨日・本日・明日・次回の授業 など）は、元データの更新日 ${UPDSTR} を基準に絶対日付へ変換しています。`+
-  '「あと◯日」は、このページを開いた日を基準に自動計算され、過ぎた予定は自動で薄く表示されます。'+
-  'チェックの状態はこの端末のブラウザに保存されます。';
+  '＊1日1回は更新予定ですが、最新の投稿の内容は反映されないこと、ご了承下さい<br>'+
+  '＊先生からの実際のコメントをまとめたものなので、詳細はClassroomの投稿本文をご参照下さい';
 render();
 </script>
