@@ -9,6 +9,8 @@ window.CLASSROOM_DATA = {
   items: [
     {id:'h1',cat:'hw',date:'2026-06-16',dateLabel:'6/16 (火) 16:10',subject:'数学',title:'文字式(2)プリントの提出・合格期限',
       details:['まだスタンプをもらっていない人は早く出す','何度も再提出の人は、配信の解答を確認して全て直してから出す'],thread:'1年 数学',poster:'森本奈央',posted:'6/12'},
+    {id:'l1',cat:'hw',date:'2026-06-14',dateLabel:'6/14 (日) 22:00',subject:'国語ダブル',title:'歳時記ノート 6月第二週',
+      details:[],thread:'ロイロノート',poster:''},
 
     {id:'n1',cat:'no',date:'2026-06-13',dateLabel:'6/13 (土)',subject:'全体',title:'校舎見学会',
       details:['机の中や横に私物を置き忘れない','清掃をしっかり行う'],thread:'82回生',poster:'馬場友紀・新田愛未',posted:'6/12'},
