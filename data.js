@@ -1,11 +1,11 @@
 /* ===== ここだけ毎回貼り替える ===== */
-/* update    : 画面に出る更新日（表示用の文字）           */
-/* updateISO : New判定・相対日付の基準日 (YYYY-MM-DD)     */
-/* items     : 各行のデータ。Claudeが返す塊をそのまま貼る  */
+/* updateISO  : New判定・相対日付の基準日 (YYYY-MM-DD)        */
+/* updateTime : 更新した時刻 (HH:MM)。曜日は自動で付きます      */
+/* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  update: "2026/06/13",
   updateISO: "2026-06-13",
+  updateTime: "16:33",
   items: [
     {id:'h1',cat:'hw',date:'2026-06-16',dateLabel:'6/16 (火) 16:10',subject:'数学',title:'文字式(2)プリントの提出・合格期限',
       details:['まだスタンプをもらっていない人は早く出す','何度も再提出の人は、配信の解答を確認して全て直してから出す'],thread:'1年 数学',poster:'森本奈央',posted:'6/12'},
@@ -37,7 +37,5 @@ window.CLASSROOM_DATA = {
       details:[],thread:'バスケ',poster:'山本昂宏',posted:'5/28'},
     {id:'b3',cat:'no',date:'2026-06-27',dateLabel:'6/27 (土) 〜',subject:'部活',title:'夏季大会1回戦（公式戦スタート）',
       details:['1回戦6/27(土)、2回戦6/28(日)、3回戦7/4(土)','準決勝・決勝は7/11(土)・12(日)'],thread:'バスケ',poster:'山本昂宏',posted:'5/21'},
-    {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
-      details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡簿で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
   ]
 };
