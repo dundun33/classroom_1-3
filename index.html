@@ -1,0 +1,187 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>82回生 1年3組 やることまとめ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F7FB; --card:#FFFFFF; --ink:#1B2A4A; --ink-soft:#5C6886;
+    --line:#E5E9F2; --head:#6E89BE; --head-soft:#EEF2FA;
+    --now:#E5484D; --soon:#E0820B; --week:#86A4D2; --calm:#7A86A3;
+    --done:#9AA3B8; --chip:#EFF3FA; --accent:#7E97C8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--paper);color:var(--ink);
+    font-family:"Noto Sans JP",-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;
+    line-height:1.55;padding:20px 16px 64px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:920px;margin:0 auto}
+
+  header{margin-bottom:18px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;color:var(--ink-soft);font-weight:700}
+  .eyebrow a{margin-left:8px;color:var(--accent);text-decoration:none;letter-spacing:0}
+  .eyebrow a:hover{text-decoration:underline}
+  h1{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:clamp(23px,5.5vw,31px);margin:4px 0 2px}
+  .topbar{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;margin-top:10px}
+  .today{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .today .big{font-family:"Zen Maru Gothic",sans-serif;font-size:18px;font-weight:700;color:var(--accent)}
+  .updated{font-size:12px;color:var(--ink-soft)}
+
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+  .toggle{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-soft);
+    background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;user-select:none}
+  .toggle input{accent-color:var(--accent);width:15px;height:15px;margin:0}
+  .toggle.on{color:var(--accent);border-color:var(--accent);background:#F2F6FD}
+
+  section{margin-top:26px}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .sec-num{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:14px;color:#fff;background:var(--accent);
+    width:26px;height:26px;border-radius:8px;display:grid;place-items:center;flex:none}
+  .sec-head h2{font-family:"Zen Maru Gothic",sans-serif;font-size:18px;margin:0;font-weight:700}
+  .sec-head .count{font-size:12px;color:var(--ink-soft)}
+
+  .tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;min-width:660px}
+  thead th{background:var(--head);color:#fff;font-size:12.5px;font-weight:700;text-align:left;
+    padding:10px 12px;white-space:nowrap;font-family:"Zen Maru Gothic",sans-serif}
+  thead th.c-chk{width:38px;text-align:center}
+  tbody td{padding:11px 12px;border-top:1px solid var(--line);font-size:13.5px;vertical-align:top}
+  tbody tr{border-left:5px solid var(--calm)}
+  tbody tr.now{border-left-color:var(--now)}
+  tbody tr.soon{border-left-color:var(--soon)}
+  tbody tr.week{border-left-color:var(--week)}
+  tbody tr.flat{border-left-color:var(--calm)}
+  tbody tr.past{opacity:.5}
+  tbody tr.done{opacity:.45}
+  tbody tr.done .todo b{text-decoration:line-through}
+
+  .c-chk{text-align:center}
+  .c-chk input{width:19px;height:19px;accent-color:var(--accent);cursor:pointer}
+  .c-date{white-space:nowrap;font-weight:700}
+  .countdown{display:inline-block;margin-top:4px;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+  .cd-now{background:#FDECEC;color:var(--now)} .cd-soon{background:#FCF1E2;color:var(--soon)}
+  .cd-week{background:#EAF1FB;color:var(--week)} .cd-flat{background:var(--chip);color:var(--calm)}
+  .cd-past{background:#EFF1F5;color:var(--done)}
+  .c-sub .tag{font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;background:var(--chip);color:var(--accent);white-space:nowrap}
+  .todo b{font-weight:700;font-size:14px}
+  .todo .opt{font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:6px;background:#F0EEFA;color:#6E55C8;margin-left:6px}
+  .todo ul{margin:5px 0 0;padding:0;list-style:none}
+  .todo li{font-size:13px;color:var(--ink-soft);padding-left:13px;position:relative}
+  .todo li::before{content:"・";position:absolute;left:0;color:var(--calm)}
+  .c-thread{white-space:nowrap;color:var(--ink-soft)}
+  .c-post{white-space:nowrap;color:var(--calm);font-size:12.5px}
+  .c-post .warn{display:block;color:var(--soon);font-size:11px;margin-top:3px}
+  .c-post .newbadge{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;
+    padding:1px 8px;border-radius:999px;background:#E4F4EA;color:#2E9E62;letter-spacing:.03em}
+
+  footer{margin-top:34px;font-size:11.5px;color:var(--calm);line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
+  @media (max-width:480px){ body{padding:16px 12px 56px} }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">CLASSROOM まとめ <a href="https://classroom.google.com/h" target="_blank" rel="noopener">Classroomを開く ↗</a></div>
+    <div class="topbar">
+      <div class="today">
+        <span class="big" id="todayLabel"></span>
+        <span class="updated" id="updateLabel"></span>
+      </div>
+      <div class="controls">
+        <label class="toggle"><input type="checkbox" id="hideDone"> 完了を隠す</label>
+        <label class="toggle"><input type="checkbox" id="hidePast"> 過去を隠す</label>
+        <label class="toggle"><input type="checkbox" id="hideOpt"> 希望者を隠す</label>
+        <label class="toggle"><input type="checkbox" id="hideClub"> 部活を隠す</label>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">1</span><h2>宿題・提出物</h2><span class="count" id="cnt-hw"></span></div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th class="c-chk">☑️</th><th>日付</th><th>教科</th><th>To Do</th><th>スレッド</th><th>投稿</th></tr></thead>
+      <tbody id="list-hw"></tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">2</span><h2>連絡事項・予定・ルール</h2><span class="count" id="cnt-no"></span></div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th class="c-chk">☑️</th><th>日付</th><th>教科</th><th>連絡事項</th><th>スレッド</th><th>投稿</th></tr></thead>
+      <tbody id="list-no"></tbody>
+    </table></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<!-- 中身のデータ。更新するのはこの data.js だけ。index.html はさわらない。 -->
+<script src="data.js"></script>
+<script>
+const DATA = window.CLASSROOM_DATA || {update:'(未設定)',updateISO:'2026-01-01',items:[]};
+const ITEMS = DATA.items;
+
+let done={}; try{done=JSON.parse(localStorage.getItem('classroom_done_v1')||'{}');}catch(e){done={};}
+function saveDone(){try{localStorage.setItem('classroom_done_v1',JSON.stringify(done));}catch(e){}}
+
+const today=new Date(); today.setHours(0,0,0,0);
+const WD=['日','月','火','水','木','金','土'];
+function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d);}
+function dleft(s){return Math.round((pd(s)-today)/86400000);}
+document.getElementById('todayLabel').textContent=`今日 ${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
+document.getElementById('updateLabel').textContent=`Update: ${DATA.update}`;
+
+// Update基準で「24時間以内（更新日当日〜前日）」の投稿をNew扱いにする
+const UPDATE=pd(DATA.updateISO); UPDATE.setHours(0,0,0,0);
+function parsePosted(s){ const p=s.split('/').map(Number);
+  return p.length===3 ? new Date(p[0],p[1]-1,p[2]) : new Date(UPDATE.getFullYear(),p[0]-1,p[1]); }
+function isNew(it){ const d=Math.round((UPDATE-parsePosted(it.posted))/86400000); return d>=0 && d<=1; }
+
+function urg(it){ if(!it.date)return'flat'; const d=dleft(it.date);
+  if(d<0)return'past'; if(d<=1)return'now'; if(d<=4)return'soon'; if(d<=10)return'week'; return'flat'; }
+function cd(it){ if(!it.date)return null; const d=dleft(it.date); const u=urg(it);
+  let t = d<0?'過ぎた':d===0?'本日':d===1?'明日':`あと${d}日`;
+  const cls = d<0?'cd-past':u==='now'?'cd-now':u==='soon'?'cd-soon':u==='week'?'cd-week':'cd-flat';
+  return {cls,t}; }
+
+function render(){
+  const hD=hideDone.checked,hP=hidePast.checked,hO=hideOpt.checked,hC=hideClub.checked;
+  ['hw','no'].forEach(cat=>{
+    const tb=document.getElementById('list-'+cat); tb.innerHTML='';
+    const list=ITEMS.map((it,i)=>({it,i})).filter(x=>x.it.cat===cat)
+      .sort((a,b)=>{ const ad=a.it.date,bd=b.it.date;
+        if(ad&&bd)return ad<bd?-1:ad>bd?1:a.i-b.i;
+        if(ad&&!bd)return -1; if(!ad&&bd)return 1; return a.i-b.i; });
+    let shown=0;
+    list.forEach(({it})=>{
+      const u=urg(it),isDone=!!done[it.id],isPast=u==='past';
+      if(hD&&isDone)return; if(hP&&isPast)return; if(hO&&it.optional)return; if(hC&&it.subject==='部活')return;
+      shown++;
+      const c=cd(it);
+      const tr=document.createElement('tr');
+      tr.className=`${u}${isDone?' done':''}${isPast&&!isDone?' past':''}`;
+      tr.innerHTML=`
+        <td class="c-chk"><input type="checkbox" ${isDone?'checked':''} data-id="${it.id}"></td>
+        <td class="c-date">${it.dateLabel}${c?`<br><span class="countdown ${c.cls}">${c.t}</span>`:''}</td>
+        <td class="c-sub"><span class="tag">${it.subject}</span></td>
+        <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}
+          ${it.details&&it.details.length?`<ul>${it.details.map(d=>`<li>${d}</li>`).join('')}</ul>`:''}</td>
+        <td class="c-thread">${it.thread}</td>
+        <td class="c-post">${it.poster}（${it.posted}）${isNew(it)?'<span class="newbadge">New</span>':''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
+      tb.appendChild(tr);
+    });
+    if(!shown)tb.innerHTML='<tr><td colspan="6" style="color:var(--ink-soft);text-align:center;padding:18px">表示する項目はありません。</td></tr>';
+    document.getElementById('cnt-'+cat).textContent=`${shown}件`;
+  });
+  document.querySelectorAll('.c-chk input').forEach(c=>{
+    c.onchange=()=>{ if(c.checked)done[c.dataset.id]=1; else delete done[c.dataset.id]; saveDone(); render(); };
+  });
+}
+['hideDone','hidePast','hideOpt','hideClub'].forEach(id=>{ const el=document.getElementById(id);
+  el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked); render(); }; });
+document.getElementById('foot').innerHTML=
+  `相対日付（昨日・本日・明日・次回の授業 など）は、元データの更新日 ${DATA.update} を基準に絶対日付へ変換しています。`+
+  '「あと◯日」は、このページを開いた日を基準に自動計算され、過ぎた予定は自動で薄く表示されます。'+
+  'チェックの状態はこの端末のブラウザに保存されます。';
+render();
+</script>
