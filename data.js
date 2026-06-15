@@ -43,6 +43,12 @@ window.CLASSROOM_DATA = {
       details:[],thread:'ロイロ',poster:''},
 
     /* --- 2. 連絡事項（日付順） --- */
+    {id:'n1',cat:'no',date:'2026-06-13',dateLabel:'6/13 (土)',subject:'全体',title:'校舎見学会（校内清掃）',
+      details:['机の中や横に私物を置き忘れない','臨時清掃もしっかり行う'],thread:'82回生',poster:'馬場友紀・新田愛未',posted:'6/12'},
+    {id:'n2',cat:'no',date:'2026-06-15',dateLabel:'6/15 (月)',subject:'英語',title:'オンライン英会話',
+      details:['iPadをしっかり充電して、忘れずに持参する'],thread:'82回生',poster:'本木綾子',posted:'6/12'},
+    {id:'n3',cat:'no',date:'2026-06-15',dateLabel:'6/15 (月) 13:05',subject:'委員会',title:'委員会に出席（全校委員のみ）',
+      details:['LL教室にiPadを持って集まる'],thread:'82回生',poster:'大越佳子',posted:'6/10'},
     {id:'m1',cat:'no',date:'2026-06-18',dateLabel:'6/18 (木) 8:10',subject:'数学',title:'（再試対象者）文字式 小テスト再試',
       details:['小テスト平均21.7点／12点以下が再試対象','400教室で再試。5分前に着席、遅刻厳禁','不合格の場合は6/19(金)放課後に補習'],thread:'1年 数学',poster:'森本奈央',posted:'6/15'},
     {id:'c1',cat:'no',date:'2026-06-16',dateLabel:'6/16 (火)',subject:'全体',title:'学校説明会（校内清掃）',
@@ -63,5 +69,15 @@ window.CLASSROOM_DATA = {
       details:['カラス出没のため、4階屋上での昼食は禁止'],thread:'82回生',poster:'大越佳子',posted:'6/9'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
+
+    /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
+    {id:'b1',cat:'no',date:'2026-06-20',dateLabel:'6/20 (土)',subject:'部活',title:'部活オフ（お休み）',
+      details:[],thread:'バスケ',poster:'山本昂宏',posted:'5/28'},
+    {id:'b2',cat:'no',date:'2026-06-21',dateLabel:'6/21 (日)',subject:'部活',title:'桐光学園との練習試合',
+      details:[],thread:'バスケ',poster:'山本昂宏',posted:'5/28'},
+    {id:'b3',cat:'no',date:'2026-06-27',dateLabel:'6/27 (土) 〜',subject:'部活',title:'夏季大会1回戦（公式戦スタート）',
+      details:['1回戦6/27(土)、2回戦6/28(日)、3回戦7/4(土)','準決勝・決勝は7/11(土)・12(日)'],thread:'バスケ',poster:'山本昂宏',posted:'5/21'},
+    {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
+      details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
   ]
 };
