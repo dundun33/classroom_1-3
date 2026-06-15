@@ -31,6 +31,8 @@ window.CLASSROOM_DATA = {
       details:['自分の計画表は写真に撮っておく','本日終礼後、学芸部当番が被服室BのクラスBOXへ回収'],thread:'82回生',poster:'菊池菜々世',posted:'6/15'},
     {id:'h1',cat:'hw',date:'2026-06-16',dateLabel:'6/16 (火) 16:10',subject:'数学',title:'文字式(2)プリントの提出・合格期限',
       details:['まだスタンプをもらっていない人は早く出す','何度も再提出の人は、配信の解答を確認して全て直してから出す'],thread:'1年 数学',poster:'森本奈央',posted:'6/12'},
+    {id:'r1',cat:'hw',date:'2026-06-17',dateLabel:'6/17 (水) まで',subject:'数学',title:'（再試対象者）再試課題をスタコモで完了',
+      details:['対象は文字式 小テスト12点以下の人','6/15〜17の放課後にスタコモで「文字式もっと(2)(3)」を両面解く','丸つけ＋赤で解き直し→メンターに見せて完了サインをもらう'],thread:'1年 数学',poster:'森本奈央',posted:'6/15'},
     {id:'l3',cat:'hw',date:'2026-06-16',dateLabel:'6/16 (火) 20:00',subject:'歴史',title:'オリエント以外の文明',
       details:[],thread:'ロイロ',poster:''},
     {id:'l4',cat:'hw',date:'2026-06-17',dateLabel:'6/17 (水) 17:00',subject:'OC',title:'My Hobby Card',
@@ -41,8 +43,8 @@ window.CLASSROOM_DATA = {
       details:[],thread:'ロイロ',poster:''},
 
     /* --- 2. 連絡事項（日付順） --- */
-    {id:'m1',cat:'no',date:'2026-06-15',dateLabel:'6/15 (月)',subject:'数学',title:'小テスト返却・再試あり',
-      details:['文字式の小テストを返却','12点以下は課題と再試あり','詳細は数学のClassroomを必ず確認'],thread:'82回生',poster:'森本奈央',posted:'6/15'},
+    {id:'m1',cat:'no',date:'2026-06-18',dateLabel:'6/18 (木) 8:10',subject:'数学',title:'（再試対象者）文字式 小テスト再試',
+      details:['小テスト平均21.7点／12点以下が再試対象','400教室で再試。5分前に着席、遅刻厳禁','不合格の場合は6/19(金)放課後に補習'],thread:'1年 数学',poster:'森本奈央',posted:'6/15'},
     {id:'c1',cat:'no',date:'2026-06-16',dateLabel:'6/16 (火)',subject:'全体',title:'学校説明会（校内清掃）',
       details:['学校説明会のため教室・廊下をきれいに清掃','私物を机の中や横に置き忘れない'],thread:'82回生',poster:'新田愛未',posted:'6/15'},
     {id:'n4',cat:'no',date:'2026-06-16',dateLabel:'6/16 (火)',subject:'国語',title:'読書会',
