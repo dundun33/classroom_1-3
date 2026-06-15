@@ -97,6 +97,8 @@
   .tt-c .tt-meta{display:block;font-size:10.5px;color:var(--calm);margin-top:2px;white-space:nowrap}
   td.tt-today{background:#FFF7E6}
   table.tt thead th.tt-today{background:#E0820B}
+  .tt-span{vertical-align:middle;background:#FAFBFE}
+  .tt-span b{font-size:15px}
   @media (max-width:480px){ body{padding:16px 12px 56px} }
 </style>
 
@@ -246,17 +248,23 @@ document.getElementById('foot').innerHTML=
   document.getElementById('tt-week').textContent=TT.label;
   document.getElementById('tt-head').innerHTML='<tr><th>時限</th>'+
     TT.days.map(d=>`<th class="${d.iso===tISO?'tt-today':''}">${d.n}<br>${d.md}</th>`).join('')+'</tr>';
+  const nDays=TT.days.length, span=new Array(nDays).fill(0);
   let body='';
   TT.rows.forEach((row,i)=>{
-    body+=`<tr><td class="tt-p">${i+1}</td>`+row.map((c,j)=>{
+    let cells=`<td class="tt-p">${i+1}</td>`;
+    for(let j=0;j<nDays;j++){
+      if(span[j]>0){ span[j]--; continue; }
+      const c=row[j];
       const hl=TT.days[j].iso===tISO?' tt-today':'';
-      if(!c) return `<td class="${hl.trim()}"></td>`;
+      if(!c){ cells+=`<td class="${hl.trim()}"></td>`; continue; }
+      const rs=(c.rs&&c.rs>1)?c.rs:1; if(rs>1) span[j]=rs-1;
       const meta=(c.r||c.t)?`<span class="tt-meta">${c.r||''}${c.t?' / '+c.t:''}</span>`:'';
       const mk=c.mk?`<span class="tt-mk">${c.mk}</span>`:'';
       let inner=`<b>${c.s}</b>${meta}${mk}`;
       if(c.ref) inner=`<a class="tt-link" href="#row-${c.ref}" onclick="flashRow('${c.ref}');return false;">${inner}</a>`;
-      return `<td class="tt-c${hl}">${inner}</td>`;
-    }).join('')+'</tr>';
+      cells+=`<td class="tt-c${hl}${rs>1?' tt-span':''}"${rs>1?` rowspan="${rs}"`:''}>${inner}</td>`;
+    }
+    body+=`<tr>${cells}</tr>`;
   });
   document.getElementById('tt-body').innerHTML=body;
 })();
