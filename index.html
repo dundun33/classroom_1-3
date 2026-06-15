@@ -55,6 +55,8 @@
   tbody tr.past{opacity:.5}
   tbody tr.done{opacity:.45}
   tbody tr.done .todo b{text-decoration:line-through}
+  tbody td{transition:background .45s}
+  tbody tr.flash td{background:#FFF3CF}
 
   .c-chk{text-align:center}
   .c-chk input{width:19px;height:19px;accent-color:var(--accent);cursor:pointer}
@@ -80,8 +82,12 @@
   footer{margin-top:34px;font-size:11.5px;color:var(--calm);line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
 
   .tt-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
-  .tt-btn{margin-left:auto;font-size:12px;color:var(--ink-soft);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 13px;cursor:pointer}
-  .tt-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .cbtn{flex:none;width:24px;height:24px;border-radius:7px;border:1px solid var(--line);background:var(--card);color:var(--ink-soft);font-size:17px;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0}
+  .cbtn:hover{border-color:var(--accent);color:var(--accent)}
+  .tt-mk{display:inline-block;margin-top:3px;font-size:10px;font-weight:700;padding:1px 7px;border-radius:999px;background:#FCEFD6;color:#C9760A;white-space:nowrap}
+  .tt-link{color:inherit;text-decoration:none;cursor:pointer;display:block}
+  .tt-link b{border-bottom:1.5px dotted var(--soon);padding-bottom:1px}
+  .tt-link:hover b{border-bottom-style:solid}
   table.tt{border-collapse:collapse;width:100%;min-width:600px}
   table.tt thead th{background:var(--head);color:#fff;font-size:11.5px;font-weight:700;padding:7px 6px;text-align:center;font-family:"Zen Maru Gothic",sans-serif;white-space:nowrap;line-height:1.3}
   table.tt td{border-top:1px solid var(--line);border-left:1px solid #EDF0F6;padding:7px 6px;text-align:center;vertical-align:top}
@@ -112,21 +118,21 @@
   </header>
 
   <section id="sec-tt" style="display:none">
-    <div class="sec-head"><h2 id="tt-title">時間割</h2><span class="count" id="tt-week"></span><button type="button" id="ttToggle" class="tt-btn">隠す</button></div>
+    <div class="sec-head"><button type="button" class="cbtn" data-target="tt-box">−</button><h2 id="tt-title">時間割</h2><span class="count" id="tt-week"></span></div>
     <div class="tt-wrap" id="tt-box"><table class="tt"><thead id="tt-head"></thead><tbody id="tt-body"></tbody></table></div>
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-num">1</span><h2>宿題・提出物</h2><span class="count" id="cnt-hw"></span></div>
-    <div class="tbl-wrap"><table>
+    <div class="sec-head"><button type="button" class="cbtn" data-target="box-hw">−</button><span class="sec-num">1</span><h2>宿題・提出物</h2><span class="count" id="cnt-hw"></span></div>
+    <div class="tbl-wrap" id="box-hw"><table>
       <thead><tr><th class="c-chk">☑️</th><th>日付</th><th>教科</th><th>To Do</th><th>スレッド</th><th>投稿</th></tr></thead>
       <tbody id="list-hw"></tbody>
     </table></div>
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-num">2</span><h2>連絡事項・予定・ルール</h2><span class="count" id="cnt-no"></span></div>
-    <div class="tbl-wrap"><table>
+    <div class="sec-head"><button type="button" class="cbtn" data-target="box-no">−</button><span class="sec-num">2</span><h2>連絡事項・予定・ルール</h2><span class="count" id="cnt-no"></span></div>
+    <div class="tbl-wrap" id="box-no"><table>
       <thead><tr><th class="c-chk">☑️</th><th>日付</th><th>教科</th><th>連絡事項</th><th>スレッド</th><th>投稿</th></tr></thead>
       <tbody id="list-no"></tbody>
     </table></div>
@@ -166,8 +172,11 @@ function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d);}
 function dleft(s){return Math.round((pd(s)-today)/86400000);}
 document.getElementById('todayLabel').textContent=`今日 ${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
 const _ud=pd(DATA.updateISO);
-const UPDSTR=`${_ud.getFullYear()}/${String(_ud.getMonth()+1).padStart(2,'0')}/${String(_ud.getDate()).padStart(2,'0')} (${WD[_ud.getDay()]})${DATA.updateTime?' '+DATA.updateTime:''}`;
-document.getElementById('updateLabel').textContent=`Update: ${UPDSTR} 時点`;
+function relDay(dt){ const diff=Math.round((dt-today)/86400000);
+  if(diff===0)return'本日'; if(diff===-1)return'昨日'; if(diff===1)return'明日';
+  return `${dt.getMonth()+1}/${dt.getDate()}(${WD[dt.getDay()]})`; }
+const UPDSTR=`${relDay(_ud)}${DATA.updateTime?' '+DATA.updateTime:''}`;
+document.getElementById('updateLabel').textContent=`Update: ${UPDSTR}`;
 
 // Update基準で「24時間以内（更新日当日〜前日）」の投稿をNew扱いにする
 const UPDATE=pd(DATA.updateISO); UPDATE.setHours(0,0,0,0);
@@ -198,6 +207,7 @@ function render(){
       shown++;
       const c=cd(it);
       const tr=document.createElement('tr');
+      tr.id='row-'+it.id;
       tr.className=`${u}${isDone?' done':''}${isPast&&!isDone?' past':''}`;
       tr.innerHTML=`
         <td class="c-chk"><input type="checkbox" ${isDone?'checked':''} data-id="${it.id}"></td>
@@ -218,9 +228,14 @@ function render(){
 }
 ['hideDone','hidePast','hideOpt','hideClub'].forEach(id=>{ const el=document.getElementById(id);
   el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked); render(); }; });
-(function(){ const b=document.getElementById('ttToggle'), box=document.getElementById('tt-box');
-  if(!b||!box) return;
-  b.onclick=()=>{ const hidden=box.style.display==='none'; box.style.display=hidden?'':'none'; b.textContent=hidden?'隠す':'表示'; }; })();
+document.querySelectorAll('.cbtn').forEach(b=>{
+  b.onclick=()=>{ const t=document.getElementById(b.dataset.target); if(!t)return;
+    const hidden=t.style.display==='none'; t.style.display=hidden?'':'none'; b.textContent=hidden?'−':'+'; }; });
+function flashRow(id){ const r=document.getElementById('row-'+id); if(!r)return;
+  const box=r.closest('.tbl-wrap');
+  if(box&&box.style.display==='none'){ box.style.display=''; const b=document.querySelector('.cbtn[data-target="'+box.id+'"]'); if(b)b.textContent='−'; }
+  r.scrollIntoView({behavior:'smooth',block:'center'});
+  r.classList.add('flash'); setTimeout(()=>r.classList.remove('flash'),1700); }
 document.getElementById('foot').innerHTML=
   '＊最新の投稿を反映できていないこと、ご了承下さい<br>'+
   '＊先生からの投稿をまとめただけなので、Classroomの投稿本文をご参照下さい';
@@ -236,8 +251,11 @@ document.getElementById('foot').innerHTML=
     body+=`<tr><td class="tt-p">${i+1}</td>`+row.map((c,j)=>{
       const hl=TT.days[j].iso===tISO?' tt-today':'';
       if(!c) return `<td class="${hl.trim()}"></td>`;
-      if(!c.r&&!c.t) return `<td class="tt-c${hl}"><b>${c.s}</b></td>`;
-      return `<td class="tt-c${hl}"><b>${c.s}</b><span class="tt-meta">${c.r||''}${c.t?' / '+c.t:''}</span></td>`;
+      const meta=(c.r||c.t)?`<span class="tt-meta">${c.r||''}${c.t?' / '+c.t:''}</span>`:'';
+      const mk=c.mk?`<span class="tt-mk">${c.mk}</span>`:'';
+      let inner=`<b>${c.s}</b>${meta}${mk}`;
+      if(c.ref) inner=`<a class="tt-link" href="#row-${c.ref}" onclick="flashRow('${c.ref}');return false;">${inner}</a>`;
+      return `<td class="tt-c${hl}">${inner}</td>`;
     }).join('')+'</tr>';
   });
   document.getElementById('tt-body').innerHTML=body;
