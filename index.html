@@ -99,6 +99,12 @@
   table.tt thead th.tt-today{background:#E0820B}
   .tt-span{vertical-align:middle;background:#FAFBFE}
   .tt-span b{font-size:15px}
+  /* 期末テスト時間割（exam）専用 */
+  #exam-box{border-color:var(--soon)}
+  table.tt.exam thead th{background:var(--soon)}
+  table.tt.exam thead th.tt-today{background:var(--now)}
+  table.tt.exam td.tt-today{background:#FDECEC}
+  .ex-time{display:block;font-size:11.5px;font-weight:700;color:var(--soon);margin-top:3px;white-space:nowrap}
   @media (max-width:480px){ body{padding:16px 12px 56px} }
 </style>
 
@@ -118,6 +124,11 @@
       </div>
     </div>
   </header>
+
+  <section id="sec-exam" style="display:none">
+    <div class="sec-head"><button type="button" class="cbtn" data-target="exam-box">−</button><h2 id="exam-title">期末テスト時間割</h2><span class="count" id="exam-week"></span></div>
+    <div class="tt-wrap" id="exam-box"><table class="tt exam"><thead id="exam-head"></thead><tbody id="exam-body"></tbody></table></div>
+  </section>
 
   <section id="sec-tt" style="display:none">
     <div class="sec-head"><button type="button" class="cbtn" data-target="tt-box">−</button><h2 id="tt-title">時間割</h2><span class="count" id="tt-week"></span></div>
@@ -241,6 +252,29 @@ function flashRow(id){ const r=document.getElementById('row-'+id); if(!r)return;
 document.getElementById('foot').innerHTML=
   '＊最新の投稿を反映できていないこと、ご了承下さい<br>'+
   '＊先生からの投稿をまとめただけなので、Classroomの投稿本文をご参照下さい';
+(function renderExam(){
+  const EX=DATA.exam; if(!EX)return;
+  const tISO=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  document.getElementById('sec-exam').style.display='';
+  document.getElementById('exam-week').textContent=EX.label;
+  document.getElementById('exam-head').innerHTML='<tr><th>時限</th>'+
+    EX.days.map(d=>`<th class="${d.iso===tISO?'tt-today':''}">${d.n}<br>${d.md}</th>`).join('')+'</tr>';
+  const nDays=EX.days.length;
+  let body='';
+  EX.rows.forEach((row,i)=>{
+    let cells=`<td class="tt-p">${i+1}</td>`;
+    for(let j=0;j<nDays;j++){
+      const c=row[j];
+      const hl=EX.days[j].iso===tISO?' tt-today':'';
+      if(!c){ cells+=`<td class="${hl.trim()}"></td>`; continue; }
+      const time=c.time?`<span class="ex-time">${c.time}</span>`:'';
+      const meta=c.t?`<span class="tt-meta">${c.t}</span>`:'';
+      cells+=`<td class="tt-c${hl}"><b>${c.s}</b>${time}${meta}</td>`;
+    }
+    body+=`<tr>${cells}</tr>`;
+  });
+  document.getElementById('exam-body').innerHTML=body;
+})();
 (function renderTT(){
   const TT=DATA.timetable; if(!TT)return;
   const tISO=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
