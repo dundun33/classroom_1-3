@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-04",
-  updateTime: "19:45",
+  updateTime: "20:29",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
