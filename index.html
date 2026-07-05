@@ -75,8 +75,6 @@
   .c-thread a{color:var(--accent);text-decoration:none}
   .c-thread a:hover{text-decoration:underline}
   .c-post{white-space:nowrap;color:var(--calm);font-size:12.5px}
-  .dlink{display:inline-block;margin-left:8px;font-size:11px;font-weight:700;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:1px 9px;vertical-align:middle;white-space:nowrap}
-  .dlink:hover{border-color:var(--accent)}
   .c-post .warn{display:block;color:var(--soon);font-size:11px;margin-top:3px}
   .c-post .newbadge{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;
     padding:1px 8px;border-radius:999px;background:#E4F4EA;color:#2E9E62;letter-spacing:.03em}
@@ -219,7 +217,7 @@ function render(){
         <td class="c-sub"><span class="tag">${it.subject}</span></td>
         <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}${it.url?` <a class="dlink" href="${it.url}" target="_blank" rel="noopener">詳細 ↗</a>`:''}
           ${it.details&&it.details.length?`<ul>${it.details.map(d=>`<li>${d}</li>`).join('')}</ul>`:''}</td>
-        <td class="c-thread">${THREAD_LINKS[it.thread]?`<a href="${THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}</td>
+        <td class="c-thread">${(it.url||THREAD_LINKS[it.thread])?`<a href="${it.url||THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}</td>
         <td class="c-post">${it.poster||''}${it.posted?`（${it.posted}）`:''}${(isNew(it)&&!isPast)?'<span class="newbadge">New</span>':''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
       tb.appendChild(tr);
     });
