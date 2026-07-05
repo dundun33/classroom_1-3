@@ -70,7 +70,7 @@ window.CLASSROOM_DATA = {
       details:['7/6(月)の期末テスト最終日は「一次方程式」','教科書p.96〜107・110・118-1,2・119-1 / 完成ノートp.102〜 / 抜粋プリントNo.1〜4 / 練習プリント(1) / もっとプリント(1)〜(4)'],
       thread:'数学',poster:'山口朋子',posted:'6/26',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY4NjczNjYwNzYx'},
     {id:'eng1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'英語',title:'1学期期末テスト範囲【資料】',
-      details:['詳細はClassroomの投稿を確認'],thread:'英語',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODY4NTIzNDY3MTY0/details'},
+      details:['詳細はClassroomの投稿を確認'],thread:'英語',poster:'本木綾子',posted:'6/24',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODY4NTIzNDY3MTY0/details'},
     {id:'kg1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月)',subject:'全体',title:'軽井沢 係の会（寝具係・室長）',
       details:['7/6(月)終礼清掃後に実施','寝具係（経理部 部長・副部長）→ 6組の教室に集まる','室長 → 12組は403・34組は404・56組は405。黒い太マジックを持参'],thread:'82回生',poster:'森本奈央・國澤恒久',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTg0OTkyMjcx'},
     {id:'sc2',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'全体',title:'試験中のスタディコモンズについて',
@@ -94,7 +94,7 @@ window.CLASSROOM_DATA = {
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
     {id:'bmat1',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年夏休み（仮）予定表【資料】',
-      details:['詳細はClassroomの投稿を確認'],thread:'バスケ',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY4MjM2MzU4OTI3/details'},
+      details:['詳細はClassroomの投稿を確認'],thread:'バスケ',poster:'山本昂宏',posted:'6/19',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY4MjM2MzU4OTI3/details'},
 
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
