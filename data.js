@@ -44,7 +44,7 @@ window.CLASSROOM_DATA = {
     /* --- 1. 宿題・提出物（締切順） --- */
     {id:'mg2',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金) まで',subject:'数学',title:'方程式プリント再提出・特別課題',
       details:['抜粋プリントNo.2,3の再提出期限は7/2 20:00まで','方程式授業プリントの再提出期限は7/3(金)の最終下校10分前まで','方程式小テスト再試対象者は特別課題を7/2 20:00までに提出（未提出者は7/3にスタコモで対応・昼食持参）'],
-      thread:'1年 数学',poster:'山口朋子',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTI5MzEzMDY3'},
+      thread:'数学',poster:'山口朋子',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTI5MzEzMDY3'},
     {id:'rk1',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金)',subject:'理科1分野',title:'理科1ノート回収・ロイロ提出の最終確認',
       details:['7/3にノートを回収。忘れず持参すること','ロイロのプリント提出がまだの人は提出を済ませる','計算問題もしっかり復習してテストに臨む'],
       thread:'理科1分野',poster:'松本珠希',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTMwNzc5OTM4'},
@@ -62,7 +62,7 @@ window.CLASSROOM_DATA = {
       details:['詳細はClassroomの投稿を確認'],thread:'国語',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4NTgyMDI1MjY4/details'},
     {id:'mg1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'数学',title:'数学（一次方程式）期末テスト勉強範囲',
       details:['7/6(月)の期末テスト最終日は「一次方程式」','教科書p.96〜107・110・118-1,2・119-1 / 完成ノートp.102〜 / 抜粋プリントNo.1〜4 / 練習プリント(1) / もっとプリント(1)〜(4)'],
-      thread:'1年 数学',poster:'山口朋子',posted:'6/26'},
+      thread:'数学',poster:'山口朋子',posted:'6/26'},
     {id:'kg1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月)',subject:'全体',title:'軽井沢 係の会（寝具係・室長）',
       details:['7/6(月)終礼清掃後に実施','寝具係（経理部 部長・副部長）→ 6組の教室に集まる','室長 → 12組は403・34組は404・56組は405。黒い太マジックを持参'],thread:'82回生',poster:'森本奈央・國澤恒久',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTg0OTkyMjcx'},
     {id:'mat1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火) 〜',subject:'全体',title:'7月7日〜（資料）',
