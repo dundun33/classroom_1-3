@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-05",
-  updateTime: "23:12",
+  updateISO: "2026-07-06",
+  updateTime: "11:33",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -51,6 +51,9 @@ window.CLASSROOM_DATA = {
     {id:'rk1',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金)',subject:'理科1分野',title:'理科1ノート回収・ロイロ提出の最終確認',
       details:['7/3にノートを回収。忘れず持参すること','ロイロのプリント提出がまだの人は提出を済ませる','計算問題もしっかり復習してテストに臨む'],
       thread:'理科1分野',poster:'松本珠希',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTMwNzc5OTM4'},
+    {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
+      details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'kg2',cat:'no',date:'2026-07-03',dateLabel:'7/3 (木)',subject:'技術・家庭科',title:'調理実習の記録・炊飯シートを返却／ファイリング',
@@ -77,8 +80,16 @@ window.CLASSROOM_DATA = {
       details:['高校授業がある5・6時間目は、400とLLは「サイレント自習室」のみ','最終下校〜開室(13:00)までは各学年1・2組の教室で待機','テスト最終日(7/6)は通常時間で開室。中学生は最終下校15:30を厳守'],thread:'82回生',poster:'國澤恒久',posted:'7/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4ODM0NTc0MjYw'},
     {id:'mat1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火) 〜',subject:'全体',title:'7月7日〜（資料）',
       details:['詳細はClassroomの投稿を確認'],thread:'82回生',poster:'松本珠希',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4OTkyNTU0NjI0/details'},
+    {id:'ck1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'全校委員 学年学活リハーサル',
+      details:['7/7(火)終礼清掃後406に集合','学年学活のリハーサル・最終確認を行う'],thread:'82回生',poster:'大越佳子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjQ1MzY1MTcz'},
+    {id:'ongaku1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'音楽',title:'声楽：明日は2クラス合同授業',
+      details:['生徒手帳・教科書を持参','山響リコーダー希望者はリコーダーも持参'],thread:'82回生',poster:'阿佐美優子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjQzNTQzOTcx'},
+    {id:'kg5',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'委員会',title:'ようこそ先輩 総合委員の会',
+      details:['7/7(火)昼休みに実施','4限終了後、お弁当を持って400教室へ','筆記用具・iPadを持参'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTk3OTMxNDU0'},
     {id:'os1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金) まで',optional:true,subject:'課外活動',title:'オープンスクールサポーターズ募集',
       details:['7/26(日)・8/22(土)開催。受付・校内案内を担当','午前：集合8:15頃、解散13:00頃の予定','申し込んだ人には後日、説明の会を実施'],thread:'82回生',poster:'馬場友紀',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1Mzg4MTE0ODkz'},
+    {id:'kasei2',cat:'no',dateLabel:'今週中',subject:'技術・家庭科',title:'夏の宿題説明・三角巾/刺しゅうの直し',
+      details:['場所: 被服室B','持ち物: iPad、ファイル、裁縫箱、三角巾（該当者のみ）','持ち帰るものが多いので手提げ袋があると良い'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4NzA1NjY2ODc4'},
     {id:'hc1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康診断の結果配布',
       details:['4/25実施分の個人結果を担任経由で配布中','フォロー健診の結果配布は後日','受診報告は速やかに保健室へ提出'],thread:'82回生',poster:'西田早苗',posted:'6/16'},
     {id:'sc1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'スタディコモンズ利用者が多いときの注意',
@@ -86,6 +97,8 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'國澤恒久',posted:'6/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODU1MzAxNjI0OTM5/details'},
     {id:'u3',cat:'no',dateLabel:'当面の間',subject:'全体',title:'お昼休みのルール制限',
       details:['カラス出没のため、4階屋上での昼食は禁止'],thread:'82回生',poster:'大越佳子',posted:'6/9'},
+    {id:'jig1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部の営業日（7・8月）について',
+      details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:['7月の予定カレンダー','詳細はClassroomの投稿を確認'],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
@@ -93,8 +106,8 @@ window.CLASSROOM_DATA = {
     {id:'b5',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年 私学選手権大会 日程',
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
-    {id:'bmat1',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年夏休み（仮）予定表【資料】',
-      details:['詳細はClassroomの投稿を確認'],thread:'バスケ',poster:'山本昂宏',posted:'6/19',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY4MjM2MzU4OTI3/details'},
+    {id:'bmat1',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年夏休み確定版【資料】',
+      details:['詳細はClassroomの投稿を確認（仮予定表から確定版に更新されました）'],thread:'バスケ',poster:'山本昂宏',posted:'7/6',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODU1NDM4NjEyNDU3/details'},
 
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
