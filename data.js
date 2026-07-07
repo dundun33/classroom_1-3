@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-06",
-  updateTime: "11:33",
+  updateISO: "2026-07-08",
+  updateTime: "06:11",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -51,6 +51,9 @@ window.CLASSROOM_DATA = {
     {id:'rk1',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金)',subject:'理科1分野',title:'理科1ノート回収・ロイロ提出の最終確認',
       details:['7/3にノートを回収。忘れず持参すること','ロイロのプリント提出がまだの人は提出を済ませる','計算問題もしっかり復習してテストに臨む'],
       thread:'理科1分野',poster:'松本珠希',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTMwNzc5OTM4'},
+    {id:'rk2',cat:'hw',date:'2026-07-08',dateLabel:'7/8 (水) 8:50まで',subject:'理科1分野',title:'理科1ノート未提出者への最終案内',
+      details:['明日(7/8)朝8:50までに1-1クラスボックスに入っている分まで評価','出していない人はまだ間に合う'],
+      thread:'理科1分野',poster:'松本珠希',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjk2MzQ3MjE4'},
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
@@ -86,6 +89,16 @@ window.CLASSROOM_DATA = {
       details:['生徒手帳・教科書を持参','山響リコーダー希望者はリコーダーも持参'],thread:'82回生',poster:'阿佐美優子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjQzNTQzOTcx'},
     {id:'kg5',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'委員会',title:'ようこそ先輩 総合委員の会',
       details:['7/7(火)昼休みに実施','4限終了後、お弁当を持って400教室へ','筆記用具・iPadを持参'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTk3OTMxNDU0'},
+    {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
+      details:['4時間目に南ホールで実施','「上を向いて歩こう」を歌う','英語で質問できるよう準備'],thread:'82回生',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjcwNjM2NDcx'},
+    {id:'eng2',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'英語',title:'Final Test Answer Key 配信',
+      details:['期末テストの解答が配信されました'],thread:'英語',poster:'Matthew Collins',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMzAzMjg0ODMw'},
+    {id:'jugetsu1',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金) まで',optional:true,subject:'委員会',title:'十月祭 チケット・ポスター申請フォーム',
+      details:['十月祭行事委員の説明を聞いた希望者が対象','7/17(金)までに申請'],thread:'82回生',poster:'中尾有子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5MDAxNDQ4NDk2'},
+    {id:'soumu2',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'委員会',title:'拡大版代表委員会（根っこの会）',
+      details:['自治の会Bの代表委員会を拡大版で初開催','2年生四部部長・クラブ部長も参加','総務サポーターズも発言権ありで参加可'],thread:'総務',poster:'山本昂宏',posted:'7/7',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODcwMzE0ODgzMzkx'},
+    {id:'engmat2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club【資料】',
+      details:['詳細はClassroomの投稿を確認'],thread:'英語',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODcwMzE0OTc3MjM4/details'},
     {id:'os1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金) まで',optional:true,subject:'課外活動',title:'オープンスクールサポーターズ募集',
       details:['7/26(日)・8/22(土)開催。受付・校内案内を担当','午前：集合8:15頃、解散13:00頃の予定','申し込んだ人には後日、説明の会を実施'],thread:'82回生',poster:'馬場友紀',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1Mzg4MTE0ODkz'},
     {id:'kasei2',cat:'no',dateLabel:'今週中',subject:'技術・家庭科',title:'夏の宿題説明・三角巾/刺しゅうの直し',
