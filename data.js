@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-08",
-  updateTime: "14:24",
+  updateTime: "19:47",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -54,6 +54,12 @@ window.CLASSROOM_DATA = {
     {id:'rk2',cat:'hw',date:'2026-07-08',dateLabel:'7/8 (水) 8:50まで',subject:'理科1分野',title:'理科1ノート未提出者への最終案内',
       details:['明日(7/8)朝8:50までに1-1クラスボックスに入っている分まで評価','出していない人はまだ間に合う'],
       thread:'82回生',poster:'松本珠希',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjk2MzQ3MjE4'},
+    {id:'kg6',cat:'hw',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'国語',title:'漢字ノート・スピーチノートの提出',
+      details:['7/10(金)の終礼時に回収','漢字ノートは平均点と感想欄も記入'],
+      thread:'82回生',poster:'鈴木秀一',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzY5MzQ3Mjg5'},
+    {id:'kg7',cat:'hw',date:'2026-07-09',dateLabel:'7/9 (木) 16:05〜',subject:'国語',title:'国語漢字豆テスト追テスト',
+      details:['終礼後16:05から国語メディア(3階)で実施','豆テストを受けていない人が対象'],
+      thread:'82回生',poster:'鈴木秀一',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzY1NjU5OTgw'},
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
@@ -91,6 +97,10 @@ window.CLASSROOM_DATA = {
       details:['7/7(火)昼休みに実施','4限終了後、お弁当を持って400教室へ','筆記用具・iPadを持参'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTk3OTMxNDU0'},
     {id:'kasei3',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'技術・家庭科',title:'三角巾・刺しゅうの補習',
       details:['13時〜被服室Bにて実施','三角巾を忘れた人、直しが終わらなかった人が対象','欠席者や質問がある人も参加可'],thread:'82回生',poster:'菊池菜々世',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzI2NDQ3MDIz'},
+    {id:'koza1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金) 申込締切',optional:true,subject:'課外活動',title:'附属高校特別講座「知の泉」への参加案内',
+      details:['7/13(月)開催、テーマは「イスラエル・パレスチナ問題」','申込みは連絡簿に記入して國澤先生へ提出','当日は13:50までに登校し4階LAWへ'],thread:'82回生',poster:'國澤恒久',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDY5OTUwNjA0'},
+    {id:'eng3',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'英語',title:'Summer HW（スピーチ）についてのお知らせ',
+      details:['スピーチ執筆で困ったら英語研究室かロイロメッセージでMr. Collinsまで'],thread:'英語',poster:'Matthew Collins',posted:'7/8',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMzY3NTA4ODA1'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
