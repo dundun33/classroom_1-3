@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-08",
-  updateTime: "06:11",
+  updateTime: "14:24",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -89,6 +89,10 @@ window.CLASSROOM_DATA = {
       details:['生徒手帳・教科書を持参','山響リコーダー希望者はリコーダーも持参'],thread:'82回生',poster:'阿佐美優子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjQzNTQzOTcx'},
     {id:'kg5',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'委員会',title:'ようこそ先輩 総合委員の会',
       details:['7/7(火)昼休みに実施','4限終了後、お弁当を持って400教室へ','筆記用具・iPadを持参'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTk3OTMxNDU0'},
+    {id:'kasei3',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'技術・家庭科',title:'三角巾・刺しゅうの補習',
+      details:['13時〜被服室Bにて実施','三角巾を忘れた人、直しが終わらなかった人が対象','欠席者や質問がある人も参加可'],thread:'82回生',poster:'菊池菜々世',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzI2NDQ3MDIz'},
+    {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
+      details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
       details:['4時間目に南ホールで実施','「上を向いて歩こう」を歌う','英語で質問できるよう準備'],thread:'82回生',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjcwNjM2NDcx'},
     {id:'eng2',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'英語',title:'Final Test Answer Key 配信',
