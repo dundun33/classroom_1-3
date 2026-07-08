@@ -202,11 +202,13 @@ function render(){
   const hD=hideDone.checked,hP=hidePast.checked,hO=hideOpt.checked,hC=hideClub.checked;
   ['hw','no'].forEach(cat=>{
     const tb=document.getElementById('list-'+cat); tb.innerHTML='';
+    const postedTime=it=>it.posted?parsePosted(it.posted).getTime():-Infinity;
+    const tie=(a,b)=>(postedTime(b.it)-postedTime(a.it))||(a.i-b.i);
     const list=ITEMS.map((it,i)=>({it,i})).filter(x=>x.it.cat===cat)
       .sort((a,b)=>{ const ad=a.it.date,bd=b.it.date;
-        if(ad&&bd)return ad<bd?-1:ad>bd?1:a.i-b.i;
+        if(ad&&bd)return ad<bd?-1:ad>bd?1:tie(a,b);
         if(ad&&!bd)return -1; if(!ad&&bd)return 1;
-        return (undatedRank(a.it)-undatedRank(b.it))||(a.i-b.i); });
+        return (undatedRank(a.it)-undatedRank(b.it))||tie(a,b); });
     let shown=0;
     list.forEach(({it})=>{
       const u=urg(it),isDone=!!done[it.id],isPast=u==='past';
