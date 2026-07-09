@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-08",
-  updateTime: "19:47",
+  updateISO: "2026-07-09",
+  updateTime: "22:44",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -60,6 +60,8 @@ window.CLASSROOM_DATA = {
     {id:'kg7',cat:'hw',date:'2026-07-09',dateLabel:'7/9 (木) 16:05〜',subject:'国語',title:'国語漢字豆テスト追テスト',
       details:['終礼後16:05から国語メディア(3階)で実施','豆テストを受けていない人が対象'],
       thread:'82回生',poster:'鈴木秀一',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzY1NjU5OTgw'},
+    {id:'mathhw2',cat:'hw',date:'2026-07-13',dateLabel:'7/13 (月) まで',subject:'数学',title:'完成ノート3章方程式 p16-17【抜粋No.5】【資料】',
+      details:[],thread:'数学',poster:'森本奈央',posted:'7/9',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODU1NDcxODc1OTE1/details'},
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
@@ -101,6 +103,20 @@ window.CLASSROOM_DATA = {
       details:['7/13(月)開催、テーマは「イスラエル・パレスチナ問題」','申込みは連絡簿に記入して國澤先生へ提出','当日は13:50までに登校し4階LAWへ'],thread:'82回生',poster:'國澤恒久',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDY5OTUwNjA0'},
     {id:'eng3',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'英語',title:'Summer HW（スピーチ）についてのお知らせ',
       details:['スピーチ執筆で困ったら英語研究室かロイロメッセージでMr. Collinsまで'],thread:'英語',poster:'Matthew Collins',posted:'7/8',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMzY3NTA4ODA1'},
+    {id:'eng4',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'英語',title:'7/10 英語授業の持ち物',
+      details:['新中学問題集を持参','夏休みの宿題について説明あり'],thread:'82回生',poster:'本木綾子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzcwNTY2NTcz'},
+    {id:'eng5',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'英語',title:'明日テスト返し（iPad・新中問持参）',
+      details:['iPadと新中学問題集を持参'],thread:'82回生',poster:'平岡裕子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDMzODI0MzE2'},
+    {id:'taiiku1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'保健体育',title:'7/10 体育は水泳',
+      details:['忘れ物のないように準備','見学者は連絡簿・見学ノート・足ふきタオルが必要'],thread:'82回生',poster:'石井靖子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzIyMTU1NjAy'},
+    {id:'keiri1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金) 放課後',subject:'委員会',title:'経理部：資源持参（理科A）',
+      details:['コンタクトレンズケース・インクカートリッジ・ペットボトルキャップ・ベルマークを理科Aへ','先日ベルマーク係の会に来たクラスはベルマーク不要'],thread:'82回生',poster:'松本珠希',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDM1Njk1NzEw'},
+    {id:'haiku1',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'国語',title:'全国俳句大会 投句用紙の返却',
+      details:['終礼で配布','国語作品ファイルにとじる'],thread:'82回生',poster:'鈴木秀一',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDI3OTkwMjMw'},
+    {id:'seikatsu1',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'委員会',title:'生活部 園芸係：自治の会への持ち物',
+      details:['ガラスの花瓶と枯れている鉢があれば持参'],thread:'82回生',poster:'新田愛未',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzE3ODE3MDg3'},
+    {id:'mizutou1',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'全体',title:'忘れ物：水筒（4階屋上）',
+      details:['該当者は校務センター大越先生まで'],thread:'82回生',poster:'大越佳子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQ1MDQ3NTEz'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
