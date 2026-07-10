@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-10",
-  updateTime: "10:07",
+  updateTime: "15:54",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -62,6 +62,10 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'鈴木秀一',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzY1NjU5OTgw'},
     {id:'mathhw2',cat:'hw',date:'2026-07-13',dateLabel:'7/13 (月) まで',subject:'数学',title:'完成ノート3章方程式 p16-17【抜粋No.5】【資料】',
       details:[],thread:'数学',poster:'森本奈央',posted:'7/9',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODU1NDcxODc1OTE1/details'},
+    {id:'rikatest1',cat:'hw',date:'2026-07-16',dateLabel:'7/16 (木) 10:00〜',subject:'理科2分野',title:'期末テスト再テスト（16点以下対象）',
+      details:['理科Cで実施。必ず出席','面談と重なる場合は事前連絡'],thread:'82回生',poster:'附属中学校伝達用',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDkzOTA5NTMz'},
+    {id:'bballhw1',cat:'hw',date:'2026-07-15',dateLabel:'7/15 (水) まで',subject:'部活',title:'夏休み参加出欠表の提出',
+      details:['押切先生に手渡し、または3年1組クラスboxへ','未提出の人は12日(日)の練習で持参可'],thread:'バスケ',poster:'山本昂宏',posted:'7/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcwNDkyMTQxMDIy'},
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
@@ -119,6 +123,18 @@ window.CLASSROOM_DATA = {
       details:['該当者は校務センター大越先生まで'],thread:'82回生',poster:'大越佳子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQ1MDQ3NTEz'},
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
       details:['生徒玄関前に今年度の落とし物を展示中','終業式までに取りに来ないものは夏休み中に処分','貴重品は校務センターで預かり中(同じく終業式まで)'],thread:'82回生',poster:'西出春菜',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQzMzk2OTMy'},
+    {id:'hokendayori1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'保健だよりNo.3【資料】',
+      details:[],thread:'82回生',poster:'西田早苗',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwMzgwOTIwNzk2/details'},
+    {id:'kg8',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'国語',title:'国語からの配布物・漢字ノート回収',
+      details:['『銀河鉄道の夜』（校務センター内）と夏休み課題用紙（終礼BOXのピンク厚紙）を配布','漢字ノート・スピーチノートを回収して国語研究室前のかごへ','終礼当番以外の学芸部の手伝いが必要'],thread:'82回生',poster:'鈴木秀一',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDg3ODE4Mjg3'},
+    {id:'keiri2',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'委員会',title:'経理部：インクカートリッジ・コンタクトケース持参',
+      details:['理科Aまで持参','インクカートリッジはメーカー別に分け、個数を付箋に記入'],thread:'82回生',poster:'松本珠希',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDg5NzIyMTE2'},
+    {id:'toefl1',cat:'no',date:'2026-07-14',dateLabel:'7/14 (火) 13:00',optional:true,subject:'英語',title:'TOEFL Junior/Primary Step2 受験者集合',
+      details:['13:00に教室集合','過去受験者は前回のStudent Numberを持参が望ましい'],thread:'82回生',poster:'本木綾子',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDgwMDg2NzE5'},
+    {id:'gakugei1',cat:'no',date:'2026-07-10',dateLabel:'7/10 (金)',subject:'委員会',title:'学芸部：理科Cのノート返却',
+      details:['本日終礼で返却','最終ページに評価あり、要確認'],thread:'82回生',poster:'松本珠希',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDg1NzYzMTQ1'},
+    {id:'orc1',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club トライアル案内',
+      details:['サイトでユーザーID/パスワードでログイン→「コードを入力」','トライアルコード: ORCLAURA2026'],thread:'英語',poster:'本木綾子',posted:'7/10',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODU1NDkxMTQzMzgx'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
