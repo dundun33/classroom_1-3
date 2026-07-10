@@ -233,8 +233,13 @@ function render(){
     c.onchange=()=>{ if(c.checked)done[c.dataset.id]=1; else delete done[c.dataset.id]; saveDone(); render(); };
   });
 }
-['hideDone','hidePast','hideOpt','hideClub'].forEach(id=>{ const el=document.getElementById(id);
-  el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked); render(); }; });
+const TOGGLE_IDS=['hideDone','hidePast','hideOpt','hideClub'];
+let toggleState={}; try{toggleState=JSON.parse(localStorage.getItem('classroom_toggles_v1')||'{}');}catch(e){toggleState={};}
+function saveToggles(){try{localStorage.setItem('classroom_toggles_v1',JSON.stringify(toggleState));}catch(e){}}
+TOGGLE_IDS.forEach(id=>{ const el=document.getElementById(id);
+  if(toggleState[id]){ el.checked=true; el.closest('.toggle').classList.add('on'); }
+  el.onchange=()=>{ el.closest('.toggle').classList.toggle('on',el.checked);
+    toggleState[id]=el.checked?1:0; saveToggles(); render(); }; });
 document.querySelectorAll('.cbtn').forEach(b=>{
   b.onclick=()=>{ const t=document.getElementById(b.dataset.target); if(!t)return;
     const hidden=t.style.display==='none'; t.style.display=hidden?'':'none'; b.textContent=hidden?'−':'+'; }; });
