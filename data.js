@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-09",
-  updateTime: "22:44",
+  updateISO: "2026-07-10",
+  updateTime: "10:07",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -117,6 +117,8 @@ window.CLASSROOM_DATA = {
       details:['ガラスの花瓶と枯れている鉢があれば持参'],thread:'82回生',poster:'新田愛未',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzE3ODE3MDg3'},
     {id:'mizutou1',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'全体',title:'忘れ物：水筒（4階屋上）',
       details:['該当者は校務センター大越先生まで'],thread:'82回生',poster:'大越佳子',posted:'7/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQ1MDQ3NTEz'},
+    {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
+      details:['生徒玄関前に今年度の落とし物を展示中','終業式までに取りに来ないものは夏休み中に処分','貴重品は校務センターで預かり中(同じく終業式まで)'],thread:'82回生',poster:'西出春菜',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQzMzk2OTMy'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
