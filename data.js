@@ -69,6 +69,16 @@ window.CLASSROOM_DATA = {
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
+    {id:'roilo1',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(作文)下書きカード',
+      details:[],thread:'ロイロ'},
+    {id:'roilo2',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(写真を貼った表紙カード)',
+      details:[],thread:'ロイロ'},
+    {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
+      details:[],thread:'ロイロ'},
+    {id:'roilo4',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Speech 原稿',
+      details:[],thread:'ロイロ'},
+    {id:'roilo5',cat:'hw',date:'2026-09-03',dateLabel:'9/3 (木) 20:00 まで',subject:'技術・家庭科',title:'夏休み 刺しゅう布🍓🎀🧢',
+      details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'kg2',cat:'no',date:'2026-07-03',dateLabel:'7/3 (木)',subject:'技術・家庭科',title:'調理実習の記録・炊飯シートを返却／ファイリング',
