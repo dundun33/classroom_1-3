@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-11",
-  updateTime: "08:50",
+  updateISO: "2026-07-12",
+  updateTime: "10:13",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
