@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-12",
-  updateTime: "17:22",
+  updateTime: "17:30",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -154,7 +154,7 @@ window.CLASSROOM_DATA = {
     {id:'eng2',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'英語',title:'Final Test Answer Key 配信',
       details:['期末テストの解答が配信されました'],thread:'英語',poster:'Matthew Collins',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMzAzMjg0ODMw'},
     {id:'mail-Q77APdnUag',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'自尊感情アンケートの実施について',
-      details:[],thread:'',poster:'保護者向けメール',posted:'7/7',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q77APc9KxK'},
+      details:['中学は7/8(水)〜7/17(金)のうち1回の終礼でForms実施（小学校は紙配布）','個人名でなくIDで統計処理するアンケート。結果は保護者にも共有予定'],thread:'',poster:'保護者向けメール',posted:'7/7',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q77APc9KxK'},
     {id:'jugetsu1',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金) まで',optional:true,subject:'委員会',title:'十月祭 チケット・ポスター申請フォーム',
       details:['十月祭行事委員の説明を聞いた希望者が対象','7/17(金)までに申請'],thread:'82回生',poster:'中尾有子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5MDAxNDQ4NDk2'},
     {id:'soumu2',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'委員会',title:'拡大版代表委員会（根っこの会）',
