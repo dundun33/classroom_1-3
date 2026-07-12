@@ -3,7 +3,6 @@
 /* updateTime : 更新した時刻 (HH:MM)。曜日は自動で付きます      */
 /* timetable  : 週の時間割（PDFから3組のみ抽出）。週次で差し替え */
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
-/* (pre-commitフック動作テスト用の一時コメント) */
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-12",
