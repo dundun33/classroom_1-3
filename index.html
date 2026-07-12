@@ -81,9 +81,8 @@
   .c-post{white-space:nowrap;color:var(--calm);font-size:12.5px}
   .dlink{display:inline-block;margin-left:8px;font-size:11px;font-weight:800;color:var(--now);background:#FDECEC;text-decoration:none;border:1px solid var(--now);border-radius:999px;padding:1px 9px;vertical-align:middle;white-space:nowrap}
   .dlink:hover{background:var(--now);color:#fff}
-  /* --- 保護者向けメール（line-nt）：📧バッジ＋資料↗ --- */
-  .c-thread .c-mailline{display:block;margin-top:7px}
-  .mailbadge{display:inline-block;font-size:11px;font-weight:800;padding:2px 10px;border-radius:999px;background:#EAF1FB;color:#3A6FB0;letter-spacing:.02em;white-space:nowrap}
+  /* --- 保護者向けメール（line-nt）：📧バッジ＋資料↗（連絡事項欄に表示） --- */
+  .mailbadge{display:inline-block;margin-left:8px;font-size:11px;font-weight:800;padding:2px 10px;border-radius:999px;background:#EAF1FB;color:#3A6FB0;letter-spacing:.02em;white-space:nowrap;vertical-align:middle}
   .mlink{display:inline-block;margin-left:8px;font-size:11px;font-weight:800;color:var(--accent);background:#F2F6FD;text-decoration:none;border:1px solid var(--accent);border-radius:999px;padding:1px 9px;vertical-align:middle;white-space:nowrap}
   .mlink:hover{background:var(--accent);color:#fff}
   .c-post .warn{display:block;color:var(--soon);font-size:11px;margin-top:3px}
@@ -228,9 +227,9 @@ function render(){
       tr.innerHTML=`
         <td class="c-chk"><input type="checkbox" ${isDone?'checked':''} data-id="${it.id}"></td>
         <td class="c-date">${it.dateLabel}${c?`<br><span class="countdown ${c.cls}">${c.t}</span>`:''}<span class="c-subline"><span class="tag">${it.subject}</span></span></td>
-        <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}${it.url&&(it.url.includes('/m/')||it.hasLink)?` <a class="dlink" href="${it.url}" target="_blank" rel="noopener">詳細 ↗</a>`:''}
+        <td class="todo"><b>${it.title}</b>${it.optional?'<span class="opt">希望者</span>':''}${it.url&&(it.url.includes('/m/')||it.hasLink)?` <a class="dlink" href="${it.url}" target="_blank" rel="noopener">詳細 ↗</a>`:''}${it.mail?` <span class="mailbadge">📧 保護者向け</span>${it.mailUrl?` <a class="mlink" href="${it.mailUrl}" target="_blank" rel="noopener">資料 ↗</a>`:''}`:''}
           ${it.details&&it.details.length?`<ul>${it.details.map(d=>`<li>${d}</li>`).join('')}</ul>`:''}</td>
-        <td class="c-thread">${(it.url||THREAD_LINKS[it.thread])?`<a href="${it.url||THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}${it.mail?`<span class="c-mailline"><span class="mailbadge">📧 保護者向け</span>${it.mailUrl?`<a class="mlink" href="${it.mailUrl}" target="_blank" rel="noopener">資料 ↗</a>`:''}</span>`:''}${(it.poster||it.posted)?`<span class="c-postline">${it.poster||''}${it.posted?`（${it.posted}）`:''}</span>`:''}${(isNew(it)&&!isPast)?`<span class="c-newline"><span class="newbadge">New</span></span>`:''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
+        <td class="c-thread">${(it.url||THREAD_LINKS[it.thread])?`<a href="${it.url||THREAD_LINKS[it.thread]}" target="_blank" rel="noopener">${it.thread}</a>`:it.thread}${(it.poster||it.posted)?`<span class="c-postline">${it.mail&&it.mailUrl?`<a href="${it.mailUrl}" target="_blank" rel="noopener">${it.poster||''}</a>`:(it.poster||'')}${it.posted?`（${it.posted}）`:''}</span>`:''}${(isNew(it)&&!isPast)?`<span class="c-newline"><span class="newbadge">New</span></span>`:''}${it.note?`<span class="warn">⚠ ${it.note}</span>`:''}</td>`;
       tb.appendChild(tr);
     });
     if(!shown)tb.innerHTML='<tr><td colspan="4" style="color:var(--ink-soft);text-align:center;padding:18px">表示する項目はありません。</td></tr>';
