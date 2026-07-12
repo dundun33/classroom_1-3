@@ -121,6 +121,7 @@
         <label class="toggle"><input type="checkbox" id="hidePast"> 過去を隠す</label>
         <label class="toggle"><input type="checkbox" id="hideOpt"> 希望者を隠す</label>
         <label class="toggle"><input type="checkbox" id="hideClub"> 部活を隠す</label>
+        <label class="toggle"><input type="checkbox" id="hideLoilo"> ロイロを隠す</label>
       </div>
     </div>
   </header>
@@ -199,7 +200,7 @@ function cd(it){ if(!it.date)return null; const d=dleft(it.date); const u=urg(it
   return {cls,t}; }
 
 function render(){
-  const hD=hideDone.checked,hP=hidePast.checked,hO=hideOpt.checked,hC=hideClub.checked;
+  const hD=hideDone.checked,hP=hidePast.checked,hO=hideOpt.checked,hC=hideClub.checked,hL=hideLoilo.checked;
   ['hw','no'].forEach(cat=>{
     const tb=document.getElementById('list-'+cat); tb.innerHTML='';
     const postedTime=it=>it.posted?parsePosted(it.posted).getTime():-Infinity;
@@ -212,7 +213,7 @@ function render(){
     let shown=0;
     list.forEach(({it})=>{
       const u=urg(it),isDone=!!done[it.id],isPast=u==='past';
-      if(hD&&isDone)return; if(hP&&isPast)return; if(hO&&it.optional)return; if(hC&&it.subject==='部活')return;
+      if(hD&&isDone)return; if(hP&&isPast)return; if(hO&&it.optional)return; if(hC&&it.subject==='部活')return; if(hL&&it.thread==='ロイロ')return;
       shown++;
       const c=cd(it);
       const tr=document.createElement('tr');
@@ -233,7 +234,7 @@ function render(){
     c.onchange=()=>{ if(c.checked)done[c.dataset.id]=1; else delete done[c.dataset.id]; saveDone(); render(); };
   });
 }
-const TOGGLE_IDS=['hideDone','hidePast','hideOpt','hideClub'];
+const TOGGLE_IDS=['hideDone','hidePast','hideOpt','hideClub','hideLoilo'];
 let toggleState={}; try{toggleState=JSON.parse(localStorage.getItem('classroom_toggles_v1')||'{}');}catch(e){toggleState={};}
 function saveToggles(){try{localStorage.setItem('classroom_toggles_v1',JSON.stringify(toggleState));}catch(e){}}
 TOGGLE_IDS.forEach(id=>{ const el=document.getElementById(id);
