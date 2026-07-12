@@ -115,13 +115,18 @@ window.CLASSROOM_DATA = {
 ## 保護者向けメール（line-nt）
 
 - 取得範囲は**直近1週間**（Classroom/ロイロと同じ基準）。クリック先の詳細（PDF/資料URL）を取得する処理も直近1週間分のメールだけに絞る（それより前のメールは開かない。高速化のため）。
-- data.js への反映は次の2パターンのみ：
-  1. **Classroomに同一内容の投稿が既にある場合** → その既存itemは書き換えず、`mail:true` と `mailUrl`（PDF/詳細のURL）の**2フィールドだけ追加**する。`poster` / `thread` / `posted` など他のフィールドは変更しない（投稿者は先生のまま）。
-  2. **Classroomに無い、メール単独の内容の場合** → 連絡事項(`cat:'no'`)に新規item追加。`thread:''`（空文字。**'メール'は使わない**）、`poster:'保護者向けメール'`、`mail:true`、`mailUrl:'...'`（PDF/詳細URL。無ければ省略可）。`subject` / `title` / `date` / `dateLabel` / `details` / `posted` は他の連絡事項itemと同じ規約に従う。
+- **Classroomと同一内容かどうかの一致判定はしない**（重複して表示されても、確認した保護者が「完了」チェックで隠せるため）。
+- data.js への反映は**機械的に1パターンのみ**：直近1週間の各メールを、連絡事項(`cat:'no'`)へ**そのまま新規item追加**する。
+  - `id`: line-ntのメールID由来で一意にする（例 `mail-<メールID>`）。**再実行時、同じidが既にdata.jsにあれば追加しない**（重複防止）。
+  - `thread:''`（空文字。'メール'は使わない）
+  - `poster:'保護者向けメール'`
+  - `mail:true`
+  - `mailUrl:'...'`（PDF/詳細URL。無ければ省略）
+  - `subject` / `title` / `date` / `dateLabel` / `details` / `posted` は他の連絡事項itemと同じ規約に従う
 - 過去項目の保持ルール（直近1週間より前に日付/締切が過ぎた項目は削除、直近1週間以内はグレー残し）は変更なくそのまま適用する。
-- 既存のClassroom/ロイロ由来itemは**絶対に消さない・書き換えない**（パターン1のmail/mailUrl追加のみ許可）。
+- 既存のClassroom/ロイロ由来itemは**絶対に消さない・書き換えない**（メール由来itemの追加のみ）。
 - 反映時の手順：
-  1. 変更したitem一覧を**新規追加ぶん／mail・mailUrl追加ぶん**に分けて、タイトル・日付・thread/posterがわかる形でユーザーに見せる。
+  1. 追加したitem一覧（タイトル・日付・id）をユーザーに見せる。
   2. node での動作検証は不要。
   3. `git add data.js && git commit -m "..." && git push` を**実行前にコマンドを提示**してから行う。
 
