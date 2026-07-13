@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-12",
-  updateTime: "17:30",
+  updateISO: "2026-07-13",
+  updateTime: "16:25",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -42,15 +42,6 @@ window.CLASSROOM_DATA = {
   },
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
-    {id:'mg2',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金) まで',subject:'数学',title:'方程式プリント再提出・特別課題',
-      details:['抜粋プリントNo.2,3の再提出期限は7/2 20:00まで','方程式授業プリントの再提出期限は7/3(金)の最終下校10分前まで','方程式小テスト再試対象者は特別課題を7/2 20:00までに提出（未提出者は7/3にスタコモで対応・昼食持参）'],
-      thread:'82回生',poster:'山口朋子',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTI5MzEzMDY3'},
-    {id:'mg3',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金) まで',subject:'数学',title:'方程式プリント(1) 合格締切',
-      details:['方程式プリント(1)の合格締め切りは7/3(金)最終下校時刻10分前まで'],
-      thread:'数学',poster:'森本奈央',posted:'6/29',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY4Njc0NzQ3MjMw'},
-    {id:'rk1',cat:'hw',date:'2026-07-03',dateLabel:'7/3 (金)',subject:'理科1分野',title:'理科1ノート回収・ロイロ提出の最終確認',
-      details:['7/3にノートを回収。忘れず持参すること','ロイロのプリント提出がまだの人は提出を済ませる','計算問題もしっかり復習してテストに臨む'],
-      thread:'82回生',poster:'松本珠希',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTMwNzc5OTM4'},
     {id:'rk2',cat:'hw',date:'2026-07-08',dateLabel:'7/8 (水) 8:50まで',subject:'理科1分野',title:'理科1ノート未提出者への最終案内',
       details:['明日(7/8)朝8:50までに1-1クラスボックスに入っている分まで評価','出していない人はまだ間に合う'],
       thread:'82回生',poster:'松本珠希',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjk2MzQ3MjE4'},
@@ -69,8 +60,8 @@ window.CLASSROOM_DATA = {
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
-    {id:'roilo1',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(作文)下書きカード',
-      details:[],thread:'ロイロ'},
+    {id:'mathhw3',cat:'hw',dateLabel:'夏休み',subject:'数学',title:'夏休みの宿題【資料】',
+      details:[],thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
     {id:'roilo2',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(写真を貼った表紙カード)',
       details:[],thread:'ロイロ'},
     {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
@@ -81,15 +72,6 @@ window.CLASSROOM_DATA = {
       details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
-    {id:'kg2',cat:'no',date:'2026-07-03',dateLabel:'7/3 (木)',subject:'技術・家庭科',title:'調理実習の記録・炊飯シートを返却／ファイリング',
-      details:['自分の班の「記録」「炊飯シート」を取る（余りはクラスBOXへ）','放課後に被服室Bの鍵を開けるので、終礼清掃後に必ずファイリング'],thread:'82回生',poster:'菊池菜々世',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTI5ODQyNzA0'},
-    {id:'hg1',cat:'no',date:'2026-07-03',dateLabel:'7/3 (木)',subject:'英語',title:'文法プリントの解答を配信',
-      details:['先週木曜の文法プリントの解答をClassroomに流す','各自で答え合わせして勉強に役立てる'],thread:'82回生',poster:'平岡裕子',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTg4ODQyMjg5'},
-    {id:'kg3',cat:'no',date:'2026-07-03',dateLabel:'7/3 (金)',subject:'全体',title:'軽井沢 生活係の会（清掃・食事・入浴係）',
-      details:['7/3(金)の終礼・清掃後に集合','清掃係: 406(1年6組)','食事係: 405(1年5組)','入浴係: 404(1年4組)'],thread:'82回生',poster:'鈴木秀一',posted:'7/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4ODM4NTI4Njk4'},
-    {id:'b3',cat:'no',date:'2026-07-04',dateLabel:'7/4 (土)',subject:'部活',title:'夏季大会 2回戦敗退で終了',
-      details:['中野島中と対戦し59-26で敗退','1回戦(6/28)は玉川中に39-44で勝利していました','応援ありがとうございました'],
-      thread:'バスケ',poster:'押切衣舞',posted:'7/4',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1NDI2NTYzMzAz'},
     {id:'mat3',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'国語',title:'1学期 国語（文法）テスト範囲【資料】',
       details:[],thread:'82回生',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4NTk5MDgzMTk2/details'},
     {id:'mat4',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'国語',title:'1学期 国語ダブルテスト【資料】',
@@ -147,6 +129,8 @@ window.CLASSROOM_DATA = {
       details:['サイトでユーザーID/パスワードでログイン→「コードを入力」','トライアルコード: ORCLAURA2026'],thread:'英語',poster:'本木綾子',posted:'7/10',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODU1NDkxMTQzMzgx'},
     {id:'kokugohyoka1',cat:'no',date:'2026-07-11',dateLabel:'7/11 (土)',subject:'国語',title:'一学期国語Wの採点基準について',
       details:['テストの振り返り解説スライドをロイロの資料箱に格納','自分の解答と見比べて次に活かす'],thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
+    {id:'hr1',cat:'no',date:'2026-07-13',dateLabel:'7/13 (月)',subject:'全体',title:'1学期末の動き（生徒面接・保護者面接・軽井沢連絡確認）',
+      details:['生徒面接：日程を配信予定。8:30以降は私物を教室に取りに行けない','保護者面接：日程プリントを配信。手元に届いていなければ確認を','軽井沢の連絡手段：保護者とのメール送受信を終業式までに確認'],thread:'1-3 HR',poster:'宮崎可奈子',posted:'7/13',url:'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3/p/ODcwNTkzOTE0MDgw'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
@@ -154,7 +138,7 @@ window.CLASSROOM_DATA = {
     {id:'eng2',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'英語',title:'Final Test Answer Key 配信',
       details:['期末テストの解答が配信されました'],thread:'英語',poster:'Matthew Collins',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMzAzMjg0ODMw'},
     {id:'mail-Q77APdnUag',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'自尊感情アンケートの実施について',
-      details:['中学は7/8(水)〜7/17(金)のうち1回の終礼でForms実施（小学校は紙配布）','個人名でなくIDで統計処理するアンケート。結果は保護者にも共有予定'],thread:'',poster:'保護者向けメール',posted:'7/7',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q77APc9KxK'},
+      details:['中学は7/8(水)〜7/17(金)のうち1回の終礼でForms実施（小学校は紙配布）','個人名でなくIDで統計処理するアンケート。結果は保護者にも共有予定'],thread:'',poster:'保護者向けメール',posted:'7/7',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q77APc9KxK',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q77APdnUag'},
     {id:'jugetsu1',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金) まで',optional:true,subject:'委員会',title:'十月祭 チケット・ポスター申請フォーム',
       details:['十月祭行事委員の説明を聞いた希望者が対象','7/17(金)までに申請'],thread:'82回生',poster:'中尾有子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5MDAxNDQ4NDk2'},
     {id:'soumu2',cat:'no',date:'2026-07-09',dateLabel:'7/9 (木)',subject:'委員会',title:'拡大版代表委員会（根っこの会）',
