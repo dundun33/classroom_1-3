@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-13",
-  updateTime: "16:25",
+  updateTime: "17:15",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -60,8 +60,9 @@ window.CLASSROOM_DATA = {
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
-    {id:'mathhw3',cat:'hw',dateLabel:'夏休み',subject:'数学',title:'夏休みの宿題【資料】',
-      details:[],thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
+    {id:'mathhw3',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで【No.1〜6】',subject:'数学',title:'夏休みの宿題【資料】',
+      details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
+      thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
     {id:'roilo2',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(写真を貼った表紙カード)',
       details:[],thread:'ロイロ'},
     {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
