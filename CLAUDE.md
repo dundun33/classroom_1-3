@@ -121,7 +121,8 @@ window.CLASSROOM_DATA = {
   - `thread:''`（空文字。'メール'は使わない）
   - `poster:'保護者向けメール'`
   - `mail:true`
-  - `mailUrl:'...'`（PDF/詳細URL。無ければ省略）
+  - `mailUrl:'...'`（添付PDFなど資料そのもののURL。連絡事項欄の「資料 ↗」リンク先。無ければ省略）
+  - `mailPageUrl:'...'`（line-ntのメール詳細ページURL、例 `https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/<メールID>`。スレッド欄の`poster`（'保護者向けメール'）の直リンク先）
   - `subject` / `title` / `date` / `dateLabel` / `posted` は他の連絡事項itemと同じ規約に従う
   - **`details`は空にしない**：mailUrl先（PDF・詳細ページ）を実際に開いて内容を読み、要点を箇条書きで要約して書く。一覧のプレビュー文をそのまま貼るのではなく、一段深いリンク先の本文（実施時期・対象・提出方法・締切など）を読んだ上でまとめる。この「深いリンクを読んで要約する」作業はスクリプトでは自動化されておらず、反映時にClaudeが毎回行う。
 - 過去項目の保持ルール（直近1週間より前に日付/締切が過ぎた項目は削除、直近1週間以内はグレー残し）は変更なくそのまま適用する。
