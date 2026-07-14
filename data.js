@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-13",
-  updateTime: "17:15",
+  updateISO: "2026-07-14",
+  updateTime: "19:54",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -73,19 +73,6 @@ window.CLASSROOM_DATA = {
       details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
-    {id:'mat3',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'国語',title:'1学期 国語（文法）テスト範囲【資料】',
-      details:[],thread:'82回生',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4NTk5MDgzMTk2/details'},
-    {id:'mat4',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'国語',title:'1学期 国語ダブルテスト【資料】',
-      details:[],thread:'82回生',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4NTgyMDI1MjY4/details'},
-    {id:'mg1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'数学',title:'数学（一次方程式）期末テスト勉強範囲',
-      details:['7/6(月)の期末テスト最終日は「一次方程式」','教科書p.96〜107・110・118-1,2・119-1 / 完成ノートp.102〜 / 抜粋プリントNo.1〜4 / 練習プリント(1) / もっとプリント(1)〜(4)'],
-      thread:'数学',poster:'山口朋子',posted:'6/26',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY4NjczNjYwNzYx'},
-    {id:'eng1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'英語',title:'1学期期末テスト範囲【資料】',
-      details:[],thread:'英語',poster:'本木綾子',posted:'6/24',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODY4NTIzNDY3MTY0/details'},
-    {id:'kg1',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月)',subject:'全体',title:'軽井沢 係の会（寝具係・室長）',
-      details:['7/6(月)終礼清掃後に実施','寝具係（経理部 部長・副部長）→ 6組の教室に集まる','室長 → 12組は403・34組は404・56組は405。黒い太マジックを持参'],thread:'82回生',poster:'森本奈央・國澤恒久',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4OTg0OTkyMjcx'},
-    {id:'sc2',cat:'no',date:'2026-07-06',dateLabel:'7/6 (月) まで',subject:'全体',title:'試験中のスタディコモンズについて',
-      details:['高校授業がある5・6時間目は、400とLLは「サイレント自習室」のみ','最終下校〜開室(13:00)までは各学年1・2組の教室で待機','テスト最終日(7/6)は通常時間で開室。中学生は最終下校15:30を厳守'],thread:'82回生',poster:'國澤恒久',posted:'7/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4ODM0NTc0MjYw'},
     {id:'mat1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火) 〜',subject:'全体',title:'7月7日〜（資料）',
       details:[],thread:'82回生',poster:'松本珠希',posted:'7/3',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY4OTkyNTU0NjI0/details'},
     {id:'ck1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'全校委員 学年学活リハーサル',
@@ -132,6 +119,8 @@ window.CLASSROOM_DATA = {
       details:['テストの振り返り解説スライドをロイロの資料箱に格納','自分の解答と見比べて次に活かす'],thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
     {id:'hr1',cat:'no',date:'2026-07-13',dateLabel:'7/13 (月)',subject:'全体',title:'1学期末の動き（生徒面接・保護者面接・軽井沢連絡確認）',
       details:['生徒面接：日程を配信予定。8:30以降は私物を教室に取りに行けない','保護者面接：日程プリントを配信。手元に届いていなければ確認を','軽井沢の連絡手段：保護者とのメール送受信を終業式までに確認'],thread:'1-3 HR',poster:'宮崎可奈子',posted:'7/13',url:'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3/p/ODcwNTkzOTE0MDgw'},
+    {id:'katsudou1',cat:'no',date:'2026-07-14',dateLabel:'7/14 (火) 〜',subject:'全体',title:'夏休み生徒活動日程表(クラブ・委員会等)【資料】',
+      details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
     {id:'jikan1',cat:'no',date:'2026-07-08',dateLabel:'7/8 (水)',subject:'全体',title:'本日1・2時間目の入れ替え',
       details:['1組: 1限=学活、2限=体育(石井・HR)','2組: 1限=体育(石井・HR)、2限=学活','当番はクラスのホワイトボードの時間割を変更'],thread:'82回生',poster:'松本珠希',posted:'7/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMzM5MzY1MTI5'},
     {id:'ic1',cat:'no',date:'2026-07-07',dateLabel:'7/7 (火)',subject:'全体',title:'マウントホリヨーク大学生との交流会',
