@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-17",
-  updateTime: "07:25",
+  updateTime: "14:42",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -99,6 +99,15 @@ window.CLASSROOM_DATA = {
       details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
     {id:'hoken2',cat:'no',date:'2026-07-16',dateLabel:'7/16 (木)',subject:'保健',title:'軽井沢保健関係諸注意',
       details:[],thread:'82回生',poster:'西田早苗',posted:'7/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NTQ3NTI1Mzg4'},
+    {id:'eng6',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金)',subject:'英語',title:'夏休み明けテスト範囲・Oxford関連連絡',
+      details:['夏休み明けテストはウイニングサマー各単元の「この夏おぼえる単語」から10〜20個出題（英語でスペルを書けるように）','Oxford Big Readコンテスト応募希望者はLL教室のポスター用画用紙を利用可','Oxford Reading Clubのマンスリーレポートはスクショしてロイロの提出箱へ'],
+      thread:'82回生',poster:'本木綾子',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4NDYyMzkyMjIy'},
+    {id:'seikatsu2',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金)',subject:'委員会',title:'生活部 園芸係：花鉢の片付け',
+      details:['下校前までに教室の花鉢「ハーブゼラニウム」を鉢皿と一緒に校務センターの台車へ'],thread:'82回生',poster:'新田愛未',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDM1Mjk3MTUz'},
+    {id:'tosho1',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金)',subject:'全体',title:'図書室：夏休みは工事のため閉館',
+      details:['本日は12時20分まで利用可能。借りるなら今日のうち'],thread:'82回生',poster:'久保文香',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4NDYxNjE5NDU2'},
+    {id:'os2',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金)',optional:true,subject:'課外活動',title:'オープンスクール広報サポーターズの会',
+      details:['本日終礼清掃後に集合','7/26は理科C、8/22は理科Dに集合'],thread:'82回生',poster:'馬場友紀',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NTY0MDU2OTk0'},
     {id:'jugetsu1',cat:'no',date:'2026-07-17',dateLabel:'7/17 (金) まで',optional:true,subject:'委員会',title:'十月祭 チケット・ポスター申請フォーム',
       details:['十月祭行事委員の説明を聞いた希望者が対象','7/17(金)までに申請'],thread:'82回生',poster:'中尾有子',posted:'7/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5MDAxNDQ4NDk2'},
     {id:'engmat2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club【資料】',
