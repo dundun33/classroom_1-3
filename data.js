@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-17",
-  updateTime: "14:42",
+  updateTime: "18:27",
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -58,6 +58,8 @@ window.CLASSROOM_DATA = {
       details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
       thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
     {id:'roilo2',cat:'hw',date:'2026-07-17',dateLabel:'7/17 (金) 20:00 まで',subject:'国語ダブル',title:'表紙に寄せて(写真を貼った表紙カード)',
+      details:[],thread:'ロイロ'},
+    {id:'roilo6',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで',subject:'国語ダブル',title:'7月 歳時記ノート',
       details:[],thread:'ロイロ'},
     {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
       details:[],thread:'ロイロ'},
