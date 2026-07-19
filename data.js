@@ -5,8 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-17",
-  updateTime: "18:27",
+  updateISO: "2026-07-19",
+  updateTime: "13:04",
+  /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
+     2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
     label: "7/6(月)〜7/10(金)",
     days: [
@@ -25,6 +27,7 @@ window.CLASSROOM_DATA = {
       [ null,                              {s:'英・社',t:'コリンズ・馬場',r:'HR'}, {s:'ICT',t:'',r:'南ホール'}, {s:'自治の会',t:'',r:'HR'}, {s:'体',t:'押切・新谷',r:'プール'} ],
     ]
   },
+  */
   /* exam: テスト期間だけ書く。無い週は丸ごと削除すれば非表示になる（7/6が最終日なので今週は保持） */
   exam: {
     label: "1学期 期末テスト",
@@ -146,5 +149,7 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q7G8PoXAvc',cat:'no',date:'2026-07-16',dateLabel:'7/16 (木)',subject:'82回生',title:'【2026年度行事写真インターネット販売のご案内】',
       details:['入学式・親睦会・運動会の行事写真をネット購入可能（恵雅堂出版「はいチーズ！」）','販売期間：2026年7月17日(金)〜8月31日(月)','認証キー（学年ごとに異なる）はメール本文に記載。SNS等での公開・共有は不可'],
       thread:'',poster:'保護者向けメール',posted:'7/16',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q7G8PnHBs3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7G8PoXAvc'},
+    {id:'mail-Q7IGPVMpCx',cat:'no',date:'2026-07-18',dateLabel:'7/18 (土)',subject:'全体',title:'2027年度からの新カリキュラムについて',
+      details:[],thread:'',poster:'保護者向けメール',posted:'7/18',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q7IGPTIbq7',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7IGPVMpCx'},
   ]
 };
