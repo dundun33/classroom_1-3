@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-25",
-  updateTime: "16:05",
+  updateISO: "2026-07-26",
+  updateTime: "12:32",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -106,5 +106,8 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q7IGPVMpCx',cat:'no',date:'2026-07-18',dateLabel:'7/18 (土)',subject:'全体',title:'2027年度からの新カリキュラムについて',
       details:['2027年度から週6日制に移行し授業時数が増加（週33コマ）','中学は英語・数学・国語・社会(地理)の時数を増加、実技教科は維持','総合的な学習・特別活動を計2時間、時間割上に確保','一週間の時程など詳細は9月以降に案内予定'],
       thread:'',poster:'保護者向けメール',posted:'7/18',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q7IGPTIbq7',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7IGPVMpCx'},
+    {id:'mail-Q7PFZdYcrw',cat:'no',date:'2026-07-25',dateLabel:'7/25 (土)',subject:'全体',title:'軽井沢生活3期（3・4組）解散',
+      details:['3・4組の軽井沢三泉寮生活が無事終了','交通状況が順調で予定より早く学校到着、解散済み'],
+      thread:'',poster:'保護者向けメール',posted:'7/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7PFZdYcrw'},
   ]
 };
