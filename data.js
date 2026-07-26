@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-07-26",
-  updateTime: "12:32",
+  updateTime: "12:46",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -28,21 +28,6 @@ window.CLASSROOM_DATA = {
     ]
   },
   */
-  /* exam: テスト期間だけ書く。無い週は丸ごと削除すれば非表示になる（7/6が最終日なので今週は保持） */
-  exam: {
-    label: "1学期 期末テスト",
-    days: [
-      {n:'第1日',md:'7/1(水)',iso:'2026-07-01'},
-      {n:'第2日',md:'7/2(木)',iso:'2026-07-02'},
-      {n:'第3日',md:'7/3(金)',iso:'2026-07-03'},
-      {n:'第4日',md:'7/6(月)',iso:'2026-07-06'},
-    ],
-    rows: [  // 各行=時限。セル={s:教科, time:時刻, t:担当または範囲} または null
-      [ {s:'国語',time:'8:50〜9:40',t:'鈴木'},        {s:'英会話',time:'8:50〜9:15',t:'Collins・Mao'},        {s:'社会',time:'8:50〜9:40',t:'宮崎・平野'}, {s:'数学',time:'8:50〜9:20',t:'一次方程式'} ],
-      [ {s:'数学',time:'9:55〜10:45',t:'文字と式'},   {s:'理科',time:'9:30〜10:05',t:'大越・山本・小山・田悟'}, {s:'理科',time:'9:55〜10:35',t:'松本'},      {s:'英語',time:'9:35〜10:25',t:'本木・平岡・磯崎・吉野'} ],
-      [ {s:'社会',time:'11:00〜11:30',t:'馬場'},      {s:'国語',time:'10:20〜11:10',t:'秋山・西出・秦野'},      null,                              null ],
-    ]
-  },
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
@@ -76,8 +61,12 @@ window.CLASSROOM_DATA = {
       thread:'1-3 HR',poster:'宮崎可奈子',posted:'7/23',url:'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3/p/ODcxMDA4NjgxOTgw'},
     {id:'engmat2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club【資料】',
       details:[],thread:'英語',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODcwMzE0OTc3MjM4/details'},
-    {id:'kasei2',cat:'no',dateLabel:'今週中',subject:'技術・家庭科',title:'夏の宿題説明・三角巾/刺しゅうの直し',
-      details:['場所: 被服室B','持ち物: iPad、ファイル、裁縫箱、三角巾（該当者のみ）','持ち帰るものが多いので手提げ袋があると良い'],thread:'82回生',poster:'菊池菜々世',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY4NzA1NjY2ODc4'},
+    {id:'eng5',cat:'no',dateLabel:'当面の間',subject:'英語',title:'夏休みの注意事項（英語科より）',
+      details:['夏休み明けテスト：ウイニングサマー各単元の「この夏おぼえる単語」から10〜20個をスペル（英語）で覚える','Oxford Big Readコンテスト応募希望者：LL教室に画用紙あり（読んだ本のポスターを描いて応募）','Oxford Reading Clubマンスリーレポート：学習状況ページをスクショしてロイロの提出箱に提出'],
+      thread:'82回生',poster:'本木綾子',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4NDYyMzkyMjIy'},
+    {id:'jpndblw1',cat:'no',dateLabel:'当面の間',subject:'国語ダブル',title:'1学期国語Wテスト採点基準（ロイロ資料箱）',
+      details:['テストの振り返り・解説スライドをロイロの資料箱に配信中','自分の解答と比較して次のテストに活かす'],
+      thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
     {id:'hc1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康診断の結果配布',
       details:['4/25実施分の個人結果を担任経由で配布中','フォロー健診の結果配布は後日','受診報告は速やかに保健室へ提出'],thread:'82回生',poster:'西田早苗',posted:'6/16'},
     {id:'sc1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'スタディコモンズ利用者が多いときの注意',
@@ -91,6 +80,11 @@ window.CLASSROOM_DATA = {
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
+    {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
+      details:['十月祭準備や2学期準備のサポート活動（希望者対象）','①事前にフォームを提出、または②参加申込書を持参して当日参加（連絡帳でも可）'],
+      thread:'総務',poster:'山本昂宏',posted:'7/17',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/Nzk4NDYzODMyMjkz'},
+    {id:'act1',cat:'no',dateLabel:'夏休み',subject:'全体',title:'夏休み生徒活動日程表（クラブ・委員会等）【資料】',
+      details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
     {id:'b5',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年 私学選手権大会 日程',
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
