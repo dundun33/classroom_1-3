@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-26",
-  updateTime: "12:46",
+  updateISO: "2026-07-29",
+  updateTime: "10:04",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -36,8 +36,6 @@ window.CLASSROOM_DATA = {
     {id:'mathhw3',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで【No.1〜6】',subject:'数学',title:'夏休みの宿題【資料】',
       details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
       thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
-    {id:'roilo6',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 22:00 まで',subject:'国語ダブル',title:'軽井沢 歳時記ノート',
-      details:[],thread:'ロイロ'},
     {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
       details:[],thread:'ロイロ'},
     {id:'roilo4',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Speech 原稿',
@@ -78,6 +76,9 @@ window.CLASSROOM_DATA = {
       details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
+    {id:'utokyooc1',cat:'no',date:'2026-08-04',dateLabel:'8/3(月)・8/4(火)',optional:true,subject:'課外活動',title:'東京大学教養学部オープンキャンパス2026',
+      details:['進学相談・模擬講義（統合自然科学科・学際科学科・教養学科・ALESS）','8/3(月)：各科の進学相談・質問コーナー 11:00〜15:50','8/4(火)：気候変動・霊長類進化・コーカサス言語・ラテンアメリカの模擬講義 11:00〜15:50'],
+      thread:'82回生',poster:'本木綾子',posted:'7/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcxMTg2MTA4OTM5',hasLink:true},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
@@ -90,6 +91,9 @@ window.CLASSROOM_DATA = {
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
     {id:'bmat1',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年夏休み予定表【資料】（少し追記）',
       details:['確定版からさらに一部追記されました（詳細はリンク先で確認）'],thread:'バスケ',poster:'山本昂宏',posted:'7/16',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODcwNzM1MjU1MTIz/details'},
+    {id:'bheat1',cat:'no',date:'2026-07-29',dateLabel:'7/29 (水) 12:00〜',optional:true,subject:'部活',title:'熱中症対策講座（大塚製薬）',
+      details:['希望者のみ参加、当日参加も可。会場：南ホール','12:00講演開始→12:30質疑応答→12:40終了予定。講師：大塚製薬','参加しない人は通常どおり登校し体育館の準備を'],
+      thread:'バスケ',poster:'山本昂宏',posted:'7/29',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcxMjQxOTI3OTkz'},
     {id:'bball2',cat:'no',date:'2026-07-22',dateLabel:'7/22 (水)',subject:'部活',title:'法政中学校との練習試合',
       details:['18日(土)不参加・22日参加の人は明日までにバッシュ等持ち帰り','集合8:10 井の頭公園駅、会場は法政大学中学校（徒歩約12分）','持ち物：リバーシブルゼッケン・バッシュ・飲み物。保護者観戦可（保護者証持参）'],
       thread:'バスケ',poster:'山本昂宏',posted:'7/16',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcwNzM1MjQxMzk1'},
@@ -97,9 +101,6 @@ window.CLASSROOM_DATA = {
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
-    {id:'mail-Q7IGPVMpCx',cat:'no',date:'2026-07-18',dateLabel:'7/18 (土)',subject:'全体',title:'2027年度からの新カリキュラムについて',
-      details:['2027年度から週6日制に移行し授業時数が増加（週33コマ）','中学は英語・数学・国語・社会(地理)の時数を増加、実技教科は維持','総合的な学習・特別活動を計2時間、時間割上に確保','一週間の時程など詳細は9月以降に案内予定'],
-      thread:'',poster:'保護者向けメール',posted:'7/18',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q7IGPTIbq7',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7IGPVMpCx'},
     {id:'mail-Q7PFZdYcrw',cat:'no',date:'2026-07-25',dateLabel:'7/25 (土)',subject:'全体',title:'軽井沢生活3期（3・4組）解散',
       details:['3・4組の軽井沢三泉寮生活が無事終了','交通状況が順調で予定より早く学校到着、解散済み'],
       thread:'',poster:'保護者向けメール',posted:'7/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7PFZdYcrw'},
