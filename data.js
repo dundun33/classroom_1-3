@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-29",
-  updateTime: "10:04",
+  updateISO: "2026-07-30",
+  updateTime: "10:18",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -36,10 +36,6 @@ window.CLASSROOM_DATA = {
     {id:'mathhw3',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで【No.1〜6】',subject:'数学',title:'夏休みの宿題【資料】',
       details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
       thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
-    {id:'roilo3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Picture 発表用画像',
-      details:[],thread:'ロイロ'},
-    {id:'roilo4',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 10:59 まで',subject:'OC',title:'Summer HW: Speech 原稿',
-      details:[],thread:'ロイロ'},
     {id:'roilo7',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) 8:40 まで',subject:'英語',title:'新中問６章 p.74-83',
       details:[],thread:'ロイロ'},
     {id:'roilo8',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) 8:40 まで',subject:'英語',title:'新中問７章 p.84-89',
@@ -94,10 +90,6 @@ window.CLASSROOM_DATA = {
     {id:'bheat1',cat:'no',date:'2026-07-29',dateLabel:'7/29 (水) 12:00〜',optional:true,subject:'部活',title:'熱中症対策講座（大塚製薬）',
       details:['希望者のみ参加、当日参加も可。会場：南ホール','12:00講演開始→12:30質疑応答→12:40終了予定。講師：大塚製薬','参加しない人は通常どおり登校し体育館の準備を'],
       thread:'バスケ',poster:'山本昂宏',posted:'7/29',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcxMjQxOTI3OTkz'},
-    {id:'bball2',cat:'no',date:'2026-07-22',dateLabel:'7/22 (水)',subject:'部活',title:'法政中学校との練習試合',
-      details:['18日(土)不参加・22日参加の人は明日までにバッシュ等持ち帰り','集合8:10 井の頭公園駅、会場は法政大学中学校（徒歩約12分）','持ち物：リバーシブルゼッケン・バッシュ・飲み物。保護者観戦可（保護者証持参）'],
-      thread:'バスケ',poster:'山本昂宏',posted:'7/16',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcwNzM1MjQxMzk1'},
-
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
