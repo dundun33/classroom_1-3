@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-07-30",
-  updateTime: "10:18",
+  updateISO: "2026-08-05",
+  updateTime: "20:12",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -36,12 +36,6 @@ window.CLASSROOM_DATA = {
     {id:'mathhw3',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで【No.1〜6】',subject:'数学',title:'夏休みの宿題【資料】',
       details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
       thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
-    {id:'roilo7',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) 8:40 まで',subject:'英語',title:'新中問６章 p.74-83',
-      details:[],thread:'ロイロ'},
-    {id:'roilo8',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) 8:40 まで',subject:'英語',title:'新中問７章 p.84-89',
-      details:[],thread:'ロイロ'},
-    {id:'roilo9',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) 8:40 まで',subject:'英語',title:'新中問８章 p.90-97',
-      details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
@@ -50,9 +44,6 @@ window.CLASSROOM_DATA = {
       details:['健康手帳・デジタルデトックス・校外授業・睡眠時間について'],thread:'82回生',poster:'西田早苗',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwMzgwOTIwNzk2/details'},
     {id:'orc1',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club トライアル案内',
       details:['サイトでユーザーID/パスワードでログイン→「コードを入力」','トライアルコード: ORCLAURA2026'],thread:'英語',poster:'本木綾子',posted:'7/10',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODU1NDkxMTQzMzgx'},
-    {id:'hr2',cat:'no',date:'2026-07-24',dateLabel:'7/24 (金)',subject:'全体',title:'明日からの軽井沢三泉寮生活について',
-      details:['集合7:50。荷物は事前相談が無い限り教室に取りに戻れない','暑さ対策を（ネッククーラー等、ハンディファンは不可）','持ち物・ネームタグに記名を忘れずに','終業式の成績のお知らせ未提出者は必ず提出'],
-      thread:'1-3 HR',poster:'宮崎可奈子',posted:'7/23',url:'https://classroom.google.com/c/ODY2NzQwMjIwMDQ3/p/ODcxMDA4NjgxOTgw'},
     {id:'engmat2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club【資料】',
       details:[],thread:'英語',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODcwMzE0OTc3MjM4/details'},
     {id:'eng5',cat:'no',dateLabel:'当面の間',subject:'英語',title:'夏休みの注意事項（英語科より）',
@@ -87,14 +78,8 @@ window.CLASSROOM_DATA = {
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
     {id:'bmat1',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年夏休み予定表【資料】（少し追記）',
       details:['確定版からさらに一部追記されました（詳細はリンク先で確認）'],thread:'バスケ',poster:'山本昂宏',posted:'7/16',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODcwNzM1MjU1MTIz/details'},
-    {id:'bheat1',cat:'no',date:'2026-07-29',dateLabel:'7/29 (水) 12:00〜',optional:true,subject:'部活',title:'熱中症対策講座（大塚製薬）',
-      details:['希望者のみ参加、当日参加も可。会場：南ホール','12:00講演開始→12:30質疑応答→12:40終了予定。講師：大塚製薬','参加しない人は通常どおり登校し体育館の準備を'],
-      thread:'バスケ',poster:'山本昂宏',posted:'7/29',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcxMjQxOTI3OTkz'},
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
-    {id:'mail-Q7PFZdYcrw',cat:'no',date:'2026-07-25',dateLabel:'7/25 (土)',subject:'全体',title:'軽井沢生活3期（3・4組）解散',
-      details:['3・4組の軽井沢三泉寮生活が無事終了','交通状況が順調で予定より早く学校到着、解散済み'],
-      thread:'',poster:'保護者向けメール',posted:'7/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q7PFZdYcrw'},
   ]
 };
