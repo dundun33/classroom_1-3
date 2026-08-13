@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-08-05",
-  updateTime: "20:12",
+  updateISO: "2026-08-13",
+  updateTime: "16:28",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -33,9 +33,11 @@ window.CLASSROOM_DATA = {
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
-    {id:'mathhw3',cat:'hw',date:'2026-07-31',dateLabel:'7/31 (金) 20:00 まで【No.1〜6】',subject:'数学',title:'夏休みの宿題【資料】',
-      details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
+    {id:'mathhw3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 20:00 まで【No.7〜12】',subject:'数学',title:'夏休みの宿題【資料】',
+      details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切（締切済）','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
       thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
+    {id:'roilo10',cat:'hw',date:'2026-09-03',dateLabel:'9/3 (木) 20:00 まで',subject:'国語ダブル',title:'8月 歳時記ノート',
+      details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
@@ -63,9 +65,6 @@ window.CLASSROOM_DATA = {
       details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
-    {id:'utokyooc1',cat:'no',date:'2026-08-04',dateLabel:'8/3(月)・8/4(火)',optional:true,subject:'課外活動',title:'東京大学教養学部オープンキャンパス2026',
-      details:['進学相談・模擬講義（統合自然科学科・学際科学科・教養学科・ALESS）','8/3(月)：各科の進学相談・質問コーナー 11:00〜15:50','8/4(火)：気候変動・霊長類進化・コーカサス言語・ラテンアメリカの模擬講義 11:00〜15:50'],
-      thread:'82回生',poster:'本木綾子',posted:'7/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcxMTg2MTA4OTM5',hasLink:true},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
