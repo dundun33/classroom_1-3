@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-08-13",
-  updateTime: "16:28",
+  updateISO: "2026-08-17",
+  updateTime: "15:00",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -65,6 +65,9 @@ window.CLASSROOM_DATA = {
       details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
+    {id:'mail-Q8EB9pamLF',cat:'no',date:'2026-08-14',dateLabel:'8/14 (金)',subject:'全体',title:'スタディコモンズ開室・学習イベント（夏休み新学期直前）',
+      details:['新学期直前のスタコモ開室＋学習イベント（休み明けテスト準備）。スケジュール詳細はClassroom資料参照','利用日時は必ず保護者に事前連絡。入退室はQRコード必須。昼をまたぐ場合は昼食持参'],
+      thread:'',poster:'保護者向けメール',posted:'8/14',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q8EB9pamLF'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
@@ -72,6 +75,9 @@ window.CLASSROOM_DATA = {
       thread:'総務',poster:'山本昂宏',posted:'7/17',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/Nzk4NDYzODMyMjkz'},
     {id:'act1',cat:'no',dateLabel:'夏休み',subject:'全体',title:'夏休み生徒活動日程表（クラブ・委員会等）【資料】',
       details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
+    {id:'bball3',cat:'no',date:'2026-08-22',dateLabel:'8/22(土)〜 私学大会',subject:'部活',title:'私学大会 最新情報（会場）',
+      details:['大会本部より正式スケジュール未達。試合が入る可能性の高い会場：','8/22(土)：カリタス女子','8/23(日)：神奈川学園、東海大相模','8/30(日)：東海大相模、法政二、横須賀学院','対戦校は決まり次第連絡あり'],
+      thread:'バスケ',poster:'山本昂宏',posted:'8/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0NzYyNzg2OTAw'},
     {id:'b5',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年 私学選手権大会 日程',
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
