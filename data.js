@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-08-17",
-  updateTime: "15:00",
+  updateISO: "2026-08-18",
+  updateTime: "17:49",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -75,9 +75,9 @@ window.CLASSROOM_DATA = {
       thread:'総務',poster:'山本昂宏',posted:'7/17',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/Nzk4NDYzODMyMjkz'},
     {id:'act1',cat:'no',dateLabel:'夏休み',subject:'全体',title:'夏休み生徒活動日程表（クラブ・委員会等）【資料】',
       details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
-    {id:'bball3',cat:'no',date:'2026-08-22',dateLabel:'8/22(土)〜 私学大会',subject:'部活',title:'私学大会 最新情報（会場）',
-      details:['大会本部より正式スケジュール未達。試合が入る可能性の高い会場：','8/22(土)：カリタス女子','8/23(日)：神奈川学園、東海大相模','8/30(日)：東海大相模、法政二、横須賀学院','対戦校は決まり次第連絡あり'],
-      thread:'バスケ',poster:'山本昂宏',posted:'8/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0NzYyNzg2OTAw'},
+    {id:'bball3',cat:'no',date:'2026-08-30',dateLabel:'8/30 (日) 9:00 トスアップ',subject:'部活',title:'私学大会 第1回戦（日程確定）',
+      details:['8/30(日) 会場：横須賀学院','対戦相手：洗足学園 9:00 トスアップ','勝利の場合、12:45から2回戦（その後TOあり）','今後変更の可能性もあり。変更時は追って連絡'],
+      thread:'バスケ',poster:'山本昂宏',posted:'8/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0OTIyOTI2NjI1'},
     {id:'b5',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年 私学選手権大会 日程',
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
