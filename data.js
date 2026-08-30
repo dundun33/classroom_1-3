@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-08-18",
-  updateTime: "17:49",
+  updateISO: "2026-08-31",
+  updateTime: "08:51",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -33,11 +33,6 @@ window.CLASSROOM_DATA = {
     {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
       details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
       thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
-    {id:'mathhw3',cat:'hw',date:'2026-08-21',dateLabel:'8/21 (金) 20:00 まで【No.7〜12】',subject:'数学',title:'夏休みの宿題【資料】',
-      details:['夏休みの宿題No.1〜6 → 7/31(金)20:00ロイロ〆切（締切済）','夏休みの宿題No.7〜12 → 8/21(金)20:00ロイロ〆切','再提出締切は9/3(木)20:00','答え合わせ・直しは解き方や途中式まで丁寧に'],
-      thread:'数学',poster:'山口朋子',posted:'7/13',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODcwNTg5OTk3NjU1/details'},
-    {id:'roilo10',cat:'hw',date:'2026-09-03',dateLabel:'9/3 (木) 20:00 まで',subject:'国語ダブル',title:'8月 歳時記ノート',
-      details:[],thread:'ロイロ'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
@@ -65,9 +60,6 @@ window.CLASSROOM_DATA = {
       details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
-    {id:'mail-Q8EB9pamLF',cat:'no',date:'2026-08-14',dateLabel:'8/14 (金)',subject:'全体',title:'スタディコモンズ開室・学習イベント（夏休み新学期直前）',
-      details:['新学期直前のスタコモ開室＋学習イベント（休み明けテスト準備）。スケジュール詳細はClassroom資料参照','利用日時は必ず保護者に事前連絡。入退室はQRコード必須。昼をまたぐ場合は昼食持参'],
-      thread:'',poster:'保護者向けメール',posted:'8/14',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q8EB9pamLF'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
@@ -86,5 +78,8 @@ window.CLASSROOM_DATA = {
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
+    {id:'mail-Q8TEI5uYC4',cat:'no',date:'2026-08-29',dateLabel:'8/29 (土)',subject:'全体',title:'登校時間帯の不審者について',
+      details:['読売ランド前駅からの通学路で不審者事案が複数回発生（8時前〜9時半、単独歩行中の生徒に話しかけ・身体接触）','多摩警察署に通報・警戒強化中。学校警備員も立哨・巡回中','登下校時はできるだけ複数人で歩くこと。不審者を見かけたら警察官・警備員または担任に報告を'],
+      thread:'',poster:'保護者向けメール',posted:'8/29',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q8TEI5uYC4'},
   ]
 };
