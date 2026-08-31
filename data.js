@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-08-31",
-  updateTime: "11:26",
+  updateTime: "19:47",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -73,13 +73,28 @@ window.CLASSROOM_DATA = {
     {id:'jig2',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部開室日程（9月）・コート予約販売',
       details:['9月の実業部開室日程・コートの予約販売案内。Classroom添付PDFで確認を（保護者と一緒に）'],
       thread:'82回生',poster:'宮地潤子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5MzEyOTk5ODEz/details'},
+    {id:'iinkai1',cat:'no',date:'2026-08-31',dateLabel:'8/31 (月)【総合委員の会】',subject:'全体',title:'ようこそ先輩 総合委員の会（8/31 終礼後・LL教室）',
+      details:['終礼後にLL教室にて会を実施。荷物をすべて持って集合'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NDYzNzY1MzE3'},
+    {id:'jisshi1',cat:'no',date:'2026-08-31',dateLabel:'8/31 (月)【行事委員へ】',subject:'全体',title:'十月祭 行事委員へ：チケット枚数調査',
+      details:['チケット6枚以上希望者の調査を本日中に実施するよう連絡','名簿に記録し、2学期最初の自治の会に持参'],
+      thread:'82回生',poster:'中尾有子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1MjM3OTM5OTE5'},
+    {id:'explan1',cat:'no',date:'2026-09-06',dateLabel:'9/6 (日) 学校説明会',subject:'全体',title:'9/6(日) 学校説明会サポーターズ（申込済の方へ）',
+      details:['集合は早い係で8:00頃、解散は遅い係で12:30頃の予定','申し込みをした方には始業式の日に説明の会を実施'],
+      thread:'82回生',poster:'馬場友紀',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NDk4ODE0NDM1'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
+    {id:'keiribu1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 12:20 理科A【経理部部長へ】',subject:'全体',title:'経理部 2学期臨時部長会（9/4）',
+      details:['9/4(金) 12:20〜 理科A にて臨時部長会。時間厳守で集合'],
+      thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1MzM2NzYxOTA4'},
     {id:'keiri1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) まで【希望者のみ】',optional:true,subject:'課外活動',title:'十月祭 経理部チャリティー「マカロン付箋」デザイン募集',
       details:['今年度の十月祭チャリティーは「マカロン付箋」を販売（経理部企画）','全校生徒からデザインを募集（希望者のみ）','添付資料を確認の上、9/4(金)までに提出'],
       thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NDY3NjA4MTI3'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
+    {id:'soumu3',cat:'no',dateLabel:'当面の間',subject:'全体',title:'総務サポーターズ 1学期振り返りアンケート',
+      details:['1学期間のサポーターズ活動への感謝とアンケート依頼。2学期も再募集予定','フォームリンクはClassroomの投稿から確認'],
+      thread:'総務',poster:'山本昂宏',posted:'8/31',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODcyNDg1NTU3MDA4'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
       details:['十月祭準備や2学期準備のサポート活動（希望者対象）','①事前にフォームを提出、または②参加申込書を持参して当日参加（連絡帳でも可）'],
       thread:'総務',poster:'山本昂宏',posted:'7/17',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/Nzk4NDYzODMyMjkz'},
