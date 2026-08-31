@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-08-31",
-  updateTime: "09:37",
+  updateTime: "11:26",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -43,6 +43,9 @@ window.CLASSROOM_DATA = {
       details:['サイトでユーザーID/パスワードでログイン→「コードを入力」','トライアルコード: ORCLAURA2026'],thread:'英語',poster:'本木綾子',posted:'7/10',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODU1NDkxMTQzMzgx'},
     {id:'engmat2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Oxford Reading Club【資料】',
       details:[],thread:'英語',poster:'本木綾子',posted:'7/7',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODcwMzE0OTc3MjM4/details'},
+    {id:'engtest1',cat:'no',dateLabel:'当面の間',subject:'英語',title:'英語 夏休み明けテスト範囲',
+      details:['新中学問題集6〜8章すべて','ウイニングサマー 文章問題すべて（ただし8章は除く）・単語も出題'],
+      thread:'82回生',poster:'本木綾子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NTE0Njk1NTY4'},
     {id:'eng5',cat:'no',dateLabel:'当面の間',subject:'英語',title:'夏休みの注意事項（英語科より）',
       details:['夏休み明けテスト：ウイニングサマー各単元の「この夏おぼえる単語」から10〜20個をスペル（英語）で覚える','Oxford Big Readコンテスト応募希望者：LL教室に画用紙あり（読んだ本のポスターを描いて応募）','Oxford Reading Clubマンスリーレポート：学習状況ページをスクショしてロイロの提出箱に提出'],
       thread:'82回生',poster:'本木綾子',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4NDYyMzkyMjIy'},
@@ -51,6 +54,9 @@ window.CLASSROOM_DATA = {
       thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
     {id:'hc1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康診断の結果配布',
       details:['4/25実施分の個人結果を担任経由で配布中','フォロー健診の結果配布は後日','受診報告は速やかに保健室へ提出'],thread:'82回生',poster:'西田早苗',posted:'6/16'},
+    {id:'hc3',cat:'no',dateLabel:'当面の間',optional:true,subject:'保健',title:'アナフィラキシー親子のための懇談会（神奈川県後援）',
+      details:['アナフィラキシーのある親子向け懇談会（神奈川県後援）','参加希望の場合はClassroom添付資料を確認のうえ主催者に直接申込み'],
+      thread:'82回生',poster:'西田早苗',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NTE0ODY1MzI4'},
     {id:'hc2',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康手帳回収（始業式）',
       details:['始業式に健康手帳を回収','保健だよりを参照して必要事項の確認・記入・捺印の上、担任に提出','始業式に出せなかった人は保健室に直接提出'],
       thread:'82回生',poster:'西田早苗',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU2MDU2MDI1Mjgx'},
