@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-08-31",
-  updateTime: "09:08",
+  updateTime: "09:37",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -51,6 +51,12 @@ window.CLASSROOM_DATA = {
       thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
     {id:'hc1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康診断の結果配布',
       details:['4/25実施分の個人結果を担任経由で配布中','フォロー健診の結果配布は後日','受診報告は速やかに保健室へ提出'],thread:'82回生',poster:'西田早苗',posted:'6/16'},
+    {id:'hc2',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康手帳回収（始業式）',
+      details:['始業式に健康手帳を回収','保健だよりを参照して必要事項の確認・記入・捺印の上、担任に提出','始業式に出せなかった人は保健室に直接提出'],
+      thread:'82回生',poster:'西田早苗',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU2MDU2MDI1Mjgx'},
+    {id:'jwu1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'中学生と作る！クロスサイエンス 健康づくりプロジェクト',
+      details:['日本女子大学食科学部と連携し骨量・体組成を測定するプログラム（任意参加・無料）','9/9・10・11・24・25の昼休みと放課後、本館1階ロビー（事務室前）で実施','参加には同意書と食生活アンケートが必要（登校日に書面配布予定）'],
+      thread:'82回生',poster:'西田早苗',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0OTA1NzU2ODEz'},
     {id:'sc1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'スタディコモンズ利用者が多いときの注意',
       details:['テスト前は利用者が増加。溢れた場合は1年1・2組の普通教室も活用（メンター指示に従う）','17:40以降はスタコモ部屋に移動','退室時：机・椅子を元の位置に戻す／消しカスをゴミ箱へ／机の中に忘れ物なし'],
       thread:'82回生',poster:'國澤恒久',posted:'6/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODU1MzAxNjI0OTM5/details'},
@@ -63,6 +69,9 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'宮地潤子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5MzEyOTk5ODEz/details'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
+    {id:'keiri1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) まで【希望者のみ】',optional:true,subject:'課外活動',title:'十月祭 経理部チャリティー「マカロン付箋」デザイン募集',
+      details:['今年度の十月祭チャリティーは「マカロン付箋」を販売（経理部企画）','全校生徒からデザインを募集（希望者のみ）','添付資料を確認の上、9/4(金)までに提出'],
+      thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NDY3NjA4MTI3'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu2',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'夏休み総務サポーターズ活動（希望者のみ）',
@@ -73,6 +82,9 @@ window.CLASSROOM_DATA = {
     {id:'bball3',cat:'no',date:'2026-08-30',dateLabel:'8/30 (日) 9:00 トスアップ',subject:'部活',title:'私学大会 第1回戦（日程確定）',
       details:['8/30(日) 会場：横須賀学院','対戦相手：洗足学園 9:00 トスアップ','勝利の場合、12:45から2回戦（その後TOあり）','今後変更の可能性もあり。変更時は追って連絡'],
       thread:'バスケ',poster:'山本昂宏',posted:'8/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0OTIyOTI2NjI1'},
+    {id:'bsched1',cat:'no',dateLabel:'当面の間',subject:'部活',title:'2026年 9〜10月 練習日程表【資料】',
+      details:['9/12(土)午後は麻生中・田島中との練習試合（麻生中フルメンバー）。詳細はリンク先PDFで確認を'],
+      thread:'バスケ',poster:'山本昂宏',posted:'8/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODc1NzE2NTQ1MDI1/details'},
     {id:'b5',cat:'no',dateLabel:'夏休み',subject:'部活',title:'2026年 私学選手権大会 日程',
       details:['8/22(土)・23(日)・29(土)・30(日)、9/6(日)・13(日)・20(日)・21(月・祝)','予備日: 9/22(火・祝)・23(水・祝)','直前にならないと日程が確定しないことが多いとのこと'],
       thread:'バスケ',poster:'山本昂宏',posted:'6/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODU1MjEzMDI2OTgy'},
