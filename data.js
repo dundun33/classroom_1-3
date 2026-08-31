@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-08-31",
-  updateTime: "08:51",
+  updateTime: "09:08",
   /* timetable: 夏休み中は不要なのでフィールドごと省略（index.htmlはtimetableが無いとセクションごと非表示にする）。
      2学期が始まったら、その週のtimetableをここに復活させる。直前の内容は下のコメントに保存。
   timetable: {
@@ -58,6 +58,9 @@ window.CLASSROOM_DATA = {
       details:['カラス出没のため、4階屋上での昼食は禁止'],thread:'82回生',poster:'大越佳子',posted:'6/9'},
     {id:'jig1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部の営業日（7・8月）について',
       details:['実業部を利用する際は営業日・営業時間を確認'],thread:'82回生',poster:'宮地潤子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU1NDI1OTc4MjI5'},
+    {id:'jig2',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部開室日程（9月）・コート予約販売',
+      details:['9月の実業部開室日程・コートの予約販売案内。Classroom添付PDFで確認を（保護者と一緒に）'],
+      thread:'82回生',poster:'宮地潤子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5MzEyOTk5ODEz/details'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
