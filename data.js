@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-03",
-  updateTime: "14:50",
+  updateISO: "2026-09-05",
+  updateTime: "13:59",
   /* 2学期の平常時間割（Classroom資料「9月7日～」/ 0907.pdf の3組列を抽出）。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)",
@@ -50,6 +50,9 @@ window.CLASSROOM_DATA = {
     {id:'jpndblw1',cat:'no',dateLabel:'当面の間',subject:'国語ダブル',title:'1学期国語Wテスト採点基準（ロイロ資料箱）',
       details:['テストの振り返り・解説スライドをロイロの資料箱に配信中','自分の解答と比較して次のテストに活かす'],
       thread:'国語',poster:'西出春菜',posted:'7/11',url:'https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODcwNDk4ODc4NzMw'},
+    {id:'jpndblw2',cat:'no',dateLabel:'当面の間',subject:'国語ダブル',title:'国語ダブル宿題は集めません',
+      details:['自分の作品ファイルに綴じておく','初回授業でチェック'],
+      thread:'82回生',poster:'西出春菜',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTgzMjc4MTc0'},
     {id:'hc1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'健康診断の結果配布',
       details:['4/25実施分の個人結果を担任経由で配布中','フォロー健診の結果配布は後日','受診報告は速やかに保健室へ提出'],thread:'82回生',poster:'西田早苗',posted:'6/16'},
     {id:'hc3',cat:'no',dateLabel:'当面の間',optional:true,subject:'保健',title:'アナフィラキシー親子のための懇談会（神奈川県後援）',
@@ -61,6 +64,9 @@ window.CLASSROOM_DATA = {
     {id:'jwu1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'中学生と作る！クロスサイエンス 健康づくりプロジェクト',
       details:['日本女子大学食科学部と連携し骨量・体組成を測定するプログラム（任意参加・無料）','9/9・10・11・24・25の昼休みと放課後、本館1階ロビー（事務室前）で実施','参加には同意書と食生活アンケートが必要（登校日に書面配布予定）'],
       thread:'82回生',poster:'西田早苗',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0OTA1NzU2ODEz'},
+    {id:'taisoku1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'2学期 身体測定（個別実施）',
+      details:['集団ではなく個別に実施','昼休みや放課後など都合の良い時に保健室前で測定し、記録用紙を保健室に提出','結果は健康手帳に転記'],
+      thread:'82回生',poster:'西田早苗',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NDY3MDE3MTUz'},
     {id:'sc1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'スタディコモンズ利用者が多いときの注意',
       details:['テスト前は利用者が増加。溢れた場合は1年1・2組の普通教室も活用（メンター指示に従う）','17:40以降はスタコモ部屋に移動','退室時：机・椅子を元の位置に戻す／消しカスをゴミ箱へ／机の中に忘れ物なし'],
       thread:'82回生',poster:'國澤恒久',posted:'6/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODU1MzAxNjI0OTM5/details'},
@@ -83,6 +89,24 @@ window.CLASSROOM_DATA = {
     {id:'tt2',cat:'no',dateLabel:'当面の間',subject:'全体',title:'2学期 平常時間割表（9/7〜）【資料】',
       details:['第2学期の平常時間割表（1学年 全クラス分）','上の時間割セクションに3組分を反映済み。全体版・備考はリンク先PDFで確認を'],
       thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc1NTc1NDEyNjU1/details'},
+    {id:'cal9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9月カレンダー【資料】',
+      details:['9月のスタディコモンズカレンダーを配信。教室にも掲示'],
+      thread:'82回生',poster:'國澤恒久',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details'},
+    {id:'kyung1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 終礼後・サクラボ【交流会参加者】',subject:'全体',title:'韓国キョンヒ女子中学校交流会 参加者ミーティング',
+      details:['終礼後サクラボにて30分程度のミーティング'],
+      thread:'82回生',poster:'本木綾子',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTUxNTIwODc3'},
+    {id:'engcollins1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)【英会話 夏休み宿題 未提出者】',subject:'英語',title:'英会話 夏休み宿題（未提出者は今日中に）',
+      details:['スピーチ原稿と発表用画像を今日中に提出'],
+      thread:'82回生',poster:'Matthew Collins',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTQwMTQwMzUx'},
+    {id:'geo2',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)【地理 夏休みの宿題 未提出者】',subject:'地理',title:'地理 夏休みの宿題（登校日未提出者へ）',
+      details:['今日の終礼後すぐに3組教室へ持参し、直接手渡し'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTcyNDkwMzkx'},
+    {id:'kouhou1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 終礼後・理科C【広報サポーターズ】',subject:'全体',title:'9/6学校説明会 広報サポーターズ 集合',
+      details:['終礼後すぐに理科Cに集合'],
+      thread:'82回生',poster:'馬場友紀',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTQyODg4NTIz'},
+    {id:'gakugei1',cat:'no',date:'2026-09-07',dateLabel:'9/7 (月) 昼休み13:10 LL【学芸部部長へ】',subject:'全体',title:'学芸部部長 集合',
+      details:['9/7(月) 昼休み13:10にLLへ集合'],
+      thread:'82回生',poster:'大越佳子',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDA5OTAwNjQ4'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'keiribu1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 12:20 理科A【経理部部長へ】',subject:'全体',title:'経理部 2学期臨時部長会（9/4）',
@@ -115,8 +139,8 @@ window.CLASSROOM_DATA = {
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
-    {id:'mail-Q8TEI5uYC4',cat:'no',date:'2026-08-29',dateLabel:'8/29 (土)',subject:'全体',title:'登校時間帯の不審者について',
-      details:['読売ランド前駅からの通学路で不審者事案が複数回発生（8時前〜9時半、単独歩行中の生徒に話しかけ・身体接触）','多摩警察署に通報・警戒強化中。学校警備員も立哨・巡回中','登下校時はできるだけ複数人で歩くこと。不審者を見かけたら警察官・警備員または担任に報告を'],
-      thread:'',poster:'保護者向けメール',posted:'8/29',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q8TEI5uYC4'},
+    {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
+      details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
+      thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
   ]
 };
