@@ -277,7 +277,7 @@ document.getElementById('foot').innerHTML=
       const hl=TT.days[j].iso===tISO?' tt-today':'';
       if(!c){ cells+=`<td class="${hl.trim()}"></td>`; continue; }
       const rs=(c.rs&&c.rs>1)?c.rs:1; if(rs>1) span[j]=rs-1;
-      const isTest=/テスト/.test(c.s||'');
+      const isTest=/テスト|学推/.test(c.s||''); // 学推=学力推移テストの略称なのでテスト扱い
       const meta=(c.r||c.t)?`<span class="tt-meta">${c.r||''}${c.t?' / '+c.t:''}</span>`:'';
       const mk=c.mk?`<span class="tt-mk">${c.mk}</span>`:'';
       let inner=`<b>${isTest?'📝 ':''}${c.s}</b>${meta}${mk}`;
