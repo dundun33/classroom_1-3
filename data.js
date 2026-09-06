@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-05",
-  updateTime: "13:59",
+  updateISO: "2026-09-06",
+  updateTime: "18:48",
   /* 2学期の平常時間割（Classroom資料「9月7日～」/ 0907.pdf の3組列を抽出）。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)",
@@ -125,9 +125,6 @@ window.CLASSROOM_DATA = {
       thread:'総務',poster:'山本昂宏',posted:'7/17',url:'https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/Nzk4NDYzODMyMjkz'},
     {id:'act1',cat:'no',dateLabel:'夏休み',subject:'全体',title:'夏休み生徒活動日程表（クラブ・委員会等）【資料】',
       details:[],thread:'82回生',poster:'斉当かおり',posted:'7/14',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODcwNjUwOTE5NDQ3/details'},
-    {id:'bball3',cat:'no',date:'2026-08-30',dateLabel:'8/30 (日) 9:00 トスアップ',subject:'部活',title:'私学大会 第1回戦（日程確定）',
-      details:['8/30(日) 会場：横須賀学院','対戦相手：洗足学園 9:00 トスアップ','勝利の場合、12:45から2回戦（その後TOあり）','今後変更の可能性もあり。変更時は追って連絡'],
-      thread:'バスケ',poster:'山本昂宏',posted:'8/18',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0OTIyOTI2NjI1'},
     {id:'bsched1',cat:'no',dateLabel:'当面の間',subject:'部活',title:'2026年 9〜10月 練習日程表【資料】',
       details:['9/12(土)午後は麻生中・田島中との練習試合（麻生中フルメンバー）。詳細はリンク先PDFで確認を'],
       thread:'バスケ',poster:'山本昂宏',posted:'8/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODc1NzE2NTQ1MDI1/details'},
@@ -142,5 +139,8 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
+    {id:'mail-Q96HCZwqP2',cat:'no',date:'2026-09-06',dateLabel:'9/6 (日)',subject:'全体',title:'明日（9/7）の大雨への対応について',
+      details:['明日の通学時間帯に局地的な大雨予報','明朝6時に登校についてのメール連絡があるので必ず確認を'],
+      thread:'',poster:'保護者向けメール',posted:'9/6',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q96HCZwqP2'},
   ]
 };
