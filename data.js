@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-06",
-  updateTime: "19:07",
+  updateISO: "2026-09-07",
+  updateTime: "08:10",
   /* 2学期の平常時間割（Classroom資料「9月7日～」/ 0907.pdf の3組列を抽出）。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)",
@@ -28,10 +28,6 @@ window.CLASSROOM_DATA = {
   },
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
-    {id:'geo1',cat:'hw',date:'2026-08-31',dateLabel:'8/31 (月) まで',subject:'地理',title:'世界一周すごろく（夏休みの宿題）',
-      details:['世界一周すごろくは夏休みの宿題に変更','提出は8月31日の登校日','用紙はテスト返却の授業で配布予定'],
-      thread:'82回生',poster:'宮崎可奈子',posted:'7/6',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4MzkzMDgyMzYy'},
-
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
       details:['生徒玄関前に今年度の落とし物を展示中','終業式までに取りに来ないものは夏休み中に処分','貴重品は校務センターで預かり中(同じく終業式まで)'],thread:'82回生',poster:'西出春菜',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQzMzk2OTMy'},
@@ -77,12 +73,6 @@ window.CLASSROOM_DATA = {
     {id:'jig2',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部開室日程（9月）・コート予約販売',
       details:['9月の実業部開室日程・コートの予約販売案内。Classroom添付PDFで確認を（保護者と一緒に）'],
       thread:'82回生',poster:'宮地潤子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5MzEyOTk5ODEz/details'},
-    {id:'iinkai1',cat:'no',date:'2026-08-31',dateLabel:'8/31 (月)【総合委員の会】',subject:'全体',title:'ようこそ先輩 総合委員の会（8/31 終礼後・LL教室）',
-      details:['終礼後にLL教室にて会を実施。荷物をすべて持って集合'],
-      thread:'82回生',poster:'宮崎可奈子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NDYzNzY1MzE3'},
-    {id:'jisshi1',cat:'no',date:'2026-08-31',dateLabel:'8/31 (月)【行事委員へ】',subject:'全体',title:'十月祭 行事委員へ：チケット枚数調査',
-      details:['チケット6枚以上希望者の調査を本日中に実施するよう連絡','名簿に記録し、2学期最初の自治の会に持参'],
-      thread:'82回生',poster:'中尾有子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1MjM3OTM5OTE5'},
     {id:'explan1',cat:'no',date:'2026-09-06',dateLabel:'9/6 (日) 学校説明会',subject:'全体',title:'9/6(日) 学校説明会サポーターズ（申込済の方へ）',
       details:['集合は早い係で8:00頃、解散は遅い係で12:30頃の予定','申し込みをした方には始業式の日に説明の会を実施'],
       thread:'82回生',poster:'馬場友紀',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NDk4ODE0NDM1'},
@@ -139,8 +129,8 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
-    {id:'mail-Q96HCZwqP2',cat:'no',date:'2026-09-06',dateLabel:'9/6 (日)',subject:'全体',title:'明日（9/7）の大雨への対応について',
-      details:['明日の通学時間帯に局地的な大雨予報','明朝6時に登校についてのメール連絡があるので必ず確認を'],
-      thread:'',poster:'保護者向けメール',posted:'9/6',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q96HCZwqP2'},
+    {id:'mail-Q9761c758g',cat:'no',date:'2026-09-07',dateLabel:'9/7 (月) 本日休校・家庭学習',subject:'全体',title:'本日9/7(月)は大雨のため休校（家庭学習）',
+      details:['大雨による通学時の危険を考慮し、本日は終日生徒登校禁止・家庭学習','家庭学習中は英語テスト・漢字テスト・数学テスト（学力推移調査）の準備を（Classroom:大越佳子より）','明日以降の時間割は決定次第Classroomで連絡','本日は教員も原則出校せず、電話問い合わせには対応不可'],
+      thread:'',poster:'保護者向けメール',posted:'9/7',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9761c758g'},
   ]
 };
