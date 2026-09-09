@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-08",
-  updateTime: "15:31",
+  updateISO: "2026-09-09",
+  updateTime: "23:17",
   /* 2学期の平常時間割。9/7は大雨で休校、9/7のテスト等は9/8に移動(Classroom資料「9月8日〜」/ 0908.pdf の3組列を抽出)。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)【9/7は大雨のため休校・時程変更あり】",
@@ -28,6 +28,9 @@ window.CLASSROOM_DATA = {
   },
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
+    {id:'loilo1',cat:'hw',date:'2026-09-11',dateLabel:'9/11 (金) 8:40 まで',subject:'英語',title:'ロイロ提出: key p102〜103',
+      details:['ロイロノートの提出箱に期限までに提出'],thread:'ロイロ',poster:'',posted:'9/9'},
+
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
       details:['生徒玄関前に今年度の落とし物を展示中','終業式までに取りに来ないものは夏休み中に処分','貴重品は校務センターで預かり中(同じく終業式まで)'],thread:'82回生',poster:'西出春菜',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQzMzk2OTMy'},
@@ -121,6 +124,33 @@ window.CLASSROOM_DATA = {
     {id:'dantai1',cat:'no',date:'2026-09-10',dateLabel:'9/10 (木) 16:10 202【団体責任者へ】',subject:'全体',title:'団体責任者の会',
       details:['16:10〜202にて実施。学年コーナーの責任者も決まっていれば参加を'],
       thread:'82回生',poster:'中尾有子',posted:'9/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MDIyOTYxMDg5'},
+    {id:'sugaku_kyoshitsu1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'数学ダブル 教室入れ替え（2学期）',
+      details:['2学期のダブル授業の教室は1学期と逆に変更','前半クラス: 数学メディア／後半クラス: ホームルーム（座席順は変更なし）'],
+      thread:'82回生',poster:'山口朋子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDEwNzczMDgw'},
+    {id:'toshoiin1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'図書委員へ：曜日決定・仕事開始',
+      details:['明日から仕事開始','ロイロノートに送付されたカードを確認'],
+      thread:'82回生',poster:'久保文香',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NTI1ODgxMTg1'},
+    {id:'seikatsu1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'各クラス生活部部長へ：清掃方法の伝達',
+      details:['本日の終礼・自治の会で伝えた清掃方法を教室で伝達','特にごみの捨て方に注意'],
+      thread:'82回生',poster:'西出春菜',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTUyMjM5ODA5'},
+    {id:'zkai1',cat:'no',date:'2026-10-07',dateLabel:'10/7 (水) まで【希望者のみ】',optional:true,subject:'英語',title:'Z会 英語ライティング講座のお知らせ',
+      details:['学校専用講座で英作文添削を2回受けられる（個人申込不可）','英検合格・スコアアップを目指す人向け。本日終礼でチラシ配布'],
+      thread:'82回生',poster:'中尾有子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyODMzNDE5ODM0'},
+    {id:'gakunen_corner1',cat:'no',date:'2026-09-11',dateLabel:'9/11 (金) 昼休み〜 400【対象者へ】',subject:'全体',title:'十月祭 学年コーナー打ち合わせ',
+      details:['対象: 1学期全校委員・2学期全校委員・軽井沢委員・クラブ無所属の人','昼食持参で400教室に集合'],
+      thread:'82回生',poster:'大越佳子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTkyMzM0OTE3'},
+    {id:'ticket2',cat:'no',date:'2026-09-17',dateLabel:'9/17 (木) まで',subject:'全体',title:'十月祭 第2回チケット・ポスター申請',
+      details:['申請フォームより。チケットは渡す相手が決まっている場合のみ','1回目申請済みの人は委員からチケットを受け取り'],
+      thread:'82回生',poster:'中尾有子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU2MTE2MTIxMzc3'},
+    {id:'taiiku2',cat:'no',dateLabel:'当面の間',subject:'体育',title:'2学期の体育（石井先生クラス）は中間テストまで保健',
+      details:['これまでのプリント・教科書を持参'],
+      thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
+    {id:'engsummer1',cat:'no',date:'2026-09-08',dateLabel:'9/8 (火) 終礼',subject:'英語',title:'英語ウイニングサマー回収',
+      details:['本日終礼で回収。学芸部は名簿順にしてLL教室へ運搬'],
+      thread:'82回生',poster:'本木綾子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTU1MTQzMTIz'},
+    {id:'mathres1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'完成ノート3章1次方程式の利用【資料】',
+      details:['抜粋問題・解答のPDFを配信'],
+      thread:'82回生',poster:'森本奈央',posted:'9/8',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'keiribu1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 12:20 理科A【経理部部長へ】',subject:'全体',title:'経理部 2学期臨時部長会（9/4）',
@@ -156,5 +186,14 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q9761c758g',cat:'no',date:'2026-09-07',dateLabel:'9/7 (月) 本日休校・家庭学習',subject:'全体',title:'本日9/7(月)は大雨のため休校（家庭学習）',
       details:['大雨による通学時の危険を考慮し、本日は終日生徒登校禁止・家庭学習','家庭学習中は英語テスト・漢字テスト・数学テスト（学力推移調査）の準備を（Classroom:大越佳子より）','明日以降の時間割は決定次第Classroomで連絡','本日は教員も原則出校せず、電話問い合わせには対応不可'],
       thread:'',poster:'保護者向けメール',posted:'9/7',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9761c758g'},
+    {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
+      details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
+      thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
+    {id:'mail-Q98Jr9S7vT',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火) 14:35〜15:15 大ホール',optional:true,subject:'全体',title:'生徒による朗読会へのお誘い（保護者鑑賞可）',
+      details:['広島第一中学校一年生の遺族の手記『星は見ている』の朗読会（生徒会総務主催・生徒のみで上演）','全校生徒で鑑賞。保護者も鑑賞可（大ホール入口の受付へ、保護者証持参）'],
+      thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q998GNFrQo',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q98Jr9S7vT'},
+    {id:'mail-Q988Sdo1hM',cat:'no',date:'2026-09-08',dateLabel:'9/8 (火)',subject:'全体',title:'十月祭についてのお知らせ',
+      details:['終礼で配布した十月祭のお知らせをメールでもPDF配信','生徒は当日通常と異なる動きになるため、保護者へのお願いあり。添付PDFを確認を'],
+      thread:'',poster:'保護者向けメール',posted:'9/8',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q988Schtyl',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q988Sdo1hM'},
   ]
 };
