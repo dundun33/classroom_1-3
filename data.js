@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-09",
-  updateTime: "23:17",
+  updateISO: "2026-09-10",
+  updateTime: "13:32",
   /* 2学期の平常時間割。9/7は大雨で休校、9/7のテスト等は9/8に移動(Classroom資料「9月8日〜」/ 0908.pdf の3組列を抽出)。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)【9/7は大雨のため休校・時程変更あり】",
@@ -151,6 +151,9 @@ window.CLASSROOM_DATA = {
     {id:'mathres1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'完成ノート3章1次方程式の利用【資料】',
       details:['抜粋問題・解答のPDFを配信'],
       thread:'82回生',poster:'森本奈央',posted:'9/8',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details'},
+    {id:'bball5',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土)・9/20 (日)',subject:'部活',title:'川崎市総体（3年生最後の公式戦・1年生は参加なし）',
+      details:['9/19(土)1回戦: 東橘中と対戦、武蔵新城駅8:05集合、10:00トスアップ','9/20(日)2回戦: 南菅中にて、正門前7:30集合、8:45トスアップ','保護者観戦可。1年生は「ようこそ先輩」があるため参加不可'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcyODIxMDg0ODYx'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'keiribu1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 12:20 理科A【経理部部長へ】',subject:'全体',title:'経理部 2学期臨時部長会（9/4）',
@@ -195,5 +198,8 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q988Sdo1hM',cat:'no',date:'2026-09-08',dateLabel:'9/8 (火)',subject:'全体',title:'十月祭についてのお知らせ',
       details:['終礼で配布した十月祭のお知らせをメールでもPDF配信','生徒は当日通常と異なる動きになるため、保護者へのお願いあり。添付PDFを確認を'],
       thread:'',poster:'保護者向けメール',posted:'9/8',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q988Schtyl',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q988Sdo1hM'},
+    {id:'mail-Q99FEBibC9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'学園ニュースVol.294発行のお知らせ',
+      details:['9/10発行。附属校園の特集記事や連載など、閲覧URLを配信','読者アンケートへの協力依頼あり'],
+      thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
   ]
 };
