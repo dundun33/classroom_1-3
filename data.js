@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-10",
-  updateTime: "13:32",
+  updateISO: "2026-09-11",
+  updateTime: "10:29",
   /* 2学期の平常時間割。9/7は大雨で休校、9/7のテスト等は9/8に移動(Classroom資料「9月8日〜」/ 0908.pdf の3組列を抽出)。週次で差し替える。 */
   timetable: {
     label: "9/7(月)〜9/11(金)【9/7は大雨のため休校・時程変更あり】",
@@ -30,6 +30,8 @@ window.CLASSROOM_DATA = {
     /* --- 1. 宿題・提出物（締切順） --- */
     {id:'loilo1',cat:'hw',date:'2026-09-11',dateLabel:'9/11 (金) 8:40 まで',subject:'英語',title:'ロイロ提出: key p102〜103',
       details:['ロイロノートの提出箱に期限までに提出'],thread:'ロイロ',poster:'',posted:'9/9'},
+    {id:'loilo2',cat:'hw',date:'2026-09-12',dateLabel:'9/12 (土) 20:00 まで',subject:'数学',title:'ロイロ提出: 方程式の利用 抜粋No.1,2',
+      details:['ロイロノートの提出箱に期限までに提出'],thread:'ロイロ',poster:'',posted:'9/11'},
 
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
@@ -85,18 +87,6 @@ window.CLASSROOM_DATA = {
     {id:'cal9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9月カレンダー【資料】',
       details:['9月のスタディコモンズカレンダーを配信。教室にも掲示'],
       thread:'82回生',poster:'國澤恒久',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details'},
-    {id:'kyung1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 終礼後・サクラボ【交流会参加者】',subject:'全体',title:'韓国キョンヒ女子中学校交流会 参加者ミーティング',
-      details:['終礼後サクラボにて30分程度のミーティング'],
-      thread:'82回生',poster:'本木綾子',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTUxNTIwODc3'},
-    {id:'engcollins1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)【英会話 夏休み宿題 未提出者】',subject:'英語',title:'英会話 夏休み宿題（未提出者は今日中に）',
-      details:['スピーチ原稿と発表用画像を今日中に提出'],
-      thread:'82回生',poster:'Matthew Collins',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTQwMTQwMzUx'},
-    {id:'geo2',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)【地理 夏休みの宿題 未提出者】',subject:'地理',title:'地理 夏休みの宿題（登校日未提出者へ）',
-      details:['今日の終礼後すぐに3組教室へ持参し、直接手渡し'],
-      thread:'82回生',poster:'宮崎可奈子',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTcyNDkwMzkx'},
-    {id:'kouhou1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 終礼後・理科C【広報サポーターズ】',subject:'全体',title:'9/6学校説明会 広報サポーターズ 集合',
-      details:['終礼後すぐに理科Cに集合'],
-      thread:'82回生',poster:'馬場友紀',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTQyODg4NTIz'},
     {id:'gakugei1',cat:'no',date:'2026-09-09',dateLabel:'9/9 (水) 昼休み13:10 LL【学芸部部長へ】',subject:'全体',title:'学芸部部長 集合（9/7休校のため9/9に変更）',
       details:['9/9(水) 昼休み13:10にLLへ集合'],
       thread:'82回生',poster:'大越佳子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDczMDIzMzI3'},
@@ -154,14 +144,17 @@ window.CLASSROOM_DATA = {
     {id:'bball5',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土)・9/20 (日)',subject:'部活',title:'川崎市総体（3年生最後の公式戦・1年生は参加なし）',
       details:['9/19(土)1回戦: 東橘中と対戦、武蔵新城駅8:05集合、10:00トスアップ','9/20(日)2回戦: 南菅中にて、正門前7:30集合、8:45トスアップ','保護者観戦可。1年生は「ようこそ先輩」があるため参加不可'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcyODIxMDg0ODYx'},
+    {id:'bball6',cat:'no',date:'2026-09-12',dateLabel:'9/12 (土) 12:00〜',subject:'部活',title:'練習試合（麻生中・田島中）',
+      details:['対戦相手: 麻生中(準優勝校)・田島中(ベスト8)。会場: 日本女子','12時には体育館で準備','2年生は東北直前のため無理せず（欠席推奨）'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg0MjE1NTAwMDU2'},
+    {id:'engoc2',cat:'no',date:'2026-09-11',dateLabel:'9/11 (金)【英会話 1/2/3組】',subject:'英語',title:'英会話 OC授業（本日実施）持ち物案内',
+      details:['持ち物: iPad、Show and Tellスピーチ原稿、クリアファイル、筆箱','前半(出席1-20番): LL教室／後半(21-42番): 400教室','内容: スピーキング活動、スピーチ練習（発表は次回レッスン）'],
+      thread:'82回生',poster:'Matthew Collins',posted:'9/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyNzk0ODM4NDUx'},
+    {id:'kokugo1',cat:'no',date:'2026-09-11',dateLabel:'9/11 (金)【国語 1,2,3組】',subject:'国語',title:'国語(秦野) 2学期初回は文法の授業',
+      details:['テキスト「つまずかない！文法の学習」とノートを持参'],
+      thread:'82回生',poster:'附属中学校伝達用',posted:'9/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2OTc3MDI4MDkw'},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
-    {id:'keiribu1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) 12:20 理科A【経理部部長へ】',subject:'全体',title:'経理部 2学期臨時部長会（9/4）',
-      details:['9/4(金) 12:20〜 理科A にて臨時部長会。時間厳守で集合'],
-      thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1MzM2NzYxOTA4'},
-    {id:'keiri1',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金) まで【希望者のみ】',optional:true,subject:'課外活動',title:'十月祭 経理部チャリティー「マカロン付箋」デザイン募集',
-      details:['今年度の十月祭チャリティーは「マカロン付箋」を販売（経理部企画）','全校生徒からデザインを募集（希望者のみ）','添付資料を確認の上、9/4(金)までに提出'],
-      thread:'82回生',poster:'松本珠希',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NDY3NjA4MTI3'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
       details:['プレゼン・コンテストや企業訪問ができるイベント','締切など詳細は配布PDF／メール連絡網を確認','保護者と相談して参加を検討'],thread:'82回生',poster:'國澤恒久',posted:'6/8'},
     {id:'soumu3',cat:'no',dateLabel:'当面の間',subject:'全体',title:'総務サポーターズ 1学期振り返りアンケート',
@@ -183,7 +176,7 @@ window.CLASSROOM_DATA = {
     /* --- 部活（バスケ）：部活を隠すで一括非表示 --- */
     {id:'b4',cat:'no',dateLabel:'常時',subject:'部活',title:'欠席・遅刻連絡のルール',
       details:['休日の欠席・遅刻早退：保護者がメール連絡網（または電話）で連絡','平日練習に私用で出られない：連絡帳で提出','平日練習に学校活動（委員会・補習・再試・面談など）で出られない：口頭で顧問に連絡'],thread:'バスケ',poster:'山本昂宏',posted:'6/5'},
-    {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-09-04',dateLabel:'9/4 (金)',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
+    {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-10-22',dateLabel:'10/22 (木) 開催',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
     {id:'mail-Q9761c758g',cat:'no',date:'2026-09-07',dateLabel:'9/7 (月) 本日休校・家庭学習',subject:'全体',title:'本日9/7(月)は大雨のため休校（家庭学習）',
@@ -201,5 +194,8 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q99FEBibC9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'学園ニュースVol.294発行のお知らせ',
       details:['9/10発行。附属校園の特集記事や連載など、閲覧URLを配信','読者アンケートへの協力依頼あり'],
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
+    {id:'mail-Q9ADG4EHcf',cat:'no',dateLabel:'当面の間',subject:'全体',title:'標準服譲り渡しのお知らせ',
+      details:['「標準服譲り渡しのお知らせ」プリントを配布・PDF配信（中学校PTA厚生部）'],
+      thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf'},
   ]
 };
