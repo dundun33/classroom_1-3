@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-12",
-  updateTime: "10:02",
+  updateTime: "10:24",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -31,7 +31,7 @@ window.CLASSROOM_DATA = {
     /* --- 1. 宿題・提出物（締切順） --- */
 
     {"id":"loilo2","cat":"hw","date":"2026-09-12","dateLabel":"9/12 (土) 20:00 まで","subject":"数学","title":"ロイロ提出: 方程式の利用 抜粋No.1,2","details":["ロイロノートの提出箱に期限までに提出"],"thread":"ロイロ","poster":""},
-    {"id":"loilo3","cat":"hw","date":"2026-09-14","dateLabel":"9/14 (月) 8:30 まで","subject":"地理","title":"ロイロ提出: プリントNo.14 ヨーロッパ州 自然環境","details":["ロイロノートの提出箱に期限までに提出"],"thread":"ロイロ","poster":""},
+
     {"id":"loilo4","cat":"hw","date":"2026-09-18","dateLabel":"9/18 (金) 20:00 まで","subject":"国語","title":"ロイロ提出: 豆プリント①〜④","details":["丸つけと直しをして、写真をつなげて提出"],"thread":"ロイロ","poster":""},
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
