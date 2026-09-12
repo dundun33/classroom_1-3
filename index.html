@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>1-3 Classroomまとめ</title>
@@ -113,6 +114,12 @@
   td.tt-test.tt-today{background:#FCE2CF}
   .tt-test b{color:var(--now)}
   @media (max-width:480px){ body{padding:16px 12px 56px} }
+
+.preview-note{display:flex;gap:10px;align-items:center;color:#8c521b;font-size:12px;font-weight:700;margin-bottom:16px}.preview-note span{font-weight:400;color:var(--ink-soft)}
+.club-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}.club-head h2{font-size:18px;margin:0;font-family:"Zen Maru Gothic",sans-serif}.club-kicker{color:var(--ink-soft);font-size:12px;margin:4px 0 0}.club-nav{display:flex;align-items:center;gap:5px}.club-nav button,.club-nav select{font:inherit;font-size:12px;color:var(--ink);background:white;border:1px solid var(--line);border-radius:9px;min-height:36px;padding:6px 10px}.club-nav button{cursor:pointer}.club-nav button:disabled{opacity:.35;cursor:default}
+.club-panel{border:1px solid var(--line);border-radius:14px;background:white;overflow:hidden}.club-summary{background:#faf5ed;color:#805328;padding:10px 14px;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.club-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}.club-day{padding:10px 10px 12px;min-height:110px;border-right:1px solid var(--line);position:relative}.club-day:last-child{border:0}.club-date{font-size:13px;font-weight:700;display:flex;justify-content:space-between;margin-bottom:12px}.club-day.weekend .club-date{color:#8c521b}.club-day.weekend{background:#fffdfa}.club-badge{display:inline-block;font-size:10px;line-height:1.6;border-radius:5px;padding:2px 5px;margin-bottom:7px;background:#eff3fa;color:#536b99}.club-day.match .club-badge{color:#a04b26;background:#fce9dd}.club-day.morning .club-badge{color:#916500;background:#fff2c9}.club-day.uncertain .club-badge{color:#846015;background:#fcf1d9}.club-day h3{font-size:13px;line-height:1.65;margin:0 0 4px}.club-time{font-size:12px;font-weight:700;margin:0 0 4px}.club-place,.club-small{font-size:11px;line-height:1.65;color:var(--ink-soft);margin:0}.club-detail{margin-top:9px;border:0;padding:0;background:none;color:#607bb0;font:inherit;font-size:11px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}.club-empty{color:#8590a6;font-size:12px;margin:0}.club-foot{margin:9px 2px;font-size:11px;color:var(--ink-soft)}
+dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:calc(100% - 32px);padding:24px;color:var(--ink);box-shadow:0 20px 80px #1b2a4a33}dialog::backdrop{background:#1b2a4a66}dialog h3{margin:0 0 12px}dialog p{font-size:14px;line-height:1.8}dialog button{border:1px solid var(--line);border-radius:8px;padding:8px 20px;background:var(--head-soft);color:var(--ink);font:inherit}button:focus-visible,select:focus-visible{outline:3px solid #9caccb;outline-offset:3px}
+@media(max-width:640px){.club-grid{display:block}.club-day{display:grid;grid-template-columns:66px 1fr;gap:0 10px;min-height:0;padding:8px 14px;border:0;border-bottom:1px solid var(--line)}.club-day:last-child{border-bottom:0}.club-date{display:block;margin:0;font-size:12px}.club-date span{display:inline}.club-day h3{font-size:14px}.club-badge{margin-bottom:4px}.club-nav{width:100%}.club-nav select{flex:1}.club-head{gap:10px}.club-small{font-size:12px}.club-summary{font-size:11px}.club-foot{line-height:1.8}}
 </style>
 
 <div class="wrap">
@@ -138,6 +145,15 @@
     <div class="sec-head"><button type="button" class="cbtn" data-target="tt-box">−</button><h2 id="tt-title">時間割</h2><span class="count" id="tt-week"></span></div>
     <div class="tt-wrap" id="tt-box"><table class="tt"><thead id="tt-head"></thead><tbody id="tt-body"></tbody></table></div>
   </section>
+
+
+  <section id="sec-club" aria-labelledby="club-title">
+    <div class="club-head"><div><h2 id="club-title">🏀 バスケ予定</h2></div>
+    <nav class="club-nav" aria-label="バスケの表示週"><button id="club-prev" aria-label="前の週">‹</button><select id="club-weeks" aria-label="表示する週"></select><button id="club-next" aria-label="次の週">›</button><button id="club-home">時間割と同じ週</button></nav></div>
+    <div class="club-panel"><div class="club-grid" id="club-grid" aria-live="polite"></div></div>
+
+  </section>
+
 
   <section>
     <div class="sec-head"><button type="button" class="cbtn" data-target="box-hw">−</button><span class="sec-num">1</span><h2>宿題・提出物</h2><span class="count" id="cnt-hw"></span></div>
@@ -289,4 +305,35 @@ document.getElementById('foot').innerHTML=
   document.getElementById('tt-body').innerHTML=body;
 })();
 render();
+</script>
+
+<script>
+const CLUB_EVENTS=DATA.basketball?.events || {};
+const clubWeeks=[];
+const clubStart=pd(DATA.basketball?.start || DATA.updateISO);
+clubStart.setDate(clubStart.getDate()-(clubStart.getDay()+6)%7);
+const clubEnd=pd(DATA.basketball?.end || DATA.updateISO);
+for(let d=new Date(clubStart);d<=clubEnd;d.setDate(d.getDate()+7))clubWeeks.push(new Date(d));
+const schoolWeek=pd(DATA.timetable?.days?.[0]?.iso || DATA.updateISO);
+const clubHome=Math.max(0,Math.min(clubWeeks.length-1,Math.floor((schoolWeek-clubStart)/604800000)));
+let clubIndex=clubHome;
+const isoDate=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const shortDate=d=>`${d.getMonth()+1}/${d.getDate()}`;
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const weekSelect=document.getElementById('club-weeks');
+clubWeeks.forEach((d,i)=>{let end=new Date(d);end.setDate(end.getDate()+6);const o=document.createElement('option');o.value=i;o.textContent=shortDate(d)+'（月）〜'+shortDate(end)+'（日）';weekSelect.append(o)});
+const badges={practice:'通常練習',morning:'午前練習',match:'試合・大会',uncertain:'要確認',off:'参加なし',school:'学校予定'};
+function renderClub(){
+ document.getElementById('sec-club').hidden=!DATA.basketball || document.getElementById('hideClub').checked;
+ weekSelect.value=clubIndex;document.getElementById('club-prev').disabled=clubIndex===0;document.getElementById('club-next').disabled=clubIndex===clubWeeks.length-1;
+ let html='',special=0,uncertain=0;
+ for(let j=0;j<7;j++){let d=new Date(clubWeeks[clubIndex]);d.setDate(d.getDate()+j);const iso=isoDate(d),e=CLUB_EVENTS[iso];if(e?.kind==='match')special++;if(e?.kind==='uncertain')uncertain++;
+ const outside=iso<'2026-09-01'||iso>'2026-10-31';
+ html+=`<article class="club-day ${j>4?'weekend ':''}${e?.kind||''}"><div class="club-date"><span>${shortDate(d)}</span><span>（${WD[d.getDay()]}）</span></div><div>${e?`<span class="club-badge">${badges[e.kind]}</span><h3>${esc(e.title)}</h3>${e.time && e.time!=='時間記載なし'?`<p class="club-time">${esc(e.time)}</p>`:''}${e.place?`<p class="club-place">${esc(e.place)}</p>`:''}`:''}</div></article>`;
+ }
+ document.getElementById('club-grid').innerHTML=html;
+
+}
+weekSelect.onchange=()=>{clubIndex=Number(weekSelect.value);renderClub()};
+document.getElementById('club-prev').onclick=()=>{clubIndex--;renderClub()};document.getElementById('club-next').onclick=()=>{clubIndex++;renderClub()};document.getElementById('club-home').onclick=()=>{clubIndex=clubHome;renderClub()};document.getElementById('hideClub').addEventListener('change',renderClub);renderClub();
 </script>
