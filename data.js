@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-12",
-  updateTime: "15:27",
+  updateISO: "2026-09-14",
+  updateTime: "11:55",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -356,9 +356,9 @@ window.CLASSROOM_DATA = {
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
 
-    {"id":"loilo2","cat":"hw","date":"2026-09-12","dateLabel":"9/12 (土) 20:00 まで","subject":"数学","title":"ロイロ提出: 方程式の利用 抜粋No.1,2","details":["ロイロノートの提出箱に期限までに提出"],"thread":"ロイロ","poster":""},
-
-    {"id":"loilo4","cat":"hw","date":"2026-09-18","dateLabel":"9/18 (金) 20:00 まで","subject":"国語","title":"ロイロ提出: 豆プリント①〜④","details":["丸つけと直しをして、写真をつなげて提出"],"thread":"ロイロ","poster":""},
+    {id:'eng-myhero1',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) PBE授業内',subject:'英語',title:'My Hero 作品（ロイロカード）提出',
+      details:['ワークシートを使って、自分のヒーローを紹介する英文を作成','ロイロカードをPBE授業内で提出','全員分を十月祭で展示予定'],
+      thread:'英語',poster:'本木綾子',posted:'9/14',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0Njk1NTg2ODkx/details'},
     /* --- 2. 連絡事項（日付順） --- */
     {id:'otoshimono1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'落とし物の展示について',
       details:['生徒玄関前に今年度の落とし物を展示中','終業式までに取りに来ないものは夏休み中に処分','貴重品は校務センターで預かり中(同じく終業式まで)'],thread:'82回生',poster:'西出春菜',posted:'7/10',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwNDQzMzk2OTMy'},
@@ -404,9 +404,6 @@ window.CLASSROOM_DATA = {
     {id:'jig2',cat:'no',dateLabel:'当面の間',subject:'全体',title:'実業部開室日程（9月）・コート予約販売',
       details:['9月の実業部開室日程・コートの予約販売案内。Classroom添付PDFで確認を（保護者と一緒に）'],
       thread:'82回生',poster:'宮地潤子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5MzEyOTk5ODEz/details'},
-    {id:'explan1',cat:'no',date:'2026-09-06',dateLabel:'9/6 (日) 学校説明会',subject:'全体',title:'9/6(日) 学校説明会サポーターズ（申込済の方へ）',
-      details:['集合は早い係で8:00頃、解散は遅い係で12:30頃の予定','申し込みをした方には始業式の日に説明の会を実施'],
-      thread:'82回生',poster:'馬場友紀',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NDk4ODE0NDM1'},
     {id:'cal9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9月カレンダー【資料】',
       details:['9月のスタディコモンズカレンダーを配信。教室にも掲示'],
       thread:'82回生',poster:'國澤恒久',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details'},
