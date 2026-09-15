@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-14",
-  updateTime: "11:55",
+  updateISO: "2026-09-15",
+  updateTime: "11:04",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -371,6 +371,9 @@ window.CLASSROOM_DATA = {
     {id:'engtest1',cat:'no',dateLabel:'当面の間',subject:'英語',title:'英語 夏休み明けテスト範囲',
       details:['新中学問題集6〜8章すべて','ウイニングサマー 文章問題すべて（ただし8章は除く）・単語も出題'],
       thread:'82回生',poster:'本木綾子',posted:'8/31',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc2NTE0Njk1NTY4'},
+    {id:'engtest2',cat:'no',dateLabel:'当面の間',subject:'英語',title:'夏休み明けテスト 模範解答【資料】',
+      details:['休み明けテストの模範解答PDFを配信'],
+      thread:'英語',poster:'平岡裕子',posted:'9/15',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0ODU5NTg0MzE1/details'},
     {id:'eng5',cat:'no',dateLabel:'当面の間',subject:'英語',title:'夏休みの注意事項（英語科より）',
       details:['夏休み明けテスト：ウイニングサマー各単元の「この夏おぼえる単語」から10〜20個をスペル（英語）で覚える','Oxford Big Readコンテスト応募希望者：LL教室に画用紙あり（読んだ本のポスターを描いて応募）','Oxford Reading Clubマンスリーレポート：学習状況ページをスクショしてロイロの提出箱に提出'],
       thread:'82回生',poster:'本木綾子',posted:'7/17',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/Nzk4NDYyMzkyMjIy'},
@@ -453,9 +456,6 @@ window.CLASSROOM_DATA = {
     {id:'taiiku2',cat:'no',dateLabel:'当面の間',subject:'体育',title:'2学期の体育（石井先生クラス）は中間テストまで保健',
       details:['これまでのプリント・教科書を持参'],
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
-    {id:'engsummer1',cat:'no',date:'2026-09-08',dateLabel:'9/8 (火) 終礼',subject:'英語',title:'英語ウイニングサマー回収',
-      details:['本日終礼で回収。学芸部は名簿順にしてLL教室へ運搬'],
-      thread:'82回生',poster:'本木綾子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTU1MTQzMTIz'},
     {"id":"mathres1","cat":"no","dateLabel":"当面の間","subject":"数学","title":"完成ノート3章1次方程式の利用【資料】","details":["抜粋問題・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/8","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details"},
     {"id":"mathres2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"1次方程式の利用もっと（１）【資料】","details":["演習プリント・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/10","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"},
     {id:'bball5',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土)・9/20 (日)',subject:'部活',title:'川崎市総体（3年生最後の公式戦・1年生は参加なし）',
@@ -513,9 +513,6 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-10-22',dateLabel:'10/22 (木) 開催',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
-    {id:'mail-Q9761c758g',cat:'no',date:'2026-09-07',dateLabel:'9/7 (月) 本日休校・家庭学習',subject:'全体',title:'本日9/7(月)は大雨のため休校（家庭学習）',
-      details:['大雨による通学時の危険を考慮し、本日は終日生徒登校禁止・家庭学習','家庭学習中は英語テスト・漢字テスト・数学テスト（学力推移調査）の準備を（Classroom:大越佳子より）','明日以降の時間割は決定次第Classroomで連絡','本日は教員も原則出校せず、電話問い合わせには対応不可'],
-      thread:'',poster:'保護者向けメール',posted:'9/7',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9761c758g'},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
