@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-16",
-  updateTime: "10:13",
+  updateTime: "14:13",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -553,9 +553,5 @@ window.CLASSROOM_DATA = {
     {id:'eng-workshop-sep16',cat:'no',date:'2026-09-16',dateLabel:'9/16 (水) 英語ワークショップ',subject:'英語',title:'英語ワークショップ 持ち物・昼休み変更',
       details:['各クラスに外国人講師3名が来校','色を塗れる物（色ペン・色鉛筆・クーピー・クレヨン等）を持参','グループ分け・使用教室は添付表で確認','昼休みは11:40〜12:30に変更'],
       thread:'82回生',poster:'本木綾子',posted:'9/15',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MDU5ODM0Mjc2',hasLink:true},
-    {id:'loilo-math-equation-34',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'方程式の利用 抜粋No.3・4 提出',
-      details:[],thread:'ロイロ',poster:''},
-    {id:'loilo-eng-key-114',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 8:40 まで',subject:'英語',title:'Key p.114〜115 提出',
-      details:[],thread:'ロイロ',poster:''},
   ]
 };
