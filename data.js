@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-16",
-  updateTime: "16:11",
+  updateTime: "17:12",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -362,6 +362,9 @@ window.CLASSROOM_DATA = {
       details:[],thread:'ロイロ',poster:''},
     {id:'loilo-science-sedimentary-12',cat:'hw',date:'2026-09-18',dateLabel:'9/18 (金) 17:33 まで',subject:'理科2分野',title:'堆積岩No.12 提出',
       details:[],thread:'ロイロ',poster:''},
+    {id:'math-equation-resubmit-sep16',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'抜粋プリントNo.1・2 再提出',
+      details:['再提出期限は9/17(木) 20:00'],
+      thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
     {id:'eng-myhero1',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) PBE授業内',subject:'英語',title:'My Hero 作品（ロイロカード）提出',
       details:['ワークシートを使って、自分のヒーローを紹介する英文を作成','ロイロカードをPBE授業内で提出','全員分を十月祭で展示予定'],
       thread:'英語',poster:'本木綾子',posted:'9/14',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0Njk1NTg2ODkx/details'},
@@ -559,5 +562,14 @@ window.CLASSROOM_DATA = {
     {id:'eng-workshop-sep16',cat:'no',date:'2026-09-16',dateLabel:'9/16 (水) 英語ワークショップ',subject:'英語',title:'英語ワークショップ 持ち物・昼休み変更',
       details:['各クラスに外国人講師3名が来校','色を塗れる物（色ペン・色鉛筆・クーピー・クレヨン等）を持参','グループ分け・使用教室は添付表で確認','昼休みは11:40〜12:30に変更'],
       thread:'82回生',poster:'本木綾子',posted:'9/15',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MDU5ODM0Mjc2',hasLink:true},
+    {id:'soumu-welcome-speech-sep16',cat:'no',dateLabel:'当面の間',subject:'全体',title:'ようこそ先輩 グループ会のはじめ・終わりの言葉担当者へ',
+      details:['下書きをグループ会担当の先生または担任に確認してもらう','確認後、原稿用紙に清書。原稿用紙は総合委員から受け取る'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMDQyMTEwODQ5'},
+    {id:'kokugo-gakuryoku-sep16',cat:'no',dateLabel:'当面の間',subject:'国語',title:'国語 学力推移調査',
+      details:['問題を配布。力試しとして取り組む'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzA5NTA5OTE2'},
+    {id:'math-equation-more2-sep16',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（2）【資料】',
+      details:['演習プリントと解答のPDFを配信'],
+      thread:'数学',poster:'森本奈央',posted:'9/16',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQyNTE0NDMx/details'},
   ]
 };
