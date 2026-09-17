@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-17",
-  updateTime: "19:37",
+  updateTime: "22:12",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -359,8 +359,6 @@ window.CLASSROOM_DATA = {
     {id:'math-equation-resubmit-sep16',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'抜粋プリントNo.1・2 再提出',
       details:['再提出期限は9/17(木) 20:00'],
       thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
-    {id:'loilo-science-sedimentary12',cat:'hw',date:'2026-09-18',dateLabel:'9/18 (金) 17:33 まで',subject:'理科2分野',title:'堆積岩No.12 提出',
-      details:[],thread:'ロイロ',poster:''},
     {id:'eng-myhero1',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) PBE授業内',subject:'英語',title:'My Hero 作品（ロイロカード）提出',
       details:['ワークシートを使って、自分のヒーローを紹介する英文を作成','ロイロカードをPBE授業内で提出','全員分を十月祭で展示予定'],
       thread:'英語',poster:'本木綾子',posted:'9/14',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0Njk1NTg2ODkx/details'},
