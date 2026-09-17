@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-17",
-  updateTime: "11:11",
+  updateTime: "15:13",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -356,10 +356,6 @@ window.CLASSROOM_DATA = {
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
 
-    {id:'loilo-math-equation-extract-3-4',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'方程式の利用 抜粋No.3・4 提出',
-      details:[],thread:'ロイロ',poster:''},
-    {id:'loilo-science-sedimentary-12',cat:'hw',date:'2026-09-18',dateLabel:'9/18 (金) 17:33 まで',subject:'理科2分野',title:'堆積岩No.12 提出',
-      details:[],thread:'ロイロ',poster:''},
     {id:'math-equation-resubmit-sep16',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'抜粋プリントNo.1・2 再提出',
       details:['再提出期限は9/17(木) 20:00'],
       thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
@@ -417,9 +413,6 @@ window.CLASSROOM_DATA = {
     {id:'cal9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9月カレンダー【資料】',
       details:['9月のスタディコモンズカレンダーを配信。教室にも掲示'],
       thread:'82回生',poster:'國澤恒久',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details'},
-    {id:'gakugei1',cat:'no',date:'2026-09-09',dateLabel:'9/9 (水) 昼休み13:10 LL【学芸部部長へ】',subject:'全体',title:'学芸部部長 集合（9/7休校のため9/9に変更）',
-      details:['9/9(水) 昼休み13:10にLLへ集合'],
-      thread:'82回生',poster:'大越佳子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDczMDIzMzI3'},
     {id:'sekichu1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'脊柱そくわん検査（モアレ検査）10/1実施',
       details:['10/1(木) 13:00〜15:30 講堂北ホールで実施（クラスごと・詳細時間は後日連絡）','1年生全員対象。既に医療機関で受診・治療中の人は不要（連絡簿に記載し担任へ提出）'],
       thread:'82回生',poster:'西田早苗',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyNzU4ODU2Mzg1'},
@@ -484,8 +477,8 @@ window.CLASSROOM_DATA = {
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
       thread:'82回生',poster:'國澤恒久',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0MjU5ODc4OTA3'},
-    {id:'showtell1',cat:'no',dateLabel:'当面の間',subject:'英語',title:'英会話 Show and Tellスピーチ、来週発表',
-      details:['来週の授業でShow and Tellスピーチを発表。今週末に練習を','次の授業に清書用紙（final draft）を持参'],
+    {id:'showtell1',cat:'no',date:'2026-09-18',dateLabel:'9/18 (金)【英会話 1/2/3組】',subject:'英語',title:'英会話 Show and Tellスピーチ発表',
+      details:['9/18(金)の授業でShow and Tellスピーチを発表','自宅で練習し、清書用紙（final draft）を持参'],
       thread:'82回生',poster:'Matthew Collins',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0NDc0NDY1MjU0'},
     {"id":"soumu4","cat":"no","date":"2026-09-21","dateLabel":"9/21 (月) まで【希望者のみ】","optional":true,"subject":"全体","title":"2学期 総務サポーターズ募集","details":["活動は不定期。協力できる人はフォームから申し込みを","代表委員会議事録（配布分）は全校委員が下線部と「8.総務から」を読み上げ"],"thread":"82回生","poster":"山本昂宏","posted":"9/11","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0NDgyMTM2OTk0","hasLink":true},
     {id:'suiei1',cat:'no',date:'2026-09-14',dateLabel:'9/14 (月)〜',subject:'体育',title:'2学期 水泳の授業が開始',
@@ -566,6 +559,15 @@ window.CLASSROOM_DATA = {
     {id:'kokugo-gakuryoku-sep16',cat:'no',dateLabel:'当面の間',subject:'国語',title:'国語 学力推移調査',
       details:['問題を配布。力試しとして取り組む'],
       thread:'82回生',poster:'鈴木秀一',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzA5NTA5OTE2'},
+    {id:'kokugo-kanji-test-sep29',cat:'hw',date:'2026-09-29',dateLabel:'9/29 (月)【3・4・5・6組】',subject:'国語',title:'国語 漢字豆テスト',
+      details:['範囲: ステップ13〜15（P.63〜74）','3組は9/29(月)に実施'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1Mjk2NTAyMTYy'},
+    {id:'eng-workshop-feedback-sep16',cat:'no',date:'2026-09-16',dateLabel:'9/16 (水) 終礼',subject:'英語',title:'英語ワークショップ 振り返りアンケート・学芸部作業',
+      details:['参加者アンケートを終礼で実施','学芸部はTシャツの絵を名簿順に並べ、LL教室へ持参','英語の授業でピンクの冊子を再使用するためロッカーに保管'],
+      thread:'82回生',poster:'本木綾子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MjkxMDIxMTYz',hasLink:true},
+    {id:'math-equation-more1-sep10',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（1）【資料】',
+      details:[],
+      thread:'数学',poster:'森本奈央',posted:'9/10',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details'},
     {id:'math-equation-more2-sep16',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（2）【資料】',
       details:['演習プリントと解答のPDFを配信'],
       thread:'数学',poster:'森本奈央',posted:'9/16',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQyNTE0NDMx/details'},
