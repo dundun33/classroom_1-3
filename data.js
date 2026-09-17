@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-17",
-  updateTime: "15:13",
+  updateTime: "18:58",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -359,6 +359,8 @@ window.CLASSROOM_DATA = {
     {id:'math-equation-resubmit-sep16',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'抜粋プリントNo.1・2 再提出',
       details:['再提出期限は9/17(木) 20:00'],
       thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
+    {id:'loilo-science-sedimentary12',cat:'hw',date:'2026-09-18',dateLabel:'9/18 (金) 17:33 まで',subject:'理科2分野',title:'堆積岩No.12 提出',
+      details:[],thread:'ロイロ',poster:''},
     {id:'eng-myhero1',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) PBE授業内',subject:'英語',title:'My Hero 作品（ロイロカード）提出',
       details:['ワークシートを使って、自分のヒーローを紹介する英文を作成','ロイロカードをPBE授業内で提出','全員分を十月祭で展示予定'],
       thread:'英語',poster:'本木綾子',posted:'9/14',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0Njk1NTg2ODkx/details'},
@@ -422,9 +424,6 @@ window.CLASSROOM_DATA = {
     {id:'jikugai1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'十月祭5日間の流れ【資料】',
       details:['保護者あて配付の十月祭お知らせと合わせて確認を','印刷したものは今月末の「十月祭諸注意の会」で配付予定'],
       thread:'82回生',poster:'中尾有子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NzExNzczMDE3'},
-    {id:'sailor1',cat:'no',date:'2026-09-09',dateLabel:'9/9 (水) 放課後',optional:true,subject:'全体',title:'セーラー服出張販売',
-      details:['9/9(水)放課後に実施。用事がある生徒は校務センター前の小会議室へ'],
-      thread:'82回生',poster:'國澤恒久',posted:'9/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc3NTUxMDQ2Mjk2'},
     {id:'gika1',cat:'no',dateLabel:'当面の間',subject:'技術家庭',title:'技術・家庭科より（刺繍キット・今週の授業）',
       details:['宿題の刺繍キット：ロイロで返却があった人は授業初日の作品提出までに直す','今週の授業はサクラボで技術分野','持ち物: iPad(充電必須)、三角巾、刺繍キット、ファイル、技術の教科書、筆記用具（エコバッグ推奨）'],
       thread:'82回生',poster:'菊池菜々世',posted:'9/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDU0NTQxMTc0'},
@@ -513,6 +512,9 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-10-22',dateLabel:'10/22 (木) 開催',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
+    {id:'mail-Q9HF4mlmSW',cat:'no',date:'2026-09-17',dateLabel:'9/17 (木) 解散済み',subject:'82回生',title:'1・2・3組 国立西洋美術館見学 解散連絡',
+      details:['国立西洋美術館の見学を終え、15:04に現地解散','館内の作品に加え、晴れ間の中で館外の彫刻も鑑賞'],
+      thread:'',poster:'保護者向けメール',posted:'9/17',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9HF4mlmSW'},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
@@ -524,7 +526,7 @@ window.CLASSROOM_DATA = {
       details:['9/10発行。附属校園の特集記事や連載など、閲覧URLを配信','読者アンケートへの協力依頼あり'],
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
     {"id":"mail-Q9ADG4EHcf","cat":"no","dateLabel":"10/10 (土) 12:30〜14:00","subject":"全体","title":"標準服譲り渡しのお知らせ","details":["4階400教室。事前申込みなし・保護者1名のみ入場可","保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認","整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選","12:45からフリー入場（12:40から整列可）。売り切れ次第終了","子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"],"thread":"","poster":"保護者向けメール","posted":"9/10","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf","date":"2026-10-10","optional":true},
-    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105"]},
+    {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105","ロイロ提出箱で募集中"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木)","title":"英語 Unit 6 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"]},
