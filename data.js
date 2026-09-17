@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-17",
-  updateTime: "23:11",
+  updateISO: "2026-09-18",
+  updateTime: "07:23",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -428,9 +428,6 @@ window.CLASSROOM_DATA = {
       details:['宿題の刺繍キット：ロイロで返却があった人は授業初日の作品提出までに直す','今週の授業はサクラボで技術分野','持ち物: iPad(充電必須)、三角巾、刺繍キット、ファイル、技術の教科書、筆記用具（エコバッグ推奨）'],
       thread:'82回生',poster:'菊池菜々世',posted:'9/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDU0NTQxMTc0'},
 
-    {id:'dantai1',cat:'no',date:'2026-09-10',dateLabel:'9/10 (木) 16:10 202【団体責任者へ】',subject:'全体',title:'団体責任者の会',
-      details:['16:10〜202にて実施。学年コーナーの責任者も決まっていれば参加を'],
-      thread:'82回生',poster:'中尾有子',posted:'9/7',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MDIyOTYxMDg5'},
     {id:'sugaku_kyoshitsu1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'数学ダブル 教室入れ替え（2学期）',
       details:['2学期のダブル授業の教室は1学期と逆に変更','前半クラス: 数学メディア／後半クラス: ホームルーム（座席順は変更なし）'],
       thread:'82回生',poster:'山口朋子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDEwNzczMDgw'},
