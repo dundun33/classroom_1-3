@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-17",
-  updateTime: "18:58",
+  updateTime: "19:37",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -460,6 +460,9 @@ window.CLASSROOM_DATA = {
     {id:'bball5',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土)・9/20 (日)',subject:'部活',title:'川崎市総体（3年生最後の公式戦・1年生は参加なし）',
       details:['9/19(土)1回戦: 東橘中と対戦、武蔵新城駅8:05集合、10:00トスアップ','9/20(日)2回戦: 南菅中にて、正門前7:30集合、8:45トスアップ','保護者観戦可。1年生は「ようこそ先輩」があるため参加不可'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcyODIxMDg0ODYx'},
+    {id:'bball7',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) 7:35 集合',subject:'部活',title:'北地区シード決め大会（1・2年生）',
+      details:['はるひ野駅改札前に7:35集合。会場ははるひ野中','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','ユニフォームはリバーシブル。保護者観戦なし'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
     {id:'bball6',cat:'no',date:'2026-09-12',dateLabel:'9/12 (土) 12:00〜',subject:'部活',title:'練習試合（麻生中・田島中）',
       details:['対戦相手: 麻生中(準優勝校)・田島中(ベスト8)。会場: 日本女子','12時には体育館で準備','2年生は東北直前のため無理せず（欠席推奨）'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg0MjE1NTAwMDU2'},
