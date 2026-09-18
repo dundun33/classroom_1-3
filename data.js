@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-18",
-  updateTime: "14:12",
+  updateTime: "17:13",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -523,6 +523,9 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q9HF4mlmSW',cat:'no',date:'2026-09-17',dateLabel:'9/17 (木) 解散済み',subject:'82回生',title:'1・2・3組 国立西洋美術館見学 解散連絡',
       details:['国立西洋美術館の見学を終え、15:04に現地解散','館内の作品に加え、晴れ間の中で館外の彫刻も鑑賞'],
       thread:'',poster:'保護者向けメール',posted:'9/17',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9HF4mlmSW'},
+    {id:'mail-Q9IGO09EcP',cat:'no',dateLabel:'2027年度から',subject:'全体',title:'2027年度からの新たな体制についてのご報告（続報）',
+      details:['2027年度から中高の一体化・一貫化を進め、週6日制へ移行。授業は週33時間（土曜4時間・水曜5時間、ほかの曜日は6時間）','同じ内容の中高クラブを強制的に統合せず、合同活動も含めて引き続き検討','運動会・音楽会は中高別開催を継続。十月祭ともみじ祭は同日開催へ移行（行事委員会は中高別、文化祭時期はもみじ祭頃を想定）','文化祭に関する質問・意見の窓口は準備中のため、案内まで個別の先生への直接の質問・提出は控える'],
+      thread:'',poster:'保護者向けメール',posted:'9/18',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9IGO0WP3b',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9IGO09EcP'},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
