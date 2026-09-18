@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-18",
-  updateTime: "07:23",
+  updateTime: "09:13",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -361,6 +361,12 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
     {id:'loilo-science-sedimentary12',cat:'hw',date:'2026-09-18',dateLabel:'9/18 (金) 17:33 まで',subject:'理科2分野',title:'堆積岩No.12 提出',
       details:[],thread:'ロイロ',poster:''},
+    {id:'october-festival-shift-sep19',cat:'hw',date:'2026-09-19',dateLabel:'9/19 (土) 朝まで【十月祭学年担当者へ】',subject:'全体',title:'十月祭 当日シフト希望表の提出',
+      details:['当日のシフト希望表を、9/19(土)の朝までに6組のクラスボックスへ提出'],
+      thread:'82回生',poster:'大越佳子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1ODA4MTM5NjQw'},
+    {id:'gika-sakurabo-sep18',cat:'hw',dateLabel:'次回の授業まで【1・2・3・6組】',subject:'技術家庭',title:'技術・家庭科 サクラボ授業の準備・記事を読む宿題',
+      details:['次回もサクラボで授業を実施','iPad、教科書、ファイル、筆記用具をマイバッグ等にまとめて持参','添付記事を読んでくる'],
+      thread:'82回生',poster:'菊池菜々世',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0Njc1NDIzODEw'},
     {id:'eng-myhero1',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) PBE授業内',subject:'英語',title:'My Hero 作品（ロイロカード）提出',
       details:['ワークシートを使って、自分のヒーローを紹介する英文を作成','ロイロカードをPBE授業内で提出','全員分を十月祭で展示予定'],
       thread:'英語',poster:'本木綾子',posted:'9/14',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg0Njk1NTg2ODkx/details'},
@@ -573,5 +579,8 @@ window.CLASSROOM_DATA = {
     {id:'math-equation-more2-sep16',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（2）【資料】',
       details:['演習プリントと解答のPDFを配信'],
       thread:'数学',poster:'森本奈央',posted:'9/16',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQyNTE0NDMx/details'},
+    {id:'math-equation-test-sep18',cat:'no',dateLabel:'当面の間',subject:'数学',title:'方程式の利用 小テストについて【資料】',
+      details:['連休明けの小テストについて、試験範囲のPDFを配信','各自、添付の試験範囲PDFを確認'],
+      thread:'数学',poster:'森本奈央',posted:'9/18',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg1Mzc5NzMzMDY4/details'},
   ]
 };
