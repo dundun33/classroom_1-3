@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-18",
-  updateTime: "17:13",
+  updateTime: "18:14",
   /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
      クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
   timetable: {
@@ -587,5 +587,20 @@ window.CLASSROOM_DATA = {
     {id:'math-equation-test-sep18',cat:'no',dateLabel:'当面の間',subject:'数学',title:'方程式の利用 小テストについて【資料】',
       details:['連休明けの小テストについて、試験範囲のPDFを配信','各自、添付の試験範囲PDFを確認'],
       thread:'数学',poster:'森本奈央',posted:'9/18',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg1Mzc5NzMzMDY4/details'},
+    {id:'lost-property-sep19',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土) まで',subject:'全体',title:'忘れ物の引き取り',
+      details:['忘れ物を9/19(土)までに必ず取りに行く'],
+      thread:'82回生',poster:'大越佳子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY2Mzk5Njgx',hasLink:true},
+    {id:'festival-ticket-count-sep18',cat:'no',date:'2026-09-18',dateLabel:'9/18 (金) 中',subject:'全体',title:'十月祭チケット6枚以上の申請者：枚数連絡',
+      details:['第2回チケット・ポスター申請は締切済み','チケットを6枚以上で申請した人は、行事委員へ本日中に必要枚数を伝える'],
+      thread:'82回生',poster:'中尾有子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1ODMxMjQxNjk4'},
+    {id:'korean-exchange-sep18',cat:'no',date:'2026-09-18',dateLabel:'9/18 (金) 終礼後【参加者】',subject:'全体',title:'韓国キョンヒ女子中学校との交流会：集合',
+      details:['交流会参加者は終礼終了後すぐにリーフラボへ集合'],
+      thread:'82回生',poster:'本木綾子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTYzMjM2NzA0'},
+    {id:'festival-volunteer-sep25',cat:'no',date:'2026-09-25',dateLabel:'9/25 (金) まで',optional:true,subject:'全体',title:'十月祭 受付・行動進行係ボランティア募集',
+      details:['受付係・行動進行係のボランティアを募集','希望者は校務センターのカウンターにある用紙を記入し、提出箱へ提出','クラブ無所属の人は係を割り当て。9/24(木)にシフトを案内'],
+      thread:'82回生',poster:'山口朋子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTYxNzY5MjI3'},
+    {id:'oc-speech-makeup-sep25',cat:'no',date:'2026-09-25',dateLabel:'9/25 (金) 次回授業【1・2・3組】',subject:'英語',title:'OC Show and Tellスピーチ 未発表者：発表',
+      details:['9/15または9/18の授業を休み、スピーチを未発表の人が対象','1・2・3組は9/25(金)の次回授業で発表'],
+      thread:'82回生',poster:'Matthew Collins',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1ODQxNzM1NTk0'},
   ]
 };
