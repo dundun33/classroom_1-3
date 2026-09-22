@@ -6,25 +6,24 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-22",
-  updateTime: "12:13",
-  /* 2学期の平常時間割（Classroom資料「9月14日～」/ 0914.pdf の3組列を抽出）。木曜は西洋美術館見学/英語ワークショップが
-     クラス間でローテーションする特殊日で、3組の割当は資料からの推測（詳細はtt4アイテムのPDFで要確認）。週次で差し替える。 */
+  updateTime: "12:39",
+  /* Classroom資料「9月24日～」/ 0924.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
-    label: "9/14(月)〜9/18(金)",
+    label: "9/21(月)〜9/25(金)",
     days: [
-      {n:'月',md:'9/14',iso:'2026-09-14'},
-      {n:'火',md:'9/15',iso:'2026-09-15'},
-      {n:'水',md:'9/16',iso:'2026-09-16'},
-      {n:'木',md:'9/17',iso:'2026-09-17'},
-      {n:'金',md:'9/18',iso:'2026-09-18'},
+      {n:'月',md:'9/21',iso:'2026-09-21'},
+      {n:'火',md:'9/22',iso:'2026-09-22'},
+      {n:'水',md:'9/23',iso:'2026-09-23'},
+      {n:'木',md:'9/24',iso:'2026-09-24'},
+      {n:'金',md:'9/25',iso:'2026-09-25'},
     ],
     rows: [
-      [ {s:'数',t:'森本',r:'HR'},        {s:'ようこそ先輩準備の会',t:'',r:''}, {s:'英語ワークショップ',t:'',r:'',rs:3}, {s:'国立西洋美術館見学',t:'',r:'',rs:6,mk:'※要確認'}, {s:'数',t:'山口',r:'HR'} ],
-      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'英',t:'平岡',r:'HR'},        null,                                    null,                                  {s:'社',t:'平野',r:'HR'} ],
-      [ {s:'学活',t:'',r:''},           {s:'国',t:'鈴木',r:'HR'},          null,                                    null,                                  {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
-      [ {s:'英',t:'平岡・本木',r:'HR/405'}, {s:'体',t:'新谷',r:'二体'},       {s:'理',t:'大越・田悟',r:'理科A/D'},       null,                                  {s:'国',t:'鈴木',r:'HR'} ],
-      [ {s:'社',t:'宮崎',r:'HR'},        {s:'西洋美術館事前授業(HR)',t:'',r:'',rs:2}, {s:'美',t:'芝',r:'美術室',rs:2},   null,                                  {s:'礼法(大ホール)',t:'',r:'',rs:2,mk:'13:30整列'} ],
-      [ {s:'総合',t:'担任',r:'HR'},      null,                                    null,                              null,                                  null ],
+      [ {s:'敬老の日',t:'',r:'',rs:6}, {s:'国民の休日',t:'',r:'',rs:6}, {s:'秋分の日',t:'',r:'',rs:6}, {s:'国',t:'鈴木',r:'HR'},                         {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
+      [ null,                          null,                              null,                         {s:'体',t:'石井',r:'HR'},                         {s:'国',t:'秦野',r:'HR'} ],
+      [ null,                          null,                              null,                         {s:'英 Unit 6テスト',t:'磯崎・吉野',r:'HR/402',ref:'eng-unit6'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
+      [ null,                          null,                              null,                         {s:'数',t:'山口',r:'HR'},                         null ],
+      [ null,                          null,                              null,                         {s:'理',t:'松本',r:'理科A',rs:2},                 {s:'社',t:'宮崎',r:'HR'} ],
+      [ null,                          null,                              null,                         null,                                           {s:'数',t:'森本・山口',r:'HR/数メ'} ],
     ]
   },
   basketball: {
@@ -188,8 +187,8 @@ window.CLASSROOM_DATA = {
       "title": "午前練習",
       "time": "8:30〜12:00",
       "place": "第2・3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "インフルエンザ流行中のため、風邪症状がある場合は無理をしない。欠席時は連絡する。",
+      "source": "月間予定表・Classroom 9/20"
     },
     "2026-09-26": {
       "kind": "uncertain",
@@ -455,12 +454,21 @@ window.CLASSROOM_DATA = {
     {id:'bball5',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土)・9/20 (日)',subject:'部活',title:'川崎市総体（3年生最後の公式戦・1年生は参加なし）',
       details:['9/19(土)1回戦: 東橘中と対戦、武蔵新城駅8:05集合、10:00トスアップ','9/20(日)2回戦: 南菅中にて、正門前7:30集合、8:45トスアップ','保護者観戦可。1年生は「ようこそ先輩」があるため参加不可'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/10',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODcyODIxMDg0ODYx'},
+    {id:'bball-result-sep19',cat:'no',date:'2026-09-19',dateLabel:'9/19 (土) 結果',subject:'部活',title:'川崎市総合体育大会 1回戦結果',
+      details:['東橘中に23対57で敗退','3年生は全員出場し、最後まで前向きに声をかけ合って試合'],
+      thread:'バスケ',poster:'押切衣舞',posted:'9/19',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2MDYzOTMyNzQ1'},
+    {id:'bball-practice-sep23',cat:'no',date:'2026-09-23',dateLabel:'9/23 (水) 8:30〜12:00',subject:'部活',title:'9/23 午前練習・体調管理と欠席連絡',
+      details:['第2・3体育館で午前練習','インフルエンザ流行中のため、風邪症状がある場合は無理をしない','欠席する場合は、3年生・インフルエンザ罹患者を含め連絡'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/20',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2MTE4NjU2Njcx'},
     {id:'bball7',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) 7:35 集合',subject:'部活',title:'北地区シード決め大会（1・2年生）',
       details:['はるひ野駅改札前に7:35集合。会場ははるひ野中','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','ユニフォームはリバーシブル。保護者観戦なし'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
-    {id:'tt4',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9/14〜 時間割表（西洋美術館見学・英語ワークショップ等）【資料】',
+    {id:'tt4',cat:'no',date:'2026-09-18',dateLabel:'9/14 (月)〜9/18 (金)',subject:'全体',title:'9/14〜 時間割表（西洋美術館見学・英語ワークショップ等）【資料】',
       details:['第2学期の平常時間割表（1学年 全クラス分）','9/15夕方〜9/16・9/17にかけて「英語ワークショップ」と「国立西洋美術館見学」がクラス間でローテーション。9/18は5-6限に礼法（大ホール）','上の時間割セクションに3組分を反映（木曜のローテーション割当は資料からの推測のため、詳細はリンク先PDFで確認を）'],
       thread:'82回生',poster:'松本珠希',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg0NDc3MDk4OTk5/details'},
+    {id:'tt5',cat:'no',date:'2026-09-25',dateLabel:'9/21 (月)〜9/25 (金)',subject:'全体',title:'9/24〜 時間割表【資料】',
+      details:['9/21は敬老の日、9/22は国民の休日、9/23は秋分の日','9/24(木)・9/25(金)の3組時間割を上の時間割セクションに反映','9/24(木)3限の英語はUnit 6テスト'],
+      thread:'82回生',poster:'松本珠希',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODczMTYzMTM1MjUz/details'},
     {"id":"tosho2","cat":"no","dateLabel":"9/14〜9/17","subject":"全体","title":"図書室 臨時開館時間（9/14〜17）","details":["9/14(月)〜17(木)は臨時の時間で開館","入室可能時間: 8時20分から／閉館時間: 17時"],"thread":"82回生","poster":"久保文香","posted":"9/11","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0NTA0ODQ3NjU1","date":"2026-09-17"},
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
@@ -521,7 +529,7 @@ window.CLASSROOM_DATA = {
     {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105","ロイロ提出箱で募集中"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
-    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木)","title":"英語 Unit 6 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"]},
+    {"subject":"英語","thread":"82回生","poster":"本木綾子","posted":"9/19","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY4MzA0NzM5","id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木) 授業内","title":"英語 Unit 6 テスト","details":["範囲はKeyワーク p.102〜113","授業で使用している文法プリントも出題範囲"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit7","cat":"no","date":"2026-10-06","dateLabel":"10/6（資料の曜日表記に不一致あり）","title":"英語 Unit 7 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138","1・2・3組は10/6と記載。資料では月曜となっているが、暦上は火曜のため要確認"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit8","cat":"no","date":"2026-10-22","dateLabel":"10/22 (木)","title":"英語 Unit 8 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"]},
     {"id":"eng-oc-term2","cat":"no","dateLabel":"当面の間","subject":"英語","title":"OC 2学期予定・Show and Tell評価表","details":["第2回はShow and Tell発表。その後はクラブ紹介、English Firsthand Access Unit 3、ハロウィーン活動、期末試験準備","2学期の評価はShow and Tellと期末試験","スピーチは20点満点: 内容7点・明瞭さ4点・速さとリズム4点・アイコンタクト3点・写真等の視覚資料2点"],"thread":"英語","poster":"Matthew Collins","posted":"9/11","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MTM3ODkyNjM1","hasLink":true},
