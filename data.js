@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-25",
-  updateTime: "15:13",
+  updateTime: "16:13",
   /* Classroom資料「9月24日～」/ 0924.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/21(月)〜9/25(金)",
@@ -527,9 +527,9 @@ window.CLASSROOM_DATA = {
     {id:'tokyo-u-winter',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) から【希望者のみ】',optional:true,subject:'英語',title:'東京大学金曜特別講座 冬学期受講案内',
       details:['10/2(金)から冬学期を開始','17:30から自宅でオンライン受講できる人が対象','興味のある人は本木先生へ連絡'],
       thread:'82回生',poster:'本木綾子',posted:'9/15',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MTAxMDM1MzQ3',hasLink:true},
-    {id:'art-repair-sep',cat:'no',date:'2026-09-30',dateLabel:'9/16・9/28・9/30 補修日',subject:'美術',title:'「私の木」版画 補修日',
-      details:['2回目の授業までに完成していない、または完成が難しそうな人が対象','9/28(月)は朝・昼のみ'],
-      thread:'82回生',poster:'芝咲耶子',posted:'9/15',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMDMyOTMxMjcz'},
+    {id:'art-repair-sep',cat:'no',date:'2026-09-30',dateLabel:'9/28〜9/30 補修日（3・4・6組は9/29締切）',subject:'美術',title:'「私の木」版画 補修日',
+      details:['補習可能日は9/28(月)朝・昼、9/29(火)朝・昼、9/30(水)朝・昼・放課後','3・4・6組の締切は9/29(火)'],
+      thread:'82回生',poster:'芝咲耶子',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNDIyMzg5Njc2'},
     {id:'eng-gakuryoku-sep',cat:'no',dateLabel:'当面の間',subject:'英語',title:'英語 学力推移調査',
       details:['問題を配布。力試しとして取り組む'],
       thread:'82回生',poster:'本木綾子',posted:'9/15',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0ODY4OTc5NzY0'},
@@ -590,5 +590,26 @@ window.CLASSROOM_DATA = {
     {id:'bball-kawasaki-final-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土)【主に3年生向け】',subject:'部活',title:'川崎市総体 3・4回戦情報',
       details:['多摩スポーツセンターととどろきアリーナで市総体3・4回戦を実施','多摩スポーツセンターはA・Bコートとも9:15開始、10:30開始の2試合ずつ','制服またはチームウェアで来場。会場内でスマートフォンは使用禁止'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/24',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2NzQ4NDIzMzMw'},
+    {id:'kokugo-kanji-retest-sep25',cat:'hw',date:'2026-09-25',dateLabel:'9/25 (金) 16:10【該当者】',subject:'国語',title:'夏休み明け漢字テスト 再テスト',
+      details:['1年3組（403教室）で16:10から30分間実施','終礼当番は復習課題と、提出された漢字ノートを国語研究室入口の提出用かごへ提出'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5ODQ5NTc1ODc5'},
+    {id:'welcome-senior-followup-sep25',cat:'hw',date:'2026-09-25',dateLabel:'9/25 (金) 放課後【該当者】',subject:'全体',title:'ようこそ先輩：未提出のまとめ・お礼状作業',
+      details:['未完了・未提出の人は放課後に数メで作業を進める','総合委員は進捗を把握して連絡'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNDMxMjcyNjA1'},
+    {id:'festival-accounting-heads-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火) 4限終了後【各クラス経理部部長】',subject:'全体',title:'十月祭 部長会',
+      details:['理科Aで実施。弁当を持参','十月祭準備日・当日の立ち番を決めるため、予定が分かるものを持参'],
+      thread:'82回生',poster:'松本珠希',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjM2ODg3MzIw'},
+    {id:'cleaning-duty-sep25',cat:'no',date:'2026-09-25',dateLabel:'9/25 (金) 本日【生活部部長・教室当番】',subject:'全体',title:'臨時清掃のお知らせ',
+      details:['生活部部長はクラスに清掃当番を発表','教室当番は廊下まで清掃'],
+      thread:'82回生',poster:'西出春菜',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc1NTUwMzc5OTgw'},
+    {id:'soumu-supporters-sep28',cat:'no',date:'2026-09-28',dateLabel:'9/28 (月) 12:45〜13:20【総務サポーターズ】',subject:'全体',title:'2学期 総務サポーターズ顔合わせ',
+      details:['理科Cで顔合わせと十月祭についての会を実施。昼食を持参','十月祭の立ち番を依頼する可能性があるため、クラブ予定などを確認して参加'],
+      thread:'82回生',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjU4Nzk0OTE2'},
+    {id:'moshi-shoes-sep27',cat:'no',date:'2026-09-27',dateLabel:'9/27 (日) 模試実施日',subject:'全体',title:'生徒玄関の整理整頓のお願い',
+      details:['本校で模試を実施。4階は試験会場ではない','下校時は靴を下足箱へ入れ、靴以外の私物を生徒玄関に置かない'],
+      thread:'82回生',poster:'國澤恒久',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg2MjE3ODY5MDYw'},
+    {id:'math-gakuryoku-equation-sep25',cat:'no',dateLabel:'中間テストに向けて',subject:'数学',title:'学力推移調査「方程式の利用」の復習',
+      details:['学力推移調査の選択問題5番「方程式の利用」は中間テストの範囲','必ず取り組んでおく'],
+      thread:'数学',poster:'森本奈央',posted:'9/25',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY5ODQ4Mzg2MDg3'},
   ]
 };
