@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-24",
-  updateTime: "12:13",
+  updateISO: "2026-09-25",
+  updateTime: "15:13",
   /* Classroom資料「9月24日～」/ 0924.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/21(月)〜9/25(金)",
@@ -355,9 +355,6 @@ window.CLASSROOM_DATA = {
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
 
-    {id:'math-equation-resubmit-sep16',cat:'hw',date:'2026-09-17',dateLabel:'9/17 (木) 20:00 まで',subject:'数学',title:'抜粋プリントNo.1・2 再提出',
-      details:['再提出期限は9/17(木) 20:00'],
-      thread:'82回生',poster:'山口朋子',posted:'9/16',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1MzE2MDA2NTY4'},
     {id:'october-festival-shift-sep19',cat:'hw',date:'2026-09-19',dateLabel:'9/19 (土) 朝まで【十月祭学年担当者へ】',subject:'全体',title:'十月祭 当日シフト希望表の提出',
       details:['当日のシフト希望表を、9/19(土)の朝までに6組のクラスボックスへ提出'],
       thread:'82回生',poster:'大越佳子',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1ODA4MTM5NjQw'},
@@ -443,9 +440,6 @@ window.CLASSROOM_DATA = {
     {id:'zkai1',cat:'no',date:'2026-10-07',dateLabel:'10/7 (水) まで【希望者のみ】',optional:true,subject:'英語',title:'Z会 英語ライティング講座のお知らせ',
       details:['学校専用講座で英作文添削を2回受けられる（個人申込不可）','英検合格・スコアアップを目指す人向け。本日終礼でチラシ配布'],
       thread:'82回生',poster:'中尾有子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyODMzNDE5ODM0'},
-    {id:'ticket2',cat:'no',date:'2026-09-17',dateLabel:'9/17 (木) まで',subject:'全体',title:'十月祭 第2回チケット・ポスター申請',
-      details:['申請フォームより。チケットは渡す相手が決まっている場合のみ','1回目申請済みの人は委員からチケットを受け取り'],
-      thread:'82回生',poster:'中尾有子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODU2MTE2MTIxMzc3'},
     {id:'taiiku2',cat:'no',dateLabel:'当面の間',subject:'体育',title:'2学期の体育（石井先生クラス）は中間テストまで保健',
       details:['これまでのプリント・教科書を持参'],
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
@@ -469,7 +463,6 @@ window.CLASSROOM_DATA = {
     {id:'tt5',cat:'no',date:'2026-09-25',dateLabel:'9/21 (月)〜9/25 (金)',subject:'全体',title:'9/24〜 時間割表【資料】',
       details:['9/21は敬老の日、9/22は国民の休日、9/23は秋分の日','9/24(木)・9/25(金)の3組時間割を上の時間割セクションに反映','9/24(木)3限の英語はUnit 6テスト'],
       thread:'82回生',poster:'松本珠希',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODczMTYzMTM1MjUz/details'},
-    {"id":"tosho2","cat":"no","dateLabel":"9/14〜9/17","subject":"全体","title":"図書室 臨時開館時間（9/14〜17）","details":["9/14(月)〜17(木)は臨時の時間で開館","入室可能時間: 8時20分から／閉館時間: 17時"],"thread":"82回生","poster":"久保文香","posted":"9/11","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0NTA0ODQ3NjU1","date":"2026-09-17"},
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
       thread:'82回生',poster:'國澤恒久',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0MjU5ODc4OTA3'},
@@ -503,9 +496,6 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q94ALwMhmu',cat:'no',date:'2026-10-22',dateLabel:'10/22 (木) 開催',subject:'全体',title:'目白キャンパスめぐり・PTA親睦会のお知らせ',
       details:['10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内','参加希望の方はQRコードより申込み（プリントも配布済み）','Classroom(峯岸憲一)でも同内容が共有されています'],
       thread:'',poster:'保護者向けメール',posted:'9/4',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu'},
-    {id:'mail-Q9HF4mlmSW',cat:'no',date:'2026-09-17',dateLabel:'9/17 (木) 解散済み',subject:'82回生',title:'1・2・3組 国立西洋美術館見学 解散連絡',
-      details:['国立西洋美術館の見学を終え、15:04に現地解散','館内の作品に加え、晴れ間の中で館外の彫刻も鑑賞'],
-      thread:'',poster:'保護者向けメール',posted:'9/17',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9HF4mlmSW'},
     {id:'mail-Q9IGO09EcP',cat:'no',dateLabel:'2027年度から',subject:'全体',title:'2027年度からの新たな体制についてのご報告（続報）',
       details:['2027年度から中高の一体化・一貫化を進め、週6日制へ移行。授業は週33時間（土曜4時間・水曜5時間、ほかの曜日は6時間）','同じ内容の中高クラブを強制的に統合せず、合同活動も含めて引き続き検討','運動会・音楽会は中高別開催を継続。十月祭ともみじ祭は同日開催へ移行（行事委員会は中高別、文化祭時期はもみじ祭頃を想定）','文化祭に関する質問・意見の窓口は準備中のため、案内まで個別の先生への直接の質問・提出は控える'],
       thread:'',poster:'保護者向けメール',posted:'9/18',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9IGO0WP3b',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9IGO09EcP'},
@@ -579,5 +569,26 @@ window.CLASSROOM_DATA = {
     {id:'oc-speech-makeup-sep25',cat:'no',date:'2026-09-25',dateLabel:'9/25 (金) 次回授業【1・2・3組】',subject:'英語',title:'OC Show and Tellスピーチ 未発表者：発表',
       details:['9/15または9/18の授業を休み、スピーチを未発表の人が対象','1・2・3組は9/25(金)の次回授業で発表'],
       thread:'82回生',poster:'Matthew Collins',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg1ODQxNzM1NTk0'},
+    {id:'kokugo-nhk-last-lecture-oct4',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) まで【希望者のみ】',optional:true,subject:'国語',title:'NHK Eテレ「最後の講義」公開収録 参加者募集',
+      details:['小説家・重松清の公開収録。希望者は応募フォームから各自で申し込む','講義は11/8(日) 13:30から自由学園で実施。当選者は10/18頃にメール連絡予定','参加者は国語科の鈴木先生にも知らせる'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjYxNTA2OTcx',hasLink:true},
+    {id:'festival-shift-sep25',cat:'hw',date:'2026-09-25',dateLabel:'9/25 (金) 中',subject:'全体',title:'十月祭学年コーナー シフト希望表の提出',
+      details:['シフト希望表が未提出の人は、本日中に必ず提出'],
+      thread:'82回生',poster:'大越佳子',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNDIxNzQzODM1'},
+    {id:'welcome-senior-summary-sep25',cat:'hw',date:'2026-09-25',dateLabel:'9/25 (金) 提出',subject:'全体',title:'ようこそ先輩：まとめ・お礼状の清書と提出',
+      details:['まとめ係・お礼状係は、下書き確認後に総合委員から用紙を受け取り清書','総合委員は未完のまとめ台紙を放課後に校務センターで完成。難しい場合は終礼清掃後に403で作業'],
+      thread:'82回生',poster:'宮崎可奈子',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5ODI0MzUyNjgw'},
+    {id:'library-festival-note-sep25',cat:'hw',date:'2026-09-25',dateLabel:'9/25 (金) まで【図書委員】',subject:'全体',title:'図書委員：十月祭係分担表の確認',
+      details:['ロイロノートの共有ノート「十月祭」で係分担表を確認','不都合がある人は久保先生へ連絡'],
+      thread:'82回生',poster:'久保文香',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMzc4NzkzNDQw'},
+    {id:'festival-committee-sep24',cat:'no',date:'2026-09-24',dateLabel:'9/24 (木) 16:00【行事委員】',subject:'全体',title:'十月祭行事委員会 集合',
+      details:['行事委員は16:00に202教室へ集合'],
+      thread:'82回生',poster:'中尾有子',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTYwNTcxMTY1'},
+    {id:'festival-ticket-names-sep24',cat:'no',dateLabel:'当面の間',subject:'全体',title:'十月祭チケット：来校者氏名の記入',
+      details:['チケット裏面の生徒氏名・来校者氏名欄を記入してから招待者へ渡す','既に渡した場合は、招待者に来校者氏名の記入を依頼'],
+      thread:'82回生',poster:'中尾有子',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMjIxMDk1Mzc1'},
+    {id:'bball-kawasaki-final-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土)【主に3年生向け】',subject:'部活',title:'川崎市総体 3・4回戦情報',
+      details:['多摩スポーツセンターととどろきアリーナで市総体3・4回戦を実施','多摩スポーツセンターはA・Bコートとも9:15開始、10:30開始の2試合ずつ','制服またはチームウェアで来場。会場内でスマートフォンは使用禁止'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/24',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2NzQ4NDIzMzMw'},
   ]
 };
