@@ -6,24 +6,24 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-27",
-  updateTime: "20:29",
-  /* Classroom資料「9月24日～」/ 0924.pdf の3組列を抽出。週次で差し替える。 */
+  updateTime: "20:35",
+  /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
-    label: "9/21(月)〜9/25(金)",
+    label: "9/28(月)〜10/2(金)",
     days: [
-      {n:'月',md:'9/21',iso:'2026-09-21'},
-      {n:'火',md:'9/22',iso:'2026-09-22'},
-      {n:'水',md:'9/23',iso:'2026-09-23'},
-      {n:'木',md:'9/24',iso:'2026-09-24'},
-      {n:'金',md:'9/25',iso:'2026-09-25'},
+      {n:'月',md:'9/28',iso:'2026-09-28'},
+      {n:'火',md:'9/29',iso:'2026-09-29'},
+      {n:'水',md:'9/30',iso:'2026-09-30'},
+      {n:'木',md:'10/1',iso:'2026-10-01'},
+      {n:'金',md:'10/2',iso:'2026-10-02'},
     ],
     rows: [
-      [ {s:'敬老の日',t:'',r:'',rs:6}, {s:'国民の休日',t:'',r:'',rs:6}, {s:'秋分の日',t:'',r:'',rs:6}, {s:'国',t:'鈴木',r:'HR'},                         {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
-      [ null,                          null,                              null,                         {s:'体',t:'石井',r:'HR'},                         {s:'国',t:'秦野',r:'HR'} ],
-      [ null,                          null,                              null,                         {s:'英 Unit 6テスト',t:'磯崎・吉野',r:'HR/402',ref:'eng-unit6'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
-      [ null,                          null,                              null,                         {s:'数',t:'山口',r:'HR'},                         null ],
-      [ null,                          null,                              null,                         {s:'理',t:'松本',r:'HR',rs:2},                   {s:'社',t:'宮崎',r:'HR'} ],
-      [ null,                          null,                              null,                         null,                                           {s:'数',t:'森本・山口',r:'HR/数メ'} ],
+      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科A/B'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
+      [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
+      [ {s:'国',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
+      [ {s:'英',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
+      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'国',t:'鈴木',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR→北ホール',rs:2,mk:'14:00 HR出発'}, {s:'社',t:'平野',r:'HR'} ],
+      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:''},     null,                               null, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
     ]
   },
   basketball: {
@@ -191,12 +191,12 @@ window.CLASSROOM_DATA = {
       "source": "月間予定表・Classroom 9/20"
     },
     "2026-09-26": {
-      "kind": "uncertain",
-      "title": "総体3回戦／午後練習",
-      "time": "練習なら13:00〜16:00",
-      "place": "練習：第2・3体育館",
-      "detail": "大会の結果次第。負けたら午後練習。大会の会場・集合時刻は記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "kind": "practice",
+      "title": "TO講習会・午後練習",
+      "time": "10:45講習／12:15練習開始",
+      "place": "講習：3年1組（201）／練習：体育館",
+      "detail": "TO講習会は希望者対象。11:30〜12:00昼食、12:00〜12:15体育館準備。講習不参加者も12:15から練習開始。",
+      "source": "バスケClassroom 9/25"
     },
     "2026-09-27": {
       "kind": "uncertain",
@@ -590,5 +590,14 @@ window.CLASSROOM_DATA = {
     {id:'math-gakuryoku-equation-sep25',cat:'no',dateLabel:'中間テストに向けて',subject:'数学',title:'学力推移調査「方程式の利用」の復習',
       details:['学力推移調査の選択問題5番「方程式の利用」は中間テストの範囲','必ず取り組んでおく'],
       thread:'数学',poster:'森本奈央',posted:'9/25',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY5ODQ4Mzg2MDg3'},
+    {id:'kokugo-review-sep28',cat:'hw',date:'2026-09-28',dateLabel:'9/28 (月) 終礼【未提出者】',subject:'国語',title:'夏休み明け漢字テスト 復習課題の提出',
+      details:['復習課題が未提出の人は月曜日の終礼で提出','終礼当番は集めた課題を国語研究室の提出用かごへ提出'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/26',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MzA3MDkwMDcx'},
+    {id:'tt6',cat:'no',date:'2026-10-02',dateLabel:'9/28 (月)〜10/2 (金)',subject:'全体',title:'9/28〜 時間割表【資料】',
+      details:['3組の週間時間割を掲載','10/1(木)5・6限は学活からモアレ検査へ移動。3組は14:00にHRを出発し、14:10から検査','9/29(火)6限は朗読会'],
+      thread:'82回生',poster:'松本珠希',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5ODQ3NTAzNjQy/details'},
+    {id:'bball-practice-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土) 10:45〜',subject:'部活',title:'TO講習会・午後練習',
+      details:['希望者対象のTO講習会は10:45〜11:30、3年1組（201）で実施。iPad・筆記用具を持参','11:30〜12:00昼食、12:00〜12:15体育館準備、12:15練習開始','講習会に参加しない人も12:15から練習開始'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODY5ODQ5MTU3NTkz'},
   ]
 };
