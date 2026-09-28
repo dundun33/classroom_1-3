@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-28",
-  updateTime: "16:13",
+  updateTime: "22:12",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -20,10 +20,10 @@ window.CLASSROOM_DATA = {
     rows: [
       [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科A/B'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
       [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
-      [ {s:'国',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
-      [ {s:'英',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
-      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'国',t:'鈴木',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR→北ホール',rs:2,mk:'14:00 HR出発'}, {s:'社',t:'平野',r:'HR'} ],
-      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null,                               null, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
+      [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
+      [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
+      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'英',t:'平岡',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR',mk:'14:00 HR出発',ref:'tt6'}, {s:'社',t:'平野',r:'HR'} ],
+      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null, {s:'理',t:'松本',r:'理科A'}, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
     ]
   },
   basketball: {
@@ -504,7 +504,7 @@ window.CLASSROOM_DATA = {
       details:['9/10発行。附属校園の特集記事や連載など、閲覧URLを配信','読者アンケートへの協力依頼あり'],
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
     {"id":"mail-Q9ADG4EHcf","cat":"no","dateLabel":"10/10 (土) 12:30〜14:00","subject":"全体","title":"標準服譲り渡しのお知らせ","details":["4階400教室。事前申込みなし・保護者1名のみ入場可","保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認","整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選","12:45からフリー入場（12:40から整列可）。売り切れ次第終了","子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"],"thread":"","poster":"保護者向けメール","posted":"9/10","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf","date":"2026-10-10","optional":true},
-    {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105","ロイロ提出箱で募集中"]},
+    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
     {"subject":"英語","thread":"82回生","poster":"本木綾子","posted":"9/19","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY4MzA0NzM5","id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木) 授業内","title":"英語 Unit 6 テスト","details":["範囲はKeyワーク p.102〜113","授業で使用している文法プリントも出題範囲"]},
@@ -594,7 +594,7 @@ window.CLASSROOM_DATA = {
       details:['復習課題が未提出の人は月曜日の終礼で提出','終礼当番は集めた課題を国語研究室の提出用かごへ提出'],
       thread:'82回生',poster:'鈴木秀一',posted:'9/26',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MzA3MDkwMDcx'},
     {id:'tt6',cat:'no',date:'2026-10-02',dateLabel:'9/28 (月)〜10/2 (金)',subject:'全体',title:'9/28〜 時間割表【資料】',
-      details:['3組の週間時間割を掲載','10/1(木)5・6限は学活からモアレ検査へ移動。3組は14:00にHRを出発し、14:10から検査','9/29(火)6限は朗読会'],
+      details:['3組の週間時間割を掲載','10/1(木)は5限学活・6限理科。3組のモアレ検査は14:00 HR出発、14:10開始','9/29(火)6限は朗読会'],
       thread:'82回生',poster:'松本珠希',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5ODQ3NTAzNjQy/details'},
     {id:'bball-practice-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土) 10:45〜',subject:'部活',title:'TO講習会・午後練習',
       details:['希望者対象のTO講習会は10:45〜11:30、3年1組（201）で実施。iPad・筆記用具を持参','11:30〜12:00昼食、12:00〜12:15体育館準備、12:15練習開始','講習会に参加しない人も12:15から練習開始'],
@@ -626,7 +626,7 @@ window.CLASSROOM_DATA = {
     {id:'math-proportional-notes-sep28',cat:'no',dateLabel:'十月祭後最初の授業',subject:'数学',title:'比例・反比例 完成ノート解答【資料】',
       details:['比例・反比例の抜粋プリントと完成ノート解答を配信','十月祭後最初の授業で小テストを予定。詳細は後日連絡'],
       thread:'数学',poster:'山口朋子',posted:'9/28',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjQyMjc1MzY1/details'},
-    {id:'eng-grammar-check-sep28',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Grammar Check',details:[],
-      thread:'英語',poster:'本木綾子',posted:'9/28',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODg0NTA5NDcwODky'},
+    {id:'eng-grammar-check-sep28',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Grammar Check',details:['英文のスペル・文法を確認できるReversoのサイトを案内'],
+      thread:'英語',poster:'本木綾子',posted:'9/28',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODg0NTA5NDcwODky',hasLink:true},
   ]
 };
