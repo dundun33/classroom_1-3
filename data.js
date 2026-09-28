@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-27",
-  updateTime: "20:35",
+  updateISO: "2026-09-28",
+  updateTime: "16:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -23,7 +23,7 @@ window.CLASSROOM_DATA = {
       [ {s:'国',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
       [ {s:'英',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
       [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'国',t:'鈴木',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR→北ホール',rs:2,mk:'14:00 HR出発'}, {s:'社',t:'平野',r:'HR'} ],
-      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:''},     null,                               null, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
+      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null,                               null, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
     ]
   },
   basketball: {
@@ -599,5 +599,34 @@ window.CLASSROOM_DATA = {
     {id:'bball-practice-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土) 10:45〜',subject:'部活',title:'TO講習会・午後練習',
       details:['希望者対象のTO講習会は10:45〜11:30、3年1組（201）で実施。iPad・筆記用具を持参','11:30〜12:00昼食、12:00〜12:15体育館準備、12:15練習開始','講習会に参加しない人も12:15から練習開始'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODY5ODQ5MTU3NTkz'},
+    {id:'kokugo-kanji-reretest-sep29',cat:'hw',date:'2026-09-29',dateLabel:'9/29 (火) 14:10【該当者】',subject:'国語',title:'夏休み明け漢字テスト 再々テスト',
+      details:['再々テスト対象者と、欠席などで再テストを受けなかった人が対象','403教室（1年3組）で14:10から実施','終礼当番は提出済みの復習課題を集め、国語研究室入口の提出用かごへ入れる'],
+      thread:'82回生',poster:'鈴木秀一',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjM4MDUyMjI4'},
+    {id:'festival-living-heads-oct1',cat:'no',date:'2026-10-01',dateLabel:'10/1 (木) 終礼清掃後【生活部各クラス部長】',subject:'全体',title:'十月祭に向けた臨時会',
+      details:['2年2組教室で実施','十月祭の動きについて説明するため、必ず参加'],
+      thread:'82回生',poster:'西出春菜',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NTMyMDkzNTQ0'},
+    {id:'kokugo-saijiki-term-end-sep28',cat:'no',dateLabel:'当面の間',subject:'国語',title:'歳時記ノート：学期末のみ提出',
+      details:['2学期から提出は学期末のみ','提出がなくても、週に1ページは書く','教員からコメントが欲しい場合は、授業時に担当教員へ提出'],
+      thread:'82回生',poster:'西出春菜',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjI5MzI2MjQx'},
+    {id:'reading-drama-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火) 14:35 開始',subject:'全体',title:'朗読劇「星は見ている」鑑賞',
+      details:['5時間目終了後すぐ移動し、14:35までに着席','座席は始業式と同じ2学期の通常の座席','パンフレットは終礼で配布。保護者も来場予定'],
+      thread:'82回生',poster:'森本奈央',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNDM1NTAyOTA1'},
+    {id:'emergency-food-return-sep28',cat:'no',date:'2026-09-28',dateLabel:'9/28 (月) 持ち帰り',subject:'全体',title:'非常食の返却',
+      details:['消費期限が近い非常食を返却','各自、ビスケット2袋とアルファ米1袋を持ち帰る'],
+      thread:'82回生',poster:'宮地潤子',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg2MjAzMzM1NDY2'},
+    {id:'festival-meeting-locations-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火) 十月祭諸注意配布時',subject:'全体',title:'十月祭係の会場確認',
+      details:['配布される「十月祭5日間の流れ」に、自分の係の会場を書き込む'],
+      thread:'82回生',poster:'中尾有子',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg2MDU2NjU0OTA3'},
+    {id:'art-club-review-sep28',cat:'no',date:'2026-09-28',dateLabel:'9/28 (月) 終礼後【学芸部】',subject:'全体',title:'学芸部：絵画鑑賞文の回収',
+      details:['廊下に掲示している絵画の鑑賞文を全て外す','出席番号順に並べ替え、国語科研究室前のボックスへ入れる'],
+      thread:'82回生',poster:'西出春菜',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5ODg5MjE1MTkx'},
+    {id:'festival-committee-sep28',cat:'no',date:'2026-09-28',dateLabel:'9/28 (月) 16:00【行事委員】',subject:'全体',title:'十月祭行事委員会',
+      details:['202教室で16:00から実施','ラベル調査の紙を持参'],
+      thread:'82回生',poster:'中尾有子',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMzkwNzc5MDg2'},
+    {id:'math-proportional-notes-sep28',cat:'no',dateLabel:'十月祭後最初の授業',subject:'数学',title:'比例・反比例 完成ノート解答【資料】',
+      details:['比例・反比例の抜粋プリントと完成ノート解答を配信','十月祭後最初の授業で小テストを予定。詳細は後日連絡'],
+      thread:'数学',poster:'山口朋子',posted:'9/28',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjQyMjc1MzY1/details'},
+    {id:'eng-grammar-check-sep28',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Grammar Check',details:[],
+      thread:'英語',poster:'本木綾子',posted:'9/28',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODg0NTA5NDcwODky'},
   ]
 };
