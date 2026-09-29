@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "14:11",
+  updateTime: "16:12",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -627,5 +627,17 @@ window.CLASSROOM_DATA = {
     {"id":"festival-grade-meeting-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 13:10【学年コーナー担当者】","subject":"全体","title":"十月祭学年コーナー 担当者の会","details":["理科Bで実施","当日の当番と展示物等を確認"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU3NzAwNzA5"},
     {"id":"science2-outdoor-sep29","cat":"no","dateLabel":"今週から","subject":"理科","title":"理科2分野 屋外授業・持ち物確認","details":["今週から屋外で授業。必要な持ち物を確認しておく","雨天は理科室で実施。判断が難しい場合は当日朝にClassroomで連絡"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjU5NDg2NTg0"},
     {"id":"eng-unit6-answers-sep29","cat":"no","dateLabel":"当面の間","subject":"英語","title":"Unit 6 解答【資料】","details":["Unit 6の解答PDFを配布"],"thread":"英語","poster":"平岡裕子","posted":"9/29","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg3NjYzNzYyNTk2/details"},
+    {id:'math-equation-print-sep29',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) まで',subject:'数学',title:'方程式の利用 授業プリント（1）提出',
+      details:['授業プリント（1）は今週木曜日までに提出','早めに提出する'],
+      thread:'82回生',poster:'山口朋子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTYxMTY0ODgy'},
+    {id:'festival-labels-sep29',cat:'no',dateLabel:'至急【十月祭行事委員】',subject:'全体',title:'十月祭：机・椅子ラベルの貼付・調査用紙提出',
+      details:['ラベルが必要なクラスは封筒のラベルを受け取り、すぐに貼付','モールと工芸室の机・椅子には貼らない','調査用紙が未提出のクラスは至急提出'],
+      thread:'82回生',poster:'中尾有子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx'},
+    {id:'festival-charity-sep29',cat:'no',dateLabel:'当面の間',subject:'全体',title:'経理部チャリティー企画のお知らせ',
+      details:['チャリティー企画の案内PDFを配布','保護者と相談のうえ協力を検討','経理部部長は配布済みポスターをクラス内に掲示し、説明する'],
+      thread:'82回生',poster:'松本珠希',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0',hasLink:true},
+    {id:'festival-standing-duty-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 13:05【新聞・保健・図書委員】',subject:'全体',title:'十月祭：立ち番をする人の係の会',
+      details:['400教室で13:05から実施','該当者には今週中に顧問を通じて連絡','十月祭当日に係のあるクラブ所属者で、委員会希望を出し忘れた人も立ち番に入る場合がある'],
+      thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
   ]
 };
