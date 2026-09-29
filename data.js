@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "16:13",
+  updateTime: "18:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -487,6 +487,9 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q9PHeaYXzc',cat:'no',dateLabel:'当面の間',subject:'全体',title:'通学路の不審者について',
       details:['9/23の休日活動下校時、読売ランド前駅から正門までの通学路で高校生が不審者に遭遇（8月下旬の事案とは別件の可能性）','警察官による巡回などの対応を強化中','1人で登下校する際は周囲に注意し、不審者を見かけた・遭遇した場合は警察または警備員へ伝え、担任へ申し出る'],
       thread:'',poster:'保護者向けメール',posted:'9/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9PHeaYXzc'},
+    {id:'mail-Q9TGLc1mf2',cat:'no',date:'2026-10-05',dateLabel:'10/5 (月) 12:00 申込締切【希望者】',optional:true,subject:'全体',title:'十月祭チャリティー企画について',
+      details:['十月祭のマカロン付箋販売の収益を「令和8年熊本地震」への募金に充てる企画','趣旨に賛同する場合は、メール内リンクのフォームから10/5(月)12:00までに申込み','事前購入は保護者と生徒で申込個数を確認。クラスで案内プリントを配布'],
+      thread:'',poster:'保護者向けメール',posted:'9/29',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9TGLbQtb7',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9TGLc1mf2'},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
