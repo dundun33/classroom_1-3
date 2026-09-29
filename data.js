@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "10:11",
+  updateTime: "11:58",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -529,9 +529,6 @@ window.CLASSROOM_DATA = {
     {id:'science1-hr-sep24',cat:'no',date:'2026-09-24',dateLabel:'9/24 (木) 本日',subject:'理科',title:'理科1の授業教室変更【2・3・5組】',
       details:['本日の理科1はHR教室で実施'],
       thread:'82回生',poster:'松本珠希',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg2OTU5NDc4Njg0'},
-    {id:'math-equation-more1-sep10',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（1）【資料】',
-      details:[],
-      thread:'数学',poster:'森本奈央',posted:'9/10',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details'},
     {id:'math-equation-more2-sep16',cat:'no',dateLabel:'当面の間',subject:'数学',title:'1次方程式の利用もっと（2）【資料】',
       details:['演習プリントと解答のPDFを配信'],
       thread:'数学',poster:'森本奈央',posted:'9/16',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQyNTE0NDMx/details'},
