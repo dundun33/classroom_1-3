@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "13:13",
+  updateTime: "14:11",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -18,7 +18,7 @@ window.CLASSROOM_DATA = {
       {n:'金',md:'10/2',iso:'2026-10-02'},
     ],
     rows: [
-      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科A/B'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
+      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'屋外／雨天：理科室',mk:'持ち物確認',ref:'science2-outdoor-sep29'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
       [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
       [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
       [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
@@ -624,5 +624,8 @@ window.CLASSROOM_DATA = {
       thread:'数学',poster:'山口朋子',posted:'9/29',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3Njk3MjUzOTk5/details'},
     {"id":"bball-festival-flow-sep29","cat":"no","date":"2026-10-12","dateLabel":"10/8〜10/12【暫定・要確認】","subject":"部活","title":"十月祭の流れ（参考資料）","details":["昨年度版を基にした参考資料。正式版は後日配布、控室は未定","仮予定：10/8〜11は8:40集合。10/8は9:05練習開始、10/9は8:50練習開始","仮予定：10/10午前は部内戦、10/11午後は招待試合（1年生も参加）","仮予定：10/12は9:50まで自主練可、13:30最終下校。朝礼と後夜祭がともに10:15表記のため要確認","10/8〜11はiPadを持参しない。係・委員会活動を優先"],"thread":"バスケ","poster":"山本昂宏","posted":"9/29","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0","hasLink":true},
     {"id":"broadcast-festival-survey-sep29","cat":"hw","dateLabel":"今週中【2学期放送委員】","subject":"全体","title":"十月祭シフト希望アンケートの回答","details":["ロイロに配信された十月祭のシフト希望調査アンケートに、今週中に回答"],"thread":"82回生","poster":"遠山弥生","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3Njc1NjAzNzY5"},
+    {"id":"festival-grade-meeting-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 13:10【学年コーナー担当者】","subject":"全体","title":"十月祭学年コーナー 担当者の会","details":["理科Bで実施","当日の当番と展示物等を確認"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU3NzAwNzA5"},
+    {"id":"science2-outdoor-sep29","cat":"no","dateLabel":"今週から","subject":"理科","title":"理科2分野 屋外授業・持ち物確認","details":["今週から屋外で授業。必要な持ち物を確認しておく","雨天は理科室で実施。判断が難しい場合は当日朝にClassroomで連絡"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjU5NDg2NTg0"},
+    {"id":"eng-unit6-answers-sep29","cat":"no","dateLabel":"当面の間","subject":"英語","title":"Unit 6 解答【資料】","details":["Unit 6の解答PDFを配布"],"thread":"英語","poster":"平岡裕子","posted":"9/29","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg3NjYzNzYyNTk2/details"},
   ]
 };
