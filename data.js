@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "09:13",
+  updateTime: "10:11",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -454,7 +454,6 @@ window.CLASSROOM_DATA = {
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
       thread:'82回生',poster:'國澤恒久',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0MjU5ODc4OTA3'},
-    {"id":"soumu4","cat":"no","date":"2026-09-21","dateLabel":"9/21 (月) まで【希望者のみ】","optional":true,"subject":"全体","title":"2学期 総務サポーターズ募集","details":["活動は不定期。協力できる人はフォームから申し込みを","代表委員会議事録（配布分）は全校委員が下線部と「8.総務から」を読み上げ"],"thread":"82回生","poster":"山本昂宏","posted":"9/11","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0NDgyMTM2OTk0","hasLink":true},
     {id:'cal7',cat:'no',dateLabel:'当面の間',subject:'全体',title:'7月カレンダー【資料】',
       details:[],thread:'82回生',poster:'國澤恒久',posted:'6/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/Nzk4MzUwNTg4NDY5/details'},
     {id:'n7',cat:'no',dateLabel:'夏休み',optional:true,subject:'課外活動',title:'労働の未来会議2026（中高生向け社会学習）',
@@ -490,9 +489,6 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q9PHeaYXzc',cat:'no',dateLabel:'当面の間',subject:'全体',title:'通学路の不審者について',
       details:['9/23の休日活動下校時、読売ランド前駅から正門までの通学路で高校生が不審者に遭遇（8月下旬の事案とは別件の可能性）','警察官による巡回などの対応を強化中','1人で登下校する際は周囲に注意し、不審者を見かけた・遭遇した場合は警察または警備員へ伝え、担任へ申し出る'],
       thread:'',poster:'保護者向けメール',posted:'9/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9PHeaYXzc'},
-    {id:'mail-Q9KKxRVqeE',cat:'no',date:'2026-09-21',dateLabel:'9/21 (月) 生徒登校禁止',subject:'全体',title:'台風接近への対応について',
-      details:['台風接近に伴う大雨予想のため、9/21(月)は一部クラブ活動予定日だが生徒登校禁止','教員も出校しないため、電話での問い合わせには対応不可'],
-      thread:'',poster:'保護者向けメール',posted:'9/20',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9KKxRVqeE'},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
