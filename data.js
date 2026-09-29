@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-28",
-  updateTime: "22:12",
+  updateISO: "2026-09-29",
+  updateTime: "09:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -628,5 +628,11 @@ window.CLASSROOM_DATA = {
       thread:'数学',poster:'山口朋子',posted:'9/28',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjQyMjc1MzY1/details'},
     {id:'eng-grammar-check-sep28',cat:'no',dateLabel:'当面の間',subject:'英語',title:'Grammar Check',details:['英文のスペル・文法を確認できるReversoのサイトを案内'],
       thread:'英語',poster:'本木綾子',posted:'9/28',url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODg0NTA5NDcwODky',hasLink:true},
+    {id:'math-proportional-more1-sep29',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（1）【資料】',
+      details:['演習プリントと解答のPDFを配信'],
+      thread:'数学',poster:'山口朋子',posted:'9/29',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3Njk3MjUzOTk5/details'},
+    {id:'bball-festival-flow-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火)【バスケ部】',subject:'部活',title:'十月祭の流れ（参考資料）',
+      details:['1限の十月祭諸注意にあわせ、部内の流れを把握するための参考資料を案内','資料は昨年度版を基にした暫定版で、正しい内容は後日配布予定'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/29',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0'},
   ]
 };
