@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "12:23",
+  updateTime: "13:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -208,51 +208,51 @@ window.CLASSROOM_DATA = {
     },
     "2026-10-04": {
       "kind": "match",
-      "title": "地区交流会",
-      "time": "時間未定",
-      "place": "場所未定",
-      "detail": "1・2年生の大会。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "title": "北地区シード決め大会",
+      "time": "7:35集合／12:30頃解散",
+      "place": "はるひ野駅 → はるひ野中",
+      "detail": "1・2年生対象。8:50菅戦、最低2試合。リバーシブル持参、保護者観戦なし。",
+      "source": "バスケ投稿 9/17"
     },
     "2026-10-08": {
-      "kind": "practice",
-      "title": "十月祭準備・練習",
-      "time": "時間記載なし",
-      "place": "",
-      "detail": "準備日に練習あり。時間・場所の記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "kind": "uncertain",
+      "title": "十月祭準備・練習（仮）",
+      "time": "8:40集合／9:05練習開始",
+      "place": "第3体育館",
+      "detail": "昨年度版を基にした暫定資料。正式版待ち。13:00午後練習、15:00解散。希望者は16:30まで自主練可。",
+      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
     },
     "2026-10-09": {
-      "kind": "practice",
-      "title": "十月祭準備・練習",
-      "time": "時間記載なし",
-      "place": "",
-      "detail": "準備日に練習あり。時間・場所の記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "kind": "uncertain",
+      "title": "十月祭準備・練習（仮）",
+      "time": "8:40集合／8:50練習開始",
+      "place": "第3体育館",
+      "detail": "昨年度版を基にした暫定資料。正式版待ち。12:15午後自主練、14:00終了。",
+      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
     },
     "2026-10-10": {
-      "kind": "match",
-      "title": "十月祭・部内戦",
-      "time": "午前",
+      "kind": "uncertain",
+      "title": "十月祭・部内戦（仮）",
+      "time": "8:40集合／午前試合",
       "place": "",
-      "detail": "月間表は「AM部内戦」。試合の開始時刻・集合時刻は未記載。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "昨年度版を基にした暫定資料。正式版待ち。8:50写真撮影。1年生の部内戦あり。",
+      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
     },
     "2026-10-11": {
-      "kind": "match",
-      "title": "十月祭・招待試合",
-      "time": "午後",
+      "kind": "uncertain",
+      "title": "十月祭・招待試合（仮）",
+      "time": "8:40集合／午後試合",
       "place": "",
-      "detail": "サレジアン国際世田谷との招待試合。開始時刻・集合時刻は未記載。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "昨年度版を基にした暫定資料。正式版待ち。1年生は部内戦とサレジアンとの試合を予定。",
+      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
     },
     "2026-10-12": {
-      "kind": "school",
-      "title": "片付け日",
-      "time": "",
-      "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "kind": "uncertain",
+      "title": "片付け・自主練可（仮）",
+      "time": "〜9:50自主練／13:30最終下校",
+      "place": "体育館",
+      "detail": "昨年度版を基にした暫定資料。正式版待ち。朝礼と後夜祭の時刻に重複記載あり。正式版で要確認。",
+      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
     },
     "2026-10-13": {
       "kind": "uncertain",
@@ -434,9 +434,7 @@ window.CLASSROOM_DATA = {
     {id:'seikatsu1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'各クラス生活部部長へ：清掃方法の伝達',
       details:['本日の終礼・自治の会で伝えた清掃方法を教室で伝達','特にごみの捨て方に注意'],
       thread:'82回生',poster:'西出春菜',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTUyMjM5ODA5'},
-    {id:'zkai1',cat:'no',date:'2026-10-07',dateLabel:'10/7 (水) まで【希望者のみ】',optional:true,subject:'英語',title:'Z会 英語ライティング講座のお知らせ',
-      details:['学校専用講座で英作文添削を2回受けられる（個人申込不可）','英検合格・スコアアップを目指す人向け。本日終礼でチラシ配布'],
-      thread:'82回生',poster:'中尾有子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyODMzNDE5ODM0'},
+    {"id":"zkai1","cat":"no","date":"2026-10-07","dateLabel":"10/7 (水) まで【希望者のみ】","optional":true,"subject":"英語","title":"Z会 英語ライティング講座のお知らせ","details":["学校専用講座で英作文添削を2回受けられる（個人申込不可）","英検合格・スコアアップを目指す人向け。9/9にチラシ配布","9/29に締切を再案内。希望者は10/7(水)までに申し込む"],"thread":"82回生","poster":"中尾有子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjkyNzAyMjQ0"},
     {id:'taiiku2',cat:'no',dateLabel:'当面の間',subject:'体育',title:'2学期の体育（石井先生クラス）は中間テストまで保健',
       details:['これまでのプリント・教科書を持参'],
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
@@ -501,7 +499,7 @@ window.CLASSROOM_DATA = {
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
     {"id":"mail-Q9ADG4EHcf","cat":"no","dateLabel":"10/10 (土) 12:30〜14:00","subject":"全体","title":"標準服譲り渡しのお知らせ","details":["4階400教室。事前申込みなし・保護者1名のみ入場可","保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認","整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選","12:45からフリー入場（12:40から整列可）。売り切れ次第終了","子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"],"thread":"","poster":"保護者向けメール","posted":"9/10","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf","date":"2026-10-10","optional":true},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105"]},
-    {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115","ロイロ提出箱で募集中"]},
+    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
     {"subject":"英語","thread":"82回生","poster":"本木綾子","posted":"9/19","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY4MzA0NzM5","id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木) 授業内","title":"英語 Unit 6 テスト","details":["範囲はKeyワーク p.102〜113","授業で使用している文法プリントも出題範囲"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit7","cat":"no","date":"2026-10-06","dateLabel":"10/6（資料の曜日表記に不一致あり）","title":"英語 Unit 7 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138","1・2・3組は10/6と記載。資料では月曜となっているが、暦上は火曜のため要確認"]},
@@ -624,8 +622,7 @@ window.CLASSROOM_DATA = {
     {id:'math-proportional-more1-sep29',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（1）【資料】',
       details:['演習プリントと解答のPDFを配信'],
       thread:'数学',poster:'山口朋子',posted:'9/29',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3Njk3MjUzOTk5/details'},
-    {id:'bball-festival-flow-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火)【バスケ部】',subject:'部活',title:'十月祭の流れ（参考資料）',
-      details:['1限の十月祭諸注意にあわせ、部内の流れを把握するための参考資料を案内','資料は昨年度版を基にした暫定版で、正しい内容は後日配布予定'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/29',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0'},
+    {"id":"bball-festival-flow-sep29","cat":"no","date":"2026-10-12","dateLabel":"10/8〜10/12【暫定・要確認】","subject":"部活","title":"十月祭の流れ（参考資料）","details":["昨年度版を基にした参考資料。正式版は後日配布、控室は未定","仮予定：10/8〜11は8:40集合。10/8は9:05練習開始、10/9は8:50練習開始","仮予定：10/10午前は部内戦、10/11午後は招待試合（1年生も参加）","仮予定：10/12は9:50まで自主練可、13:30最終下校。朝礼と後夜祭がともに10:15表記のため要確認","10/8〜11はiPadを持参しない。係・委員会活動を優先"],"thread":"バスケ","poster":"山本昂宏","posted":"9/29","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0","hasLink":true},
+    {"id":"broadcast-festival-survey-sep29","cat":"hw","dateLabel":"今週中【2学期放送委員】","subject":"全体","title":"十月祭シフト希望アンケートの回答","details":["ロイロに配信された十月祭のシフト希望調査アンケートに、今週中に回答"],"thread":"82回生","poster":"遠山弥生","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3Njc1NjAzNzY5"},
   ]
 };
