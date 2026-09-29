@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "16:12",
+  updateTime: "16:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -590,9 +590,7 @@ window.CLASSROOM_DATA = {
     {id:'bball-practice-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土) 10:45〜',subject:'部活',title:'TO講習会・午後練習',
       details:['希望者対象のTO講習会は10:45〜11:30、3年1組（201）で実施。iPad・筆記用具を持参','11:30〜12:00昼食、12:00〜12:15体育館準備、12:15練習開始','講習会に参加しない人も12:15から練習開始'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODY5ODQ5MTU3NTkz'},
-    {id:'kokugo-kanji-reretest-sep29',cat:'hw',date:'2026-09-29',dateLabel:'9/29 (火) 14:10【該当者】',subject:'国語',title:'夏休み明け漢字テスト 再々テスト',
-      details:['再々テスト対象者と、欠席などで再テストを受けなかった人が対象','403教室（1年3組）で14:10から実施','終礼当番は提出済みの復習課題を集め、国語研究室入口の提出用かごへ入れる'],
-      thread:'82回生',poster:'鈴木秀一',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjM4MDUyMjI4'},
+    {"id":"kokugo-kanji-reretest-sep29","cat":"hw","date":"2026-09-29","dateLabel":"9/29 (火) 終礼・教室清掃後【該当者】","subject":"国語","title":"夏休み明け漢字テスト 再々テスト","details":["再々テスト対象者と、欠席などで再テストを受けなかった人が対象","開始時刻を変更。終礼終了後、1年3組（403教室）の清掃が終わり次第実施"],"thread":"82回生","poster":"鈴木秀一","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU4MTc1NTg5"},
     {id:'festival-living-heads-oct1',cat:'no',date:'2026-10-01',dateLabel:'10/1 (木) 終礼清掃後【生活部各クラス部長】',subject:'全体',title:'十月祭に向けた臨時会',
       details:['2年2組教室で実施','十月祭の動きについて説明するため、必ず参加'],
       thread:'82回生',poster:'西出春菜',posted:'9/28',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NTMyMDkzNTQ0'},
@@ -633,9 +631,7 @@ window.CLASSROOM_DATA = {
     {id:'festival-labels-sep29',cat:'no',dateLabel:'至急【十月祭行事委員】',subject:'全体',title:'十月祭：机・椅子ラベルの貼付・調査用紙提出',
       details:['ラベルが必要なクラスは封筒のラベルを受け取り、すぐに貼付','モールと工芸室の机・椅子には貼らない','調査用紙が未提出のクラスは至急提出'],
       thread:'82回生',poster:'中尾有子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx'},
-    {id:'festival-charity-sep29',cat:'no',dateLabel:'当面の間',subject:'全体',title:'経理部チャリティー企画のお知らせ',
-      details:['チャリティー企画の案内PDFを配布','保護者と相談のうえ協力を検討','経理部部長は配布済みポスターをクラス内に掲示し、説明する'],
-      thread:'82回生',poster:'松本珠希',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0',hasLink:true},
+    {"id":"festival-charity-sep29","cat":"no","dateLabel":"10/5 (月) 12:00 申込締切","subject":"全体","title":"経理部チャリティー企画のお知らせ","details":["マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画","事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入","在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）","支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置","経理部部長は配布済みポスターをクラス内に掲示し、説明する"],"thread":"82回生","poster":"松本珠希","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0","hasLink":true,"date":"2026-10-05"},
     {id:'festival-standing-duty-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 13:05【新聞・保健・図書委員】',subject:'全体',title:'十月祭：立ち番をする人の係の会',
       details:['400教室で13:05から実施','該当者には今週中に顧問を通じて連絡','十月祭当日に係のあるクラブ所属者で、委員会希望を出し忘れた人も立ち番に入る場合がある'],
       thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
