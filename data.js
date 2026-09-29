@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-30",
-  updateTime: "08:30",
+  updateTime: "08:33",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -18,7 +18,7 @@ window.CLASSROOM_DATA = {
       {n:'金',md:'10/2',iso:'2026-10-02'},
     ],
     rows: [
-      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'屋外／雨天：理科室',mk:'持ち物確認',ref:'science2-outdoor-sep29'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
+      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科室',mk:'教室変更',ref:'science2-room-sep30'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
       [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
       [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
       [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
@@ -502,7 +502,7 @@ window.CLASSROOM_DATA = {
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
     {"id":"mail-Q9ADG4EHcf","cat":"no","dateLabel":"10/10 (土) 12:30〜14:00","subject":"全体","title":"標準服譲り渡しのお知らせ","details":["4階400教室。事前申込みなし・保護者1名のみ入場可","保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認","整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選","12:45からフリー入場（12:40から整列可）。売り切れ次第終了","子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"],"thread":"","poster":"保護者向けメール","posted":"9/10","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf","date":"2026-10-10","optional":true},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105"]},
-    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
+    {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115","ロイロ提出箱で募集中"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
     {"subject":"英語","thread":"82回生","poster":"本木綾子","posted":"9/19","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY4MzA0NzM5","id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木) 授業内","title":"英語 Unit 6 テスト","details":["範囲はKeyワーク p.102〜113","授業で使用している文法プリントも出題範囲"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit7","cat":"no","date":"2026-10-06","dateLabel":"10/6（資料の曜日表記に不一致あり）","title":"英語 Unit 7 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138","1・2・3組は10/6と記載。資料では月曜となっているが、暦上は火曜のため要確認"]},
@@ -639,8 +639,6 @@ window.CLASSROOM_DATA = {
       details:['400教室で13:05から実施','該当者には今週中に顧問を通じて連絡','十月祭当日に係のあるクラブ所属者で、委員会希望を出し忘れた人も立ち番に入る場合がある'],
       thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
     {"id":"math-proportional-more2-sep29","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（2）【資料】","details":["演習プリントと解答のPDFを配布"],"thread":"数学","poster":"山口朋子","posted":"9/29","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNTYyNDc3MTc3/details"},
-    {id:'loilo-eng-new-chapter10-sep30',cat:'hw',date:'2026-10-05',dateLabel:'10/5 (月) 8:40 まで',subject:'英語',title:'新中問10章 p.106〜115',
-      details:['ロイロノートで提出'],
-      thread:'ロイロ',poster:''},
+    {"id":"science2-room-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 1限","subject":"理科","title":"理科2分野 本日は理科室で授業","details":["1・2・3組対象。本日9/30の授業は理科室で実施"],"thread":"82回生","poster":"大越佳子","posted":"9/30","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTQ0MDIyNTU4"},
   ]
 };
