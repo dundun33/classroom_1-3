@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-29",
-  updateTime: "18:13",
+  updateTime: "18:14",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -638,5 +638,6 @@ window.CLASSROOM_DATA = {
     {id:'festival-standing-duty-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 13:05【新聞・保健・図書委員】',subject:'全体',title:'十月祭：立ち番をする人の係の会',
       details:['400教室で13:05から実施','該当者には今週中に顧問を通じて連絡','十月祭当日に係のあるクラブ所属者で、委員会希望を出し忘れた人も立ち番に入る場合がある'],
       thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
+    {"id":"math-proportional-more2-sep29","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（2）【資料】","details":["演習プリントと解答のPDFを配布"],"thread":"数学","poster":"山口朋子","posted":"9/29","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNTYyNDc3MTc3/details"},
   ]
 };
