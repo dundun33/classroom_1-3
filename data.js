@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-30",
-  updateTime: "15:12",
+  updateTime: "16:12",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -645,5 +645,14 @@ window.CLASSROOM_DATA = {
     {"id":"math-equation-return-sep30","cat":"no","dateLabel":"当面の間","title":"方程式の利用 小テスト返却・解答配布","details":["40点満点の小テストを返却。解答PDFを配布","16点以上25点未満の人は課題なし。きちんと復習するよう案内あり"],"subject":"数学","thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
     {"id":"loilo-eng-key120-oct1","cat":"hw","date":"2026-10-01","dateLabel":"10/1 (木) 8:40 まで","subject":"英語","title":"key p.120–121","details":["ロイロノートで提出"],"thread":"ロイロ","poster":""},
     {"id":"loilo-eng-key122-oct2","cat":"hw","date":"2026-10-02","dateLabel":"10/2 (金) 8:40 まで","subject":"英語","title":"key p.122–123","details":["ロイロノートで提出"],"thread":"ロイロ","poster":""},
+    {id:'online-english-account-sep30',cat:'no',date:'2026-09-30',dateLabel:'9/30 (水) 本日中【申込・入金済みの方】',optional:true,subject:'英語',title:'10月〜3月 オンライン英会話：アカウントカード配布',
+      details:['本日終礼でアカウントカードを配布。申込み・入金済みで未配布の場合は、本日中に担任または英語科へ申し出る','10/5からレッスンの予約・受講が可能。自宅受講には本日配布のカードを使用','パスワードを3回以上間違えると一時的にロックされるため、早めにログインして入力を確認'],
+      thread:'82回生',poster:'斉当かおり',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODczNjAyOTcxNDA1/details'},
+    {id:'cal10',cat:'no',dateLabel:'当面の間',subject:'全体',title:'10月カレンダー【資料】',
+      details:['10月のカレンダーを配信','十月祭準備日の10/8・10/9は高校生のために開室。利用希望者は國澤先生に相談'],
+      thread:'82回生',poster:'國澤恒久',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5OTQwMzY4MTEw/details'},
+    {id:'festival-grade-duty-adjust-sep30',cat:'no',dateLabel:'至急【十月祭学年コーナー係】',subject:'全体',title:'十月祭 学年コーナー立ち番表の調整',
+      details:['カラー印刷した立ち番表を各クラスで1部用意','三浦さん・平野さんは、交代してもらえる人を探す'],
+      thread:'82回生',poster:'大越佳子',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0'},
   ]
 };
