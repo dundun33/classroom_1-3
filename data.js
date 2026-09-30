@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-09-30",
-  updateTime: "08:33",
+  updateTime: "10:12",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -502,7 +502,7 @@ window.CLASSROOM_DATA = {
       thread:'',poster:'保護者向けメール',posted:'9/10',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9'},
     {"id":"mail-Q9ADG4EHcf","cat":"no","dateLabel":"10/10 (土) 12:30〜14:00","subject":"全体","title":"標準服譲り渡しのお知らせ","details":["4階400教室。事前申込みなし・保護者1名のみ入場可","保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認","整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選","12:45からフリー入場（12:40から整列可）。売り切れ次第終了","子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"],"thread":"","poster":"保護者向けメール","posted":"9/10","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf","date":"2026-10-10","optional":true},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch9","cat":"hw","date":"2026-09-24","dateLabel":"9/24 (木) 8:40 まで","title":"新中問 第9章 提出","details":["提出範囲: p.98〜105"]},
-    {"subject":"英語","thread":"英語・ロイロ","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115","ロイロ提出箱で募集中"]},
+    {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch10","cat":"hw","date":"2026-10-05","dateLabel":"10/5 (月) 8:40 まで","title":"新中問 第10章 提出","details":["提出範囲: p.106〜115"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-ch13","cat":"hw","date":"2026-10-19","dateLabel":"10/19 (月) 8:40 まで","title":"新中問 第13章 提出","details":["提出範囲: p.134〜143"]},
     {"subject":"英語","thread":"82回生","poster":"本木綾子","posted":"9/19","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMTY4MzA0NzM5","id":"eng-unit6","cat":"no","date":"2026-09-24","dateLabel":"9/24 (木) 授業内","title":"英語 Unit 6 テスト","details":["範囲はKeyワーク p.102〜113","授業で使用している文法プリントも出題範囲"]},
     {"subject":"英語","thread":"英語","poster":"本木綾子","posted":"9/9","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0","hasLink":true,"id":"eng-unit7","cat":"no","date":"2026-10-06","dateLabel":"10/6（資料の曜日表記に不一致あり）","title":"英語 Unit 7 テスト","details":["毎回の小テストは行わず、ユニットテストを実施","単語も出題。資料記載の単語範囲はKeyワークp.108・124・138","1・2・3組は10/6と記載。資料では月曜となっているが、暦上は火曜のため要確認"]},
@@ -640,5 +640,8 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
     {"id":"math-proportional-more2-sep29","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（2）【資料】","details":["演習プリントと解答のPDFを配布"],"thread":"数学","poster":"山口朋子","posted":"9/29","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNTYyNDc3MTc3/details"},
     {"id":"science2-room-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 1限","subject":"理科","title":"理科2分野 本日は理科室で授業","details":["1・2・3組対象。本日9/30の授業は理科室で実施"],"thread":"82回生","poster":"大越佳子","posted":"9/30","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTQ0MDIyNTU4"},
+    {"id":"math-equation-retest-sep30","cat":"hw","date":"2026-09-30","dateLabel":"9/30 (水) 20:00 まで【11点以下対象】","title":"方程式の利用 小テスト 再試用の提出物","details":["小テスト11点以下の再試対象者は、やり直し答案と課題の2枚をロイロに提出"],"subject":"数学","thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
+    {"id":"math-equation-special-oct1","cat":"hw","date":"2026-10-01","dateLabel":"10/1 (木) 20:00 まで【12〜15点対象】","title":"方程式の利用 小テスト 特別課題","details":["小テスト12点以上15点以下の人は、特別課題をロイロに提出","期限までにきちんと取り組まない場合は再試の対象"],"subject":"数学","thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
+    {"id":"math-equation-return-sep30","cat":"no","dateLabel":"当面の間","title":"方程式の利用 小テスト返却・解答配布","details":["40点満点の小テストを返却。解答PDFを配布","16点以上25点未満の人は課題なし。きちんと復習するよう案内あり"],"subject":"数学","thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
   ]
 };
