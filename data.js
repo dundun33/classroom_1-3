@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-01",
-  updateTime: "09:07",
+  updateTime: "14:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -211,8 +211,8 @@ window.CLASSROOM_DATA = {
       "title": "北地区シード決め大会",
       "time": "7:35集合／12:30頃解散",
       "place": "はるひ野駅 → はるひ野中",
-      "detail": "1・2年生対象。8:50菅戦、最低2試合。リバーシブル持参、保護者観戦なし。",
-      "source": "バスケ投稿 9/17"
+      "detail": "1・2年生対象。8:50菅戦、2〜3試合。10:50 TO（試合運営担当）。リバーシブル持参、保護者観戦なし。",
+      "source": "バスケ投稿 9/30"
     },
     "2026-10-08": {
       "kind": "uncertain",
@@ -439,8 +439,8 @@ window.CLASSROOM_DATA = {
     {"id":"mathres1","cat":"no","dateLabel":"当面の間","subject":"数学","title":"完成ノート3章1次方程式の利用【資料】","details":["抜粋問題・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/8","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details"},
     {"id":"mathres2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"1次方程式の利用もっと（１）【資料】","details":["演習プリント・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/10","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"},
     {id:'bball7',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) 7:35 集合',subject:'部活',title:'北地区シード決め大会（1・2年生）',
-      details:['はるひ野駅改札前に7:35集合。会場ははるひ野中','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','ユニフォームはリバーシブル。保護者観戦なし'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
+      details:['はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）','ユニフォームはリバーシブル。保護者観戦なし'],
+      thread:'バスケ',poster:'山本昂宏',posted:'9/30',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
     {id:'tt5',cat:'no',date:'2026-09-25',dateLabel:'9/21 (月)〜9/25 (金)',subject:'全体',title:'9/24〜 時間割表【資料】',
       details:['9/21は敬老の日、9/22は国民の休日、9/23は秋分の日','9/24(木)・9/25(金)の3組時間割を上の時間割セクションに反映','9/24(木)3限の英語はUnit 6テスト'],
       thread:'82回生',poster:'松本珠希',posted:'9/18',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODczMTYzMTM1MjUz/details'},
