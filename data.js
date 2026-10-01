@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-01",
-  updateTime: "14:13",
+  updateTime: "16:13",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -627,10 +627,10 @@ window.CLASSROOM_DATA = {
     {id:'festival-labels-sep29',cat:'no',dateLabel:'至急【十月祭行事委員】',subject:'全体',title:'十月祭：机・椅子ラベルの貼付・調査用紙提出',
       details:['ラベルが必要なクラスは封筒のラベルを受け取り、すぐに貼付','モールと工芸室の机・椅子には貼らない','調査用紙が未提出のクラスは至急提出'],
       thread:'82回生',poster:'中尾有子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx'},
-    {"id":"festival-charity-sep29","cat":"no","dateLabel":"10/5 (月) 12:00 申込締切","subject":"全体","title":"経理部チャリティー企画のお知らせ","details":["マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画","事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入","在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）","支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置","経理部部長は配布済みポスターをクラス内に掲示し、説明する"],"thread":"82回生","poster":"松本珠希","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0","hasLink":true,"date":"2026-10-05"},
+    {"id":"festival-charity-sep29","cat":"no","dateLabel":"10/5 (月) 12:00 申込締切","subject":"全体","title":"経理部チャリティー企画のお知らせ","details":["マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画","事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入","9/30(火)16時頃までに申し込んだ人は、氏名欄がなかったため再申込みが必要。氏名を入力したか不明な場合も再申込み可（重複は確認対応）","在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）","支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置","経理部部長は配布済みポスターをクラス内に掲示し、説明する"],"thread":"82回生","poster":"松本珠希","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0","hasLink":true,"date":"2026-10-05"},
     {id:'festival-standing-duty-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 13:05【新聞・保健・図書委員】',subject:'全体',title:'十月祭：立ち番をする人の係の会',
-      details:['400教室で13:05から実施','該当者には今週中に顧問を通じて連絡','十月祭当日に係のあるクラブ所属者で、委員会希望を出し忘れた人も立ち番に入る場合がある'],
-      thread:'82回生',poster:'久保文香',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjMwMDc1NDk0'},
+      details:['400教室で13:05から実施','該当者には各委員会の顧問から連絡済み。窓際から新聞・保健・図書ごとに集まる','集合後は各委員会の委員長・副委員長が出欠を取る'],
+      thread:'82回生',poster:'久保文香',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNjE0MTU3MzU0'},
     {"id":"math-proportional-more2-sep29","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（2）【資料】","details":["演習プリントと解答のPDFを配布"],"thread":"数学","poster":"山口朋子","posted":"9/29","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNTYyNDc3MTc3/details"},
     {"id":"science2-room-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 1限","subject":"理科","title":"理科2分野 本日は理科室で授業","details":["1・2・3組対象。本日9/30の授業は理科室で実施"],"thread":"82回生","poster":"大越佳子","posted":"9/30","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTQ0MDIyNTU4"},
     {"id":"math-equation-retest-sep30","cat":"hw","date":"2026-09-30","dateLabel":"9/30 (水) 20:00 まで【11点以下対象】","title":"方程式の利用 小テスト 再試用の提出物","details":["小テスト11点以下の再試対象者は、やり直し答案と課題の2枚をロイロに提出"],"subject":"数学","thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
@@ -645,5 +645,8 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'大越佳子',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0'},
     {"id":"math-equation-retest-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 8:10【11点以下対象】","subject":"数学","title":"方程式の利用 小テスト再試：LL教室","details":["1・2・3組はLL教室で8:10から実施。遅刻厳禁","事前提出のやり直し答案・課題2枚は9/30(水)20:00までにロイロへ"],"thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
     {"id":"moire-change-clothes-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 昼休み","subject":"保健","title":"モアレ検査：昼休みに体育着へ着替え","details":["午後の検査に備え、昼休みに体育着へ着替える","食堂を利用する人は、食堂利用後に着替える"],"thread":"82回生","poster":"大越佳子","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1NDc5MzA2"},
+    {id:'oc-room-change-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 英会話後半',subject:'英語',title:'OC Class 教室変更',details:['英会話の授業は、前半は通常の教室、後半はRoom 400で実施'],thread:'82回生',poster:'Matthew Collins',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0'},
+    {id:'math-equation-show-oct1',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) 終礼後',subject:'数学',title:'方程式の利用プリント等を直接確認',details:['方程式の利用プリント（1）、抜粋No.3・4、抜粋No.5が未確認の人は、終礼後に402教室で直接見せる','数研の棚へ提出はできない'],thread:'82回生',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDM1MzAyMTg1'},
+    {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
   ]
 };
