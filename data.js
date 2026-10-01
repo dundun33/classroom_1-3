@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-09-30",
-  updateTime: "16:14",
+  updateISO: "2026-10-01",
+  updateTime: "09:07",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -22,7 +22,7 @@ window.CLASSROOM_DATA = {
       [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
       [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
       [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
-      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'英',t:'平岡',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR',mk:'14:00 HR出発',ref:'tt6'}, {s:'社',t:'平野',r:'HR'} ],
+      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'英',t:'平岡',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR',mk:'14:00 HR出発',ref:'sekichu1'}, {s:'社',t:'平野',r:'HR'} ],
       [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null, {s:'理',t:'松本',r:'理科A'}, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
     ]
   },
@@ -412,9 +412,7 @@ window.CLASSROOM_DATA = {
     {id:'cal9',cat:'no',dateLabel:'当面の間',subject:'全体',title:'9月カレンダー【資料】',
       details:['9月のスタディコモンズカレンダーを配信。教室にも掲示'],
       thread:'82回生',poster:'國澤恒久',posted:'9/4',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details'},
-    {id:'sekichu1',cat:'no',dateLabel:'当面の間',subject:'保健',title:'脊柱そくわん検査（モアレ検査）10/1実施',
-      details:['10/1(木) 13:00〜15:30 講堂北ホールで実施（クラスごと・詳細時間は後日連絡）','1年生全員対象。既に医療機関で受診・治療中の人は不要（連絡簿に記載し担任へ提出）'],
-      thread:'82回生',poster:'西田早苗',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyNzU4ODU2Mzg1'},
+    {"id":"sekichu1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 14:10〜14:30【3組】","subject":"保健","title":"脊柱そくわん検査（モアレ検査）","details":["3組は14:00に教室を出て、講堂北ホールで14:10〜14:30に検査","持ち物：体操服、髪の長い人は髪を束ねるもの（首・肩にかからないように）","髪は可能ならお団子にする。難しい場合は結ぶのみでも可","医療機関で側わんの治療・指導や経過観察中の人は学校での検査不要。連絡簿に記載して担任へ提出し、保健室にも知らせる","費用2,200円（税込）は予納金から支出"],"thread":"82回生","poster":"西田早苗","posted":"9/30","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyNzU4ODU2Mzg1","hasLink":true},
     {id:'bijutsu1',cat:'no',dateLabel:'当面の間',subject:'美術',title:'美術 2学期初回授業（持ち物案内）',
       details:['「私の木」版画の続きを実施。1学期と同じ持ち物を持参','持ち物: 絵の具セット(アキーラ・筆必須)、iPad、割烹着、クロッキー帳、筆記用具','アキーラの色が少ない人は早めに買い足しを'],
       thread:'82回生',poster:'芝咲耶子',posted:'9/8',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODY5NDk5MDg1NjY0'},
@@ -440,9 +438,6 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
     {"id":"mathres1","cat":"no","dateLabel":"当面の間","subject":"数学","title":"完成ノート3章1次方程式の利用【資料】","details":["抜粋問題・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/8","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details"},
     {"id":"mathres2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"1次方程式の利用もっと（１）【資料】","details":["演習プリント・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/10","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"},
-    {id:'bball-practice-sep23',cat:'no',date:'2026-09-23',dateLabel:'9/23 (水) 8:30〜12:00',subject:'部活',title:'9/23 午前練習・体調管理と欠席連絡',
-      details:['第2・3体育館で午前練習','インフルエンザ流行中のため、風邪症状がある場合は無理をしない','欠席する場合は、3年生・インフルエンザ罹患者を含め連絡'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/20',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2MTE4NjU2Njcx'},
     {id:'bball7',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) 7:35 集合',subject:'部活',title:'北地区シード決め大会（1・2年生）',
       details:['はるひ野駅改札前に7:35集合。会場ははるひ野中','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','ユニフォームはリバーシブル。保護者観戦なし'],
       thread:'バスケ',poster:'山本昂宏',posted:'9/17',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
@@ -628,9 +623,7 @@ window.CLASSROOM_DATA = {
     {"id":"festival-grade-meeting-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 13:10【学年コーナー担当者】","subject":"全体","title":"十月祭学年コーナー 担当者の会","details":["理科Bで実施","当日の当番と展示物等を確認"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU3NzAwNzA5"},
     {"id":"science2-outdoor-sep29","cat":"no","dateLabel":"今週から","subject":"理科","title":"理科2分野 屋外授業・持ち物確認","details":["今週から屋外で授業。必要な持ち物を確認しておく","雨天は理科室で実施。判断が難しい場合は当日朝にClassroomで連絡"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjU5NDg2NTg0"},
     {"id":"eng-unit6-answers-sep29","cat":"no","dateLabel":"当面の間","subject":"英語","title":"Unit 6 解答【資料】","details":["Unit 6の解答PDFを配布"],"thread":"英語","poster":"平岡裕子","posted":"9/29","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg3NjYzNzYyNTk2/details"},
-    {id:'math-equation-print-sep29',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) まで',subject:'数学',title:'方程式の利用 授業プリント（1）提出',
-      details:['授業プリント（1）は今週木曜日までに提出','早めに提出する'],
-      thread:'82回生',poster:'山口朋子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTYxMTY0ODgy'},
+    {"id":"math-equation-print-sep29","cat":"hw","date":"2026-10-01","dateLabel":"10/1 (木) 16:30 合格締切","subject":"数学","title":"方程式の利用（1）授業プリント 合格締切","details":["まだスタンプをもらっていない人は、朝のうちに数研へ提出","それ以降の提出は手渡しのみ受付","9/30締切のロイロ提出箱2つに間に合わなかった人は、授業後に見せられるよう準備"],"thread":"82回生","poster":"森本奈央","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1MzkzMjkz"},
     {id:'festival-labels-sep29',cat:'no',dateLabel:'至急【十月祭行事委員】',subject:'全体',title:'十月祭：机・椅子ラベルの貼付・調査用紙提出',
       details:['ラベルが必要なクラスは封筒のラベルを受け取り、すぐに貼付','モールと工芸室の机・椅子には貼らない','調査用紙が未提出のクラスは至急提出'],
       thread:'82回生',poster:'中尾有子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx'},
@@ -651,5 +644,6 @@ window.CLASSROOM_DATA = {
       details:['カラー印刷した立ち番表を各クラスで1部用意','三浦さん・平野さんは、交代してもらえる人を探す'],
       thread:'82回生',poster:'大越佳子',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0'},
     {"id":"math-equation-retest-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 8:10【11点以下対象】","subject":"数学","title":"方程式の利用 小テスト再試：LL教室","details":["1・2・3組はLL教室で8:10から実施。遅刻厳禁","事前提出のやり直し答案・課題2枚は9/30(水)20:00までにロイロへ"],"thread":"数学","poster":"森本奈央","posted":"9/30","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"},
+    {"id":"moire-change-clothes-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 昼休み","subject":"保健","title":"モアレ検査：昼休みに体育着へ着替え","details":["午後の検査に備え、昼休みに体育着へ着替える","食堂を利用する人は、食堂利用後に着替える"],"thread":"82回生","poster":"大越佳子","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1NDc5MzA2"},
   ]
 };
