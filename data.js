@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-01",
-  updateTime: "16:13",
+  updateTime: "16:15",
   /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
   timetable: {
     label: "9/28(月)〜10/2(金)",
@@ -20,7 +20,7 @@ window.CLASSROOM_DATA = {
     rows: [
       [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科室',mk:'教室変更',ref:'science2-room-sep30'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
       [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
-      [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'LL/400'} ],
+      [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'HR/400',mk:'教室変更',ref:'oc-room-change-oct2'} ],
       [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
       [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'英',t:'平岡',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR',mk:'14:00 HR出発',ref:'sekichu1'}, {s:'社',t:'平野',r:'HR'} ],
       [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null, {s:'理',t:'松本',r:'理科A'}, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
@@ -28,7 +28,7 @@ window.CLASSROOM_DATA = {
   },
   basketball: {
   "start": "2026-09-01",
-  "end": "2026-10-31",
+  "end": "2026-11-30",
   "events": {
     "2026-09-07": {
       "kind": "off",
@@ -97,42 +97,42 @@ window.CLASSROOM_DATA = {
     "2026-10-02": {
       "kind": "practice",
       "title": "練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "第3体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-05": {
       "kind": "practice",
       "title": "練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "第2体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-07": {
       "kind": "practice",
       "title": "練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "第3体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-16": {
       "kind": "practice",
       "title": "練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "第3体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-19": {
       "kind": "practice",
       "title": "練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "第2体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-09-12": {
       "kind": "match",
@@ -215,60 +215,60 @@ window.CLASSROOM_DATA = {
       "source": "バスケ投稿 9/30"
     },
     "2026-10-08": {
-      "kind": "uncertain",
-      "title": "十月祭準備・練習（仮）",
-      "time": "8:40集合／9:05練習開始",
-      "place": "第3体育館",
-      "detail": "昨年度版を基にした暫定資料。正式版待ち。13:00午後練習、15:00解散。希望者は16:30まで自主練可。",
-      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
+      "kind": "practice",
+      "title": "十月祭準備・練習",
+      "time": "",
+      "place": "",
+      "detail": "練習あり。細かい時程は9/29配信の暫定資料を参照（正式版待ち）。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-09": {
-      "kind": "uncertain",
-      "title": "十月祭準備・練習（仮）",
-      "time": "8:40集合／8:50練習開始",
-      "place": "第3体育館",
-      "detail": "昨年度版を基にした暫定資料。正式版待ち。12:15午後自主練、14:00終了。",
-      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
+      "kind": "practice",
+      "title": "十月祭準備・練習",
+      "time": "",
+      "place": "",
+      "detail": "練習あり。細かい時程は9/29配信の暫定資料を参照（正式版待ち）。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-10": {
-      "kind": "uncertain",
-      "title": "十月祭・部内戦（仮）",
-      "time": "8:40集合／午前試合",
+      "kind": "match",
+      "title": "十月祭・部内戦",
+      "time": "午前",
       "place": "",
-      "detail": "昨年度版を基にした暫定資料。正式版待ち。8:50写真撮影。1年生の部内戦あり。",
-      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
+      "detail": "集合時刻は未確定。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-11": {
-      "kind": "uncertain",
-      "title": "十月祭・招待試合（仮）",
-      "time": "8:40集合／午後試合",
+      "kind": "match",
+      "title": "十月祭・招待試合",
+      "time": "午後",
       "place": "",
-      "detail": "昨年度版を基にした暫定資料。正式版待ち。1年生は部内戦とサレジアンとの試合を予定。",
-      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
+      "detail": "対戦相手：サレジアン国際世田谷。集合時刻は未確定。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-12": {
       "kind": "uncertain",
-      "title": "片付け・自主練可（仮）",
-      "time": "〜9:50自主練／13:30最終下校",
-      "place": "体育館",
-      "detail": "昨年度版を基にした暫定資料。正式版待ち。朝礼と後夜祭の時刻に重複記載あり。正式版で要確認。",
-      "source": "バスケ投稿 9/29 添付PDF（仮の中の仮）"
+      "title": "片付け・午前練習？",
+      "time": "",
+      "place": "",
+      "detail": "午前に練習できる可能性あり。実施未確定。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-13": {
       "kind": "uncertain",
-      "title": "午後練習？",
+      "title": "振替休日・午後練習？",
       "time": "予定 13:00〜16:00",
-      "place": "第3体育館",
-      "detail": "振替休日。「練習する？そもそもできない？？」との備考があり、実施未確定。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "place": "",
+      "detail": "参加人数を確認して相談後に実施を決定。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-14": {
       "kind": "school",
       "title": "振替休日",
       "time": "",
       "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-17": {
       "kind": "morning",
@@ -276,7 +276,7 @@ window.CLASSROOM_DATA = {
       "time": "8:30〜12:00",
       "place": "第2・3体育館",
       "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-20": {
       "kind": "school",
@@ -287,20 +287,20 @@ window.CLASSROOM_DATA = {
       "source": "月間予定表「2026年9-10月.pdf」"
     },
     "2026-10-21": {
-      "kind": "uncertain",
+      "kind": "practice",
       "title": "承諾書提出者は練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "",
-      "detail": "承諾書提出者が対象。場所・時刻は記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "承諾書を提出した人が対象。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-23": {
-      "kind": "uncertain",
+      "kind": "practice",
       "title": "承諾書提出者は練習",
-      "time": "時間記載なし",
+      "time": "",
       "place": "",
-      "detail": "承諾書提出者が対象。場所・時刻は記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "承諾書を提出した人が対象。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-24": {
       "kind": "match",
@@ -349,9 +349,130 @@ window.CLASSROOM_DATA = {
       "place": "第3体育館",
       "detail": "昼食持参。中間テスト後に練習あり。",
       "source": "月間予定表「2026年9-10月.pdf」"
+    },
+    "2026-11-02": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-04": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-06": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-09": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-11": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-13": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-16": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-20": {
+      "kind": "practice",
+      "title": "練習",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-03": {
+      "kind": "morning",
+      "title": "午前練習・午後自主練可",
+      "time": "8:30〜12:00",
+      "place": "第3体育館",
+      "detail": "文化の日。午後は自主練可。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-08": {
+      "kind": "morning",
+      "title": "午前練習",
+      "time": "8:30〜12:00",
+      "place": "第2・3体育館",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-14": {
+      "kind": "practice",
+      "title": "午後練習",
+      "time": "13:00〜16:00",
+      "place": "第3体育館",
+      "detail": "午前は入試体験会。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-18": {
+      "kind": "school",
+      "title": "1・2年 家庭学習日",
+      "time": "",
+      "place": "",
+      "detail": "3年生は高校面接。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-21": {
+      "kind": "uncertain",
+      "title": "午前練習？（午後の可能性）",
+      "time": "",
+      "place": "",
+      "detail": "午前なら8:30〜12:00。午後へ変更の可能性があり、時間帯は未確定。",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-23": {
+      "kind": "school",
+      "title": "勤労感謝の日",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-11-24": {
+      "kind": "school",
+      "title": "テスト1週間前",
+      "time": "",
+      "place": "",
+      "detail": "",
+      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     }
   }
 },
+
   items: [
     /* --- 1. 宿題・提出物（締切順） --- */
 
@@ -482,9 +603,7 @@ window.CLASSROOM_DATA = {
     {id:'mail-Q9PHeaYXzc',cat:'no',dateLabel:'当面の間',subject:'全体',title:'通学路の不審者について',
       details:['9/23の休日活動下校時、読売ランド前駅から正門までの通学路で高校生が不審者に遭遇（8月下旬の事案とは別件の可能性）','警察官による巡回などの対応を強化中','1人で登下校する際は周囲に注意し、不審者を見かけた・遭遇した場合は警察または警備員へ伝え、担任へ申し出る'],
       thread:'',poster:'保護者向けメール',posted:'9/25',mail:true,mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9PHeaYXzc'},
-    {id:'mail-Q9TGLc1mf2',cat:'no',date:'2026-10-05',dateLabel:'10/5 (月) 12:00 申込締切【希望者】',optional:true,subject:'全体',title:'十月祭チャリティー企画について',
-      details:['十月祭のマカロン付箋販売の収益を「令和8年熊本地震」への募金に充てる企画','趣旨に賛同する場合は、メール内リンクのフォームから10/5(月)12:00までに申込み','事前購入は保護者と生徒で申込個数を確認。クラスで案内プリントを配布'],
-      thread:'',poster:'保護者向けメール',posted:'9/29',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9TGLbQtb7',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9TGLc1mf2'},
+    {"id":"mail-Q9TGLc1mf2","cat":"no","date":"2026-10-05","dateLabel":"10/5 (月) 12:00 申込締切【希望者】","optional":true,"subject":"全体","title":"十月祭チャリティー企画について","details":["十月祭のマカロン付箋販売の収益を「令和8年熊本地震」への募金に充てる企画","趣旨に賛同する場合は、メール内リンクのフォームから10/5(月)12:00までに申込み","事前購入は保護者と生徒で申込個数を確認。クラスで案内プリントを配布","10/1のClassroom追記：9/30の16時頃までの申込者は氏名欄不備のため再申込み。氏名入力が不明な場合も再申込み可"],"thread":"","poster":"保護者向けメール","posted":"9/29","mail":true,"mailUrl":"https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9TGLbQtb7","mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9TGLc1mf2"},
     {id:'mail-Q99IMEuDYr',cat:'no',date:'2026-10-31',dateLabel:'9/11〜10/31 販売期間',subject:'82回生',title:'行事写真インターネット販売のご案内',
       details:['7月の軽井沢三泉寮生活のスナップ写真をサイトで販売','ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）','販売期間: 9/11〜10/31'],
       thread:'',poster:'保護者向けメール',posted:'9/9',mail:true,mailUrl:'https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3',mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr'},
@@ -623,11 +742,11 @@ window.CLASSROOM_DATA = {
     {"id":"festival-grade-meeting-sep30","cat":"no","date":"2026-09-30","dateLabel":"9/30 (水) 13:10【学年コーナー担当者】","subject":"全体","title":"十月祭学年コーナー 担当者の会","details":["理科Bで実施","当日の当番と展示物等を確認"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU3NzAwNzA5"},
     {"id":"science2-outdoor-sep29","cat":"no","dateLabel":"今週から","subject":"理科","title":"理科2分野 屋外授業・持ち物確認","details":["今週から屋外で授業。必要な持ち物を確認しておく","雨天は理科室で実施。判断が難しい場合は当日朝にClassroomで連絡"],"thread":"82回生","poster":"大越佳子","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjU5NDg2NTg0"},
     {"id":"eng-unit6-answers-sep29","cat":"no","dateLabel":"当面の間","subject":"英語","title":"Unit 6 解答【資料】","details":["Unit 6の解答PDFを配布"],"thread":"英語","poster":"平岡裕子","posted":"9/29","url":"https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg3NjYzNzYyNTk2/details"},
-    {"id":"math-equation-print-sep29","cat":"hw","date":"2026-10-01","dateLabel":"10/1 (木) 16:30 合格締切","subject":"数学","title":"方程式の利用（1）授業プリント 合格締切","details":["まだスタンプをもらっていない人は、朝のうちに数研へ提出","それ以降の提出は手渡しのみ受付","9/30締切のロイロ提出箱2つに間に合わなかった人は、授業後に見せられるよう準備"],"thread":"82回生","poster":"森本奈央","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1MzkzMjkz"},
+    {"id":"math-equation-print-sep29","cat":"hw","date":"2026-10-01","dateLabel":"10/1 (木) 16:30 合格締切","subject":"数学","title":"方程式の利用（1）授業プリント 合格締切","details":["プリント（1）の合格締切は10/1の16:30","未合格者は終礼後に402教室で直接見せる。数研の棚への提出は不可","9/30締切のロイロ提出箱2つに間に合わなかった人は、授業後に見せられるよう準備"],"thread":"82回生","poster":"森本奈央","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1MzkzMjkz"},
     {id:'festival-labels-sep29',cat:'no',dateLabel:'至急【十月祭行事委員】',subject:'全体',title:'十月祭：机・椅子ラベルの貼付・調査用紙提出',
       details:['ラベルが必要なクラスは封筒のラベルを受け取り、すぐに貼付','モールと工芸室の机・椅子には貼らない','調査用紙が未提出のクラスは至急提出'],
       thread:'82回生',poster:'中尾有子',posted:'9/29',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx'},
-    {"id":"festival-charity-sep29","cat":"no","dateLabel":"10/5 (月) 12:00 申込締切","subject":"全体","title":"経理部チャリティー企画のお知らせ","details":["マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画","事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入","9/30(火)16時頃までに申し込んだ人は、氏名欄がなかったため再申込みが必要。氏名を入力したか不明な場合も再申込み可（重複は確認対応）","在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）","支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置","経理部部長は配布済みポスターをクラス内に掲示し、説明する"],"thread":"82回生","poster":"松本珠希","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0","hasLink":true,"date":"2026-10-05"},
+    {"id":"festival-charity-sep29","cat":"no","dateLabel":"10/5 (月) 12:00 申込締切","subject":"全体","title":"経理部チャリティー企画のお知らせ","details":["マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画","事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入","9/30(水)16時頃までに申し込んだ人は、氏名欄がなかったため再申込みが必要。氏名を入力したか不明な場合も再申込み可（重複は確認対応）","在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）","支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置","経理部部長は配布済みポスターをクラス内に掲示し、説明する"],"thread":"82回生","poster":"松本珠希","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0","hasLink":true,"date":"2026-10-05"},
     {id:'festival-standing-duty-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 13:05【新聞・保健・図書委員】',subject:'全体',title:'十月祭：立ち番をする人の係の会',
       details:['400教室で13:05から実施','該当者には各委員会の顧問から連絡済み。窓際から新聞・保健・図書ごとに集まる','集合後は各委員会の委員長・副委員長が出欠を取る'],
       thread:'82回生',poster:'久保文香',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNjE0MTU3MzU0'},
@@ -648,5 +767,6 @@ window.CLASSROOM_DATA = {
     {id:'oc-room-change-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 英会話後半',subject:'英語',title:'OC Class 教室変更',details:['英会話の授業は、前半は通常の教室、後半はRoom 400で実施'],thread:'82回生',poster:'Matthew Collins',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0'},
     {id:'math-equation-show-oct1',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) 終礼後',subject:'数学',title:'方程式の利用プリント等を直接確認',details:['方程式の利用プリント（1）、抜粋No.3・4、抜粋No.5が未確認の人は、終礼後に402教室で直接見せる','数研の棚へ提出はできない'],thread:'82回生',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDM1MzAyMTg1'},
     {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
+    {"id":"bsched-oct-nov","cat":"no","date":"2026-11-30","dateLabel":"10〜11月","subject":"部活","title":"2026年10〜11月 練習日程表【資料】","details":["午前練習は8:30〜12:00、午後練習は13:00〜16:00","11/3は午前練習・午後自主練可、11/8は午前練習、11/14は午後練習","10/13の振替休日の練習は人数確認後に相談して決定。10/12午前練習も未確定","11/21は午前練習の予定に疑問符があり、午後になる可能性もある"],"thread":"バスケ","posted":"10/1","poster":"山本昂宏","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY5OTY5NDE3NDgy/details"},
   ]
 };
