@@ -6,24 +6,18 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-03",
-  updateTime: "13:21",
-  /* Classroom資料「9月28日～」/ 0928.pdf の3組列を抽出。週次で差し替える。 */
+  updateTime: "13:25",
+  /* Classroom資料「10月5日～」/ 1005.pdf の3組列を文字・画像で検算。 */
   timetable: {
-    label: "9/28(月)〜10/2(金)",
-    days: [
-      {n:'月',md:'9/28',iso:'2026-09-28'},
-      {n:'火',md:'9/29',iso:'2026-09-29'},
-      {n:'水',md:'9/30',iso:'2026-09-30'},
-      {n:'木',md:'10/1',iso:'2026-10-01'},
-      {n:'金',md:'10/2',iso:'2026-10-02'},
-    ],
+    label: "10/5(月)〜10/10(土)",
+    days: [{"n":"月","md":"10/5","iso":"2026-10-05"},{"n":"火","md":"10/6","iso":"2026-10-06"},{"n":"水","md":"10/7","iso":"2026-10-07"},{"n":"木","md":"10/8","iso":"2026-10-08"},{"n":"金","md":"10/9","iso":"2026-10-09"},{"n":"土","md":"10/10","iso":"2026-10-10"}],
     rows: [
-      [ {s:'数',t:'森本',r:'HR'},             {s:'道徳',t:'担任',r:'HR'}, {s:'理',t:'大越・小山',r:'理科室',mk:'教室変更',ref:'science2-room-sep30'}, {s:'国',t:'鈴木',r:'HR'}, {s:'家',t:'菊池',r:'サクラボ',rs:2} ],
-      [ {s:'社',t:'宮崎',r:'HR'},             {s:'国',t:'鈴木',r:'HR'},   {s:'英',t:'本木',r:'HR'},            {s:'英',t:'磯崎・吉野',r:'HR/402'}, null ],
-      [ {s:'理',t:'松本',r:'理科A'},          {s:'社',t:'馬場',r:'HR'},   {s:'数',t:'山口',r:'HR'},            {s:'数',t:'森本',r:'HR'}, {s:'英',t:'コリンズ・マオ',r:'HR/400',mk:'教室変更',ref:'oc-room-change-oct2'} ],
-      [ {s:'国',t:'秋山・西出',r:'HR/401'},   {s:'体',t:'新谷',r:'二体'}, {s:'音',t:'矢沢',r:'声楽器楽'},      {s:'音',t:'阿佐美',r:'声楽'}, {s:'国',t:'鈴木',r:'HR'} ],
-      [ {s:'英',t:'平岡・本木',r:'HR/402'},   {s:'英',t:'平岡',r:'HR'},   {s:'美',t:'芝',r:'美術室',rs:2},     {s:'学活・モアレ検査',t:'担任',r:'HR',mk:'14:00 HR出発',ref:'sekichu1'}, {s:'社',t:'平野',r:'HR'} ],
-      [ {s:'体',t:'佐々木・齋藤',r:'プール'}, {s:'朗読会',t:'',r:'',mk:'14:35 開始',ref:'reading-drama-sep29'}, null, {s:'理',t:'松本',r:'理科A'}, {s:'数',t:'森本・山口',r:'HR/数メ'} ],
+      [{"s":"数","t":"森本","r":"HR"},{"s":"道徳","t":"担任","r":"HR"},{"s":"理","t":"大越・小山","r":"理科A/B"},{"s":"十月祭準備","t":"","r":"","rs":6,"mk":"8:50 全体朝礼","ref":"tt7"},{"s":"十月祭準備","t":"","r":"","rs":6,"mk":"団体ごとに朝礼","ref":"tt7"},{"s":"十月祭1日目","t":"","r":"","rs":6,"mk":"団体ごとに朝礼","ref":"tt7"}],
+      [{"s":"社","t":"宮崎","r":"HR"},{"s":"総合","t":"担任","r":"HR"},{"s":"英","t":"本木","r":"HR"},null,null,null],
+      [{"s":"音","t":"阿佐美","r":"声楽"},{"s":"国","t":"鈴木","r":"HR"},{"s":"数","t":"山口","r":"HR"},null,null,null],
+      [{"s":"国","t":"秋山・西出","r":"HR/401"},{"s":"社","t":"馬場","r":"HR"},{"s":"音","t":"矢沢","r":"声楽器楽"},null,null,null],
+      [{"s":"英","t":"平岡・本木","r":"HR/402","mk":"iPad満充電","ref":"online-english-oct5"},{"s":"体","t":"新谷","r":"二体"},{"s":"美","t":"芝","r":"美術室","rs":2},null,null,null],
+      [{"s":"体","t":"佐々木・齋藤","r":"プール"},{"s":"英（Unit 7テスト予定）","t":"平岡","r":"HR","mk":"日付・曜日要確認","ref":"eng-unit7"},null,null,null,null],
     ]
   },
   basketball: {
@@ -211,8 +205,8 @@ window.CLASSROOM_DATA = {
       "title": "北地区シード決め大会",
       "time": "7:35集合／12:30頃解散",
       "place": "はるひ野駅 → はるひ野中",
-      "detail": "1・2年生対象。8:50菅戦、2〜3試合。10:50 TO（試合運営担当）。リバーシブル持参、保護者観戦なし。",
-      "source": "バスケ投稿 9/30"
+      "detail": "1・2年生対象。8:50菅戦、2〜3試合。10:50 TO（試合運営担当）。リバーシブル持参、保護者観戦なし。 10/2追記：体調不良の場合は無理をして参加しない。",
+      "source": "バスケ投稿 10/2"
     },
     "2026-10-08": {
       "kind": "practice",
@@ -559,9 +553,7 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
     {"id":"mathres1","cat":"no","dateLabel":"当面の間","subject":"数学","title":"完成ノート3章1次方程式の利用【資料】","details":["抜粋問題・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/8","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details"},
     {"id":"mathres2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"1次方程式の利用もっと（１）【資料】","details":["演習プリント・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/10","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"},
-    {id:'bball7',cat:'no',date:'2026-10-04',dateLabel:'10/4 (日) 7:35 集合',subject:'部活',title:'北地区シード決め大会（1・2年生）',
-      details:['はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定','8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定','10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）','ユニフォームはリバーシブル。保護者観戦なし'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/30',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx'},
+    {"id":"bball7","cat":"no","date":"2026-10-04","dateLabel":"10/4 (日) 7:35 集合","subject":"部活","title":"北地区シード決め大会（1・2年生）","details":["はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定","8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定","10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）","ユニフォームはリバーシブル。保護者観戦なし","10/2追記：学年・クラスを問わず、体調不良の場合は無理をして参加しない"],"thread":"バスケ","poster":"山本昂宏","posted":"10/2","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx"},
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
       thread:'82回生',poster:'國澤恒久',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0MjU5ODc4OTA3'},
@@ -723,7 +715,7 @@ window.CLASSROOM_DATA = {
     {id:'online-english-account-sep30',cat:'no',date:'2026-09-30',dateLabel:'9/30 (水) 本日中【申込・入金済みの方】',optional:true,subject:'英語',title:'10月〜3月 オンライン英会話：アカウントカード配布',
       details:['本日終礼でアカウントカードを配布。申込み・入金済みで未配布の場合は、本日中に担任または英語科へ申し出る','10/5からレッスンの予約・受講が可能。自宅受講には本日配布のカードを使用','パスワードを3回以上間違えると一時的にロックされるため、早めにログインして入力を確認'],
       thread:'82回生',poster:'斉当かおり',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODczNjAyOTcxNDA1/details'},
-    {"id":"cal10","cat":"no","dateLabel":"10月の開室予定","subject":"全体","title":"10月 Study Commonsカレンダー【資料】","details":["10/5〜7・22〜23は13:00〜19:00、10/8・28〜29は13:00〜16:00開室","10/27の開室時間は13:00〜19:00に訂正","十月祭準備日の10/8・10/9は高校生向け。中学生で利用を希望する場合は國澤先生に相談","10/9は本文・PDF見出しでは開室とある一方、カレンダー欄には担当者・時間の記載がなく要確認"],"thread":"82回生","poster":"國澤恒久","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5OTQwMzY4MTEw/details","date":"2026-10-31"},
+    {"id":"cal10","cat":"no","dateLabel":"10月の開室予定","subject":"全体","title":"10月 Study Commonsカレンダー【資料】","details":["10/5〜7・22〜23は13:00〜19:00、10/8・28〜29は13:00〜16:00開室","10/27の開室時間は13:00〜19:00に訂正","十月祭準備日の10/8・10/9は高校生向け。中学生で利用を希望する場合は國澤先生に相談","10/9は本文・PDF見出しでは開室とある一方、カレンダー欄には担当者・時間の記載がなく要確認","10/2訂正連絡：学芸部はクラス掲示の日程表の10/27開室時間を13:00〜19:00へペンで修正"],"thread":"82回生","poster":"國澤恒久","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5OTQwMzY4MTEw/details","date":"2026-10-31"},
     {id:'festival-grade-duty-adjust-sep30',cat:'no',dateLabel:'至急【十月祭学年コーナー係】',subject:'全体',title:'十月祭 学年コーナー立ち番表の調整',
       details:['カラー印刷した立ち番表を各クラスで1部用意','三浦さん・平野さんは、交代してもらえる人を探す'],
       thread:'82回生',poster:'大越佳子',posted:'9/30',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0'},
@@ -748,5 +740,9 @@ window.CLASSROOM_DATA = {
       details:['202教室で諸連絡と装飾の手伝いを実施'],
       thread:'82回生',poster:'中尾有子',posted:'10/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MzkzMzg1NjE4'},
     {"id":"bsched-oct-nov","cat":"no","date":"2026-11-30","dateLabel":"10〜11月","subject":"部活","title":"2026年10〜11月 練習日程表【資料】","details":["午前練習は8:30〜12:00、午後練習は13:00〜16:00","11/3は午前練習・午後自主練可、11/8は午前練習、11/14は午後練習","10/13の振替休日の練習は人数確認後に相談して決定。10/12午前練習も未確定","11/21は午前練習の予定に疑問符があり、午後になる可能性もある"],"thread":"バスケ","posted":"10/1","poster":"山本昂宏","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY5OTY5NDE3NDgy/details"},
+    {"id":"gika-embroidery-resubmit-oct16","cat":"hw","date":"2026-10-16","dateLabel":"10/16 (金) まで【やり直し対象者】","subject":"技術家庭","title":"刺しゅうキット 再提出","details":["やり直しがある人は10/16までに再提出","質問したい人向けの補習は10/5(月)13:00に被服室B。裁縫道具と刺しゅうセット一式を持参"],"thread":"82回生","poster":"菊池菜々世","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2"},
+    {"id":"soumu-supporters-oct2","cat":"no","date":"2026-10-02","dateLabel":"10/2 (金) 終礼後15:45【総務サポーターズ】","subject":"全体","title":"2学期総務サポーターズ：確認の集合","details":["自治会室にiPadを持って集合","確認のみの短い会"],"thread":"82回生","poster":"山本昂宏","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY4NzkyOTY5"},
+    {"id":"math-proportional-more4-oct2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（4）【資料】","details":["演習プリントと解答PDFを配布"],"thread":"数学","poster":"山口朋子","posted":"10/2","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNjk4MjIyMDA5/details"},
+    {"id":"tt7","cat":"no","date":"2026-10-10","dateLabel":"10/5 (月)〜10/10 (土)","subject":"全体","title":"10/5〜 時間割表【資料】","details":["3組の時間割を掲載。10/7(水)5・6限は美術","10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目","10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"],"thread":"82回生","poster":"松本珠希","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"},
   ]
 };
