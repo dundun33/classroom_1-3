@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-03",
-  updateTime: "13:25",
+  updateTime: "16:13",
   /* Classroom資料「10月5日～」/ 1005.pdf の3組列を文字・画像で検算。 */
   timetable: {
     label: "10/5(月)〜10/10(土)",
@@ -723,7 +723,7 @@ window.CLASSROOM_DATA = {
     {"id":"moire-change-clothes-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 昼休み","subject":"保健","title":"モアレ検査：昼休みに体育着へ着替え","details":["午後の検査に備え、昼休みに体育着へ着替える","食堂を利用する人は、食堂利用後に着替える"],"thread":"82回生","poster":"大越佳子","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1NDc5MzA2"},
     {id:'oc-room-change-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 英会話後半',subject:'英語',title:'OC Class 教室変更',details:['英会話の授業は、前半は通常の教室、後半はRoom 400で実施'],thread:'82回生',poster:'Matthew Collins',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0'},
     {id:'math-equation-show-oct1',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) 終礼後',subject:'数学',title:'方程式の利用プリント等を直接確認',details:['方程式の利用プリント（1）、抜粋No.3・4、抜粋No.5が未確認の人は、終礼後に402教室で直接見せる','数研の棚へ提出はできない'],thread:'82回生',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDM1MzAyMTg1'},
-    {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
+    {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/2',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
     {id:'science1-gas-submit-oct4',cat:'hw',date:'2026-10-04',dateLabel:'10/4 (日) 20:00 まで【2・3・5組】',subject:'理科',title:'No.11 気体の性質プリント：提出の推奨期限',
       details:['No.11・11-2「気体の性質」まとめのプリントが対象','期限までに提出箱へ出したものは、次回授業で印刷して返却。未提出者には期限までの提出を推奨'],
       thread:'82回生',poster:'松本珠希',posted:'10/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjU1OTY5OTUx'},
