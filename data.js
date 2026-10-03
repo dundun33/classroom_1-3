@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-03",
-  updateTime: "16:13",
+  updateTime: "19:14",
   /* Classroom資料「10月5日～」/ 1005.pdf の3組列を文字・画像で検算。 */
   timetable: {
     label: "10/5(月)〜10/10(土)",
@@ -744,5 +744,6 @@ window.CLASSROOM_DATA = {
     {"id":"soumu-supporters-oct2","cat":"no","date":"2026-10-02","dateLabel":"10/2 (金) 終礼後15:45【総務サポーターズ】","subject":"全体","title":"2学期総務サポーターズ：確認の集合","details":["自治会室にiPadを持って集合","確認のみの短い会"],"thread":"82回生","poster":"山本昂宏","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY4NzkyOTY5"},
     {"id":"math-proportional-more4-oct2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（4）【資料】","details":["演習プリントと解答PDFを配布"],"thread":"数学","poster":"山口朋子","posted":"10/2","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNjk4MjIyMDA5/details"},
     {"id":"tt7","cat":"no","date":"2026-10-10","dateLabel":"10/5 (月)〜10/10 (土)","subject":"全体","title":"10/5〜 時間割表【資料】","details":["3組の時間割を掲載。10/7(水)5・6限は美術","10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目","10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"],"thread":"82回生","poster":"松本珠希","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"},
+    {"id":"mail-QA3IbhXvWl","cat":"no","date":"2026-10-19","dateLabel":"10/12 生徒へ案内・10/19の週 動画配信予定","subject":"全体","title":"2027年度からの新たな体制についてのご報告（続報2）","details":["2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）","中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内","文化祭は専門のワーキングチームで検討中","10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"],"thread":"","poster":"保護者向けメール","posted":"10/3","mail":true,"mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IbhXvWl"},
   ]
 };
