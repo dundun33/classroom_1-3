@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-03",
-  updateTime: "19:14",
+  updateISO: "2026-10-05",
+  updateTime: "08:14",
   /* Classroom資料「10月5日～」/ 1005.pdf の3組列を文字・画像で検算。 */
   timetable: {
     label: "10/5(月)〜10/10(土)",
@@ -553,7 +553,7 @@ window.CLASSROOM_DATA = {
       thread:'82回生',poster:'石井靖子',posted:'9/9',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4NDE2MDQzMzg5'},
     {"id":"mathres1","cat":"no","dateLabel":"当面の間","subject":"数学","title":"完成ノート3章1次方程式の利用【資料】","details":["抜粋問題・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/8","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2ODI0NDA4/details"},
     {"id":"mathres2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"1次方程式の利用もっと（１）【資料】","details":["演習プリント・解答のPDFを配信"],"thread":"数学","poster":"森本奈央","posted":"9/10","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"},
-    {"id":"bball7","cat":"no","date":"2026-10-04","dateLabel":"10/4 (日) 7:35 集合","subject":"部活","title":"北地区シード決め大会（1・2年生）","details":["はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定","8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定","10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）","ユニフォームはリバーシブル。保護者観戦なし","10/2追記：学年・クラスを問わず、体調不良の場合は無理をして参加しない"],"thread":"バスケ","poster":"山本昂宏","posted":"10/2","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx"},
+    {"id":"bball7","cat":"no","date":"2026-10-04","dateLabel":"10/4 (日) 7:35 集合","subject":"部活","title":"北地区シード決め大会（1・2年生）","details":["はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定","8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定","10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）","ユニフォームはリバーシブル。保護者観戦なし","10/2追記：学年・クラスを問わず、体調不良の場合は無理をして参加しない"],"thread":"バスケ","poster":"山本昂宏","posted":"9/17","url":"https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx"},
     {id:'moshi1',cat:'no',dateLabel:'当面の間',subject:'全体',title:'日曜日は本校で模試実施（生徒玄関整理のお願い）',
       details:['4階は試験会場ではないが、下校時は生徒玄関の整理整頓を','靴は下足箱にきちんと入れ、靴以外の私物は置かない'],
       thread:'82回生',poster:'國澤恒久',posted:'9/11',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg0MjU5ODc4OTA3'},
@@ -640,18 +640,12 @@ window.CLASSROOM_DATA = {
     {id:'festival-ticket-names-sep24',cat:'no',dateLabel:'当面の間',subject:'全体',title:'十月祭チケット：来校者氏名の記入',
       details:['チケット裏面の生徒氏名・来校者氏名欄を記入してから招待者へ渡す','既に渡した場合は、招待者に来校者氏名の記入を依頼'],
       thread:'82回生',poster:'中尾有子',posted:'9/24',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczMjIxMDk1Mzc1'},
-    {id:'bball-kawasaki-final-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土)【主に3年生向け】',subject:'部活',title:'川崎市総体 3・4回戦情報',
-      details:['多摩スポーツセンターととどろきアリーナで市総体3・4回戦を実施','多摩スポーツセンターはA・Bコートとも9:15開始、10:30開始の2試合ずつ','制服またはチームウェアで来場。会場内でスマートフォンは使用禁止'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/24',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg2NzQ4NDIzMzMw'},
     {id:'festival-accounting-heads-sep29',cat:'no',date:'2026-09-29',dateLabel:'9/29 (火) 4限終了後【各クラス経理部部長】',subject:'全体',title:'十月祭 部長会',
       details:['理科Aで実施。弁当を持参','十月祭準備日・当日の立ち番を決めるため、予定が分かるものを持参'],
       thread:'82回生',poster:'松本珠希',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjM2ODg3MzIw'},
     {id:'soumu-supporters-sep28',cat:'no',date:'2026-09-28',dateLabel:'9/28 (月) 12:45〜13:20【総務サポーターズ】',subject:'全体',title:'2学期 総務サポーターズ顔合わせ',
       details:['理科Cで顔合わせと十月祭についての会を実施。昼食を持参','十月祭の立ち番を依頼する可能性があるため、クラブ予定などを確認して参加'],
       thread:'82回生',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjU4Nzk0OTE2'},
-    {id:'moshi-shoes-sep27',cat:'no',date:'2026-09-27',dateLabel:'9/27 (日) 模試実施日',subject:'全体',title:'生徒玄関の整理整頓のお願い',
-      details:['本校で模試を実施。4階は試験会場ではない','下校時は靴を下足箱へ入れ、靴以外の私物を生徒玄関に置かない'],
-      thread:'82回生',poster:'國澤恒久',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg2MjE3ODY5MDYw'},
     {id:'math-gakuryoku-equation-sep25',cat:'no',dateLabel:'中間テストに向けて',subject:'数学',title:'学力推移調査「方程式の利用」の復習',
       details:['学力推移調査の選択問題5番「方程式の利用」は中間テストの範囲','必ず取り組んでおく'],
       thread:'数学',poster:'森本奈央',posted:'9/25',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY5ODQ4Mzg2MDg3'},
@@ -661,9 +655,6 @@ window.CLASSROOM_DATA = {
     {id:'tt6',cat:'no',date:'2026-10-02',dateLabel:'9/28 (月)〜10/2 (金)',subject:'全体',title:'9/28〜 時間割表【資料】',
       details:['3組の週間時間割を掲載','10/1(木)は5限学活・6限理科。3組のモアレ検査は14:00 HR出発、14:10開始','9/29(火)6限は朗読会'],
       thread:'82回生',poster:'松本珠希',posted:'9/25',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5ODQ3NTAzNjQy/details'},
-    {id:'bball-practice-sep26',cat:'no',date:'2026-09-26',dateLabel:'9/26 (土) 10:45〜',subject:'部活',title:'TO講習会・午後練習',
-      details:['希望者対象のTO講習会は10:45〜11:30、3年1組（201）で実施。iPad・筆記用具を持参','11:30〜12:00昼食、12:00〜12:15体育館準備、12:15練習開始','講習会に参加しない人も12:15から練習開始'],
-      thread:'バスケ',poster:'山本昂宏',posted:'9/25',url:'https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODY5ODQ5MTU3NTkz'},
     {"id":"kokugo-kanji-reretest-sep29","cat":"hw","date":"2026-09-29","dateLabel":"9/29 (火) 終礼・教室清掃後【該当者】","subject":"国語","title":"夏休み明け漢字テスト 再々テスト","details":["再々テスト対象者と、欠席などで再テストを受けなかった人が対象","開始時刻を変更。終礼終了後、1年3組（403教室）の清掃が終わり次第実施"],"thread":"82回生","poster":"鈴木秀一","posted":"9/29","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU4MTc1NTg5"},
     {id:'festival-living-heads-oct1',cat:'no',date:'2026-10-01',dateLabel:'10/1 (木) 終礼清掃後【生活部各クラス部長】',subject:'全体',title:'十月祭に向けた臨時会',
       details:['2年2組教室で実施','十月祭の動きについて説明するため、必ず参加'],
@@ -723,7 +714,7 @@ window.CLASSROOM_DATA = {
     {"id":"moire-change-clothes-oct1","cat":"no","date":"2026-10-01","dateLabel":"10/1 (木) 昼休み","subject":"保健","title":"モアレ検査：昼休みに体育着へ着替え","details":["午後の検査に備え、昼休みに体育着へ着替える","食堂を利用する人は、食堂利用後に着替える"],"thread":"82回生","poster":"大越佳子","posted":"10/1","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1NDc5MzA2"},
     {id:'oc-room-change-oct2',cat:'no',date:'2026-10-02',dateLabel:'10/2 (金) 英会話後半',subject:'英語',title:'OC Class 教室変更',details:['英会話の授業は、前半は通常の教室、後半はRoom 400で実施'],thread:'82回生',poster:'Matthew Collins',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0'},
     {id:'math-equation-show-oct1',cat:'hw',date:'2026-10-01',dateLabel:'10/1 (木) 終礼後',subject:'数学',title:'方程式の利用プリント等を直接確認',details:['方程式の利用プリント（1）、抜粋No.3・4、抜粋No.5が未確認の人は、終礼後に402教室で直接見せる','数研の棚へ提出はできない'],thread:'82回生',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDM1MzAyMTg1'},
-    {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/2',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
+    {id:'math-proportional-more3-oct1',cat:'no',dateLabel:'当面の間',subject:'数学',title:'比例・反比例 もっと（3）【資料】',details:['演習プリントと解答PDFを配布'],thread:'数学',poster:'山口朋子',posted:'10/1',url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details'},
     {id:'science1-gas-submit-oct4',cat:'hw',date:'2026-10-04',dateLabel:'10/4 (日) 20:00 まで【2・3・5組】',subject:'理科',title:'No.11 気体の性質プリント：提出の推奨期限',
       details:['No.11・11-2「気体の性質」まとめのプリントが対象','期限までに提出箱へ出したものは、次回授業で印刷して返却。未提出者には期限までの提出を推奨'],
       thread:'82回生',poster:'松本珠希',posted:'10/2',url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjU1OTY5OTUx'},
@@ -745,5 +736,7 @@ window.CLASSROOM_DATA = {
     {"id":"math-proportional-more4-oct2","cat":"no","dateLabel":"当面の間","subject":"数学","title":"比例・反比例 もっと（4）【資料】","details":["演習プリントと解答PDFを配布"],"thread":"数学","poster":"山口朋子","posted":"10/2","url":"https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNjk4MjIyMDA5/details"},
     {"id":"tt7","cat":"no","date":"2026-10-10","dateLabel":"10/5 (月)〜10/10 (土)","subject":"全体","title":"10/5〜 時間割表【資料】","details":["3組の時間割を掲載。10/7(水)5・6限は美術","10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目","10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"],"thread":"82回生","poster":"松本珠希","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"},
     {"id":"mail-QA3IbhXvWl","cat":"no","date":"2026-10-19","dateLabel":"10/12 生徒へ案内・10/19の週 動画配信予定","subject":"全体","title":"2027年度からの新たな体制についてのご報告（続報2）","details":["2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）","中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内","文化祭は専門のワーキングチームで検討中","10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"],"thread":"","poster":"保護者向けメール","posted":"10/3","mail":true,"mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IbhXvWl"},
+    {"id":"shop-oct2026","cat":"no","date":"2026-10-31","dateLabel":"10月の開室日程","subject":"全体","title":"実業部開室日程（10月）","details":["開室日は10/2・5・7・9・16・19・21・23・26・28・30、いずれも8:30〜13:30","十月祭準備の10/8(木)は休業、10/9(金)は13:30まで。両日とも午後の準備に間に合うよう、部長を中心に顧問と相談して必要な物を計画的に用意","10/10・11は十月祭に出店（店舗は休業）。10/13〜15は休業","10/1・12の営業時間は資料に記載なし","通学靴（牛革ローファー）の取り扱い・見本あり","商品交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参"],"thread":"82回生","poster":"宮地潤子","posted":"10/4","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4OTQ1ODA3OTM5/details"},
+    {"id":"lost-wallet-oct4","cat":"no","dateLabel":"持ち主の方へ","subject":"全体","title":"財布の忘れ物","details":["持ち主は大越先生まで申し出る"],"thread":"82回生","poster":"大越佳子","posted":"10/4","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTQ5NTMwMTgz"},
   ]
 };
