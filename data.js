@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-05",
-  updateTime: "09:11",
+  updateTime: "10:47",
   /* Classroom資料「10月5日～」/ 1005.pdf の3組列を文字・画像で検算。 */
   timetable: {
     label: "10/5(月)〜10/10(土)",
@@ -737,7 +737,7 @@ window.CLASSROOM_DATA = {
     {"id":"tt7","cat":"no","date":"2026-10-10","dateLabel":"10/5 (月)〜10/10 (土)","subject":"全体","title":"10/5〜 時間割表【資料】","details":["3組の時間割を掲載。10/7(水)5・6限は美術","10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目","10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"],"thread":"82回生","poster":"松本珠希","posted":"10/2","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"},
     {"id":"mail-QA3IbhXvWl","cat":"no","date":"2026-10-19","dateLabel":"10/12 生徒へ案内・10/19の週 動画配信予定","subject":"全体","title":"2027年度からの新たな体制についてのご報告（続報2）","details":["2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）","中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内","文化祭は専門のワーキングチームで検討中","10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"],"thread":"","poster":"保護者向けメール","posted":"10/3","mail":true,"mailPageUrl":"https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IbhXvWl"},
     {"id":"shop-oct2026","cat":"no","date":"2026-10-31","dateLabel":"10月の開室日程","subject":"全体","title":"実業部開室日程（10月）","details":["開室日は10/2・5・7・9・16・19・21・23・26・28・30、いずれも8:30〜13:30","十月祭準備の10/8(木)は休業、10/9(金)は13:30まで。両日とも午後の準備に間に合うよう、部長を中心に顧問と相談して必要な物を計画的に用意","10/10・11は十月祭に出店（店舗は休業）。10/13〜15は休業","10/1・12の営業時間は資料に記載なし","通学靴（牛革ローファー）の取り扱い・見本あり","商品交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参"],"thread":"82回生","poster":"宮地潤子","posted":"10/4","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4OTQ1ODA3OTM5/details"},
-    {"id":"lost-wallet-oct4","cat":"no","dateLabel":"持ち主の方へ","subject":"全体","title":"財布の忘れ物","details":["持ち主は大越先生まで申し出る"],"thread":"82回生","poster":"大越佳子","posted":"10/4","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTQ5NTMwMTgz"},
+    {"id":"lost-wallet-oct4","cat":"no","dateLabel":"持ち主の方へ","subject":"全体","title":"財布の忘れ物","details":["持ち主は大越先生まで申し出る"],"thread":"82回生","poster":"大越佳子","posted":"10/4","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTQ5NTMwMTgz","hasLink":true},
     {"id":"festival-subcommittees-oct5","cat":"no","date":"2026-10-05","dateLabel":"10/5 (月) 16:00【十月祭行事委員】","subject":"全体","title":"十月祭：全体委員会なし・小委員会を実施","details":["本日は全体の委員会を行わない","本部・装飾の小委員会は、それぞれの場所に16:00集合（場所名は本文に記載なし）","PR小委員会は2・3年生のみ対象"],"thread":"82回生","poster":"中尾有子","posted":"10/5","url":"https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTExNjE4MTIw"},
   ]
 };
