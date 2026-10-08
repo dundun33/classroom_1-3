@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-08",
-  updateTime: "23:45",
+  updateISO: "2026-10-09",
+  updateTime: "07:51",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -888,26 +888,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc3NTUxNTUyNjYz/details"
   },
   {
-    "id": "sekichu1",
-    "cat": "no",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 14:10〜14:30【3組】",
-    "subject": "保健",
-    "title": "脊柱そくわん検査（モアレ検査）",
-    "details": [
-      "3組は14:00に教室を出て、講堂北ホールで14:10〜14:30に検査",
-      "持ち物：体操服、髪の長い人は髪を束ねるもの（首・肩にかからないように）",
-      "髪は可能ならお団子にする。難しい場合は結ぶのみでも可",
-      "医療機関で側わんの治療・指導や経過観察中の人は学校での検査不要。連絡簿に記載して担任へ提出し、保健室にも知らせる",
-      "費用2,200円（税込）は予納金から支出"
-    ],
-    "thread": "82回生",
-    "poster": "西田早苗",
-    "posted": "9/30",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcyNzU4ODU2Mzg1",
-    "hasLink": true
-  },
-  {
     "id": "bijutsu1",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1651,22 +1631,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5ODQ3NTAzNjQy/details"
   },
   {
-    "id": "festival-living-heads-oct1",
-    "cat": "no",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 終礼清掃後【生活部各クラス部長】",
-    "subject": "全体",
-    "title": "十月祭に向けた臨時会",
-    "details": [
-      "2年2組教室で実施",
-      "十月祭の動きについて説明するため、必ず参加"
-    ],
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "9/28",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NTMyMDkzNTQ0"
-  },
-  {
     "id": "kokugo-saijiki-term-end-sep28",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1790,23 +1754,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODg3NjYzNzYyNTk2/details"
   },
   {
-    "id": "math-equation-print-sep29",
-    "cat": "hw",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 16:30 合格締切",
-    "subject": "数学",
-    "title": "方程式の利用（1）授業プリント 合格締切",
-    "details": [
-      "プリント（1）の合格締切は10/1の16:30",
-      "未合格者は終礼後に402教室で直接見せる。数研の棚への提出は不可",
-      "9/30締切のロイロ提出箱2つに間に合わなかった人は、授業後に見せられるよう準備"
-    ],
-    "thread": "82回生",
-    "poster": "森本奈央",
-    "posted": "10/1",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1MzkzMjkz"
-  },
-  {
     "id": "festival-labels-sep29",
     "cat": "no",
     "dateLabel": "至急【十月祭行事委員】",
@@ -1875,22 +1822,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNTYyNDc3MTc3/details"
   },
   {
-    "id": "math-equation-special-oct1",
-    "cat": "hw",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 20:00 まで【12〜15点対象】",
-    "title": "方程式の利用 小テスト 特別課題",
-    "details": [
-      "小テスト12点以上15点以下の人は、特別課題をロイロに提出",
-      "期限までにきちんと取り組まない場合は再試の対象"
-    ],
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "posted": "9/30",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"
-  },
-  {
     "id": "math-equation-return-sep30",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1940,38 +1871,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0"
   },
   {
-    "id": "math-equation-retest-oct1",
-    "cat": "no",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 8:10【11点以下対象】",
-    "subject": "数学",
-    "title": "方程式の利用 小テスト再試：LL教室",
-    "details": [
-      "1・2・3組はLL教室で8:10から実施。遅刻厳禁",
-      "事前提出のやり直し答案・課題2枚は9/30(水)20:00までにロイロへ"
-    ],
-    "thread": "数学",
-    "poster": "森本奈央",
-    "posted": "9/30",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"
-  },
-  {
-    "id": "moire-change-clothes-oct1",
-    "cat": "no",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 昼休み",
-    "subject": "保健",
-    "title": "モアレ検査：昼休みに体育着へ着替え",
-    "details": [
-      "午後の検査に備え、昼休みに体育着へ着替える",
-      "食堂を利用する人は、食堂利用後に着替える"
-    ],
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/1",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4Mzk1NDc5MzA2"
-  },
-  {
     "id": "oc-room-change-oct2",
     "cat": "no",
     "date": "2026-10-02",
@@ -1985,22 +1884,6 @@ window.CLASSROOM_DATA = {
     "poster": "Matthew Collins",
     "posted": "10/1",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0"
-  },
-  {
-    "id": "math-equation-show-oct1",
-    "cat": "hw",
-    "date": "2026-10-01",
-    "dateLabel": "10/1 (木) 終礼後",
-    "subject": "数学",
-    "title": "方程式の利用プリント等を直接確認",
-    "details": [
-      "方程式の利用プリント（1）、抜粋No.3・4、抜粋No.5が未確認の人は、終礼後に402教室で直接見せる",
-      "数研の棚へ提出はできない"
-    ],
-    "thread": "82回生",
-    "poster": "山口朋子",
-    "posted": "10/1",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDM1MzAyMTg1"
   },
   {
     "id": "math-proportional-more3-oct1",
@@ -2530,6 +2413,19 @@ window.CLASSROOM_DATA = {
     "poster": "松本珠希",
     "posted": "10/7",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
+  },
+  {
+    "id": "loilo-eng-key134-oct10",
+    "cat": "hw",
+    "date": "2026-10-10",
+    "dateLabel": "10/10 (土) 8:40まで",
+    "subject": "英語",
+    "title": "key p.134-135",
+    "details": [
+      "ロイロの募集中課題。"
+    ],
+    "thread": "ロイロ",
+    "poster": ""
   }
 ]
 };
