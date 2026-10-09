@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-09",
-  updateTime: "09:58",
+  updateTime: "11:11",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -2413,6 +2413,19 @@ window.CLASSROOM_DATA = {
     "poster": "松本珠希",
     "posted": "10/7",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
-  }
+  },
+{
+  "id": "loilo-eng-key134-oct10",
+  "cat": "hw",
+  "date": "2026-10-10",
+  "dateLabel": "10/10 (土) 8:40まで",
+  "subject": "英語",
+  "title": "key p.134-135",
+  "details": [
+    "ロイロの募集中課題。"
+  ],
+  "thread": "ロイロ",
+  "poster": ""
+}
 ]
 };
