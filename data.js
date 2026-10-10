@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-09",
-  updateTime: "11:11",
+  updateISO: "2026-10-10",
+  updateTime: "20:46",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -1476,8 +1476,7 @@ window.CLASSROOM_DATA = {
   {
     "id": "tokyo-u-winter",
     "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "10/2 (金) から【希望者のみ】",
+    "dateLabel": "冬学期",
     "optional": true,
     "subject": "英語",
     "title": "東京大学金曜特別講座 冬学期受講案内",
@@ -1612,23 +1611,6 @@ window.CLASSROOM_DATA = {
     "poster": "森本奈央",
     "posted": "9/25",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODY5ODQ4Mzg2MDg3"
-  },
-  {
-    "id": "tt6",
-    "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "9/28 (月)〜10/2 (金)",
-    "subject": "全体",
-    "title": "9/28〜 時間割表【資料】",
-    "details": [
-      "3組の週間時間割を掲載",
-      "10/1(木)は5限学活・6限理科。3組のモアレ検査は14:00 HR出発、14:10開始",
-      "9/29(火)6限は朗読会"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "9/25",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5ODQ3NTAzNjQy/details"
   },
   {
     "id": "kokugo-saijiki-term-end-sep28",
@@ -1791,23 +1773,6 @@ window.CLASSROOM_DATA = {
     "date": "2026-10-05"
   },
   {
-    "id": "festival-standing-duty-oct2",
-    "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "10/2 (金) 13:05【新聞・保健・図書委員】",
-    "subject": "全体",
-    "title": "十月祭：立ち番をする人の係の会",
-    "details": [
-      "400教室で13:05から実施",
-      "該当者には各委員会の顧問から連絡済み。窓際から新聞・保健・図書ごとに集まる",
-      "集合後は各委員会の委員長・副委員長が出欠を取る"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/1",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNjE0MTU3MzU0"
-  },
-  {
     "id": "math-proportional-more2-sep29",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1869,21 +1834,6 @@ window.CLASSROOM_DATA = {
     "poster": "大越佳子",
     "posted": "9/30",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTc4MzQ1MTY0"
-  },
-  {
-    "id": "oc-room-change-oct2",
-    "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "10/2 (金) 英会話後半",
-    "subject": "英語",
-    "title": "OC Class 教室変更",
-    "details": [
-      "英会話の授業は、前半は通常の教室、後半はRoom 400で実施"
-    ],
-    "thread": "82回生",
-    "poster": "Matthew Collins",
-    "posted": "10/1",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MTU4MjU3MDM0"
   },
   {
     "id": "math-proportional-more3-oct1",
@@ -1966,21 +1916,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY4NzkyOTY5"
   },
   {
-    "id": "festival-committee-oct2",
-    "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "10/2 (金) 16:00【行事委員】",
-    "subject": "全体",
-    "title": "十月祭行事委員会",
-    "details": [
-      "202教室で諸連絡と装飾の手伝いを実施"
-    ],
-    "thread": "82回生",
-    "poster": "中尾有子",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4MzkzMzg1NjE4"
-  },
-  {
     "id": "bsched-oct-nov",
     "cat": "no",
     "date": "2026-11-30",
@@ -2013,22 +1948,6 @@ window.CLASSROOM_DATA = {
     "poster": "菊池菜々世",
     "posted": "10/2",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2"
-  },
-  {
-    "id": "soumu-supporters-oct2",
-    "cat": "no",
-    "date": "2026-10-02",
-    "dateLabel": "10/2 (金) 終礼後15:45【総務サポーターズ】",
-    "subject": "全体",
-    "title": "2学期総務サポーターズ：確認の集合",
-    "details": [
-      "自治会室にiPadを持って集合",
-      "確認のみの短い会"
-    ],
-    "thread": "82回生",
-    "poster": "山本昂宏",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY4NzkyOTY5"
   },
   {
     "id": "math-proportional-more4-oct2",
@@ -2414,18 +2333,53 @@ window.CLASSROOM_DATA = {
     "posted": "10/7",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
   },
-{
-  "id": "loilo-eng-key134-oct10",
-  "cat": "hw",
-  "date": "2026-10-10",
-  "dateLabel": "10/10 (土) 8:40まで",
-  "subject": "英語",
-  "title": "key p.134-135",
-  "details": [
-    "ロイロの募集中課題。"
-  ],
-  "thread": "ロイロ",
-  "poster": ""
-}
+  {
+    "id": "lost-items-oct10",
+    "cat": "no",
+    "subject": "学校",
+    "title": "10/10の落とし物",
+    "details": [
+      "心当たりのある人は校務センターへ取りに行く。"
+    ],
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/10",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTIzNDQ4NjEw"
+  },
+  {
+    "id": "festival-belongings-oct9",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "十月祭期間中",
+    "subject": "学校",
+    "title": "十月祭中の持ち物管理・落とし物の届け方",
+    "details": [
+      "普段以上に自分の持ち物をしっかり管理する。",
+      "拾った物は校務センターへ届ける。拾った日時・場所を落とし物カードに記入し、写真のトレイに入れる。"
+    ],
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/9",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwMTQxNTYyODIx"
+  },
+  {
+    "id": "mail-QA9FKbX815",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "10/10・11 十月祭",
+    "subject": "学校",
+    "title": "十月祭にご来場の皆様へ",
+    "details": [
+      "保護者証を忘れずに持参。",
+      "受付でパンフレットは配布されないため、事前に配布されたものを持参。",
+      "開場前のあまりに早い時間帯には来校しない。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/9",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
+  }
 ]
 };
