@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-10",
-  updateTime: "20:46",
+  updateTime: "20:48",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -2380,6 +2380,22 @@ window.CLASSROOM_DATA = {
     "posted": "10/9",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
-  }
+  },
+{
+  "id": "soumu-festival-duty-oct9",
+  "cat": "no",
+  "date": "2026-10-11",
+  "dateLabel": "十月祭期間中",
+  "subject": "学校",
+  "title": "総務：十月祭立ち番の仕事内容",
+  "details": [
+    "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
+  ],
+  "thread": "総務",
+  "poster": "山本昂宏",
+  "posted": "10/9",
+  "hasLink": true,
+  "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
+}
 ]
 };
