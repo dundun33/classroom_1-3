@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-10",
-  updateTime: "20:48",
+  updateISO: "2026-10-12",
+  updateTime: "15:48",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -1040,25 +1040,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc3ODQ2OTY2MzA2/details"
   },
   {
-    "id": "bball7",
-    "cat": "no",
-    "date": "2026-10-04",
-    "dateLabel": "10/4 (日) 7:35 集合",
-    "subject": "部活",
-    "title": "北地区シード決め大会（1・2年生）",
-    "details": [
-      "はるひ野駅改札前に7:35集合。徒歩で移動し7:45にはるひ野中へ到着予定",
-      "8:50トスアップ（菅中戦）。最低2試合、最高3試合。解散は12:30頃予定",
-      "10:50 TO（試合運営担当）。試合は7分・休憩1分・7分（1・3Q扱い）",
-      "ユニフォームはリバーシブル。保護者観戦なし",
-      "10/2追記：学年・クラスを問わず、体調不良の場合は無理をして参加しない"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "9/17",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg1NTU0NDU1MDAx"
-  },
-  {
     "id": "moshi1",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1404,7 +1385,8 @@ window.CLASSROOM_DATA = {
     "dateLabel": "10/19 (月) 8:40 まで",
     "title": "新中問 第13章 提出",
     "details": [
-      "提出範囲: p.134〜143"
+      "提出範囲: p.134〜143",
+      "ロイロでも募集中。p.134〜143の画像5枚を提出（10/19 8:40締切）。"
     ]
   },
   {
@@ -1562,25 +1544,6 @@ window.CLASSROOM_DATA = {
     "poster": "森本奈央",
     "posted": "9/18",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg1Mzc5NzMzMDY4/details"
-  },
-  {
-    "id": "kokugo-nhk-last-lecture-oct4",
-    "cat": "no",
-    "date": "2026-10-04",
-    "dateLabel": "10/4 (日) まで【希望者のみ】",
-    "optional": true,
-    "subject": "国語",
-    "title": "NHK Eテレ「最後の講義」公開収録 参加者募集",
-    "details": [
-      "小説家・重松清の公開収録。希望者は応募フォームから各自で申し込む",
-      "講義は11/8(日) 13:30から自由学園で実施。当選者は10/18頃にメール連絡予定",
-      "参加者は国語科の鈴木先生にも知らせる"
-    ],
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "posted": "9/25",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3MjYxNTA2OTcx",
-    "hasLink": true
   },
   {
     "id": "festival-ticket-names-sep24",
@@ -1848,22 +1811,6 @@ window.CLASSROOM_DATA = {
     "poster": "山口朋子",
     "posted": "10/1",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details"
-  },
-  {
-    "id": "science1-gas-submit-oct4",
-    "cat": "hw",
-    "date": "2026-10-04",
-    "dateLabel": "10/4 (日) 20:00 まで【2・3・5組】",
-    "subject": "理科",
-    "title": "No.11 気体の性質プリント：提出の推奨期限",
-    "details": [
-      "No.11・11-2「気体の性質」まとめのプリントが対象",
-      "期限までに提出箱へ出したものは、次回授業で印刷して返却。未提出者には期限までの提出を推奨"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjU1OTY5OTUx"
   },
   {
     "id": "online-english-oct5",
@@ -2344,7 +2291,8 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "西出春菜",
     "posted": "10/10",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTIzNDQ4NjEw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTIzNDQ4NjEw",
+    "hasLink": true
   },
   {
     "id": "festival-belongings-oct9",
@@ -2381,21 +2329,215 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
   },
-{
-  "id": "soumu-festival-duty-oct9",
-  "cat": "no",
-  "date": "2026-10-11",
-  "dateLabel": "十月祭期間中",
-  "subject": "学校",
-  "title": "総務：十月祭立ち番の仕事内容",
-  "details": [
-    "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
-  ],
-  "thread": "総務",
-  "poster": "山本昂宏",
-  "posted": "10/9",
-  "hasLink": true,
-  "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
-}
+  {
+    "id": "soumu-festival-duty-oct9",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "十月祭期間中",
+    "subject": "学校",
+    "title": "総務：十月祭立ち番の仕事内容",
+    "details": [
+      "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
+    ],
+    "thread": "総務",
+    "poster": "山本昂宏",
+    "posted": "10/9",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
+  },
+  {
+    "id": "lost-items-oct11",
+    "cat": "no",
+    "subject": "学校",
+    "title": "10/11の落とし物",
+    "details": [
+      "心当たりのある人は校務センターへ取りに行く。"
+    ],
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/11",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NjE1NDQw"
+  },
+  {
+    "id": "corner-cleanup-oct12",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 (月) 9:30",
+    "subject": "学校",
+    "title": "1年生コーナー担当者：片付けの集合",
+    "details": [
+      "残りの片付けのため、9:30に405教室へ集合。"
+    ],
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/11",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NDU0NzA2"
+  },
+  {
+    "id": "cleaning-oct12",
+    "title": "生活部：清掃・ゴミ箱の確認",
+    "date": "2026-10-12",
+    "dateLabel": "10/12",
+    "cat": "no",
+    "details": [
+      "通常の清掃はなし。汚れが目立つ場合は担任の判断で清掃。",
+      "本日はゴミ箱使用禁止。捨ててしまった人は袋を交換し、指定の場所へゴミを捨てに行く。",
+      "生活部部長は帰る前にゴミ箱を確認し、ゴミがあれば処分。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTMxMTg3MjQ1"
+  },
+  {
+    "id": "lost-okoshi-oct12",
+    "title": "落とし物の確認",
+    "cat": "no",
+    "details": [
+      "心当たりのある人は大越先生へ。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg1MDA1Nzk3"
+  },
+  {
+    "id": "representatives-oct16",
+    "title": "代表委員会",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 放課後",
+    "cat": "no",
+    "details": [
+      "放課後に代表委員会を実施。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "山本昂宏",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDgxOTUyMDYx"
+  },
+  {
+    "id": "eng-unit7-retest-oct15",
+    "title": "英語Unit7 再試・欠席者対応",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木) 13:00",
+    "cat": "no",
+    "details": [
+      "1・2・3組はClassroomで返却されたUnit Testを確認。",
+      "全クラス9点以下の人は10/15 13:00にLL教室で再試。",
+      "欠席で未受験の人は10/12終礼後に校務センターへ。"
+    ],
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "本木綾子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw"
+  },
+  {
+    "id": "charity-final-oct12",
+    "title": "マカロン付箋の最終引き換え",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 最終下校まで",
+    "cat": "no",
+    "details": [
+      "引き換え忘れは終礼後が最後の機会。昼休みまたは校務センターで松本先生へ。",
+      "最終下校時刻までに申し出がない場合は販売なし。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDcxMjgyMDYz"
+  },
+  {
+    "id": "festival-survey-oct12",
+    "title": "十月祭アンケート",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 学活",
+    "cat": "hw",
+    "details": [
+      "本日の学活で回答。十月祭委員は回答するよう呼びかける。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "山口朋子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDEzMzQ5NDMy",
+    "hasLink": true
+  },
+  {
+    "id": "science2-resubmit-oct19",
+    "title": "理科2分野：プリント再提出・貼り直し",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 16:10〜17:00",
+    "cat": "hw",
+    "details": [
+      "1・2・3組の前回授業プリントを返却。青いハンコの人は再提出。",
+      "「貼り直し」と書かれた人は10/19 16:10〜17:00に理科Bで貼り直し。再提出全般の締切は本文記載なし。"
+    ],
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2MDkzMDI4"
+  },
+  {
+    "id": "committees-survey-oct16",
+    "title": "新聞・保健・放送・図書委員：十月祭振り返り",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) まで",
+    "cat": "hw",
+    "details": [
+      "準備・立ち番・片付けの仕事についてフォームに回答。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "久保文香",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NjQ2MzQzOTQ0",
+    "hasLink": true
+  },
+  {
+    "id": "lost-display-oct12",
+    "title": "落とし物・傘の展示と引き取り",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 なるべく当日中",
+    "cat": "no",
+    "details": [
+      "昨日までの落とし物と傘を生徒玄関に展示。なるべく当日中に引き取る。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY0NjIxNDA0"
+  },
+  {
+    "id": "health-news-oct12",
+    "cat": "no",
+    "subject": "学校",
+    "title": "保健だよりNo.4",
+    "details": [
+      "気象病・ドライアイ・サプリメント・秋を元気に過ごすために・保健室より。"
+    ],
+    "thread": "82回生",
+    "poster": "西田早苗",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkwNDgwNzUxODQz/details"
+  },
+  {
+    "id": "eng-unit7-answers-oct12",
+    "cat": "no",
+    "subject": "英語",
+    "title": "Unit7 テスト模範解答",
+    "details": [],
+    "thread": "英語",
+    "poster": "平岡裕子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkwNDkwODk0MzE5/details"
+  }
 ]
 };
