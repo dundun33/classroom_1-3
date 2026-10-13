@@ -5,8 +5,8 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-12",
-  updateTime: "15:48",
+  updateISO: "2026-10-13",
+  updateTime: "15:07",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -1386,7 +1386,7 @@ window.CLASSROOM_DATA = {
     "title": "新中問 第13章 提出",
     "details": [
       "提出範囲: p.134〜143",
-      "ロイロでも募集中。p.134〜143の画像5枚を提出（10/19 8:40締切）。"
+      "ロイロで案内された提出形式はp.134〜143の画像5枚（10/19 8:40締切）。"
     ]
   },
   {
