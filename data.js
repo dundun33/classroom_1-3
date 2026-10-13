@@ -6,7 +6,7 @@
 
 window.CLASSROOM_DATA = {
   updateISO: "2026-10-13",
-  updateTime: "15:07",
+  updateTime: "23:12",
   timetable: {
   "label": "10/12(月)〜10/16(金)",
   "days": [
@@ -2402,7 +2402,8 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "大越佳子",
     "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg1MDA1Nzk3"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg1MDA1Nzk3",
+    "hasLink": true
   },
   {
     "id": "representatives-oct16",
