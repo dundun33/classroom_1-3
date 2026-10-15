@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  updateISO: "2026-10-13",
-  updateTime: "23:12",
+  updateISO: "2026-10-15",
+  updateTime: "09:07",
   timetable: {
-  "label": "10/12(月)〜10/16(金)",
+  "label": "10/12(月)〜10/16(金)【10/15〜17学校閉鎖・下記は変更前】",
   "days": [
     {
       "n": "月",
@@ -141,452 +141,6 @@ window.CLASSROOM_DATA = {
       null
     ]
   ]
-},
-  basketball: {
-  "start": "2026-09-01",
-  "end": "2026-11-30",
-  "events": {
-    "2026-09-07": {
-      "kind": "off",
-      "title": "休校・登校禁止",
-      "time": "",
-      "place": "",
-      "detail": "大雨のため家庭学習。月間表の練習予定より9/7の学校連絡を優先。",
-      "source": "保護者メール 9/7"
-    },
-    "2026-09-09": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-11": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-14": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第2体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-18": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-25": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-28": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第2体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-30": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "時間記載なし",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-02": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-05": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "第2体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-07": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-16": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-19": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "第2体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-09-12": {
-      "kind": "match",
-      "title": "練習試合",
-      "time": "12:00 準備",
-      "place": "本校・第3体育館",
-      "detail": "麻生中・田島中との練習試合。原則1・3年生。昼食は11:30〜12:00に3年1組で。早く来すぎないこと。",
-      "source": "月間予定表 ＋ バスケ投稿 9/10"
-    },
-    "2026-09-13": {
-      "kind": "uncertain",
-      "title": "私学大会？",
-      "time": "",
-      "place": "場所未定",
-      "detail": "月間表は「私学大会？」と記載。開催・参加・時間は未確定。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-16": {
-      "kind": "uncertain",
-      "title": "練習なし？",
-      "time": "",
-      "place": "第3体育館",
-      "detail": "月間表は「3年目白で学ぶ1日／練習なし？」と記載。1年生の練習有無も確定できません。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-19": {
-      "kind": "off",
-      "title": "総体・1年生は不参加",
-      "time": "",
-      "place": "",
-      "detail": "川崎市総体1回戦。1年生は「ようこそ先輩」があるため参加できないとの9/10投稿。",
-      "source": "バスケ投稿 9/10"
-    },
-    "2026-09-20": {
-      "kind": "match",
-      "title": "総体2回戦（勝ち進んだ場合）",
-      "time": "7:30 集合",
-      "place": "本校正門 → 南菅中",
-      "detail": "1回戦に勝った場合。徒歩で移動、8:45試合開始、12:00頃解散予定。月間表の「私学大会？」は未確定。",
-      "source": "月間予定表 ＋ バスケ投稿 9/10"
-    },
-    "2026-09-21": {
-      "kind": "uncertain",
-      "title": "私学大会（条件付き）",
-      "time": "",
-      "place": "場所未定",
-      "detail": "8/30に勝った場合、この日に試合の可能性大と記載。出場確定情報は未確認。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-09-23": {
-      "kind": "morning",
-      "title": "午前練習",
-      "time": "8:30〜12:00",
-      "place": "第2・3体育館",
-      "detail": "インフルエンザ流行中のため、風邪症状がある場合は無理をしない。欠席時は連絡する。",
-      "source": "月間予定表・Classroom 9/20"
-    },
-    "2026-09-26": {
-      "kind": "practice",
-      "title": "TO講習会・午後練習",
-      "time": "10:45講習／12:15練習開始",
-      "place": "講習：3年1組（201）／練習：体育館",
-      "detail": "TO講習会は希望者対象。11:30〜12:00昼食、12:00〜12:15体育館準備。講習不参加者も12:15から練習開始。",
-      "source": "バスケClassroom 9/25"
-    },
-    "2026-09-27": {
-      "kind": "uncertain",
-      "title": "総体準決勝・決勝",
-      "time": "",
-      "place": "",
-      "detail": "負けた場合はオフ。大会の会場・集合時刻は記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-04": {
-      "kind": "match",
-      "title": "北地区シード決め大会",
-      "time": "7:35集合／12:30頃解散",
-      "place": "はるひ野駅 → はるひ野中",
-      "detail": "1・2年生対象。8:50菅戦、2〜3試合。10:50 TO（試合運営担当）。リバーシブル持参、保護者観戦なし。 10/2追記：体調不良の場合は無理をして参加しない。",
-      "source": "バスケ投稿 10/2"
-    },
-    "2026-10-08": {
-      "kind": "practice",
-      "title": "十月祭準備",
-      "time": "8:30集合",
-      "place": "控室：理科A",
-      "detail": "9:05練習（第3体育館右）、12:40係の会、13:00午後練習。15:00解散、希望者16:30まで自主練。17:00最終下校。",
-      "source": "10/7 バスケ部の動き・10/8 修正版タイムスケジュール"
-    },
-    "2026-10-09": {
-      "kind": "practice",
-      "title": "十月祭準備・前夜祭",
-      "time": "8:30集合",
-      "place": "控室：理科A",
-      "detail": "8:40練習開始（第3体育館左）、11:30昼食、12:15自主練、14:00練習終了、14:30前夜祭、16:30最終下校。",
-      "source": "10/7 バスケ部の動き・10/8 修正版タイムスケジュール"
-    },
-    "2026-10-10": {
-      "kind": "match",
-      "title": "十月祭1日目",
-      "time": "7:55集合／9:45〜12:15",
-      "place": "控室：理科A",
-      "detail": "8:10集合写真。1年Aコート10:00・10:15（各7分）、TO担当あり。12:30昼食、16:00再集合、16:30最終下校。",
-      "source": "10/7 バスケ部の動き・10/8 修正版タイムスケジュール"
-    },
-    "2026-10-11": {
-      "kind": "match",
-      "title": "十月祭2日目",
-      "time": "8:40集合／13:00〜15:30",
-      "place": "控室：理科A",
-      "detail": "11:45昼食、12:15第一体育館アップ。1年B13:00（6分）・A13:35サレジアン戦（8分）。15:30片付け、16:20伝達・時間差下校。",
-      "source": "10/7 バスケ部の動き・10/8 修正版タイムスケジュール"
-    },
-    "2026-10-12": {
-      "kind": "school",
-      "title": "十月祭片付け",
-      "time": "9:50まで自主練可",
-      "place": "体育館・HR",
-      "detail": "朝の荷物は体育館へ。11:25昼食（HR）、12:10学活・終礼、13:30最終下校。全体朝礼・後夜祭の10:15表記は要確認。",
-      "source": "10/7 バスケ部の動き・10/8 修正版タイムスケジュール"
-    },
-    "2026-10-13": {
-      "kind": "uncertain",
-      "title": "振替休日・午後練習？",
-      "time": "予定 13:00〜16:00",
-      "place": "",
-      "detail": "参加人数を確認して相談後に実施を決定。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-14": {
-      "kind": "school",
-      "title": "振替休日",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-17": {
-      "kind": "morning",
-      "title": "午前練習",
-      "time": "8:30〜12:00",
-      "place": "第2・3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-20": {
-      "kind": "school",
-      "title": "テスト1週間前",
-      "time": "",
-      "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-21": {
-      "kind": "practice",
-      "title": "承諾書提出者は練習",
-      "time": "",
-      "place": "",
-      "detail": "承諾書を提出した人が対象。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-23": {
-      "kind": "practice",
-      "title": "承諾書提出者は練習",
-      "time": "",
-      "place": "",
-      "detail": "承諾書を提出した人が対象。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-10-24": {
-      "kind": "match",
-      "title": "新人戦1回戦",
-      "time": "時間未定",
-      "place": "場所未定",
-      "detail": "1・2年生の大会。日程・参加条件は後続の連絡も確認。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-25": {
-      "kind": "match",
-      "title": "新人戦2回戦",
-      "time": "時間未定",
-      "place": "場所未定",
-      "detail": "1・2年生の大会。日程・参加条件は後続の連絡も確認。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-27": {
-      "kind": "school",
-      "title": "中間テスト",
-      "time": "",
-      "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-28": {
-      "kind": "school",
-      "title": "中間テスト",
-      "time": "",
-      "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-29": {
-      "kind": "school",
-      "title": "中間テスト",
-      "time": "",
-      "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-10-30": {
-      "kind": "practice",
-      "title": "テスト後に練習",
-      "time": "15:30 最終下校",
-      "place": "第3体育館",
-      "detail": "昼食持参。中間テスト後に練習あり。",
-      "source": "月間予定表「2026年9-10月.pdf」"
-    },
-    "2026-11-02": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-04": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-06": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-09": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-11": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-13": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-16": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-20": {
-      "kind": "practice",
-      "title": "練習",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-03": {
-      "kind": "morning",
-      "title": "午前練習・午後自主練可",
-      "time": "8:30〜12:00",
-      "place": "第3体育館",
-      "detail": "文化の日。午後は自主練可。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-08": {
-      "kind": "morning",
-      "title": "午前練習",
-      "time": "8:30〜12:00",
-      "place": "第2・3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-14": {
-      "kind": "practice",
-      "title": "午後練習",
-      "time": "13:00〜16:00",
-      "place": "第3体育館",
-      "detail": "午前は入試体験会。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-18": {
-      "kind": "school",
-      "title": "1・2年 家庭学習日",
-      "time": "",
-      "place": "",
-      "detail": "3年生は高校面接。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-21": {
-      "kind": "uncertain",
-      "title": "午前練習？（午後の可能性）",
-      "time": "",
-      "place": "",
-      "detail": "午前なら8:30〜12:00。午後へ変更の可能性があり、時間帯は未確定。",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-23": {
-      "kind": "school",
-      "title": "勤労感謝の日",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    },
-    "2026-11-24": {
-      "kind": "school",
-      "title": "テスト1週間前",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
-    }
-  }
 },
   items: [
   {
@@ -980,24 +534,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc4MTUyMjM5ODA5"
   },
   {
-    "id": "zkai1",
-    "cat": "no",
-    "date": "2026-10-07",
-    "dateLabel": "10/7 (水) まで【希望者のみ】",
-    "optional": true,
-    "subject": "英語",
-    "title": "Z会 英語ライティング講座のお知らせ",
-    "details": [
-      "学校専用講座で英作文添削を2回受けられる（個人申込不可）",
-      "英検合格・スコアアップを目指す人向け。9/9にチラシ配布",
-      "9/29に締切を再案内。希望者は10/7(水)までに申し込む"
-    ],
-    "thread": "82回生",
-    "poster": "中尾有子",
-    "posted": "9/29",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3NjkyNzAyMjQ0"
-  },
-  {
     "id": "taiiku2",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1257,27 +793,6 @@ window.CLASSROOM_DATA = {
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9PHeaYXzc"
   },
   {
-    "id": "mail-Q9TGLc1mf2",
-    "cat": "no",
-    "date": "2026-10-05",
-    "dateLabel": "10/5 (月) 12:00 申込締切【希望者】",
-    "optional": true,
-    "subject": "全体",
-    "title": "十月祭チャリティー企画について",
-    "details": [
-      "十月祭のマカロン付箋販売の収益を「令和8年熊本地震」への募金に充てる企画",
-      "趣旨に賛同する場合は、メール内リンクのフォームから10/5(月)12:00までに申込み",
-      "事前購入は保護者と生徒で申込個数を確認。クラスで案内プリントを配布",
-      "10/1のClassroom追記：9/30の16時頃までの申込者は氏名欄不備のため再申込み。氏名入力が不明な場合も再申込み可"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/29",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9TGLbQtb7",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9TGLc1mf2"
-  },
-  {
     "id": "mail-Q99IMEuDYr",
     "cat": "no",
     "date": "2026-10-31",
@@ -1363,22 +878,6 @@ window.CLASSROOM_DATA = {
     "posted": "9/9",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
     "hasLink": true,
-    "id": "eng-ch10",
-    "cat": "hw",
-    "date": "2026-10-05",
-    "dateLabel": "10/5 (月) 8:40 まで",
-    "title": "新中問 第10章 提出",
-    "details": [
-      "提出範囲: p.106〜115"
-    ]
-  },
-  {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
     "id": "eng-ch13",
     "cat": "hw",
     "date": "2026-10-19",
@@ -1387,24 +886,6 @@ window.CLASSROOM_DATA = {
     "details": [
       "提出範囲: p.134〜143",
       "ロイロで案内された提出形式はp.134〜143の画像5枚（10/19 8:40締切）。"
-    ]
-  },
-  {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
-    "id": "eng-unit7",
-    "cat": "no",
-    "date": "2026-10-06",
-    "dateLabel": "10/6（資料の曜日表記に不一致あり）",
-    "title": "英語 Unit 7 テスト",
-    "details": [
-      "毎回の小テストは行わず、ユニットテストを実施",
-      "単語も出題。資料記載の単語範囲はKeyワークp.108・124・138",
-      "1・2・3組は10/6と記載。資料では月曜となっているが、暦上は火曜のため要確認"
     ]
   },
   {
@@ -1715,27 +1196,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg3OTA4MzQyNzIx"
   },
   {
-    "id": "festival-charity-sep29",
-    "cat": "no",
-    "dateLabel": "10/5 (月) 12:00 申込締切",
-    "subject": "全体",
-    "title": "経理部チャリティー企画のお知らせ",
-    "details": [
-      "マカロン付箋を1個300円で販売（本体190円・チャリティー110円）。赤い羽根共同募金を通じた熊本地震への支援企画",
-      "事前申込みは10/5(月)正午厳守。色はランダム、保護者と相談して購入",
-      "9/30(水)16時頃までに申し込んだ人は、氏名欄がなかったため再申込みが必要。氏名を入力したか不明な場合も再申込み可（重複は確認対応）",
-      "在校生への引渡しは10/8(木)13:30〜14:30、10/9(金)11:30〜12:30。自治会室前（3年1組隣）",
-      "支払いは現金のみ、お釣りのないように用意。自治会室前には募金箱も設置",
-      "経理部部長は配布済みポスターをクラス内に掲示し、説明する"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "9/29",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNTU1NjkxMDA0",
-    "hasLink": true,
-    "date": "2026-10-05"
-  },
-  {
     "id": "math-proportional-more2-sep29",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1813,56 +1273,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details"
   },
   {
-    "id": "online-english-oct5",
-    "cat": "no",
-    "date": "2026-10-05",
-    "dateLabel": "10/5 (月) 英語授業",
-    "subject": "英語",
-    "title": "オンライン英会話：iPadを充電して持参",
-    "details": [
-      "iPadを100％まで充電して登校",
-      "前回配布のアカウントカード・マニュアルがあると便利",
-      "早く終わった場合はKeyワークや新中問題集に取り組んでよい"
-    ],
-    "thread": "82回生",
-    "poster": "本木綾子",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY2NTcyMzE3"
-  },
-  {
-    "id": "gika-embroidery-remedial-oct5",
-    "cat": "no",
-    "date": "2026-10-05",
-    "dateLabel": "10/5 (月) 13:00【刺しゅうやり直し対象者】",
-    "subject": "技術家庭",
-    "title": "刺しゅう補習",
-    "details": [
-      "被服室Bで13:00開始（時間厳守）",
-      "質問したい人は裁縫道具と刺しゅうセット一式を持参",
-      "再提出期限は10/16(金)"
-    ],
-    "thread": "82回生",
-    "poster": "菊池菜々世",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2"
-  },
-  {
-    "id": "soumu-supporters-oct6",
-    "cat": "no",
-    "date": "2026-10-06",
-    "dateLabel": "10/6 (火) 12:45〜13:15【総務サポーターズ】",
-    "subject": "全体",
-    "title": "2学期総務サポーターズ：昼の会",
-    "details": [
-      "理科Cで実施",
-      "弁当を持参"
-    ],
-    "thread": "82回生",
-    "poster": "山本昂宏",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NjY4NzkyOTY5"
-  },
-  {
     "id": "bsched-oct-nov",
     "cat": "no",
     "date": "2026-11-30",
@@ -1894,7 +1304,8 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "菊池菜々世",
     "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2",
+    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
   },
   {
     "id": "math-proportional-more4-oct2",
@@ -1982,23 +1393,6 @@ window.CLASSROOM_DATA = {
     "hasLink": true
   },
   {
-    "id": "festival-subcommittees-oct5",
-    "cat": "no",
-    "date": "2026-10-05",
-    "dateLabel": "10/5 (月) 16:00【十月祭行事委員】",
-    "subject": "全体",
-    "title": "十月祭：全体委員会なし・小委員会を実施",
-    "details": [
-      "本日は全体の委員会を行わない",
-      "本部・装飾の小委員会は、それぞれの場所に16:00集合（場所名は本文に記載なし）",
-      "PR小委員会は2・3年生のみ対象"
-    ],
-    "thread": "82回生",
-    "poster": "中尾有子",
-    "posted": "10/5",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTExNjE4MTIw"
-  },
-  {
     "id": "forum-oct8",
     "cat": "no",
     "date": "2026-10-11",
@@ -2062,21 +1456,6 @@ window.CLASSROOM_DATA = {
     "hasLink": true
   },
   {
-    "id": "kokugo-file-oct7",
-    "cat": "hw",
-    "date": "2026-10-07",
-    "dateLabel": "10/7中",
-    "subject": "国語",
-    "title": "国語作品ファイル：未提出者は提出",
-    "details": [
-      "未提出者は10/7中に必ず提出。提出されなければ十月祭で展示できない。"
-    ],
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTkxNzI4MjE2"
-  },
-  {
     "id": "library-festival-oct7",
     "cat": "no",
     "date": "2026-10-12",
@@ -2125,22 +1504,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5MzE0MjU5NzMz"
   },
   {
-    "id": "art-display-oct7",
-    "cat": "hw",
-    "date": "2026-10-07",
-    "dateLabel": "10/7まで",
-    "subject": "美術",
-    "title": "美術：欠席者の作品展示作業",
-    "details": [
-      "3回目の授業を欠席し未作業の人は10/6放課後または10/7昼休み・放課後に展示作業。難しい場合は芝先生へ申し出る。",
-      "名前ペン・感想文下書き、持っている人は清書用紙も持参。"
-    ],
-    "thread": "82回生",
-    "poster": "芝咲耶子",
-    "posted": "10/6",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5Mjk5MTE0ODA1"
-  },
-  {
     "id": "math-proportion-test-oct15",
     "cat": "no",
     "date": "2026-10-15",
@@ -2153,7 +1516,8 @@ window.CLASSROOM_DATA = {
     "thread": "数学",
     "poster": "山口朋子",
     "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx"
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
+    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
   },
   {
     "id": "math-more5-oct6",
@@ -2273,7 +1637,8 @@ window.CLASSROOM_DATA = {
     "subject": "時間割",
     "title": "10/12〜 時間割表【資料】",
     "details": [
-      "10/12十月祭片付け、10/13・14振替休日。10/16の5・6限は英語公演会。"
+      "10/12十月祭片付け、10/13・14振替休日。10/16の5・6限は英語公演会。",
+      "10/15の保護者メールで10/15〜17の学校閉鎖を連絡。掲載の授業表は変更前。10/16家庭学習の詳細は後日連絡予定。"
     ],
     "thread": "82回生",
     "poster": "松本珠希",
@@ -2418,7 +1783,8 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "山本昂宏",
     "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDgxOTUyMDYx"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDgxOTUyMDYx",
+    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
   },
   {
     "id": "eng-unit7-retest-oct15",
@@ -2435,7 +1801,8 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "本木綾子",
     "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw",
+    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
   },
   {
     "id": "charity-final-oct12",
@@ -2539,6 +1906,57 @@ window.CLASSROOM_DATA = {
     "poster": "平岡裕子",
     "posted": "10/12",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkwNDkwODk0MzE5/details"
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "posted": "10/15",
+    "id": "cafeteria-refund-oct15",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木)・返金は後日",
+    "title": "本日の食堂：食券は後日返金",
+    "details": [
+      "購入済みの食券は後日返金が可能。",
+      "本日は返金対応なし。速やかに下校する。"
+    ],
+    "poster": "阿佐美優子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc3MjI2ODcz"
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "posted": "10/15",
+    "id": "festival-committee-oct15",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木) 放課後【要確認】",
+    "title": "十月祭行事委員会：学校閉鎖に伴い実施要確認",
+    "details": [
+      "当初の案内：放課後、202教室。iPadを持参。",
+      "同日の学校閉鎖・朝礼後下校の連絡あり。委員会の変更後の日程は未確認。"
+    ],
+    "poster": "中尾有子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg5ODE0NDgy"
+  },
+  {
+    "id": "mail-QAF95oyOZz",
+    "cat": "no",
+    "subject": "学校",
+    "date": "2026-10-17",
+    "dateLabel": "10/15 (木)〜17 (土)",
+    "title": "学校閉鎖のお知らせ",
+    "details": [
+      "全学年で発熱・風邪症状の生徒が複数いるため、10/15は朝礼後に下校。10/15〜17は学校閉鎖。",
+      "17日までは健康な生徒も外出を避け、家庭学習を行う。",
+      "10/16の家庭学習（オンライン授業を含む）は10/15午後以降にClassroomまたはロイロで連絡予定。",
+      "インフルエンザ等に感染した生徒は登校時に出校許可書を持参。保護者による記入で可。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/15",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz"
   }
 ]
 };
