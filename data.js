@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "14:06",
+  fetchCheckedTime: "15:11",
   updateISO: "2026-10-15",
-  updateTime: "14:06",
+  updateTime: "15:11",
   timetable: {
   "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
@@ -123,8 +123,8 @@ window.CLASSROOM_DATA = {
         "s": "英会話",
         "t": "コリンズ・マオ",
         "r": "オンライン",
-        "mk": "11:50〜12:40",
-        "ref": "online-oct16"
+        "mk": "11:50〜12:40・プリント",
+        "ref": "oc-heart-game-oct16"
       },
       null
     ],
@@ -1976,17 +1976,18 @@ window.CLASSROOM_DATA = {
   {
     "id": "math-proportion-test-oct15",
     "cat": "no",
-    "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
+    "dateLabel": "10/15 実施済みの案内",
     "subject": "数学",
-    "title": "比例・反比例 小テスト【学校閉鎖・振替未定】",
+    "title": "比例・反比例 小テスト【実施済みの案内あり】",
     "details": [
-      "10/15〜17の学校閉鎖により、以下の当初の登校・対面実施予定は適用しない。振替日程は未発表。",
-      "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。"
+      "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。",
+      "10/15の数学連絡では「本日実施した」と案内。欠席で未受験の人は10/19終礼清掃後に404で受験。"
     ],
     "thread": "数学",
     "poster": "山口朋子",
     "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx"
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
+    "date": "2026-10-15"
   },
   {
     "id": "math-more5-oct6",
@@ -2588,6 +2589,83 @@ window.CLASSROOM_DATA = {
     "poster": "山本昂宏",
     "posted": "10/15",
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
+  },
+  {
+    "id": "math-absent-oct19",
+    "title": "比例・反比例小テスト：欠席者の受験",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 終礼清掃後",
+    "details": [
+      "10/15の小テストを欠席して未受験の人が対象。404で実施。",
+      "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
+  },
+  {
+    "id": "math-absent-oct20",
+    "title": "数学小テスト：10/19も欠席した場合",
+    "date": "2026-10-20",
+    "dateLabel": "10/20 (火) 8:10【該当者】",
+    "details": [
+      "小テスト未受験で10/19も欠席した人は、校務センターに受けに来る。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
+  },
+  {
+    "id": "math-worksheet2-oct19",
+    "title": "比例・反比例ワークシート（2）を持参",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 数学【3組】",
+    "details": [
+      "2・3・6組は10/19の授業で使用。10/15配布のプリントを持参する。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkyMzEyNDYzOTI3/details"
+  },
+  {
+    "id": "oc-my-club-oct15",
+    "title": "My Club Writing：未完了者は提出",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木) 中",
+    "details": [
+      "未完成の人は今日中に完成させ、ロイロノートで提出。",
+      "欠席・紛失した人は「授業内共有」フォルダーの「Zoom 授業 My Club Writing」を使用。"
+    ],
+    "cat": "hw",
+    "posted": "10/15",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "Matthew Collins",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
+  },
+  {
+    "id": "oc-heart-game-oct16",
+    "title": "英会話：The Heart Game を準備",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 4限オンライン",
+    "details": [
+      "The Heart Game のプリントを授業に用意。持っていない人はロイロの「授業内共有」フォルダーのコピーを使用。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "Matthew Collins",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
   }
 ]
 };
