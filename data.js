@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "15:11",
+  fetchCheckedTime: "17:15",
   updateISO: "2026-10-15",
-  updateTime: "15:11",
+  updateTime: "17:15",
   timetable: {
   "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
@@ -2666,6 +2666,149 @@ window.CLASSROOM_DATA = {
     "thread": "英語",
     "poster": "Matthew Collins",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
+  },
+  {
+    "id": "momiji-visit-oct15",
+    "title": "もみじ祭見学：事前予約が必要",
+    "dateLabel": "見学前に予約【希望者】",
+    "details": [
+      "フォームで予約し、自動返信メールを印刷して当日受付へ。開催日・申込期限はこの資料に記載なし。",
+      "中学生は高校玄関前で受付後、中学玄関で上履きに履き替える。家族は高校玄関から入場し、中学校の入校証を持参。",
+      "中学生はスマートフォンで撮影不可。撮影は保護者証着用者のみ。",
+      "ほとんどの売り場はキャッシュレス。交通系ICカード等を事前にチャージ（校内チャージ不可）。卒業生バザーは現金のみ。",
+      "飲食は3G教室・3H前モール・食堂の指定場所で。食べ歩き不可。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "石井靖子",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNzM3MjgyNTQy"
+  },
+  {
+    "id": "sogaku-apply-oct30",
+    "title": "式典の奏楽オーディション：応募受付",
+    "date": "2026-10-30",
+    "dateLabel": "10/30 (金) まで【希望者】",
+    "details": [
+      "始業式・終業式などの式典奏者を募集。クラシック音楽で5分以内ほどの曲が望ましい。",
+      "ロイロノート（ヴァイオリン）の資料箱の案内を参考に音楽科へ応募。",
+      "全員分の学年・組・番号・氏名、作曲者と作品名（作品番号・調性・楽章）、編成、演奏時間を伝える。",
+      "オーディションは11/11昼休み、声楽器楽室。詳細は後日Classroom配信。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+  },
+  {
+    "id": "sogaku-audition-nov11",
+    "title": "式典の奏楽オーディション",
+    "date": "2026-11-11",
+    "dateLabel": "11/11 (水) 昼休み",
+    "details": [
+      "声楽器楽室で実施。応募締切は10/30。詳細は後日Classroom配信。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+  },
+  {
+    "id": "violin-accompanist-oct23",
+    "title": "音楽会行事委員：バイオリン伴奏候補者を報告",
+    "date": "2026-10-23",
+    "dateLabel": "10/23 (金) まで",
+    "details": [
+      "終礼ボックス配布の用紙に伴奏オーディション希望者名を記入し、矢沢先生へ提出。",
+      "候補者がいない場合もその旨を伝える。"
+    ],
+    "cat": "hw",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNTEzNjY2NTQx"
+  },
+  {
+    "id": "violin-audition-nov",
+    "title": "バイオリン曲のピアノ伴奏オーディション",
+    "dateLabel": "11/6・9予定（学年別日程は後日）",
+    "details": [
+      "配布済みの伴奏譜を使って練習し受験。",
+      "11/6昼休み、11/9昼休み・放課後を学年で分けて実施予定。1年生の確定枠は未発表。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNTEzNjY2NTQx",
+    "optional": true
+  },
+  {
+    "id": "writing-course-cancel",
+    "title": "英語ライティング講座は不成立",
+    "dateLabel": "開講なし",
+    "details": [
+      "最低開講人数に達せず不成立。申込者は配付された手紙を確認。"
+    ],
+    "cat": "no",
+    "subject": "英語",
+    "thread": "82回生",
+    "posted": "10/15",
+    "poster": "中尾有子",
+    "optional": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg4OTE1NDQ4"
+  },
+  {
+    "id": "mail-QAFGSt99fG",
+    "title": "第49回 能楽鑑賞会",
+    "date": "2027-01-16",
+    "dateLabel": "2027/1/16 (土) 14:00開演",
+    "details": [
+      "国立能楽堂。13:00開場、14:00開演、16:10終演予定。能「葵上」、狂言「棒縛」。",
+      "1・2年生は希望者参加。家族・友人も参加可。本校中学生は標準服着用。",
+      "1人2,000円、納入後は返金不可。申込みは10/15〜25、定員超過時は抽選。",
+      "支払い・チケットは案内可能な方に11月下旬頃メール連絡。",
+      "学校閉鎖で配れなかった印刷物は10/19終礼に配布予定。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "保護者向けメール",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
+  },
+  {
+    "id": "noh-apply-oct25",
+    "title": "能楽鑑賞会の申込み",
+    "date": "2026-10-25",
+    "dateLabel": "10/25 (日) 申込締切【希望者】",
+    "details": [
+      "2027/1/16開催分。メール内の申込フォームから申し込む。",
+      "1人2,000円。定員超過時は抽選。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "保護者向けメール",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
   }
 ]
 };
