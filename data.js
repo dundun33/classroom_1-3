@@ -6,11 +6,11 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "09:22",
+  fetchCheckedTime: "09:28",
   updateISO: "2026-10-15",
-  updateTime: "09:22",
+  updateTime: "09:28",
   timetable: {
-  "label": "10/12(月)〜10/16(金)【10/15〜17学校閉鎖・下記は変更前】",
+  "label": "10/12(月)〜10/17(土)【10/15〜17 学校閉鎖】",
   "days": [
     {
       "n": "月",
@@ -36,6 +36,11 @@ window.CLASSROOM_DATA = {
       "n": "金",
       "md": "10/16",
       "iso": "2026-10-16"
+    },
+    {
+      "n": "土",
+      "md": "10/17",
+      "iso": "2026-10-17"
     }
   ],
   "rows": [
@@ -60,86 +65,65 @@ window.CLASSROOM_DATA = {
         "rs": 6
       },
       {
-        "s": "社",
-        "t": "宮崎",
-        "r": "HR"
+        "s": "学校閉鎖",
+        "t": "",
+        "r": "朝礼後下校・家庭学習",
+        "rs": 6,
+        "ref": "mail-QAF95oyOZz"
       },
       {
-        "s": "英",
-        "t": "コリンズ・マオ",
-        "r": "LL/400"
+        "s": "学校閉鎖",
+        "t": "",
+        "r": "家庭学習（詳細連絡待ち）",
+        "rs": 6,
+        "ref": "mail-QAF95oyOZz"
+      },
+      {
+        "s": "学校閉鎖",
+        "t": "",
+        "r": "外出を避け家庭学習",
+        "rs": 6,
+        "ref": "mail-QAF95oyOZz"
       }
     ],
     [
       null,
       null,
       null,
-      {
-        "s": "体",
-        "t": "石井",
-        "r": "HR"
-      },
-      {
-        "s": "国",
-        "t": "秦野",
-        "r": "HR"
-      }
-    ],
-    [
       null,
       null,
-      null,
-      {
-        "s": "数（小テスト）",
-        "t": "山口",
-        "r": "HR",
-        "mk": "定規持参",
-        "ref": "math-proportion-test-oct15"
-      },
-      {
-        "s": "家",
-        "t": "菊池",
-        "r": "HR",
-        "rs": 2
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      {
-        "s": "国",
-        "t": "鈴木",
-        "r": "HR"
-      },
       null
     ],
     [
       null,
       null,
       null,
-      {
-        "s": "理",
-        "t": "松本",
-        "r": "理科A"
-      },
-      {
-        "s": "英語公演会",
-        "t": "",
-        "r": "",
-        "rs": 2,
-        "ref": "tt8"
-      }
+      null,
+      null,
+      null
     ],
     [
       null,
       null,
       null,
-      {
-        "s": "英",
-        "t": "平岡",
-        "r": "HR"
-      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
       null
     ]
   ]
@@ -237,12 +221,12 @@ window.CLASSROOM_DATA = {
       "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-16": {
-      "kind": "practice",
-      "title": "練習",
+      "kind": "off",
+      "title": "学校閉鎖・部活動なし",
       "time": "",
-      "place": "第3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+      "place": "",
+      "detail": "学校閉鎖のため登校・通常練習なし。健康な生徒も外出を避け家庭学習。学校からの10/15連絡を月間予定より優先。",
+      "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
     },
     "2026-10-19": {
       "kind": "practice",
@@ -389,12 +373,12 @@ window.CLASSROOM_DATA = {
       "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
     },
     "2026-10-17": {
-      "kind": "morning",
-      "title": "午前練習",
-      "time": "8:30〜12:00",
-      "place": "第2・3体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+      "kind": "off",
+      "title": "学校閉鎖・部活動なし",
+      "time": "",
+      "place": "",
+      "detail": "学校閉鎖のため登校・通常練習なし。健康な生徒も外出を避け家庭学習。学校からの10/15連絡を月間予定より優先。",
+      "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
     },
     "2026-10-20": {
       "kind": "school",
@@ -587,6 +571,14 @@ window.CLASSROOM_DATA = {
       "place": "",
       "detail": "",
       "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+    },
+    "2026-10-15": {
+      "kind": "off",
+      "title": "学校閉鎖・部活動なし",
+      "time": "",
+      "place": "",
+      "detail": "学校閉鎖のため登校・通常練習なし。健康な生徒も外出を避け家庭学習。学校からの10/15連絡を月間予定より優先。",
+      "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
     }
   }
 },
@@ -1954,18 +1946,17 @@ window.CLASSROOM_DATA = {
   {
     "id": "math-proportion-test-oct15",
     "cat": "no",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 授業中",
+    "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
     "subject": "数学",
-    "title": "比例・反比例 小テスト",
+    "title": "比例・反比例 小テスト【学校閉鎖・振替未定】",
     "details": [
+      "10/15〜17の学校閉鎖により、以下の当初の登校・対面実施予定は適用しない。振替日程は未発表。",
       "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。"
     ],
     "thread": "数学",
     "poster": "山口朋子",
     "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
-    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx"
   },
   {
     "id": "math-more5-oct6",
@@ -2080,13 +2071,14 @@ window.CLASSROOM_DATA = {
   {
     "id": "tt8",
     "cat": "no",
-    "date": "2026-10-16",
-    "dateLabel": "10/12(月)〜10/16(金)",
+    "date": "2026-10-17",
+    "dateLabel": "10/12〜17（15〜17学校閉鎖）",
     "subject": "時間割",
     "title": "10/12〜 時間割表【資料】",
     "details": [
-      "10/12十月祭片付け、10/13・14振替休日。10/16の5・6限は英語公演会。",
-      "10/15の保護者メールで10/15〜17の学校閉鎖を連絡。掲載の授業表は変更前。10/16家庭学習の詳細は後日連絡予定。"
+      "10/12十月祭片付け、10/13・14振替休日。",
+      "10/15〜17学校閉鎖。10/15は朝礼後下校。通常授業・10/16英語公演会の当初の登校予定は適用しない。",
+      "10/16は家庭学習（オンライン授業を含む）。内容は10/15午後以降にClassroomまたはロイロで連絡予定。"
     ],
     "thread": "82回生",
     "poster": "松本珠希",
@@ -2220,27 +2212,26 @@ window.CLASSROOM_DATA = {
   },
   {
     "id": "representatives-oct16",
-    "title": "代表委員会",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 放課後",
+    "title": "代表委員会【学校閉鎖・振替未定】",
+    "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
     "cat": "no",
     "details": [
+      "10/15〜17の学校閉鎖により、以下の当初の登校・対面実施予定は適用しない。振替日程は未発表。",
       "放課後に代表委員会を実施。"
     ],
     "subject": "学校",
     "thread": "82回生",
     "poster": "山本昂宏",
     "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDgxOTUyMDYx",
-    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDgxOTUyMDYx"
   },
   {
     "id": "eng-unit7-retest-oct15",
-    "title": "英語Unit7 再試・欠席者対応",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木) 13:00",
+    "title": "英語Unit7 再試・欠席者対応【学校閉鎖・振替未定】",
+    "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
     "cat": "no",
     "details": [
+      "10/15〜17の学校閉鎖により、以下の当初の登校・対面実施予定は適用しない。振替日程は未発表。",
       "1・2・3組はClassroomで返却されたUnit Testを確認。",
       "全クラス9点以下の人は10/15 13:00にLL教室で再試。",
       "欠席で未受験の人は10/12終礼後に校務センターへ。"
@@ -2249,8 +2240,7 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "poster": "本木綾子",
     "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw",
-    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw"
   },
   {
     "id": "charity-final-oct12",
@@ -2377,12 +2367,11 @@ window.CLASSROOM_DATA = {
     "thread": "82回生",
     "posted": "10/15",
     "id": "festival-committee-oct15",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木) 放課後【要確認】",
-    "title": "十月祭行事委員会：学校閉鎖に伴い実施要確認",
+    "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
+    "title": "十月祭行事委員会【学校閉鎖・振替未定】",
     "details": [
-      "当初の案内：放課後、202教室。iPadを持参。",
-      "同日の学校閉鎖・朝礼後下校の連絡あり。委員会の変更後の日程は未確認。"
+      "10/15〜17の学校閉鎖により、以下の当初の登校・対面実施予定は適用しない。振替日程は未発表。",
+      "当初の案内：放課後、202教室。iPadを持参。"
     ],
     "poster": "中尾有子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg5ODE0NDgy"
@@ -2406,37 +2395,37 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz"
   },
-{
-  "id": "kokugo-take-home-oct15",
-  "cat": "no",
-  "date": "2026-10-15",
-  "dateLabel": "10/15 (木)",
-  "subject": "国語",
-  "title": "『銀河鉄道の夜』の教材を持ち帰る",
-  "details": [
-    "文庫本と授業プリントを持ち帰っておく。"
-  ],
-  "thread": "82回生",
-  "poster": "鈴木秀一",
-  "posted": "10/15",
-  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
-},
-{
-  "id": "kanji-test-oct20",
-  "cat": "no",
-  "date": "2026-10-20",
-  "dateLabel": "10/20 (火)【3組】",
-  "subject": "国語",
-  "title": "漢字豆テスト",
-  "details": [
-    "3組は10/20(火)に実施。",
-    "範囲：ステップ16〜力だめし3（p.76〜90）。",
-    "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
-  ],
-  "thread": "82回生",
-  "poster": "鈴木秀一",
-  "posted": "10/15",
-  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
-}
+  {
+    "id": "kokugo-take-home-oct15",
+    "cat": "no",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木)",
+    "subject": "国語",
+    "title": "『銀河鉄道の夜』の教材を持ち帰る",
+    "details": [
+      "文庫本と授業プリントを持ち帰っておく。"
+    ],
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
+  },
+  {
+    "id": "kanji-test-oct20",
+    "cat": "no",
+    "date": "2026-10-20",
+    "dateLabel": "10/20 (火)【3組】",
+    "subject": "国語",
+    "title": "漢字豆テスト",
+    "details": [
+      "3組は10/20(火)に実施。",
+      "範囲：ステップ16〜力だめし3（p.76〜90）。",
+      "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
+    ],
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
+  }
 ]
 };
