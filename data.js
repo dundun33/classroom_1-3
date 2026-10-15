@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "09:28",
+  fetchCheckedTime: "11:14",
   updateISO: "2026-10-15",
-  updateTime: "09:28",
+  updateTime: "11:14",
   timetable: {
   "label": "10/12(月)〜10/17(土)【10/15〜17 学校閉鎖】",
   "days": [
@@ -2426,6 +2426,26 @@ window.CLASSROOM_DATA = {
     "poster": "鈴木秀一",
     "posted": "10/15",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
-  }
+  },
+{
+  "id": "entrance-supporters-nov14",
+  "cat": "no",
+  "optional": true,
+  "date": "2026-11-04",
+  "dateLabel": "11/4 (水) 申込締切【11/14実施】",
+  "subject": "学校",
+  "title": "11/14 入試体験会サポーターズ募集",
+  "details": [
+    "受付・教室/控室担当・相談コーナーのサポーターを募集。",
+    "添付フォームで11/4(水)までに申込み。",
+    "11/14(土)、早い係は8:00頃集合、遅い係は12:30頃解散予定。",
+    "申込者には後日説明の会を実施。"
+  ],
+  "thread": "82回生",
+  "poster": "馬場友紀",
+  "posted": "10/15",
+  "hasLink": true,
+  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjgxMjEwMzM3"
+}
 ]
 };
