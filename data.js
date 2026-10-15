@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "09:10",
+  fetchCheckedTime: "09:22",
   updateISO: "2026-10-15",
-  updateTime: "09:10",
+  updateTime: "09:22",
   timetable: {
   "label": "10/12(月)〜10/16(金)【10/15〜17学校閉鎖・下記は変更前】",
   "days": [
@@ -2405,6 +2405,38 @@ window.CLASSROOM_DATA = {
     "posted": "10/15",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz"
-  }
+  },
+{
+  "id": "kokugo-take-home-oct15",
+  "cat": "no",
+  "date": "2026-10-15",
+  "dateLabel": "10/15 (木)",
+  "subject": "国語",
+  "title": "『銀河鉄道の夜』の教材を持ち帰る",
+  "details": [
+    "文庫本と授業プリントを持ち帰っておく。"
+  ],
+  "thread": "82回生",
+  "poster": "鈴木秀一",
+  "posted": "10/15",
+  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
+},
+{
+  "id": "kanji-test-oct20",
+  "cat": "no",
+  "date": "2026-10-20",
+  "dateLabel": "10/20 (火)【3組】",
+  "subject": "国語",
+  "title": "漢字豆テスト",
+  "details": [
+    "3組は10/20(火)に実施。",
+    "範囲：ステップ16〜力だめし3（p.76〜90）。",
+    "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
+  ],
+  "thread": "82回生",
+  "poster": "鈴木秀一",
+  "posted": "10/15",
+  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
+}
 ]
 };
