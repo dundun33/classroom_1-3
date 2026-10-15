@@ -6,11 +6,11 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-15",
-  fetchCheckedTime: "11:14",
+  fetchCheckedTime: "14:06",
   updateISO: "2026-10-15",
-  updateTime: "11:14",
+  updateTime: "14:06",
   timetable: {
-  "label": "10/12(月)〜10/17(土)【10/15〜17 学校閉鎖】",
+  "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
     {
       "n": "月",
@@ -72,11 +72,11 @@ window.CLASSROOM_DATA = {
         "ref": "mail-QAF95oyOZz"
       },
       {
-        "s": "学校閉鎖",
-        "t": "",
-        "r": "家庭学習（詳細連絡待ち）",
-        "rs": 6,
-        "ref": "mail-QAF95oyOZz"
+        "s": "英",
+        "t": "本木",
+        "r": "オンライン",
+        "mk": "8:50〜9:40",
+        "ref": "online-oct16"
       },
       {
         "s": "学校閉鎖",
@@ -91,7 +91,13 @@ window.CLASSROOM_DATA = {
       null,
       null,
       null,
-      null,
+      {
+        "s": "国",
+        "t": "秦野",
+        "r": "オンライン",
+        "mk": "9:50〜10:40",
+        "ref": "online-oct16"
+      },
       null
     ],
     [
@@ -99,7 +105,13 @@ window.CLASSROOM_DATA = {
       null,
       null,
       null,
-      null,
+      {
+        "s": "国",
+        "t": "鈴木",
+        "r": "オンライン",
+        "mk": "10:50〜11:40",
+        "ref": "online-oct16"
+      },
       null
     ],
     [
@@ -107,7 +119,13 @@ window.CLASSROOM_DATA = {
       null,
       null,
       null,
-      null,
+      {
+        "s": "英会話",
+        "t": "コリンズ・マオ",
+        "r": "オンライン",
+        "mk": "11:50〜12:40",
+        "ref": "online-oct16"
+      },
       null
     ],
     [
@@ -115,7 +133,13 @@ window.CLASSROOM_DATA = {
       null,
       null,
       null,
-      null,
+      {
+        "s": "社",
+        "t": "宮崎",
+        "r": "オンライン",
+        "mk": "13:30〜14:20",
+        "ref": "online-oct16"
+      },
       null
     ],
     [
@@ -123,7 +147,13 @@ window.CLASSROOM_DATA = {
       null,
       null,
       null,
-      null,
+      {
+        "s": "家",
+        "t": "菊池",
+        "r": "オンライン",
+        "mk": "14:30〜15:20",
+        "ref": "online-oct16"
+      },
       null
     ]
   ]
@@ -378,7 +408,7 @@ window.CLASSROOM_DATA = {
       "time": "",
       "place": "",
       "detail": "学校閉鎖のため登校・通常練習なし。健康な生徒も外出を避け家庭学習。学校からの10/15連絡を月間予定より優先。",
-      "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
+      "source": "10/15 バスケ投稿：17日の活動中止を明示"
     },
     "2026-10-20": {
       "kind": "school",
@@ -2076,9 +2106,8 @@ window.CLASSROOM_DATA = {
     "subject": "時間割",
     "title": "10/12〜 時間割表【資料】",
     "details": [
-      "10/12十月祭片付け、10/13・14振替休日。",
-      "10/15〜17学校閉鎖。10/15は朝礼後下校。通常授業・10/16英語公演会の当初の登校予定は適用しない。",
-      "10/16は家庭学習（オンライン授業を含む）。内容は10/15午後以降にClassroomまたはロイロで連絡予定。"
+      "10/12十月祭片付け、10/13・14振替休日。10/15〜17学校閉鎖。",
+      "10/16は10/15配信のオンライン時間割に変更。8:35からZoom朝礼。英語劇公演は中止。"
     ],
     "thread": "82回生",
     "poster": "松本珠希",
@@ -2393,7 +2422,8 @@ window.CLASSROOM_DATA = {
     "poster": "保護者向けメール",
     "posted": "10/15",
     "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz"
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz",
+    "note": "追記：10/16オンライン時間割配信済み。8:35 Zoom朝礼、英語劇公演は中止。"
   },
   {
     "id": "kokugo-take-home-oct15",
@@ -2427,25 +2457,137 @@ window.CLASSROOM_DATA = {
     "posted": "10/15",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
   },
-{
-  "id": "entrance-supporters-nov14",
-  "cat": "no",
-  "optional": true,
-  "date": "2026-11-04",
-  "dateLabel": "11/4 (水) 申込締切【11/14実施】",
-  "subject": "学校",
-  "title": "11/14 入試体験会サポーターズ募集",
-  "details": [
-    "受付・教室/控室担当・相談コーナーのサポーターを募集。",
-    "添付フォームで11/4(水)までに申込み。",
-    "11/14(土)、早い係は8:00頃集合、遅い係は12:30頃解散予定。",
-    "申込者には後日説明の会を実施。"
-  ],
-  "thread": "82回生",
-  "poster": "馬場友紀",
-  "posted": "10/15",
-  "hasLink": true,
-  "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjgxMjEwMzM3"
-}
+  {
+    "id": "entrance-supporters-nov14",
+    "cat": "no",
+    "optional": true,
+    "date": "2026-11-04",
+    "dateLabel": "11/4 (水) 申込締切【11/14実施】",
+    "subject": "学校",
+    "title": "11/14 入試体験会サポーターズ募集",
+    "details": [
+      "受付・教室/控室担当・相談コーナーのサポーターを募集。",
+      "添付フォームで11/4(水)までに申込み。",
+      "11/14(土)、早い係は8:00頃集合、遅い係は12:30頃解散予定。",
+      "申込者には後日説明の会を実施。"
+    ],
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "10/15",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjgxMjEwMzM3"
+  },
+  {
+    "id": "online-oct16",
+    "title": "10/16 オンライン授業・英語劇公演中止",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 8:35 Zoom朝礼",
+    "details": [
+      "朝礼8:35〜8:45。3組は1限 英語（本木）、2限 国語（秦野）、3限 国語（鈴木）、4限 英会話（コリンズ・マオ）、5限 社会（宮崎）、6限 家庭科（菊池）。",
+      "1限8:50〜9:40、2限9:50〜10:40、3限10:50〜11:40、4限11:50〜12:40。昼休み12:40〜13:30。5限13:30〜14:20、6限14:30〜15:20。",
+      "英語劇公演は中止。来校予定の保護者にも伝える。",
+      "Zoomの接続情報は添付PDFに記載。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
+    "hasLink": true
+  },
+  {
+    "id": "health-survey-oct18",
+    "title": "10/19登校判断のための健康調査",
+    "date": "2026-10-18",
+    "dateLabel": "10/18 (日) 夕方",
+    "details": [
+      "10/19(月)の登校判断のために実施。詳細は10/16の朝礼で説明。"
+    ],
+    "cat": "hw",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3"
+  },
+  {
+    "id": "ginga-loilo-oct15",
+    "title": "『銀河鉄道の夜』プリントをロイロ配信",
+    "dateLabel": "家庭学習用",
+    "details": [
+      "プリント⑴・⑵をロイロノートに配信。学校に置いてきた人は配信されたプリントを見る。"
+    ],
+    "cat": "no",
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjk2NDE0MDIy"
+  },
+  {
+    "id": "accompanist-apply-oct16",
+    "title": "音楽会：合唱伴奏希望の申出",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) まで【希望者】",
+    "details": [
+      "伴奏希望者はロイロで申し出る。",
+      "オーディションは11/4(水)予定。時間は後日連絡。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
+    "optional": true
+  },
+  {
+    "id": "accompanist-audition-nov4",
+    "title": "音楽会：合唱伴奏オーディション",
+    "date": "2026-11-04",
+    "dateLabel": "11/4 (水) 予定【希望者】",
+    "details": [
+      "時間は後日連絡。伴奏希望の申出は10/16までにロイロで。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
+    "optional": true
+  },
+  {
+    "id": "math-excerpt-oct16",
+    "title": "比例反比例 抜粋No.1–2：合格締切延長",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 20:00まで",
+    "details": [
+      "合格締切を2日延長。今回のみの特別措置。",
+      "元の締切に間に合わなかった人も提出する。"
+    ],
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA3Mzc5NzM3"
+  },
+  {
+    "id": "bball-cancel-oct17",
+    "title": "10/17 クラブ活動中止",
+    "date": "2026-10-17",
+    "dateLabel": "10/17 (土) 中止",
+    "details": [
+      "学校閉鎖に伴い予定していたクラブ活動は中止。"
+    ],
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
+  }
 ]
 };
