@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "23:16",
-  updateISO: "2026-10-16",
-  updateTime: "23:16",
+  fetchCheckedISO: "2026-10-17",
+  fetchCheckedTime: "07:17",
+  updateISO: "2026-10-17",
+  updateTime: "07:17",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -654,38 +654,6 @@ window.CLASSROOM_DATA = {
 },
   items: [
   {
-    "id": "lost-bottles-oct7",
-    "cat": "no",
-    "date": "2026-10-09",
-    "dateLabel": "十月祭前に引き取り",
-    "subject": "生活",
-    "title": "水筒・弁当箱の落とし物",
-    "details": [
-      "2階自治会室前の水筒・弁当箱を十月祭前に引き取る。持ち物への記名も忘れずに。"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTUxNTg0NzAz",
-    "hasLink": true
-  },
-  {
-    "id": "charity-exchange-oct7",
-    "cat": "no",
-    "date": "2026-10-09",
-    "dateLabel": "10/8・9 自治会室前",
-    "subject": "行事",
-    "title": "マカロンふせん：在校生の購入・引き換え",
-    "details": [
-      "在校生の購入期間は準備期間のみ。必ず10/8・9のうちに引き換える。",
-      "10/8 13:30〜14:30、10/9 11:30〜12:30。場所はいずれも自治会室前。"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTUxMTA3NjQ4"
-  },
-  {
     "id": "mail-Q9ADG4EHcf",
     "cat": "no",
     "dateLabel": "10/10 (土) 12:30〜14:00",
@@ -1180,6 +1148,19 @@ window.CLASSROOM_DATA = {
     "poster": "山本昂宏",
     "posted": "10/15",
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
+  },
+  {
+    "id": "midterm-progress-oct17",
+    "cat": "hw",
+    "date": "2026-10-17",
+    "dateLabel": "10/17(土) 9:00まで",
+    "subject": "学活・総合",
+    "title": "中間テスト計画表：今の進捗を提出",
+    "details": [
+      "ロイロの課題「中間テスト計画表✏️今の進捗」。締切は10/17(土)9:00。"
+    ],
+    "thread": "ロイロ",
+    "poster": ""
   },
   {
     "id": "health-survey-oct18",
