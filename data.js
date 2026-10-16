@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "01:49",
+  fetchCheckedTime: "09:37",
   updateISO: "2026-10-16",
-  updateTime: "01:49",
+  updateTime: "09:37",
   timetable: {
   "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
@@ -1545,16 +1545,16 @@ window.CLASSROOM_DATA = {
   {
     "id": "math-proportional-notes-sep28",
     "cat": "no",
-    "dateLabel": "十月祭後最初の授業",
+    "dateLabel": "学習資料",
     "subject": "数学",
     "title": "比例・反比例 完成ノート解答【資料】",
     "details": [
-      "比例・反比例の抜粋プリントと完成ノート解答を配信",
-      "十月祭後最初の授業で小テストを予定。詳細は後日連絡"
+      "比例・反比例の抜粋プリントと完成ノート解答を配信。",
+      "小テストの日程は、別途掲載の実施・欠席者受験の最新連絡を参照。"
     ],
     "thread": "数学",
     "poster": "山口朋子",
-    "posted": "9/28",
+    "posted": "10/15",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjQyMjc1MzY1/details"
   },
   {
@@ -1763,19 +1763,17 @@ window.CLASSROOM_DATA = {
   {
     "id": "gika-embroidery-resubmit-oct16",
     "cat": "hw",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) まで【やり直し対象者】",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) まで【やり直し対象者】",
     "subject": "技術家庭",
     "title": "刺しゅうキット 再提出",
     "details": [
-      "やり直しがある人は10/16までに再提出",
-      "質問したい人向けの補習は10/5(月)13:00に被服室B。裁縫道具と刺しゅうセット一式を持参"
+      "10/16の家庭科連絡で、刺しゅうキットのやり直し提出期限を休み明けの10/19までに変更。"
     ],
     "thread": "82回生",
     "poster": "菊池菜々世",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4NDQwNTQyMTA2",
-    "note": "10/15〜17学校閉鎖。変更後の日程・対応は未確認"
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
   },
   {
     "id": "math-proportional-more4-oct2",
@@ -1956,22 +1954,6 @@ window.CLASSROOM_DATA = {
     "poster": "松本珠希",
     "posted": "10/7",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTUxMTA3NjQ4"
-  },
-  {
-    "id": "committee-prep-oct8",
-    "cat": "no",
-    "date": "2026-10-08",
-    "dateLabel": "10/8 13:00 図書室",
-    "subject": "委員会",
-    "title": "新聞・図書・保健・放送委員：十月祭準備",
-    "details": [
-      "準備担当者は13時に図書室集合。特別な持ち物は不要。",
-      "他の係と重なり集合できない人は10/7中に顧問へ連絡。持参品はポケットに入る大きさか手提げ袋にまとめる。"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5MzE0MjU5NzMz"
   },
   {
     "id": "math-proportion-test-oct15",
@@ -2809,6 +2791,73 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
     "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
+  },
+  {
+    "id": "home-absence-oct16",
+    "cat": "no",
+    "subject": "技術家庭",
+    "title": "家庭科欠席者：プリントとスライドの確認",
+    "dateLabel": "次回授業・テスト準備",
+    "details": [
+      "今週・先週の欠席者で、生成AI・食物No.1〜5のプリントがない人は次回授業で申し出る。",
+      "ロイロの「欠席者用」へスライドを配信。テスト範囲のため、不明点は質問する。"
+    ],
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
+  },
+  {
+    "id": "midterm-oct28",
+    "cat": "no",
+    "date": "2026-10-28",
+    "dateLabel": "10/28 (水)",
+    "title": "2学期中間テスト：10/28",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:30 数学（1次方程式の利用・40分）",
+      "9:45〜10:20 社会（馬場・35分）",
+      "10:35〜11:25 国語（鈴木・50分）",
+      "11:40〜11:50 英語（単語・10分）"
+    ]
+  },
+  {
+    "id": "midterm-oct29",
+    "cat": "no",
+    "date": "2026-10-29",
+    "dateLabel": "10/29 (木)",
+    "title": "2学期中間テスト：10/29",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:25 理科（大越・山本・小山・田悟・35分）",
+      "9:40〜10:30 英語（50分）",
+      "10:45〜11:15 保体（石井・30分）"
+    ]
+  },
+  {
+    "id": "midterm-oct30",
+    "cat": "no",
+    "date": "2026-10-30",
+    "dateLabel": "10/30 (金)",
+    "title": "2学期中間テスト：10/30",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:40 社会（宮崎・平野・50分）",
+      "9:55〜10:30 理科（松本・35分）",
+      "10:45〜11:35 数学（比例反比例・50分）"
+    ]
   }
 ]
 };
