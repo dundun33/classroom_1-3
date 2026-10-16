@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "09:41",
+  fetchCheckedTime: "11:23",
   updateISO: "2026-10-16",
-  updateTime: "09:41",
+  updateTime: "11:23",
   timetable: {
   "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
@@ -614,6 +614,1024 @@ window.CLASSROOM_DATA = {
 },
   items: [
   {
+    "id": "lost-bottles-oct7",
+    "cat": "no",
+    "date": "2026-10-09",
+    "dateLabel": "十月祭前に引き取り",
+    "subject": "生活",
+    "title": "水筒・弁当箱の落とし物",
+    "details": [
+      "2階自治会室前の水筒・弁当箱を十月祭前に引き取る。持ち物への記名も忘れずに。"
+    ],
+    "thread": "82回生",
+    "poster": "久保文香",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTUxNTg0NzAz",
+    "hasLink": true
+  },
+  {
+    "id": "charity-exchange-oct7",
+    "cat": "no",
+    "date": "2026-10-09",
+    "dateLabel": "10/8・9 自治会室前",
+    "subject": "行事",
+    "title": "マカロンふせん：在校生の購入・引き換え",
+    "details": [
+      "在校生の購入期間は準備期間のみ。必ず10/8・9のうちに引き換える。",
+      "10/8 13:30〜14:30、10/9 11:30〜12:30。場所はいずれも自治会室前。"
+    ],
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTUxMTA3NjQ4"
+  },
+  {
+    "id": "mail-Q9ADG4EHcf",
+    "cat": "no",
+    "dateLabel": "10/10 (土) 12:30〜14:00",
+    "subject": "全体",
+    "title": "標準服譲り渡しのお知らせ",
+    "details": [
+      "4階400教室。事前申込みなし・保護者1名のみ入場可",
+      "保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認",
+      "整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選",
+      "12:45からフリー入場（12:40から整列可）。売り切れ次第終了",
+      "子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "9/10",
+    "mail": true,
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18",
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf",
+    "date": "2026-10-10",
+    "optional": true
+  },
+  {
+    "id": "tt7",
+    "cat": "no",
+    "date": "2026-10-10",
+    "dateLabel": "10/5 (月)〜10/10 (土)",
+    "subject": "全体",
+    "title": "10/5〜 時間割表【資料】",
+    "details": [
+      "3組の時間割を掲載。10/7(水)5・6限は美術",
+      "10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目",
+      "10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"
+    ],
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/2",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"
+  },
+  {
+    "id": "mail-QA3IUuaRm3",
+    "cat": "no",
+    "date": "2026-10-10",
+    "dateLabel": "10/10 (土) 20:30〜21:00",
+    "subject": "お知らせ",
+    "title": "NHK Eテレ「どえらい大学。」 本学特集に関するご連絡",
+    "details": [
+      "NHK Eテレ「どえらい大学。」で日本女子大学を30分間特集。",
+      "自主ゼミ、メダカの色覚実験、建材開発、食の官能評価、物理サークル等を紹介。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/5",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IUuaRm3",
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QA3IUuOUJN"
+  },
+  {
+    "id": "forum-oct8",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "10/10・11 発表",
+    "subject": "行事",
+    "title": "十月祭：もみじフォーラム発表順",
+    "details": [
+      "学年発表者は添付の発表順を確認。1日目は国語→英語→社会→国語、2日目は英語→社会→英語→国語。"
+    ],
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/8",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTg3MzE2OTE2",
+    "hasLink": true
+  },
+  {
+    "id": "bball-times-oct8",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "10/10・11",
+    "subject": "部活",
+    "title": "十月祭バスケ：修正版タイムスケジュール",
+    "details": [
+      "10/8配信の修正版。10/10は9:45〜12:15、1年生はAコート10:00・10:15の7分試合。3年生試合のTO担当も確認。",
+      "10/11は13:00〜15:30。1年生はBコート13:00の6分試合、Aコート13:35の8分試合（サレジアン戦）。"
+    ],
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/8",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg5ODY0MDk2OTUy",
+    "hasLink": true
+  },
+  {
+    "id": "festival-belongings-oct9",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "十月祭期間中",
+    "subject": "学校",
+    "title": "十月祭中の持ち物管理・落とし物の届け方",
+    "details": [
+      "普段以上に自分の持ち物をしっかり管理する。",
+      "拾った物は校務センターへ届ける。拾った日時・場所を落とし物カードに記入し、写真のトレイに入れる。"
+    ],
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/9",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwMTQxNTYyODIx"
+  },
+  {
+    "id": "mail-QA9FKbX815",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "10/10・11 十月祭",
+    "subject": "学校",
+    "title": "十月祭にご来場の皆様へ",
+    "details": [
+      "保護者証を忘れずに持参。",
+      "受付でパンフレットは配布されないため、事前に配布されたものを持参。",
+      "開場前のあまりに早い時間帯には来校しない。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/9",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
+  },
+  {
+    "id": "soumu-festival-duty-oct9",
+    "cat": "no",
+    "date": "2026-10-11",
+    "dateLabel": "十月祭期間中",
+    "subject": "学校",
+    "title": "総務：十月祭立ち番の仕事内容",
+    "details": [
+      "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
+    ],
+    "thread": "総務",
+    "poster": "山本昂宏",
+    "posted": "10/9",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
+  },
+  {
+    "id": "mail-Q988Sdo1hM",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "10/8〜10/12（一般公開10/10・11）",
+    "subject": "全体",
+    "title": "十月祭についてのお知らせ",
+    "details": [
+      "10/8・9は準備。最終下校は8日17:00、9日16:30",
+      "一般公開は10/10(土)・11(日) 9:30〜15:30。生徒は8:50出欠確認・16:30最終下校",
+      "10/12(月)は片付け・後夜祭。10:00までに片付けを終え、10:15朝礼。1・2年生の最終下校は13:30",
+      "5日間とも昼食が必要。10/10・11は生徒の食堂利用不可のため弁当持参",
+      "保護者証・配布プログラム・スリッパ・靴袋を持参。保護者と家族は保護者証で入校、一般客は予約またはチケット制",
+      "撮影時は保護者証を着用。作品・掲示物の撮影不可。車での来校不可"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "9/8",
+    "mail": true,
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q988Schtyl",
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q988Sdo1hM"
+  },
+  {
+    "id": "bball-festival-flow-sep29",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "10/8〜10/12【暫定・要確認】",
+    "subject": "部活",
+    "title": "十月祭の流れ（参考資料）",
+    "details": [
+      "昨年度版を基にした参考資料。正式版は後日配布、控室は未定",
+      "仮予定：10/8〜11は8:40集合。10/8は9:05練習開始、10/9は8:50練習開始",
+      "仮予定：10/10午前は部内戦、10/11午後は招待試合（1年生も参加）",
+      "仮予定：10/12は9:50まで自主練可、13:30最終下校。朝礼と後夜祭がともに10:15表記のため要確認",
+      "10/8〜11はiPadを持参しない。係・委員会活動を優先"
+    ],
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "9/29",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0",
+    "hasLink": true
+  },
+  {
+    "id": "library-festival-oct7",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "片付けの日まで",
+    "subject": "図書",
+    "title": "十月祭中の図書室利用制限",
+    "details": [
+      "委員会展示のため本棚を封鎖。片付けの日まで自習等はできない。",
+      "貸出利用は10/8朝8:45まで。"
+    ],
+    "thread": "82回生",
+    "poster": "久保文香",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTk1NjgwNDQ4"
+  },
+  {
+    "id": "bball-flow-oct7",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "10/8〜12",
+    "subject": "部活",
+    "title": "十月祭バスケ：5日間の集合・活動予定",
+    "details": [
+      "控室は理科A。朝に貴重品・携帯を回収し押切先生へ。iPadは持参しない。係・委員会活動を優先。",
+      "10/8・9は8:30控室集合（練習着へ着替え済み）。10/9は14:00練習終了、14:30前夜祭、16:30最終下校。",
+      "10/10は7:55控室集合、8:10集合写真。3年生欠席時以外は撮り直しなし。12:30昼食、16:00控室集合、16:30最終下校。",
+      "10/11は8:40控室集合、11:45昼食、12:15第一体育館アップ、12:30第三体育館準備。15:30片付け、16:00控室、16:20伝達・時間差下校。",
+      "10/12は9:50まで自主練可。荷物は朝は体育館へ。11:25昼食（HR）、12:10学活・終礼、1年生は13:30最終下校。",
+      "10/12の全体朝礼と後夜祭は原資料でともに10:15と記載。開始時刻の詳細は要確認。試合時刻は10/8修正版を優先。"
+    ],
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODczODc3Mjg1Nzk0",
+    "hasLink": true
+  },
+  {
+    "id": "corner-cleanup-oct12",
+    "cat": "no",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 (月) 9:30",
+    "subject": "学校",
+    "title": "1年生コーナー担当者：片付けの集合",
+    "details": [
+      "残りの片付けのため、9:30に405教室へ集合。"
+    ],
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/11",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NDU0NzA2"
+  },
+  {
+    "id": "cleaning-oct12",
+    "title": "生活部：清掃・ゴミ箱の確認",
+    "date": "2026-10-12",
+    "dateLabel": "10/12",
+    "cat": "no",
+    "details": [
+      "通常の清掃はなし。汚れが目立つ場合は担任の判断で清掃。",
+      "本日はゴミ箱使用禁止。捨ててしまった人は袋を交換し、指定の場所へゴミを捨てに行く。",
+      "生活部部長は帰る前にゴミ箱を確認し、ゴミがあれば処分。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTMxMTg3MjQ1"
+  },
+  {
+    "id": "charity-final-oct12",
+    "title": "マカロン付箋の最終引き換え",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 最終下校まで",
+    "cat": "no",
+    "details": [
+      "引き換え忘れは終礼後が最後の機会。昼休みまたは校務センターで松本先生へ。",
+      "最終下校時刻までに申し出がない場合は販売なし。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDcxMjgyMDYz"
+  },
+  {
+    "id": "festival-survey-oct12",
+    "title": "十月祭アンケート",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 学活",
+    "cat": "hw",
+    "details": [
+      "本日の学活で回答。十月祭委員は回答するよう呼びかける。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "山口朋子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDEzMzQ5NDMy",
+    "hasLink": true
+  },
+  {
+    "id": "lost-display-oct12",
+    "title": "落とし物・傘の展示と引き取り",
+    "date": "2026-10-12",
+    "dateLabel": "10/12 なるべく当日中",
+    "cat": "no",
+    "details": [
+      "昨日までの落とし物と傘を生徒玄関に展示。なるべく当日中に引き取る。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY0NjIxNDA0"
+  },
+  {
+    "id": "math-proportion-test-oct15",
+    "cat": "no",
+    "dateLabel": "10/15 実施済みの案内",
+    "subject": "数学",
+    "title": "比例・反比例 小テスト【実施済みの案内あり】",
+    "details": [
+      "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。",
+      "10/15の数学連絡では「本日実施した」と案内。欠席で未受験の人は10/19終礼清掃後に404で受験。"
+    ],
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
+    "date": "2026-10-15"
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "posted": "10/15",
+    "id": "cafeteria-refund-oct15",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木)・返金は後日",
+    "title": "本日の食堂：食券は後日返金",
+    "details": [
+      "購入済みの食券は後日返金が可能。",
+      "本日は返金対応なし。速やかに下校する。"
+    ],
+    "poster": "阿佐美優子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc3MjI2ODcz"
+  },
+  {
+    "id": "kokugo-take-home-oct15",
+    "cat": "no",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木)",
+    "subject": "国語",
+    "title": "『銀河鉄道の夜』の教材を持ち帰る",
+    "details": [
+      "文庫本と授業プリントを持ち帰っておく。"
+    ],
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
+  },
+  {
+    "id": "oc-my-club-oct15",
+    "title": "My Club Writing：未完了者は提出",
+    "date": "2026-10-15",
+    "dateLabel": "10/15 (木) 中",
+    "details": [
+      "未完成の人は今日中に完成させ、ロイロノートで提出。",
+      "欠席・紛失した人は「授業内共有」フォルダーの「Zoom 授業 My Club Writing」を使用。"
+    ],
+    "cat": "hw",
+    "posted": "10/15",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "Matthew Collins",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
+  },
+  {
+    "id": "committees-survey-oct16",
+    "title": "新聞・保健・放送・図書委員：十月祭振り返り",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) まで",
+    "cat": "hw",
+    "details": [
+      "準備・立ち番・片付けの仕事についてフォームに回答。"
+    ],
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "久保文香",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NjQ2MzQzOTQ0",
+    "hasLink": true
+  },
+  {
+    "id": "online-oct16",
+    "title": "10/16 オンライン授業・英語劇公演中止",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 8:35 Zoom朝礼",
+    "details": [
+      "朝礼8:35〜8:45。3組は1限 英語（本木）、2限 国語（秦野）、3限 国語（鈴木）、4限 英会話（コリンズ・マオ）、5限 社会（宮崎）、6限 家庭科（菊池）。",
+      "1限8:50〜9:40、2限9:50〜10:40、3限10:50〜11:40、4限11:50〜12:40。昼休み12:40〜13:30。5限13:30〜14:20、6限14:30〜15:20。",
+      "英語劇公演は中止。来校予定の保護者にも伝える。",
+      "Zoomの接続情報は添付PDFに記載。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
+    "hasLink": true
+  },
+  {
+    "id": "accompanist-apply-oct16",
+    "title": "音楽会：合唱伴奏希望の申出",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) まで【希望者】",
+    "details": [
+      "伴奏希望者はロイロで申し出る。",
+      "オーディションは11/4(水)予定。時間は後日連絡。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
+    "optional": true
+  },
+  {
+    "id": "math-excerpt-oct16",
+    "title": "比例反比例 抜粋No.1–2：合格締切延長",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 20:00まで",
+    "details": [
+      "合格締切を2日延長。今回のみの特別措置。",
+      "元の締切に間に合わなかった人も提出する。"
+    ],
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA3Mzc5NzM3"
+  },
+  {
+    "id": "oc-heart-game-oct16",
+    "title": "英会話：The Heart Game を準備",
+    "date": "2026-10-16",
+    "dateLabel": "10/16 (金) 4限オンライン",
+    "details": [
+      "The Heart Game のプリントを授業に用意。持っていない人はロイロの「授業内共有」フォルダーのコピーを使用。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "Matthew Collins",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
+  },
+  {
+    "id": "tt8",
+    "cat": "no",
+    "date": "2026-10-17",
+    "dateLabel": "10/12〜17（15〜17学校閉鎖）",
+    "subject": "時間割",
+    "title": "10/12〜 時間割表【資料】",
+    "details": [
+      "10/12十月祭片付け、10/13・14振替休日。10/15〜17学校閉鎖。",
+      "10/16は10/15配信のオンライン時間割に変更。8:35からZoom朝礼。英語劇公演は中止。"
+    ],
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/7",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
+  },
+  {
+    "id": "mail-QAF95oyOZz",
+    "cat": "no",
+    "subject": "学校",
+    "date": "2026-10-17",
+    "dateLabel": "10/15 (木)〜17 (土)",
+    "title": "学校閉鎖のお知らせ",
+    "details": [
+      "全学年で発熱・風邪症状の生徒が複数いるため、10/15は朝礼後に下校。10/15〜17は学校閉鎖。",
+      "17日までは健康な生徒も外出を避け、家庭学習を行う。",
+      "10/16の家庭学習（オンライン授業を含む）は10/15午後以降にClassroomまたはロイロで連絡予定。",
+      "インフルエンザ等に感染した生徒は登校時に出校許可書を持参。保護者による記入で可。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/15",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz",
+    "note": "追記：10/16オンライン時間割配信済み。8:35 Zoom朝礼、英語劇公演は中止。"
+  },
+  {
+    "id": "bball-cancel-oct17",
+    "title": "10/17 クラブ活動中止",
+    "date": "2026-10-17",
+    "dateLabel": "10/17 (土) 中止",
+    "details": [
+      "学校閉鎖に伴い予定していたクラブ活動は中止。"
+    ],
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
+  },
+  {
+    "id": "health-survey-oct18",
+    "title": "10/19登校判断のための健康調査",
+    "date": "2026-10-18",
+    "dateLabel": "10/18 (日) 夕方",
+    "details": [
+      "10/19(月)の登校判断のために実施。詳細は10/16の朝礼で説明。"
+    ],
+    "cat": "hw",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3"
+  },
+  {
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "9/9",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
+    "hasLink": true,
+    "id": "eng-ch13",
+    "cat": "hw",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 8:40 まで",
+    "title": "新中問 第13章 提出",
+    "details": [
+      "提出範囲: p.134〜143",
+      "ロイロで案内された提出形式はp.134〜143の画像5枚（10/19 8:40締切）。"
+    ]
+  },
+  {
+    "id": "gika-embroidery-resubmit-oct16",
+    "cat": "hw",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) まで【やり直し対象者】",
+    "subject": "技術家庭",
+    "title": "刺しゅうキット 再提出",
+    "details": [
+      "10/16の家庭科連絡で、刺しゅうキットのやり直し提出期限を休み明けの10/19までに変更。"
+    ],
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
+  },
+  {
+    "id": "mail-QA3IbhXvWl",
+    "cat": "no",
+    "date": "2026-10-19",
+    "dateLabel": "10/12 生徒へ案内・10/19の週 動画配信予定",
+    "subject": "全体",
+    "title": "2027年度からの新たな体制についてのご報告（続報2）",
+    "details": [
+      "2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）",
+      "中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内",
+      "文化祭は専門のワーキングチームで検討中",
+      "10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/3",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IbhXvWl"
+  },
+  {
+    "id": "science2-resubmit-oct19",
+    "title": "理科2分野：プリント再提出・貼り直し",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 16:10〜17:00",
+    "cat": "hw",
+    "details": [
+      "1・2・3組の前回授業プリントを返却。青いハンコの人は再提出。",
+      "「貼り直し」と書かれた人は10/19 16:10〜17:00に理科Bで貼り直し。再提出全般の締切は本文記載なし。"
+    ],
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/12",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2MDkzMDI4"
+  },
+  {
+    "id": "math-absent-oct19",
+    "title": "比例・反比例小テスト：欠席者の受験",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 終礼清掃後",
+    "details": [
+      "10/15の小テストを欠席して未受験の人が対象。404で実施。",
+      "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
+  },
+  {
+    "id": "math-worksheet2-oct19",
+    "title": "比例・反比例ワークシート（2）を持参",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 数学【3組】",
+    "details": [
+      "2・3・6組は10/19の授業で使用。10/15配布のプリントを持参する。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkyMzEyNDYzOTI3/details"
+  },
+  {
+    "id": "kanji-test-oct20",
+    "cat": "no",
+    "date": "2026-10-20",
+    "dateLabel": "10/20 (火)【3組】",
+    "subject": "国語",
+    "title": "漢字豆テスト",
+    "details": [
+      "3組は10/20(火)に実施。",
+      "範囲：ステップ16〜力だめし3（p.76〜90）。",
+      "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
+    ],
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
+  },
+  {
+    "id": "math-absent-oct20",
+    "title": "数学小テスト：10/19も欠席した場合",
+    "date": "2026-10-20",
+    "dateLabel": "10/20 (火) 8:10【該当者】",
+    "details": [
+      "小テスト未受験で10/19も欠席した人は、校務センターに受けに来る。"
+    ],
+    "cat": "no",
+    "posted": "10/15",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
+  },
+  {
+    "id": "mail-Q94ALwMhmu",
+    "cat": "no",
+    "date": "2026-10-22",
+    "dateLabel": "10/22 (木) 開催",
+    "subject": "全体",
+    "title": "目白キャンパスめぐり・PTA親睦会のお知らせ",
+    "details": [
+      "10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内",
+      "参加希望の方はQRコードより申込み（プリントも配布済み）",
+      "Classroom(峯岸憲一)でも同内容が共有されています"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "9/4",
+    "mail": true,
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3",
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu"
+  },
+  {
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "9/9",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
+    "hasLink": true,
+    "id": "eng-unit8",
+    "cat": "no",
+    "date": "2026-10-22",
+    "dateLabel": "10/22 (木)",
+    "title": "英語 Unit 8 テスト",
+    "details": [
+      "毎回の小テストは行わず、ユニットテストを実施",
+      "単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"
+    ]
+  },
+  {
+    "id": "violin-accompanist-oct23",
+    "title": "音楽会行事委員：バイオリン伴奏候補者を報告",
+    "date": "2026-10-23",
+    "dateLabel": "10/23 (金) まで",
+    "details": [
+      "終礼ボックス配布の用紙に伴奏オーディション希望者名を記入し、矢沢先生へ提出。",
+      "候補者がいない場合もその旨を伝える。"
+    ],
+    "cat": "hw",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNTEzNjY2NTQx"
+  },
+  {
+    "cat": "no",
+    "optional": true,
+    "subject": "校外活動",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTI0NzA3NDQw/details",
+    "id": "thinkflat-entry-oct23",
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金) 一次プレエントリー",
+    "title": "THINK FLAT CAMP U-18：一次応募",
+    "details": [
+      "中1〜高3の希望者向け。主催者フォームでプレエントリー後、送付されるエントリーシート（小論文2題）を10/26(月)までに提出。合格発表は11/2(月)。",
+      "学校投稿の締切は10/24と記載されていますが、添付チラシ・主催者サイトは10/23。申込時に確認し、10/23までの対応を。"
+    ],
+    "note": "一次締切の記載相違：主催者は10/23、学校投稿は10/24"
+  },
+  {
+    "id": "noh-apply-oct25",
+    "title": "能楽鑑賞会の申込み",
+    "date": "2026-10-25",
+    "dateLabel": "10/25 (日) 申込締切【希望者】",
+    "details": [
+      "2027/1/16開催分。メール内の申込フォームから申し込む。",
+      "1人2,000円。定員超過時は抽選。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "保護者向けメール",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
+  },
+  {
+    "id": "midterm-oct28",
+    "cat": "no",
+    "date": "2026-10-28",
+    "dateLabel": "10/28 (水)",
+    "title": "2学期中間テスト：10/28",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:30 数学（1次方程式の利用・40分）",
+      "9:45〜10:20 社会（馬場・35分）",
+      "10:35〜11:25 国語（鈴木・50分）",
+      "11:40〜11:50 英語（単語・10分）"
+    ]
+  },
+  {
+    "id": "midterm-oct29",
+    "cat": "no",
+    "date": "2026-10-29",
+    "dateLabel": "10/29 (木)",
+    "title": "2学期中間テスト：10/29",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:25 理科（大越・山本・小山・田悟・35分）",
+      "9:40〜10:30 英語（50分）",
+      "10:45〜11:15 保体（石井・30分）"
+    ]
+  },
+  {
+    "id": "sogaku-apply-oct30",
+    "title": "式典の奏楽オーディション：応募受付",
+    "date": "2026-10-30",
+    "dateLabel": "10/30 (金) まで【希望者】",
+    "details": [
+      "始業式・終業式などの式典奏者を募集。クラシック音楽で5分以内ほどの曲が望ましい。",
+      "ロイロノート（ヴァイオリン）の資料箱の案内を参考に音楽科へ応募。",
+      "全員分の学年・組・番号・氏名、作曲者と作品名（作品番号・調性・楽章）、編成、演奏時間を伝える。",
+      "オーディションは11/11昼休み、声楽器楽室。詳細は後日Classroom配信。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+  },
+  {
+    "id": "midterm-oct30",
+    "cat": "no",
+    "date": "2026-10-30",
+    "dateLabel": "10/30 (金)",
+    "title": "2学期中間テスト：10/30",
+    "subject": "テスト",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
+    "details": [
+      "8:50〜9:40 社会（宮崎・平野・50分）",
+      "9:55〜10:30 理科（松本・35分）",
+      "10:45〜11:35 数学（比例反比例・50分）"
+    ]
+  },
+  {
+    "id": "mail-Q99IMEuDYr",
+    "cat": "no",
+    "date": "2026-10-31",
+    "dateLabel": "9/11〜10/31 販売期間",
+    "subject": "82回生",
+    "title": "行事写真インターネット販売のご案内",
+    "details": [
+      "7月の軽井沢三泉寮生活のスナップ写真をサイトで販売",
+      "ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）",
+      "販売期間: 9/11〜10/31"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "9/9",
+    "mail": true,
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3",
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr"
+  },
+  {
+    "id": "cal10",
+    "cat": "no",
+    "dateLabel": "10月の開室予定",
+    "subject": "全体",
+    "title": "10月 Study Commonsカレンダー【資料】",
+    "details": [
+      "10/5〜7・22〜23は13:00〜19:00、10/8・28〜29は13:00〜16:00開室",
+      "10/27の開室時間は13:00〜19:00に訂正",
+      "十月祭準備日の10/8・10/9は高校生向け。中学生で利用を希望する場合は國澤先生に相談",
+      "10/9は本文・PDF見出しでは開室とある一方、カレンダー欄には担当者・時間の記載がなく要確認",
+      "10/2訂正連絡：学芸部はクラス掲示の日程表の10/27開室時間を13:00〜19:00へペンで修正"
+    ],
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/2",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5OTQwMzY4MTEw/details",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "shop-oct2026",
+    "cat": "no",
+    "date": "2026-10-31",
+    "dateLabel": "10月の開室日程",
+    "subject": "全体",
+    "title": "実業部開室日程（10月）",
+    "details": [
+      "開室日は10/2・5・7・9・16・19・21・23・26・28・30、いずれも8:30〜13:30",
+      "十月祭準備の10/8(木)は休業、10/9(金)は13:30まで。両日とも午後の準備に間に合うよう、部長を中心に顧問と相談して必要な物を計画的に用意",
+      "10/10・11は十月祭に出店（店舗は休業）。10/13〜15は休業",
+      "10/1・12の営業時間は資料に記載なし",
+      "通学靴（牛革ローファー）の取り扱い・見本あり",
+      "商品交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参"
+    ],
+    "thread": "82回生",
+    "poster": "宮地潤子",
+    "posted": "10/4",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4OTQ1ODA3OTM5/details"
+  },
+  {
+    "id": "entrance-supporters-nov14",
+    "cat": "no",
+    "optional": true,
+    "date": "2026-11-04",
+    "dateLabel": "11/4 (水) 申込締切【11/14実施】",
+    "subject": "学校",
+    "title": "11/14 入試体験会サポーターズ募集",
+    "details": [
+      "受付・教室/控室担当・相談コーナーのサポーターを募集。",
+      "添付フォームで11/4(水)までに申込み。",
+      "11/14(土)、早い係は8:00頃集合、遅い係は12:30頃解散予定。",
+      "申込者には後日説明の会を実施。"
+    ],
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "10/15",
+    "hasLink": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjgxMjEwMzM3"
+  },
+  {
+    "id": "accompanist-audition-nov4",
+    "title": "音楽会：合唱伴奏オーディション",
+    "date": "2026-11-04",
+    "dateLabel": "11/4 (水) 予定【希望者】",
+    "details": [
+      "時間は後日連絡。伴奏希望の申出は10/16までにロイロで。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/15",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
+    "optional": true
+  },
+  {
+    "id": "sogaku-audition-nov11",
+    "title": "式典の奏楽オーディション",
+    "date": "2026-11-11",
+    "dateLabel": "11/11 (水) 昼休み",
+    "details": [
+      "声楽器楽室で実施。応募締切は10/30。詳細は後日Classroom配信。"
+    ],
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "矢沢まどか",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+  },
+  {
+    "cat": "no",
+    "optional": true,
+    "subject": "校外活動",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTI0NzA3NDQw/details",
+    "id": "thinkflat-entry-nov13",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 二次プレエントリー",
+    "title": "THINK FLAT CAMP U-18：二次応募",
+    "details": [
+      "二次プレエントリーは11/13(金)、エントリーシート提出は11/16(月)まで。合格発表は11/24(火)。",
+      "一次応募多数の場合、二次募集を打ち切る場合があります。"
+    ]
+  },
+  {
+    "id": "bsched-oct-nov",
+    "cat": "no",
+    "date": "2026-11-30",
+    "dateLabel": "10〜11月",
+    "subject": "部活",
+    "title": "2026年10〜11月 練習日程表【資料】",
+    "details": [
+      "午前練習は8:30〜12:00、午後練習は13:00〜16:00",
+      "11/3は午前練習・午後自主練可、11/8は午前練習、11/14は午後練習",
+      "10/13の振替休日の練習は人数確認後に相談して決定。10/12午前練習も未確定",
+      "11/21は午前練習の予定に疑問符があり、午後になる可能性もある"
+    ],
+    "thread": "バスケ",
+    "posted": "10/1",
+    "poster": "山本昂宏",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY5OTY5NDE3NDgy/details"
+  },
+  {
+    "cat": "no",
+    "optional": true,
+    "subject": "校外活動",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/16",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTI0NzA3NDQw/details",
+    "id": "thinkflat-camp-dec29",
+    "date": "2026-12-29",
+    "dateLabel": "12/25(金)〜29(火)",
+    "title": "THINK FLAT CAMP U-18：5日間のウインターキャンプ",
+    "details": [
+      "中1〜高3対象、東京都内の会場を予定。毎日10:00〜18:00、5日間を通して参加。最終日の懇親会は任意参加で21:00頃終了予定。",
+      "チームで実現したい社会に向けた仕組みを考え、グループワークと発表に取り組みます。",
+      "参加費15,000円。交通費・宿泊費・食事費は別。事前応募・選考があります。"
+    ]
+  },
+  {
+    "id": "mail-QAFGSt99fG",
+    "title": "第49回 能楽鑑賞会",
+    "date": "2027-01-16",
+    "dateLabel": "2027/1/16 (土) 14:00開演",
+    "details": [
+      "国立能楽堂。13:00開場、14:00開演、16:10終演予定。能「葵上」、狂言「棒縛」。",
+      "1・2年生は希望者参加。家族・友人も参加可。本校中学生は標準服着用。",
+      "1人2,000円、納入後は返金不可。申込みは10/15〜25、定員超過時は抽選。",
+      "支払い・チケットは案内可能な方に11月下旬頃メール連絡。",
+      "学校閉鎖で配れなかった印刷物は10/19終礼に配布予定。"
+    ],
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "posted": "10/15",
+    "optional": true,
+    "poster": "保護者向けメール",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
+    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
+  },
+  {
     "id": "gika-sakurabo-sep18",
     "cat": "hw",
     "dateLabel": "次回の授業まで【1・2・3・6組】",
@@ -1191,25 +2209,6 @@ window.CLASSROOM_DATA = {
     "posted": "6/5"
   },
   {
-    "id": "mail-Q94ALwMhmu",
-    "cat": "no",
-    "date": "2026-10-22",
-    "dateLabel": "10/22 (木) 開催",
-    "subject": "全体",
-    "title": "目白キャンパスめぐり・PTA親睦会のお知らせ",
-    "details": [
-      "10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内",
-      "参加希望の方はQRコードより申込み（プリントも配布済み）",
-      "Classroom(峯岸憲一)でも同内容が共有されています"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/4",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu"
-  },
-  {
     "id": "mail-Q9IGO09EcP",
     "cat": "no",
     "dateLabel": "2027年度から",
@@ -1263,47 +2262,6 @@ window.CLASSROOM_DATA = {
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9PHeaYXzc"
   },
   {
-    "id": "mail-Q99IMEuDYr",
-    "cat": "no",
-    "date": "2026-10-31",
-    "dateLabel": "9/11〜10/31 販売期間",
-    "subject": "82回生",
-    "title": "行事写真インターネット販売のご案内",
-    "details": [
-      "7月の軽井沢三泉寮生活のスナップ写真をサイトで販売",
-      "ご希望の方はサイトに登録して購入（お嬢様の写真のみ・SNS等への2次利用不可）",
-      "販売期間: 9/11〜10/31"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/9",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q99IMD05b3",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99IMEuDYr"
-  },
-  {
-    "id": "mail-Q988Sdo1hM",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜10/12（一般公開10/10・11）",
-    "subject": "全体",
-    "title": "十月祭についてのお知らせ",
-    "details": [
-      "10/8・9は準備。最終下校は8日17:00、9日16:30",
-      "一般公開は10/10(土)・11(日) 9:30〜15:30。生徒は8:50出欠確認・16:30最終下校",
-      "10/12(月)は片付け・後夜祭。10:00までに片付けを終え、10:15朝礼。1・2年生の最終下校は13:30",
-      "5日間とも昼食が必要。10/10・11は生徒の食堂利用不可のため弁当持参",
-      "保護者証・配布プログラム・スリッパ・靴袋を持参。保護者と家族は保護者証で入校、一般客は予約またはチケット制",
-      "撮影時は保護者証を着用。作品・掲示物の撮影不可。車での来校不可"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/8",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q988Schtyl",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q988Sdo1hM"
-  },
-  {
     "id": "mail-Q99FEBibC9",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1318,62 +2276,6 @@ window.CLASSROOM_DATA = {
     "posted": "9/10",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q99FEBibC9"
-  },
-  {
-    "id": "mail-Q9ADG4EHcf",
-    "cat": "no",
-    "dateLabel": "10/10 (土) 12:30〜14:00",
-    "subject": "全体",
-    "title": "標準服譲り渡しのお知らせ",
-    "details": [
-      "4階400教室。事前申込みなし・保護者1名のみ入場可",
-      "保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認",
-      "整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選",
-      "12:45からフリー入場（12:40から整列可）。売り切れ次第終了",
-      "子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/10",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf",
-    "date": "2026-10-10",
-    "optional": true
-  },
-  {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
-    "id": "eng-ch13",
-    "cat": "hw",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 8:40 まで",
-    "title": "新中問 第13章 提出",
-    "details": [
-      "提出範囲: p.134〜143",
-      "ロイロで案内された提出形式はp.134〜143の画像5枚（10/19 8:40締切）。"
-    ]
-  },
-  {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
-    "id": "eng-unit8",
-    "cat": "no",
-    "date": "2026-10-22",
-    "dateLabel": "10/22 (木)",
-    "title": "英語 Unit 8 テスト",
-    "details": [
-      "毎回の小テストは行わず、ユニットテストを実施",
-      "単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"
-    ]
   },
   {
     "id": "eng-oc-term2",
@@ -1587,26 +2489,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3Njk3MjUzOTk5/details"
   },
   {
-    "id": "bball-festival-flow-sep29",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜10/12【暫定・要確認】",
-    "subject": "部活",
-    "title": "十月祭の流れ（参考資料）",
-    "details": [
-      "昨年度版を基にした参考資料。正式版は後日配布、控室は未定",
-      "仮予定：10/8〜11は8:40集合。10/8は9:05練習開始、10/9は8:50練習開始",
-      "仮予定：10/10午前は部内戦、10/11午後は招待試合（1年生も参加）",
-      "仮予定：10/12は9:50まで自主練可、13:30最終下校。朝礼と後夜祭がともに10:15表記のため要確認",
-      "10/8〜11はiPadを持参しない。係・委員会活動を優先"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "9/29",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0",
-    "hasLink": true
-  },
-  {
     "id": "broadcast-festival-survey-sep29",
     "cat": "hw",
     "dateLabel": "今週中【2学期放送委員】",
@@ -1695,25 +2577,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg3NjIxNjk4ODk2/details"
   },
   {
-    "id": "cal10",
-    "cat": "no",
-    "dateLabel": "10月の開室予定",
-    "subject": "全体",
-    "title": "10月 Study Commonsカレンダー【資料】",
-    "details": [
-      "10/5〜7・22〜23は13:00〜19:00、10/8・28〜29は13:00〜16:00開室",
-      "10/27の開室時間は13:00〜19:00に訂正",
-      "十月祭準備日の10/8・10/9は高校生向け。中学生で利用を希望する場合は國澤先生に相談",
-      "10/9は本文・PDF見出しでは開室とある一方、カレンダー欄には担当者・時間の記載がなく要確認",
-      "10/2訂正連絡：学芸部はクラス掲示の日程表の10/27開室時間を13:00〜19:00へペンで修正"
-    ],
-    "thread": "82回生",
-    "poster": "國澤恒久",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODY5OTQwMzY4MTEw/details",
-    "date": "2026-10-31"
-  },
-  {
     "id": "festival-grade-duty-adjust-sep30",
     "cat": "no",
     "dateLabel": "至急【十月祭学年コーナー係】",
@@ -1743,39 +2606,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODg4NDM1MzM3MjIw/details"
   },
   {
-    "id": "bsched-oct-nov",
-    "cat": "no",
-    "date": "2026-11-30",
-    "dateLabel": "10〜11月",
-    "subject": "部活",
-    "title": "2026年10〜11月 練習日程表【資料】",
-    "details": [
-      "午前練習は8:30〜12:00、午後練習は13:00〜16:00",
-      "11/3は午前練習・午後自主練可、11/8は午前練習、11/14は午後練習",
-      "10/13の振替休日の練習は人数確認後に相談して決定。10/12午前練習も未確定",
-      "11/21は午前練習の予定に疑問符があり、午後になる可能性もある"
-    ],
-    "thread": "バスケ",
-    "posted": "10/1",
-    "poster": "山本昂宏",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODY5OTY5NDE3NDgy/details"
-  },
-  {
-    "id": "gika-embroidery-resubmit-oct16",
-    "cat": "hw",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) まで【やり直し対象者】",
-    "subject": "技術家庭",
-    "title": "刺しゅうキット 再提出",
-    "details": [
-      "10/16の家庭科連絡で、刺しゅうキットのやり直し提出期限を休み明けの10/19までに変更。"
-    ],
-    "thread": "82回生",
-    "poster": "菊池菜々世",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
-  },
-  {
     "id": "math-proportional-more4-oct2",
     "cat": "no",
     "dateLabel": "当面の間",
@@ -1790,62 +2620,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODczNjk4MjIyMDA5/details"
   },
   {
-    "id": "tt7",
-    "cat": "no",
-    "date": "2026-10-10",
-    "dateLabel": "10/5 (月)〜10/10 (土)",
-    "subject": "全体",
-    "title": "10/5〜 時間割表【資料】",
-    "details": [
-      "3組の時間割を掲載。10/7(水)5・6限は美術",
-      "10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目",
-      "10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"
-  },
-  {
-    "id": "mail-QA3IbhXvWl",
-    "cat": "no",
-    "date": "2026-10-19",
-    "dateLabel": "10/12 生徒へ案内・10/19の週 動画配信予定",
-    "subject": "全体",
-    "title": "2027年度からの新たな体制についてのご報告（続報2）",
-    "details": [
-      "2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）",
-      "中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内",
-      "文化祭は専門のワーキングチームで検討中",
-      "10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/3",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IbhXvWl"
-  },
-  {
-    "id": "shop-oct2026",
-    "cat": "no",
-    "date": "2026-10-31",
-    "dateLabel": "10月の開室日程",
-    "subject": "全体",
-    "title": "実業部開室日程（10月）",
-    "details": [
-      "開室日は10/2・5・7・9・16・19・21・23・26・28・30、いずれも8:30〜13:30",
-      "十月祭準備の10/8(木)は休業、10/9(金)は13:30まで。両日とも午後の準備に間に合うよう、部長を中心に顧問と相談して必要な物を計画的に用意",
-      "10/10・11は十月祭に出店（店舗は休業）。10/13〜15は休業",
-      "10/1・12の営業時間は資料に記載なし",
-      "通学靴（牛革ローファー）の取り扱い・見本あり",
-      "商品交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参"
-    ],
-    "thread": "82回生",
-    "poster": "宮地潤子",
-    "posted": "10/4",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4OTQ1ODA3OTM5/details"
-  },
-  {
     "id": "lost-wallet-oct4",
     "cat": "no",
     "dateLabel": "持ち主の方へ",
@@ -1858,22 +2632,6 @@ window.CLASSROOM_DATA = {
     "poster": "大越佳子",
     "posted": "10/4",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg4OTQ5NTMwMTgz",
-    "hasLink": true
-  },
-  {
-    "id": "forum-oct8",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11 発表",
-    "subject": "行事",
-    "title": "十月祭：もみじフォーラム発表順",
-    "details": [
-      "学年発表者は添付の発表順を確認。1日目は国語→英語→社会→国語、2日目は英語→社会→英語→国語。"
-    ],
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/8",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTg3MzE2OTE2",
     "hasLink": true
   },
   {
@@ -1906,70 +2664,6 @@ window.CLASSROOM_DATA = {
     "poster": "西出春菜",
     "posted": "10/8",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczODk0NjYyNTcw"
-  },
-  {
-    "id": "lost-bottles-oct7",
-    "cat": "no",
-    "date": "2026-10-09",
-    "dateLabel": "十月祭前に引き取り",
-    "subject": "生活",
-    "title": "水筒・弁当箱の落とし物",
-    "details": [
-      "2階自治会室前の水筒・弁当箱を十月祭前に引き取る。持ち物への記名も忘れずに。"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTUxNTg0NzAz",
-    "hasLink": true
-  },
-  {
-    "id": "library-festival-oct7",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "片付けの日まで",
-    "subject": "図書",
-    "title": "十月祭中の図書室利用制限",
-    "details": [
-      "委員会展示のため本棚を封鎖。片付けの日まで自習等はできない。",
-      "貸出利用は10/8朝8:45まで。"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTk1NjgwNDQ4"
-  },
-  {
-    "id": "charity-exchange-oct7",
-    "cat": "no",
-    "date": "2026-10-09",
-    "dateLabel": "10/8・9 自治会室前",
-    "subject": "行事",
-    "title": "マカロンふせん：在校生の購入・引き換え",
-    "details": [
-      "在校生の購入期間は準備期間のみ。必ず10/8・9のうちに引き換える。",
-      "10/8 13:30〜14:30、10/9 11:30〜12:30。場所はいずれも自治会室前。"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTUxMTA3NjQ4"
-  },
-  {
-    "id": "math-proportion-test-oct15",
-    "cat": "no",
-    "dateLabel": "10/15 実施済みの案内",
-    "subject": "数学",
-    "title": "比例・反比例 小テスト【実施済みの案内あり】",
-    "details": [
-      "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。",
-      "10/15の数学連絡では「本日実施した」と案内。欠席で未受験の人は10/19終礼清掃後に404で受験。"
-    ],
-    "thread": "数学",
-    "poster": "山口朋子",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
-    "date": "2026-10-15"
   },
   {
     "id": "math-more5-oct6",
@@ -2026,78 +2720,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODg5ODYwNzM4MTc4/details"
   },
   {
-    "id": "bball-times-oct8",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11",
-    "subject": "部活",
-    "title": "十月祭バスケ：修正版タイムスケジュール",
-    "details": [
-      "10/8配信の修正版。10/10は9:45〜12:15、1年生はAコート10:00・10:15の7分試合。3年生試合のTO担当も確認。",
-      "10/11は13:00〜15:30。1年生はBコート13:00の6分試合、Aコート13:35の8分試合（サレジアン戦）。"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/8",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg5ODY0MDk2OTUy",
-    "hasLink": true
-  },
-  {
-    "id": "bball-flow-oct7",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜12",
-    "subject": "部活",
-    "title": "十月祭バスケ：5日間の集合・活動予定",
-    "details": [
-      "控室は理科A。朝に貴重品・携帯を回収し押切先生へ。iPadは持参しない。係・委員会活動を優先。",
-      "10/8・9は8:30控室集合（練習着へ着替え済み）。10/9は14:00練習終了、14:30前夜祭、16:30最終下校。",
-      "10/10は7:55控室集合、8:10集合写真。3年生欠席時以外は撮り直しなし。12:30昼食、16:00控室集合、16:30最終下校。",
-      "10/11は8:40控室集合、11:45昼食、12:15第一体育館アップ、12:30第三体育館準備。15:30片付け、16:00控室、16:20伝達・時間差下校。",
-      "10/12は9:50まで自主練可。荷物は朝は体育館へ。11:25昼食（HR）、12:10学活・終礼、1年生は13:30最終下校。",
-      "10/12の全体朝礼と後夜祭は原資料でともに10:15と記載。開始時刻の詳細は要確認。試合時刻は10/8修正版を優先。"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODczODc3Mjg1Nzk0",
-    "hasLink": true
-  },
-  {
-    "id": "mail-QA3IUuaRm3",
-    "cat": "no",
-    "date": "2026-10-10",
-    "dateLabel": "10/10 (土) 20:30〜21:00",
-    "subject": "お知らせ",
-    "title": "NHK Eテレ「どえらい大学。」 本学特集に関するご連絡",
-    "details": [
-      "NHK Eテレ「どえらい大学。」で日本女子大学を30分間特集。",
-      "自主ゼミ、メダカの色覚実験、建材開発、食の官能評価、物理サークル等を紹介。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/5",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IUuaRm3",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QA3IUuOUJN"
-  },
-  {
-    "id": "tt8",
-    "cat": "no",
-    "date": "2026-10-17",
-    "dateLabel": "10/12〜17（15〜17学校閉鎖）",
-    "subject": "時間割",
-    "title": "10/12〜 時間割表【資料】",
-    "details": [
-      "10/12十月祭片付け、10/13・14振替休日。10/15〜17学校閉鎖。",
-      "10/16は10/15配信のオンライン時間割に変更。8:35からZoom朝礼。英語劇公演は中止。"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
-  },
-  {
     "id": "lost-items-oct10",
     "cat": "no",
     "subject": "学校",
@@ -2112,57 +2734,6 @@ window.CLASSROOM_DATA = {
     "hasLink": true
   },
   {
-    "id": "festival-belongings-oct9",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "十月祭期間中",
-    "subject": "学校",
-    "title": "十月祭中の持ち物管理・落とし物の届け方",
-    "details": [
-      "普段以上に自分の持ち物をしっかり管理する。",
-      "拾った物は校務センターへ届ける。拾った日時・場所を落とし物カードに記入し、写真のトレイに入れる。"
-    ],
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/9",
-    "hasLink": true,
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwMTQxNTYyODIx"
-  },
-  {
-    "id": "mail-QA9FKbX815",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11 十月祭",
-    "subject": "学校",
-    "title": "十月祭にご来場の皆様へ",
-    "details": [
-      "保護者証を忘れずに持参。",
-      "受付でパンフレットは配布されないため、事前に配布されたものを持参。",
-      "開場前のあまりに早い時間帯には来校しない。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/9",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
-  },
-  {
-    "id": "soumu-festival-duty-oct9",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "十月祭期間中",
-    "subject": "学校",
-    "title": "総務：十月祭立ち番の仕事内容",
-    "details": [
-      "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
-    ],
-    "thread": "総務",
-    "poster": "山本昂宏",
-    "posted": "10/9",
-    "hasLink": true,
-    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
-  },
-  {
     "id": "lost-items-oct11",
     "cat": "no",
     "subject": "学校",
@@ -2175,38 +2746,6 @@ window.CLASSROOM_DATA = {
     "posted": "10/11",
     "hasLink": true,
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NjE1NDQw"
-  },
-  {
-    "id": "corner-cleanup-oct12",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 (月) 9:30",
-    "subject": "学校",
-    "title": "1年生コーナー担当者：片付けの集合",
-    "details": [
-      "残りの片付けのため、9:30に405教室へ集合。"
-    ],
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/11",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NDU0NzA2"
-  },
-  {
-    "id": "cleaning-oct12",
-    "title": "生活部：清掃・ゴミ箱の確認",
-    "date": "2026-10-12",
-    "dateLabel": "10/12",
-    "cat": "no",
-    "details": [
-      "通常の清掃はなし。汚れが目立つ場合は担任の判断で清掃。",
-      "本日はゴミ箱使用禁止。捨ててしまった人は袋を交換し、指定の場所へゴミを捨てに行く。",
-      "生活部部長は帰る前にゴミ箱を確認し、ゴミがあれば処分。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTMxMTg3MjQ1"
   },
   {
     "id": "lost-okoshi-oct12",
@@ -2255,85 +2794,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2NjEwODYw"
   },
   {
-    "id": "charity-final-oct12",
-    "title": "マカロン付箋の最終引き換え",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 最終下校まで",
-    "cat": "no",
-    "details": [
-      "引き換え忘れは終礼後が最後の機会。昼休みまたは校務センターで松本先生へ。",
-      "最終下校時刻までに申し出がない場合は販売なし。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDcxMjgyMDYz"
-  },
-  {
-    "id": "festival-survey-oct12",
-    "title": "十月祭アンケート",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 学活",
-    "cat": "hw",
-    "details": [
-      "本日の学活で回答。十月祭委員は回答するよう呼びかける。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "山口朋子",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDEzMzQ5NDMy",
-    "hasLink": true
-  },
-  {
-    "id": "science2-resubmit-oct19",
-    "title": "理科2分野：プリント再提出・貼り直し",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 16:10〜17:00",
-    "cat": "hw",
-    "details": [
-      "1・2・3組の前回授業プリントを返却。青いハンコの人は再提出。",
-      "「貼り直し」と書かれた人は10/19 16:10〜17:00に理科Bで貼り直し。再提出全般の締切は本文記載なし。"
-    ],
-    "subject": "理科",
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2MDkzMDI4"
-  },
-  {
-    "id": "committees-survey-oct16",
-    "title": "新聞・保健・放送・図書委員：十月祭振り返り",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) まで",
-    "cat": "hw",
-    "details": [
-      "準備・立ち番・片付けの仕事についてフォームに回答。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NjQ2MzQzOTQ0",
-    "hasLink": true
-  },
-  {
-    "id": "lost-display-oct12",
-    "title": "落とし物・傘の展示と引き取り",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 なるべく当日中",
-    "cat": "no",
-    "details": [
-      "昨日までの落とし物と傘を生徒玄関に展示。なるべく当日中に引き取る。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY0NjIxNDA0"
-  },
-  {
     "id": "health-news-oct12",
     "cat": "no",
     "subject": "学校",
@@ -2362,22 +2822,6 @@ window.CLASSROOM_DATA = {
     "subject": "学校",
     "thread": "82回生",
     "posted": "10/15",
-    "id": "cafeteria-refund-oct15",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木)・返金は後日",
-    "title": "本日の食堂：食券は後日返金",
-    "details": [
-      "購入済みの食券は後日返金が可能。",
-      "本日は返金対応なし。速やかに下校する。"
-    ],
-    "poster": "阿佐美優子",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc3MjI2ODcz"
-  },
-  {
-    "cat": "no",
-    "subject": "学校",
-    "thread": "82回生",
-    "posted": "10/15",
     "id": "festival-committee-oct15",
     "dateLabel": "学校閉鎖のため当初予定なし・振替未定",
     "title": "十月祭行事委員会【学校閉鎖・振替未定】",
@@ -2387,112 +2831,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "中尾有子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg5ODE0NDgy"
-  },
-  {
-    "id": "mail-QAF95oyOZz",
-    "cat": "no",
-    "subject": "学校",
-    "date": "2026-10-17",
-    "dateLabel": "10/15 (木)〜17 (土)",
-    "title": "学校閉鎖のお知らせ",
-    "details": [
-      "全学年で発熱・風邪症状の生徒が複数いるため、10/15は朝礼後に下校。10/15〜17は学校閉鎖。",
-      "17日までは健康な生徒も外出を避け、家庭学習を行う。",
-      "10/16の家庭学習（オンライン授業を含む）は10/15午後以降にClassroomまたはロイロで連絡予定。",
-      "インフルエンザ等に感染した生徒は登校時に出校許可書を持参。保護者による記入で可。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/15",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz",
-    "note": "追記：10/16オンライン時間割配信済み。8:35 Zoom朝礼、英語劇公演は中止。"
-  },
-  {
-    "id": "kokugo-take-home-oct15",
-    "cat": "no",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木)",
-    "subject": "国語",
-    "title": "『銀河鉄道の夜』の教材を持ち帰る",
-    "details": [
-      "文庫本と授業プリントを持ち帰っておく。"
-    ],
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
-  },
-  {
-    "id": "kanji-test-oct20",
-    "cat": "no",
-    "date": "2026-10-20",
-    "dateLabel": "10/20 (火)【3組】",
-    "subject": "国語",
-    "title": "漢字豆テスト",
-    "details": [
-      "3組は10/20(火)に実施。",
-      "範囲：ステップ16〜力だめし3（p.76〜90）。",
-      "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
-    ],
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
-  },
-  {
-    "id": "entrance-supporters-nov14",
-    "cat": "no",
-    "optional": true,
-    "date": "2026-11-04",
-    "dateLabel": "11/4 (水) 申込締切【11/14実施】",
-    "subject": "学校",
-    "title": "11/14 入試体験会サポーターズ募集",
-    "details": [
-      "受付・教室/控室担当・相談コーナーのサポーターを募集。",
-      "添付フォームで11/4(水)までに申込み。",
-      "11/14(土)、早い係は8:00頃集合、遅い係は12:30頃解散予定。",
-      "申込者には後日説明の会を実施。"
-    ],
-    "thread": "82回生",
-    "poster": "馬場友紀",
-    "posted": "10/15",
-    "hasLink": true,
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjgxMjEwMzM3"
-  },
-  {
-    "id": "online-oct16",
-    "title": "10/16 オンライン授業・英語劇公演中止",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 8:35 Zoom朝礼",
-    "details": [
-      "朝礼8:35〜8:45。3組は1限 英語（本木）、2限 国語（秦野）、3限 国語（鈴木）、4限 英会話（コリンズ・マオ）、5限 社会（宮崎）、6限 家庭科（菊池）。",
-      "1限8:50〜9:40、2限9:50〜10:40、3限10:50〜11:40、4限11:50〜12:40。昼休み12:40〜13:30。5限13:30〜14:20、6限14:30〜15:20。",
-      "英語劇公演は中止。来校予定の保護者にも伝える。",
-      "Zoomの接続情報は添付PDFに記載。"
-    ],
-    "cat": "no",
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
-    "hasLink": true
-  },
-  {
-    "id": "health-survey-oct18",
-    "title": "10/19登校判断のための健康調査",
-    "date": "2026-10-18",
-    "dateLabel": "10/18 (日) 夕方",
-    "details": [
-      "10/19(月)の登校判断のために実施。詳細は10/16の朝礼で説明。"
-    ],
-    "cat": "hw",
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3"
   },
   {
     "id": "ginga-loilo-oct15",
@@ -2507,147 +2845,6 @@ window.CLASSROOM_DATA = {
     "poster": "鈴木秀一",
     "posted": "10/15",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjk2NDE0MDIy"
-  },
-  {
-    "id": "accompanist-apply-oct16",
-    "title": "音楽会：合唱伴奏希望の申出",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) まで【希望者】",
-    "details": [
-      "伴奏希望者はロイロで申し出る。",
-      "オーディションは11/4(水)予定。時間は後日連絡。"
-    ],
-    "cat": "no",
-    "subject": "音楽",
-    "thread": "82回生",
-    "poster": "阿佐美優子",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
-    "optional": true
-  },
-  {
-    "id": "accompanist-audition-nov4",
-    "title": "音楽会：合唱伴奏オーディション",
-    "date": "2026-11-04",
-    "dateLabel": "11/4 (水) 予定【希望者】",
-    "details": [
-      "時間は後日連絡。伴奏希望の申出は10/16までにロイロで。"
-    ],
-    "cat": "no",
-    "subject": "音楽",
-    "thread": "82回生",
-    "poster": "阿佐美優子",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
-    "optional": true
-  },
-  {
-    "id": "math-excerpt-oct16",
-    "title": "比例反比例 抜粋No.1–2：合格締切延長",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 20:00まで",
-    "details": [
-      "合格締切を2日延長。今回のみの特別措置。",
-      "元の締切に間に合わなかった人も提出する。"
-    ],
-    "cat": "hw",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA3Mzc5NzM3"
-  },
-  {
-    "id": "bball-cancel-oct17",
-    "title": "10/17 クラブ活動中止",
-    "date": "2026-10-17",
-    "dateLabel": "10/17 (土) 中止",
-    "details": [
-      "学校閉鎖に伴い予定していたクラブ活動は中止。"
-    ],
-    "cat": "no",
-    "subject": "部活",
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
-  },
-  {
-    "id": "math-absent-oct19",
-    "title": "比例・反比例小テスト：欠席者の受験",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 終礼清掃後",
-    "details": [
-      "10/15の小テストを欠席して未受験の人が対象。404で実施。",
-      "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
-  },
-  {
-    "id": "math-absent-oct20",
-    "title": "数学小テスト：10/19も欠席した場合",
-    "date": "2026-10-20",
-    "dateLabel": "10/20 (火) 8:10【該当者】",
-    "details": [
-      "小テスト未受験で10/19も欠席した人は、校務センターに受けに来る。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
-  },
-  {
-    "id": "math-worksheet2-oct19",
-    "title": "比例・反比例ワークシート（2）を持参",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 数学【3組】",
-    "details": [
-      "2・3・6組は10/19の授業で使用。10/15配布のプリントを持参する。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "山口朋子",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkyMzEyNDYzOTI3/details"
-  },
-  {
-    "id": "oc-my-club-oct15",
-    "title": "My Club Writing：未完了者は提出",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木) 中",
-    "details": [
-      "未完成の人は今日中に完成させ、ロイロノートで提出。",
-      "欠席・紛失した人は「授業内共有」フォルダーの「Zoom 授業 My Club Writing」を使用。"
-    ],
-    "cat": "hw",
-    "posted": "10/15",
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "Matthew Collins",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
-  },
-  {
-    "id": "oc-heart-game-oct16",
-    "title": "英会話：The Heart Game を準備",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 4限オンライン",
-    "details": [
-      "The Heart Game のプリントを授業に用意。持っていない人はロイロの「授業内共有」フォルダーのコピーを使用。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "Matthew Collins",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
   },
   {
     "id": "momiji-visit-oct15",
@@ -2668,57 +2865,6 @@ window.CLASSROOM_DATA = {
     "poster": "石井靖子",
     "hasLink": true,
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNzM3MjgyNTQy"
-  },
-  {
-    "id": "sogaku-apply-oct30",
-    "title": "式典の奏楽オーディション：応募受付",
-    "date": "2026-10-30",
-    "dateLabel": "10/30 (金) まで【希望者】",
-    "details": [
-      "始業式・終業式などの式典奏者を募集。クラシック音楽で5分以内ほどの曲が望ましい。",
-      "ロイロノート（ヴァイオリン）の資料箱の案内を参考に音楽科へ応募。",
-      "全員分の学年・組・番号・氏名、作曲者と作品名（作品番号・調性・楽章）、編成、演奏時間を伝える。",
-      "オーディションは11/11昼休み、声楽器楽室。詳細は後日Classroom配信。"
-    ],
-    "cat": "no",
-    "subject": "音楽",
-    "thread": "82回生",
-    "posted": "10/15",
-    "optional": true,
-    "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
-  },
-  {
-    "id": "sogaku-audition-nov11",
-    "title": "式典の奏楽オーディション",
-    "date": "2026-11-11",
-    "dateLabel": "11/11 (水) 昼休み",
-    "details": [
-      "声楽器楽室で実施。応募締切は10/30。詳細は後日Classroom配信。"
-    ],
-    "cat": "no",
-    "subject": "音楽",
-    "thread": "82回生",
-    "posted": "10/15",
-    "optional": true,
-    "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
-  },
-  {
-    "id": "violin-accompanist-oct23",
-    "title": "音楽会行事委員：バイオリン伴奏候補者を報告",
-    "date": "2026-10-23",
-    "dateLabel": "10/23 (金) まで",
-    "details": [
-      "終礼ボックス配布の用紙に伴奏オーディション希望者名を記入し、矢沢先生へ提出。",
-      "候補者がいない場合もその旨を伝える。"
-    ],
-    "cat": "hw",
-    "subject": "音楽",
-    "thread": "82回生",
-    "posted": "10/15",
-    "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNTEzNjY2NTQx"
   },
   {
     "id": "violin-audition-nov",
@@ -2752,47 +2898,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDg4OTE1NDQ4"
   },
   {
-    "id": "mail-QAFGSt99fG",
-    "title": "第49回 能楽鑑賞会",
-    "date": "2027-01-16",
-    "dateLabel": "2027/1/16 (土) 14:00開演",
-    "details": [
-      "国立能楽堂。13:00開場、14:00開演、16:10終演予定。能「葵上」、狂言「棒縛」。",
-      "1・2年生は希望者参加。家族・友人も参加可。本校中学生は標準服着用。",
-      "1人2,000円、納入後は返金不可。申込みは10/15〜25、定員超過時は抽選。",
-      "支払い・チケットは案内可能な方に11月下旬頃メール連絡。",
-      "学校閉鎖で配れなかった印刷物は10/19終礼に配布予定。"
-    ],
-    "cat": "no",
-    "subject": "学校",
-    "thread": "",
-    "posted": "10/15",
-    "optional": true,
-    "poster": "保護者向けメール",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
-  },
-  {
-    "id": "noh-apply-oct25",
-    "title": "能楽鑑賞会の申込み",
-    "date": "2026-10-25",
-    "dateLabel": "10/25 (日) 申込締切【希望者】",
-    "details": [
-      "2027/1/16開催分。メール内の申込フォームから申し込む。",
-      "1人2,000円。定員超過時は抽選。"
-    ],
-    "cat": "no",
-    "subject": "学校",
-    "thread": "",
-    "posted": "10/15",
-    "optional": true,
-    "poster": "保護者向けメール",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
-  },
-  {
     "id": "home-absence-oct16",
     "cat": "no",
     "subject": "技術家庭",
@@ -2806,58 +2911,6 @@ window.CLASSROOM_DATA = {
     "poster": "菊池菜々世",
     "posted": "10/16",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
-  },
-  {
-    "id": "midterm-oct28",
-    "cat": "no",
-    "date": "2026-10-28",
-    "dateLabel": "10/28 (水)",
-    "title": "2学期中間テスト：10/28",
-    "subject": "テスト",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
-    "details": [
-      "8:50〜9:30 数学（1次方程式の利用・40分）",
-      "9:45〜10:20 社会（馬場・35分）",
-      "10:35〜11:25 国語（鈴木・50分）",
-      "11:40〜11:50 英語（単語・10分）"
-    ]
-  },
-  {
-    "id": "midterm-oct29",
-    "cat": "no",
-    "date": "2026-10-29",
-    "dateLabel": "10/29 (木)",
-    "title": "2学期中間テスト：10/29",
-    "subject": "テスト",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
-    "details": [
-      "8:50〜9:25 理科（大越・山本・小山・田悟・35分）",
-      "9:40〜10:30 英語（50分）",
-      "10:45〜11:15 保体（石井・30分）"
-    ]
-  },
-  {
-    "id": "midterm-oct30",
-    "cat": "no",
-    "date": "2026-10-30",
-    "dateLabel": "10/30 (金)",
-    "title": "2学期中間テスト：10/30",
-    "subject": "テスト",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
-    "details": [
-      "8:50〜9:40 社会（宮崎・平野・50分）",
-      "9:55〜10:30 理科（松本・35分）",
-      "10:45〜11:35 数学（比例反比例・50分）"
-    ]
   }
 ]
 };
