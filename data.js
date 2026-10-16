@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "09:37",
+  fetchCheckedTime: "09:41",
   updateISO: "2026-10-16",
-  updateTime: "09:37",
+  updateTime: "09:41",
   timetable: {
   "label": "10/12(月)〜10/17(土)【学校閉鎖・10/16はオンライン授業】",
   "days": [
