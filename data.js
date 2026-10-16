@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "22:42",
+  fetchCheckedTime: "23:16",
   updateISO: "2026-10-16",
-  updateTime: "22:42",
+  updateTime: "23:16",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
