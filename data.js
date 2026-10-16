@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-16",
-  fetchCheckedTime: "16:18",
+  fetchCheckedTime: "17:09",
   updateISO: "2026-10-16",
-  updateTime: "16:18",
+  updateTime: "17:09",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -1317,7 +1317,7 @@ window.CLASSROOM_DATA = {
     "subject": "英語",
     "title": "key p.136–137 提出",
     "details": [
-      "ロイロの募集中課題。締切10/19 8:40。"
+      "ロイロで案内された締切は10/19 8:40。"
     ],
     "thread": "ロイロ",
     "poster": ""
