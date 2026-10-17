@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-17",
-  fetchCheckedTime: "09:10",
+  fetchCheckedTime: "11:53",
   updateISO: "2026-10-17",
-  updateTime: "09:10",
+  updateTime: "11:53",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -1459,6 +1459,22 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTU5NDM3OTQ2/details"
   },
   {
+    "cat": "no",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/17",
+    "id": "stargazing-apply-oct23",
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金)まで",
+    "title": "【締切延長】11/6天体観望会の申し込み",
+    "details": [
+      "申込締切を10/19(月)から10/23(金)へ延長。参加希望者は申込書を提出する。"
+    ],
+    "subject": "理科",
+    "optional": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNzg5NTYzNTA0"
+  },
+  {
     "id": "noh-apply-oct25",
     "title": "能楽鑑賞会の申込み",
     "date": "2026-10-25",
@@ -1511,6 +1527,22 @@ window.CLASSROOM_DATA = {
       "9:40〜10:30 英語（50分）",
       "10:45〜11:15 保体（石井・30分）"
     ]
+  },
+  {
+    "cat": "no",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/17",
+    "id": "science2-midterm-oct29",
+    "date": "2026-10-29",
+    "dateLabel": "10/29(木) 理科2分野",
+    "subject": "理科",
+    "title": "理科2分野：中間テスト範囲",
+    "details": [
+      "プリントNo.11〜14。",
+      "No.11・12の地学分野は、マイクリアと理科便覧も確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDQyNDUzMzU2"
   },
   {
     "id": "sogaku-apply-oct30",
@@ -1641,6 +1673,23 @@ window.CLASSROOM_DATA = {
     "posted": "10/15",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
     "optional": true
+  },
+  {
+    "cat": "no",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/17",
+    "id": "stargazing-nov6",
+    "date": "2026-11-06",
+    "dateLabel": "11/6(金)",
+    "title": "天体観望会",
+    "details": [
+      "参加希望者向け。申込書の提出期限は10/23(金)に延長。",
+      "今回の連絡には開催時刻・場所の記載なし。"
+    ],
+    "subject": "理科",
+    "optional": true,
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNzg5NTYzNTA0"
   },
   {
     "id": "sogaku-audition-nov11",
