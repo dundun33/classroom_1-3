@@ -5,12 +5,12 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-17",
-  fetchCheckedTime: "11:53",
-  updateISO: "2026-10-17",
-  updateTime: "11:53",
+  fetchCheckedISO: "2026-10-18",
+  fetchCheckedTime: "16:24",
+  updateISO: "2026-10-18",
+  updateTime: "16:24",
   timetable: {
-  "label": "10/19(月)〜10/23(金)",
+  "label": "10/19(月)〜10/23(金) ※19日の登校は学校の続報待ち",
   "days": [
     {
       "n": "月",
@@ -299,12 +299,12 @@ window.CLASSROOM_DATA = {
       "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
     },
     "2026-10-19": {
-      "kind": "practice",
-      "title": "練習",
+      "kind": "uncertain",
+      "title": "練習予定（登校判断の続報待ち）",
       "time": "",
       "place": "第2体育館",
-      "detail": "",
-      "source": "月間予定表「2026年10-11月.pdf」（10/1配信）"
+      "detail": "月間表では練習予定。10/18の健康調査後に19日の登校について学校から連絡予定のため、実施確定として扱わない。中止・振替は未発表。",
+      "source": "月間予定表＋10/18保護者メール"
     },
     "2026-09-12": {
       "kind": "match",
@@ -653,63 +653,6 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
-  {
-    "id": "mail-Q9ADG4EHcf",
-    "cat": "no",
-    "dateLabel": "10/10 (土) 12:30〜14:00",
-    "subject": "全体",
-    "title": "標準服譲り渡しのお知らせ",
-    "details": [
-      "4階400教室。事前申込みなし・保護者1名のみ入場可",
-      "保護者証（忘れると入場不可）、手提げ袋、現金（千円札・小銭）を持参。事前にサイズを確認",
-      "整理券40枚を11:00〜11:30に400教室入口で配布（予定数で終了）。入場順は抽選",
-      "12:45からフリー入場（12:40から整列可）。売り切れ次第終了",
-      "子ども1人につき制服（上着・スカート）1点、その他の物は1点まで。返品・交換不可"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/10",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q9ADG3Ay18",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q9ADG4EHcf",
-    "date": "2026-10-10",
-    "optional": true
-  },
-  {
-    "id": "tt7",
-    "cat": "no",
-    "date": "2026-10-10",
-    "dateLabel": "10/5 (月)〜10/10 (土)",
-    "subject": "全体",
-    "title": "10/5〜 時間割表【資料】",
-    "details": [
-      "3組の時間割を掲載。10/7(水)5・6限は美術",
-      "10/8(木)・9(金)は十月祭準備、10/10(土)は十月祭1日目",
-      "10/8は8:50全体朝礼、10/9・10は団体ごとに朝礼"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/2",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg4NjUwMjM2MzU2/details"
-  },
-  {
-    "id": "mail-QA3IUuaRm3",
-    "cat": "no",
-    "date": "2026-10-10",
-    "dateLabel": "10/10 (土) 20:30〜21:00",
-    "subject": "お知らせ",
-    "title": "NHK Eテレ「どえらい大学。」 本学特集に関するご連絡",
-    "details": [
-      "NHK Eテレ「どえらい大学。」で日本女子大学を30分間特集。",
-      "自主ゼミ、メダカの色覚実験、建材開発、食の官能評価、物理サークル等を紹介。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/5",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA3IUuaRm3",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QA3IUuOUJN"
-  },
   {
     "id": "forum-oct8",
     "cat": "no",
@@ -1166,16 +1109,36 @@ window.CLASSROOM_DATA = {
     "id": "health-survey-oct18",
     "title": "10/19登校判断のための健康調査",
     "date": "2026-10-18",
-    "dateLabel": "10/18 (日) 夕方",
+    "dateLabel": "10/18 (日) 17:00まで",
     "details": [
-      "10/19(月)の登校判断のために実施。詳細は10/16の朝礼で説明。"
+      "ロイロノートの健康調査カードを「提出箱」へ、10/18(日)17:00までに提出。",
+      "10/18 08:00の保護者メールで締切と方法を案内。保護者からも提出の声かけを。",
+      "調査結果を確認後、10/19(月)の登校について学校から連絡予定。"
     ],
     "cat": "hw",
     "subject": "学校",
     "thread": "82回生",
     "poster": "松本珠希",
     "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
+    "note": "10/19の登校可否は学校からの続報待ち"
+  },
+  {
+    "id": "mail-QAFDxdivQz",
+    "cat": "no",
+    "date": "2026-10-18",
+    "dateLabel": "10/18 (日) 17:00まで",
+    "subject": "学校",
+    "title": "健康調査の提出と10/19の登校判断について",
+    "details": [
+      "ロイロノートの健康調査カードを提出箱へ17:00までに提出。保護者からも声かけをお願いします。",
+      "健康状態を確認したうえで10/19(月)の登校について連絡予定。現時点では登校再開の確定通知ではありません。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/18",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFDxdivQz"
   },
   {
     "subject": "英語",
