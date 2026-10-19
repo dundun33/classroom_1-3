@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-19",
-  fetchCheckedTime: "12:09",
-  updateISO: "2026-10-19",
-  updateTime: "12:10",
+  fetchCheckedISO: "2026-10-20",
+  fetchCheckedTime: "05:27",
+  updateISO: "2026-10-20",
+  updateTime: "05:28",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -476,19 +476,19 @@ window.CLASSROOM_DATA = {
     },
     "2026-10-24": {
       "kind": "match",
-      "title": "新人戦1回戦",
-      "time": "時間未定",
-      "place": "場所未定",
-      "detail": "1・2年生の大会。日程・参加条件は後続の連絡も確認。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "title": "新人大会1回戦",
+      "time": "9:40集合／14:40頃解散",
+      "place": "武蔵中原駅改札 → 宮内中",
+      "detail": "9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。 11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。 保護者観戦可。8分×4Q制。 テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。 昼食時間はないため、試合前後に各自の判断で軽食をとる。",
+      "source": "バスケ投稿 10/19"
     },
     "2026-10-25": {
       "kind": "match",
-      "title": "新人戦2回戦",
-      "time": "時間未定",
-      "place": "場所未定",
-      "detail": "1・2年生の大会。日程・参加条件は後続の連絡も確認。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "title": "新人大会2回戦",
+      "time": "8:30集合／13:00頃解散予定",
+      "place": "宿河原駅改札 → 稲田中",
+      "detail": "8:30 JR南武線・宿河原駅改札前集合。稲田中まで徒歩5分、8:40到着。 10:05 犬蔵中戦（日本女子は濃色）。勝った場合は11:25 TO。13:00頃解散予定。 保護者観戦可。8分×4Q制。 テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。 昼食時間はないため、試合前後に各自の判断で軽食をとる。",
+      "source": "バスケ投稿 10/19"
     },
     "2026-10-27": {
       "kind": "school",
@@ -653,164 +653,6 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
-  {
-    "id": "mail-Q988Sdo1hM",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜10/12（一般公開10/10・11）",
-    "subject": "全体",
-    "title": "十月祭についてのお知らせ",
-    "details": [
-      "10/8・9は準備。最終下校は8日17:00、9日16:30",
-      "一般公開は10/10(土)・11(日) 9:30〜15:30。生徒は8:50出欠確認・16:30最終下校",
-      "10/12(月)は片付け・後夜祭。10:00までに片付けを終え、10:15朝礼。1・2年生の最終下校は13:30",
-      "5日間とも昼食が必要。10/10・11は生徒の食堂利用不可のため弁当持参",
-      "保護者証・配布プログラム・スリッパ・靴袋を持参。保護者と家族は保護者証で入校、一般客は予約またはチケット制",
-      "撮影時は保護者証を着用。作品・掲示物の撮影不可。車での来校不可"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/8",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q988Schtyl",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q988Sdo1hM"
-  },
-  {
-    "id": "bball-festival-flow-sep29",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜10/12【暫定・要確認】",
-    "subject": "部活",
-    "title": "十月祭の流れ（参考資料）",
-    "details": [
-      "昨年度版を基にした参考資料。正式版は後日配布、控室は未定",
-      "仮予定：10/8〜11は8:40集合。10/8は9:05練習開始、10/9は8:50練習開始",
-      "仮予定：10/10午前は部内戦、10/11午後は招待試合（1年生も参加）",
-      "仮予定：10/12は9:50まで自主練可、13:30最終下校。朝礼と後夜祭がともに10:15表記のため要確認",
-      "10/8〜11はiPadを持参しない。係・委員会活動を優先"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "9/29",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODI2NDkyNjUyODI0",
-    "hasLink": true
-  },
-  {
-    "id": "library-festival-oct7",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "片付けの日まで",
-    "subject": "図書",
-    "title": "十月祭中の図書室利用制限",
-    "details": [
-      "委員会展示のため本棚を封鎖。片付けの日まで自習等はできない。",
-      "貸出利用は10/8朝8:45まで。"
-    ],
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODg5NTk1NjgwNDQ4"
-  },
-  {
-    "id": "bball-flow-oct7",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/8〜12",
-    "subject": "部活",
-    "title": "十月祭バスケ：5日間の集合・活動予定",
-    "details": [
-      "控室は理科A。朝に貴重品・携帯を回収し押切先生へ。iPadは持参しない。係・委員会活動を優先。",
-      "10/8・9は8:30控室集合（練習着へ着替え済み）。10/9は14:00練習終了、14:30前夜祭、16:30最終下校。",
-      "10/10は7:55控室集合、8:10集合写真。3年生欠席時以外は撮り直しなし。12:30昼食、16:00控室集合、16:30最終下校。",
-      "10/11は8:40控室集合、11:45昼食、12:15第一体育館アップ、12:30第三体育館準備。15:30片付け、16:00控室、16:20伝達・時間差下校。",
-      "10/12は9:50まで自主練可。荷物は朝は体育館へ。11:25昼食（HR）、12:10学活・終礼、1年生は13:30最終下校。",
-      "10/12の全体朝礼と後夜祭は原資料でともに10:15と記載。開始時刻の詳細は要確認。試合時刻は10/8修正版を優先。"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODczODc3Mjg1Nzk0",
-    "hasLink": true
-  },
-  {
-    "id": "corner-cleanup-oct12",
-    "cat": "no",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 (月) 9:30",
-    "subject": "学校",
-    "title": "1年生コーナー担当者：片付けの集合",
-    "details": [
-      "残りの片付けのため、9:30に405教室へ集合。"
-    ],
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/11",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTI2NDU0NzA2"
-  },
-  {
-    "id": "cleaning-oct12",
-    "title": "生活部：清掃・ゴミ箱の確認",
-    "date": "2026-10-12",
-    "dateLabel": "10/12",
-    "cat": "no",
-    "details": [
-      "通常の清掃はなし。汚れが目立つ場合は担任の判断で清掃。",
-      "本日はゴミ箱使用禁止。捨ててしまった人は袋を交換し、指定の場所へゴミを捨てに行く。",
-      "生活部部長は帰る前にゴミ箱を確認し、ゴミがあれば処分。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTMxMTg3MjQ1"
-  },
-  {
-    "id": "charity-final-oct12",
-    "title": "マカロン付箋の最終引き換え",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 最終下校まで",
-    "cat": "no",
-    "details": [
-      "引き換え忘れは終礼後が最後の機会。昼休みまたは校務センターで松本先生へ。",
-      "最終下校時刻までに申し出がない場合は販売なし。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDcxMjgyMDYz"
-  },
-  {
-    "id": "festival-survey-oct12",
-    "title": "十月祭アンケート",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 学活",
-    "cat": "hw",
-    "details": [
-      "本日の学活で回答。十月祭委員は回答するよう呼びかける。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "山口朋子",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDEzMzQ5NDMy",
-    "hasLink": true
-  },
-  {
-    "id": "lost-display-oct12",
-    "title": "落とし物・傘の展示と引き取り",
-    "date": "2026-10-12",
-    "dateLabel": "10/12 なるべく当日中",
-    "cat": "no",
-    "details": [
-      "昨日までの落とし物と傘を生徒玄関に展示。なるべく当日中に引き取る。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY0NjIxNDA0"
-  },
   {
     "id": "math-proportion-test-oct15",
     "cat": "no",
@@ -1090,12 +932,11 @@ window.CLASSROOM_DATA = {
   {
     "id": "mail-QA3IbhXvWl",
     "cat": "no",
-    "date": "2026-10-19",
-    "dateLabel": "10/12 生徒へ案内・10/19の週 動画配信予定",
+    "dateLabel": "10/19 説明動画配信済み",
     "subject": "全体",
     "title": "2027年度からの新たな体制についてのご報告（続報2）",
     "details": [
-      "2027年度の新体制について、10/19からの週に保護者向け説明動画を配信し、意見を募る予定（配信日は未定）",
+      "2027年度の新体制に関する保護者向け説明動画は10/19に配信済み。FAQとご意見・ご質問フォームも同日に案内。",
       "中学生には十月祭片付け日の10/12(月)に、文化祭についての今後の質問受付・説明会の予定を案内",
       "文化祭は専門のワーキングチームで検討中",
       "10/12の案内までは生徒が十月祭に専念できるよう、保護者にも協力を依頼"
@@ -2247,7 +2088,7 @@ window.CLASSROOM_DATA = {
       "2027年度から中高の一体化・一貫化を進め、週6日制へ移行。授業は週33時間（土曜4時間・水曜5時間、ほかの曜日は6時間）",
       "同じ内容の中高クラブを強制的に統合せず、合同活動も含めて引き続き検討",
       "運動会・音楽会は中高別開催を継続。十月祭ともみじ祭は同日開催へ移行（行事委員会は中高別、文化祭時期はもみじ祭頃を想定）",
-      "文化祭に関する質問・意見の窓口は準備中のため、案内まで個別の先生への直接の質問・提出は控える"
+      "10/19に説明動画のご意見・ご質問フォームを案内。文化祭や土曜日の運用など検討中事項への意見も受け付け、質問への回答はFAQで順次公開する。"
     ],
     "thread": "",
     "poster": "保護者向けメール",
@@ -2974,6 +2815,157 @@ window.CLASSROOM_DATA = {
     "posted": "10/18",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFE1s1gTw"
+  },
+  {
+    "id": "assembly-oct20",
+    "cat": "no",
+    "title": "体育館朝礼：8:35までに整列",
+    "subject": "学活・総合",
+    "thread": "82回生",
+    "poster": "押切衣舞",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDgyNTg2MDA2",
+    "details": [
+      "8:35には体育館に整列する。"
+    ],
+    "date": "2026-10-20",
+    "dateLabel": "10/20(火) 8:35整列"
+  },
+  {
+    "id": "science1-midterm-oct30",
+    "cat": "no",
+    "title": "理科1分野：中間テスト範囲",
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDc1MjY1OTgx",
+    "details": [
+      "ガスバーナーの使い方（No.01）を再度範囲とする。",
+      "プリントNo.11〜17と、それに準じた教科書・マイクリアのページ。気体・状態変化（蒸留を含む）。",
+      "No.11は酸素・二酸化炭素・水素・窒素のみ。模範解答は資料箱に掲載。"
+    ],
+    "date": "2026-10-30",
+    "dateLabel": "10/30(金) 理科1分野"
+  },
+  {
+    "id": "math-more6-oct19",
+    "cat": "no",
+    "title": "比例反比例 もっと（６）",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkyNTg5NzY5MDU0/details",
+    "details": []
+  },
+  {
+    "id": "english-pbe4-oct19",
+    "cat": "no",
+    "title": "October 19, PBE4 新中解答",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkyNTc2NzM2ODg0/details",
+    "details": []
+  },
+  {
+    "id": "loilo-math-excerpt4-oct21",
+    "cat": "hw",
+    "title": "比例反比例 抜粋No.4",
+    "subject": "数学",
+    "thread": "ロイロ",
+    "poster": "",
+    "date": "2026-10-21",
+    "dateLabel": "10/21(水) 20:00まで",
+    "details": [
+      "ロイロの募集中課題。"
+    ]
+  },
+  {
+    "id": "bball-rookie-oct24",
+    "cat": "no",
+    "title": "新人大会1回戦",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MDc4MjQ2MzE5",
+    "details": [
+      "9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。",
+      "11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。",
+      "保護者観戦可。8分×4Q制。",
+      "テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。",
+      "昼食時間はないため、試合前後に各自の判断で軽食をとる。"
+    ],
+    "date": "2026-10-24",
+    "dateLabel": "10/24(土) 9:40集合／14:40頃解散"
+  },
+  {
+    "id": "bball-rookie-oct25",
+    "cat": "no",
+    "title": "新人大会2回戦",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/19",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MDc4MjQ2MzE5",
+    "details": [
+      "8:30 JR南武線・宿河原駅改札前集合。稲田中まで徒歩5分、8:40到着。",
+      "10:05 犬蔵中戦（日本女子は濃色）。勝った場合は11:25 TO。13:00頃解散予定。",
+      "保護者観戦可。8分×4Q制。",
+      "テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。",
+      "昼食時間はないため、試合前後に各自の判断で軽食をとる。"
+    ],
+    "date": "2026-10-25",
+    "dateLabel": "10/25(日) 8:30集合／13:00頃解散予定"
+  },
+  {
+    "id": "mail-QAJENwHOVQ",
+    "cat": "no",
+    "subject": "学校から",
+    "title": "説明動画アンケート（ご意見・ご質問フォーム）",
+    "details": [
+      "新体制の説明動画への意見・質問を、メール内のアンケートフォームから送信する。",
+      "土曜日の運用や文化祭など、検討中事項についても寄せられた意見を参考にする。",
+      "質問への個別回答は行わず、FAQとして順次公開する。締切の記載なし。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/19",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAJENwHOVQ"
+  },
+  {
+    "id": "mail-QAJEQD0QIZ",
+    "cat": "no",
+    "subject": "学校から",
+    "title": "FAQについて",
+    "details": [
+      "新体制に関するFAQの閲覧用パスワードを通知。パスワードは保護者向けメール本文で確認する。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/19",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAJEQD0QIZ"
+  },
+  {
+    "id": "mail-QAJDp3TXON",
+    "cat": "no",
+    "subject": "学校から",
+    "title": "「中高一体化・一貫化の新たな体制作りについて」説明動画",
+    "details": [
+      "10/3の「続報2」で案内した保護者向け説明動画を配信。",
+      "FAQも案内。閲覧用パスワードとご意見・ご質問フォームは別メールで通知。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/19",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAJDp3TXON",
+    "mailUrl": "https://youtu.be/8jLflWptaZo"
   }
 ]
 };
