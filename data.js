@@ -5,12 +5,12 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-18",
-  fetchCheckedTime: "16:24",
-  updateISO: "2026-10-18",
-  updateTime: "16:24",
+  fetchCheckedISO: "2026-10-19",
+  fetchCheckedTime: "12:09",
+  updateISO: "2026-10-19",
+  updateTime: "12:10",
   timetable: {
-  "label": "10/19(月)〜10/23(金) ※19日の登校は学校の続報待ち",
+  "label": "10/19(月)〜10/23(金)",
   "days": [
     {
       "n": "月",
@@ -299,11 +299,11 @@ window.CLASSROOM_DATA = {
       "source": "10/15 保護者メール「学校閉鎖のお知らせ」"
     },
     "2026-10-19": {
-      "kind": "uncertain",
-      "title": "練習予定（登校判断の続報待ち）",
+      "kind": "practice",
+      "title": "練習予定",
       "time": "",
       "place": "第2体育館",
-      "detail": "月間表では練習予定。10/18の健康調査後に19日の登校について学校から連絡予定のため、実施確定として扱わない。中止・振替は未発表。",
+      "detail": "月間予定表では第2体育館で練習予定。10/18 18:20の学校連絡で10/19の通常登校が確定。部活動の追加変更連絡はなし。",
       "source": "月間予定表＋10/18保護者メール"
     },
     "2026-09-12": {
@@ -654,90 +654,6 @@ window.CLASSROOM_DATA = {
 },
   items: [
   {
-    "id": "forum-oct8",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11 発表",
-    "subject": "行事",
-    "title": "十月祭：もみじフォーラム発表順",
-    "details": [
-      "学年発表者は添付の発表順を確認。1日目は国語→英語→社会→国語、2日目は英語→社会→英語→国語。"
-    ],
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/8",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NTg3MzE2OTE2",
-    "hasLink": true
-  },
-  {
-    "id": "bball-times-oct8",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11",
-    "subject": "部活",
-    "title": "十月祭バスケ：修正版タイムスケジュール",
-    "details": [
-      "10/8配信の修正版。10/10は9:45〜12:15、1年生はAコート10:00・10:15の7分試合。3年生試合のTO担当も確認。",
-      "10/11は13:00〜15:30。1年生はBコート13:00の6分試合、Aコート13:35の8分試合（サレジアン戦）。"
-    ],
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/8",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODg5ODY0MDk2OTUy",
-    "hasLink": true
-  },
-  {
-    "id": "festival-belongings-oct9",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "十月祭期間中",
-    "subject": "学校",
-    "title": "十月祭中の持ち物管理・落とし物の届け方",
-    "details": [
-      "普段以上に自分の持ち物をしっかり管理する。",
-      "拾った物は校務センターへ届ける。拾った日時・場所を落とし物カードに記入し、写真のトレイに入れる。"
-    ],
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/9",
-    "hasLink": true,
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwMTQxNTYyODIx"
-  },
-  {
-    "id": "mail-QA9FKbX815",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "10/10・11 十月祭",
-    "subject": "学校",
-    "title": "十月祭にご来場の皆様へ",
-    "details": [
-      "保護者証を忘れずに持参。",
-      "受付でパンフレットは配布されないため、事前に配布されたものを持参。",
-      "開場前のあまりに早い時間帯には来校しない。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/9",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QA9FKbX815"
-  },
-  {
-    "id": "soumu-festival-duty-oct9",
-    "cat": "no",
-    "date": "2026-10-11",
-    "dateLabel": "十月祭期間中",
-    "subject": "学校",
-    "title": "総務：十月祭立ち番の仕事内容",
-    "details": [
-      "立ち番の仕事内容を資料で事前配信。資料は部屋にも設置される。"
-    ],
-    "thread": "総務",
-    "poster": "山本昂宏",
-    "posted": "10/9",
-    "hasLink": true,
-    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODkwMTM5NTQyMjE0"
-  },
-  {
     "id": "mail-Q988Sdo1hM",
     "cat": "no",
     "date": "2026-10-12",
@@ -915,17 +831,16 @@ window.CLASSROOM_DATA = {
     "cat": "no",
     "subject": "学校",
     "thread": "82回生",
-    "posted": "10/15",
+    "posted": "10/19",
     "id": "cafeteria-refund-oct15",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木)・返金は後日",
-    "title": "本日の食堂：食券は後日返金",
+    "dateLabel": "10/19の週または翌週に利用",
+    "title": "10/15の食券：返金せず今週・来週に利用【訂正】",
     "details": [
-      "購入済みの食券は後日返金が可能。",
-      "本日は返金対応なし。速やかに下校する。"
+      "返金できる旨の以前の案内を訂正。10/15の食券は今週中、もしくは来週中に利用する。",
+      "利用時に10/15の食券であることを伝える。メニューは10/15と異なる場合あり。"
     ],
-    "poster": "阿佐美優子",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc3MjI2ODcz"
+    "poster": "宮地潤子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDcwNjUwNTUx"
   },
   {
     "id": "kokugo-take-home-oct15",
@@ -1113,7 +1028,7 @@ window.CLASSROOM_DATA = {
     "details": [
       "ロイロノートの健康調査カードを「提出箱」へ、10/18(日)17:00までに提出。",
       "10/18 08:00の保護者メールで締切と方法を案内。保護者からも提出の声かけを。",
-      "調査結果を確認後、10/19(月)の登校について学校から連絡予定。"
+      "10/18 18:20の続報で、10/19(月)は通常通り登校と発表。"
     ],
     "cat": "hw",
     "subject": "学校",
@@ -1121,7 +1036,7 @@ window.CLASSROOM_DATA = {
     "poster": "松本珠希",
     "posted": "10/15",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
-    "note": "10/19の登校可否は学校からの続報待ち"
+    "note": "10/19は通常登校（10/18 18:20の続報）"
   },
   {
     "id": "mail-QAFDxdivQz",
@@ -1132,7 +1047,7 @@ window.CLASSROOM_DATA = {
     "title": "健康調査の提出と10/19の登校判断について",
     "details": [
       "ロイロノートの健康調査カードを提出箱へ17:00までに提出。保護者からも声かけをお願いします。",
-      "健康状態を確認したうえで10/19(月)の登校について連絡予定。現時点では登校再開の確定通知ではありません。"
+      "10/18 18:20の続報で、10/19(月)は通常通り登校と発表。"
     ],
     "thread": "",
     "poster": "保護者向けメール",
@@ -1217,11 +1132,11 @@ window.CLASSROOM_DATA = {
       "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
     ],
     "cat": "no",
-    "posted": "10/15",
+    "posted": "10/19",
     "subject": "数学",
-    "thread": "数学",
+    "thread": "82回生",
     "poster": "森本奈央",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxNDIyNTA0"
   },
   {
     "id": "math-worksheet2-oct19",
@@ -1416,7 +1331,7 @@ window.CLASSROOM_DATA = {
     "details": [
       "3組の列を反映。水曜5・6限は美術、木曜5・6限は理科、金曜5・6限は家庭科。",
       "10/24(土)は原資料で空欄。10/21・22の英語ダブル教室変更連絡は他組対象。",
-      "10/19の登校判断に向けた10/18夕方の健康調査は既存案内を確認。"
+      "10/18 18:20の学校連絡で、10/19は通常登校と確定。"
     ],
     "poster": "松本珠希",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTU5NDM3OTQ2/details"
@@ -3025,6 +2940,40 @@ window.CLASSROOM_DATA = {
     "poster": "菊池菜々世",
     "posted": "10/16",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
+  },
+  {
+    "id": "mail-QAIIKWktbC",
+    "cat": "no",
+    "date": "2026-10-19",
+    "dateLabel": "10/19 (月) 通常登校",
+    "subject": "学校",
+    "title": "10/19(月)は通常通り登校",
+    "details": [
+      "10/18 18:20の学校連絡で、10/19(月)は通常通り登校と発表。",
+      "学校到着時・昼食前の手洗いとうがいを徹底。特に咳症状が残る生徒はマスク着用を励行。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/18",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAIIKWktbC"
+  },
+  {
+    "id": "mail-QAFE1s1gTw",
+    "cat": "no",
+    "date": "2026-10-18",
+    "dateLabel": "10/18 (日) 17:00まで",
+    "subject": "学校",
+    "title": "健康調査（10/18）のお願い【16時再送】",
+    "details": [
+      "朝の健康調査案内の再送。ロイロノートの健康調査カードを提出箱へ17:00までに提出。",
+      "その後10/18 18:20の続報で10/19は通常登校と確定。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/18",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFE1s1gTw"
   }
 ]
 };
