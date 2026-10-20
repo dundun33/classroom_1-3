@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-20",
-  fetchCheckedTime: "05:27",
+  fetchCheckedTime: "20:18",
   updateISO: "2026-10-20",
-  updateTime: "05:28",
+  updateTime: "20:18",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -178,7 +178,9 @@ window.CLASSROOM_DATA = {
         "s": "家",
         "t": "菊池",
         "r": "HR",
-        "rs": 2
+        "rs": 2,
+        "mk": "持ち物・座席",
+        "ref": "home-preparation-oct23"
       }
     ],
     [
@@ -850,19 +852,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
   },
   {
-    "id": "midterm-progress-oct17",
-    "cat": "hw",
-    "date": "2026-10-17",
-    "dateLabel": "10/17(土) 9:00まで",
-    "subject": "学活・総合",
-    "title": "中間テスト計画表：今の進捗を提出",
-    "details": [
-      "ロイロの課題「中間テスト計画表✏️今の進捗」。締切は10/17(土)9:00。"
-    ],
-    "thread": "ロイロ",
-    "poster": ""
-  },
-  {
     "id": "health-survey-oct18",
     "title": "10/19登校判断のための健康調査",
     "date": "2026-10-18",
@@ -1008,19 +997,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "押切衣舞",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
-  },
-  {
-    "id": "eng-key-oct19",
-    "cat": "hw",
-    "date": "2026-10-19",
-    "dateLabel": "10/19(月) 8:40まで",
-    "subject": "英語",
-    "title": "key p.136–137 提出",
-    "details": [
-      "ロイロで案内された締切は10/19 8:40。"
-    ],
-    "thread": "ロイロ",
-    "poster": ""
   },
   {
     "id": "kanji-test-oct20",
@@ -1504,11 +1480,11 @@ window.CLASSROOM_DATA = {
   {
     "id": "gika-sakurabo-sep18",
     "cat": "hw",
-    "dateLabel": "次回の授業まで【1・2・3・6組】",
+    "dateLabel": "9月の授業連絡（今週の準備は10/20連絡を優先）",
     "subject": "技術家庭",
     "title": "技術・家庭科 サクラボ授業の準備・記事を読む宿題",
     "details": [
-      "次回もサクラボで授業を実施",
+      "9/18時点の授業案内はサクラボ",
       "iPad、教科書、ファイル、筆記用具をマイバッグ等にまとめて持参",
       "添付記事を読んでくる"
     ],
@@ -1833,12 +1809,12 @@ window.CLASSROOM_DATA = {
   {
     "id": "gika1",
     "cat": "no",
-    "dateLabel": "当面の間",
+    "dateLabel": "9月の授業連絡（今週の準備は10/20連絡を優先）",
     "subject": "技術家庭",
     "title": "技術・家庭科より（刺繍キット・今週の授業）",
     "details": [
       "宿題の刺繍キット：ロイロで返却があった人は授業初日の作品提出までに直す",
-      "今週の授業はサクラボで技術分野",
+      "9/7時点の授業案内はサクラボで技術分野",
       "持ち物: iPad(充電必須)、三角巾、刺繍キット、ファイル、技術の教科書、筆記用具（エコバッグ推奨）"
     ],
     "thread": "82回生",
@@ -2871,19 +2847,6 @@ window.CLASSROOM_DATA = {
     "details": []
   },
   {
-    "id": "loilo-math-excerpt4-oct21",
-    "cat": "hw",
-    "title": "比例反比例 抜粋No.4",
-    "subject": "数学",
-    "thread": "ロイロ",
-    "poster": "",
-    "date": "2026-10-21",
-    "dateLabel": "10/21(水) 20:00まで",
-    "details": [
-      "ロイロの募集中課題。"
-    ]
-  },
-  {
     "id": "bball-rookie-oct24",
     "cat": "no",
     "title": "新人大会1回戦",
@@ -2966,6 +2929,181 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAJDp3TXON",
     "mailUrl": "https://youtu.be/8jLflWptaZo"
+  },
+  {
+    "id": "home-preparation-oct23",
+    "cat": "no",
+    "title": "家庭科：今週の授業準備・調理実習班の座席",
+    "subject": "技術家庭",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNzY4NjI4MTQ5",
+    "details": [
+      "ジャパンナレッジスクールを使うため、Googleのgseアカウントのメールアドレスとパスワードを控えてくる。",
+      "授業はHRで調理実習の班ごとに着席。ロイロ資料箱「座席表→1年教室(調理実習班)」を確認。",
+      "持ち物はファイル・iPad・教科書。"
+    ],
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金) 5・6限（3組）"
+  },
+  {
+    "id": "music-committee-oct21",
+    "cat": "no",
+    "title": "音楽会行事委員会",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyOTUzMTc1ODkz",
+    "details": [
+      "昼食持参で声楽器楽室に集合する。"
+    ],
+    "date": "2026-10-21",
+    "dateLabel": "10/21(水) 昼休み"
+  },
+  {
+    "id": "ramen-contest-nov30",
+    "cat": "no",
+    "title": "インスタントラーメン オリジナル料理コンテスト",
+    "subject": "技術家庭",
+    "thread": "82回生",
+    "poster": "遠山弥生",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDc5ODEyMjc1",
+    "details": [
+      "野菜モリモリ編。袋めん部門・カップめん部門があり、両部門や複数作品の応募も可。",
+      "調理写真・レシピ・簡単なコメントをオンライン投稿する。JASマークの付いた即席めんを使用。",
+      "応募締切は11/30(月)。"
+    ],
+    "optional": true,
+    "date": "2026-11-30",
+    "dateLabel": "11/30(月) 応募締切",
+    "hasLink": true
+  },
+  {
+    "id": "lost-property-oct23",
+    "cat": "no",
+    "title": "落とし物・置き傘の引き取り",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzMTkwMzg2NDky",
+    "details": [
+      "十月祭までの落とし物は校務センター、置きっぱなしの傘は生徒玄関にある。",
+      "10/23(金)放課後に処分予定のため、それまでに自分のものを引き取る。"
+    ],
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金) 放課後の処分前まで"
+  },
+  {
+    "id": "science-makeup-oct22",
+    "cat": "no",
+    "title": "理科1欠席者：希望者向け追実験",
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzMjA2NzgyNDk0",
+    "details": [
+      "理科1の授業を欠席し、追実験を希望する人は理科Aへ。強制ではない。"
+    ],
+    "date": "2026-10-22",
+    "dateLabel": "10/22(木) 放課後",
+    "optional": true
+  },
+  {
+    "id": "future-challenge-oct20",
+    "cat": "hw",
+    "title": "「ミライへの種まき」へチャレンジを報告",
+    "subject": "学活・総合",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzMjE3OTA3Nzkz",
+    "details": [
+      "自分のチャレンジを報告する。報告フォームは82回生Classroomの「授業」にある。"
+    ],
+    "dateLabel": "期限の記載なし"
+  },
+  {
+    "id": "gardening-oct20",
+    "cat": "no",
+    "title": "生活部・園芸当番：鉢植えの受け取り",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMzA0Mzc5Mzc4",
+    "details": [
+      "教員玄関前で鉢植えを受け取る。"
+    ],
+    "date": "2026-10-20",
+    "dateLabel": "10/20(火) 終礼後"
+  },
+  {
+    "id": "math-sheet1-oct22",
+    "cat": "hw",
+    "title": "比例反比例(1)プリントの提出",
+    "subject": "数学",
+    "thread": "82回生",
+    "poster": "森本奈央",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDg4MTI4OTg5",
+    "details": [
+      "まだスタンプをもらっていない人は提出する。"
+    ],
+    "date": "2026-10-22",
+    "dateLabel": "10/22(木) 16:30まで"
+  },
+  {
+    "id": "bball-uniform-oct21",
+    "cat": "hw",
+    "title": "バスケ：ユニフォーム返却",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MTI4NDE5ODI4",
+    "date": "2026-10-21",
+    "dateLabel": "10/21(水) まで",
+    "details": [
+      "十月祭でユニフォームを持ち帰った人は必ず返却する。今週末の大会で2年生が使用する。"
+    ]
+  },
+  {
+    "id": "math-test-answers-oct20",
+    "cat": "no",
+    "title": "比例反比例小テスト解答",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc0MTI1Njk0OTI1/details",
+    "details": []
+  },
+  {
+    "id": "geography-europe2-oct20",
+    "cat": "no",
+    "title": "No.18～19「ヨーロッパ州」（後編）",
+    "subject": "地理",
+    "thread": "地理",
+    "poster": "宮崎可奈子",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODc0MTMyNjUzMTQ4/details",
+    "details": []
+  },
+  {
+    "id": "geography-europe1-oct20",
+    "cat": "no",
+    "title": "No.13～17「ヨーロッパ州」（前編）",
+    "subject": "地理",
+    "thread": "地理",
+    "poster": "宮崎可奈子",
+    "posted": "10/20",
+    "url": "https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODkzMjM5NDI1OTU1/details",
+    "details": []
   }
 ]
 };
