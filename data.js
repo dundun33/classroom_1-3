@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-20",
-  fetchCheckedTime: "20:18",
-  updateISO: "2026-10-20",
-  updateTime: "20:18",
+  fetchCheckedISO: "2026-10-21",
+  fetchCheckedTime: "18:51",
+  updateISO: "2026-10-21",
+  updateTime: "18:52",
   timetable: {
   "label": "10/19(月)〜10/23(金)",
   "days": [
@@ -3104,6 +3104,68 @@ window.CLASSROOM_DATA = {
     "posted": "10/20",
     "url": "https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODkzMjM5NDI1OTU1/details",
     "details": []
+  },
+  {
+    "cat": "no",
+    "posted": "10/21",
+    "id": "festival-committee-oct22",
+    "title": "十月祭行事委員会",
+    "date": "2026-10-22",
+    "dateLabel": "10/22(木) 12:45",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "中尾有子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDA0MzI2Mjk3",
+    "details": [
+      "400教室に集合。お弁当とiPadを持参。"
+    ]
+  },
+  {
+    "cat": "no",
+    "posted": "10/21",
+    "id": "library-committee-oct22",
+    "title": "1年図書委員会：読書会について",
+    "date": "2026-10-22",
+    "dateLabel": "10/22(木) 昼休み13:05",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MTM1NTY2NjUw",
+    "details": [
+      "1年図書委員は書道室に集合。読書会についての委員会。"
+    ]
+  },
+  {
+    "cat": "no",
+    "posted": "10/21",
+    "id": "english-midterm-words-oct28",
+    "title": "英語：中間単語テスト範囲",
+    "date": "2026-10-28",
+    "dateLabel": "10/28(水) 11:40〜11:50",
+    "details": [
+      "30点・10分。Keyワーク p.108・124・138。"
+    ],
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkzNDczNDI1MTg1/details"
+  },
+  {
+    "cat": "no",
+    "posted": "10/21",
+    "id": "english-midterm-oct29",
+    "title": "英語：2学期中間テスト範囲",
+    "date": "2026-10-29",
+    "dateLabel": "10/29(木) 9:40〜10:30",
+    "details": [
+      "教科書の試験は100点・50分。教科書 p.71〜101（Unit 6〜8）。",
+      "Keyワーク p.102〜145（宿題ではない箇所も範囲）。",
+      "新中問 第9・10・13章。授業で配られた文法プリント①〜⑨とユニットテスト。"
+    ],
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkzNDczNDI1MTg1/details"
   }
 ]
 };
