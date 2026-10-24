@@ -5,37 +5,37 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-21",
-  fetchCheckedTime: "18:51",
-  updateISO: "2026-10-21",
-  updateTime: "18:52",
+  fetchCheckedISO: "2026-10-24",
+  fetchCheckedTime: "13:02",
+  updateISO: "2026-10-24",
+  updateTime: "13:02",
   timetable: {
-  "label": "10/19(月)〜10/23(金)",
+  "label": "10/26(月)〜10/30(金)",
   "days": [
     {
       "n": "月",
-      "md": "10/19",
-      "iso": "2026-10-19"
+      "md": "10/26",
+      "iso": "2026-10-26"
     },
     {
       "n": "火",
-      "md": "10/20",
-      "iso": "2026-10-20"
+      "md": "10/27",
+      "iso": "2026-10-27"
     },
     {
       "n": "水",
-      "md": "10/21",
-      "iso": "2026-10-21"
+      "md": "10/28",
+      "iso": "2026-10-28"
     },
     {
       "n": "木",
-      "md": "10/22",
-      "iso": "2026-10-22"
+      "md": "10/29",
+      "iso": "2026-10-29"
     },
     {
       "n": "金",
-      "md": "10/23",
-      "iso": "2026-10-23"
+      "md": "10/30",
+      "iso": "2026-10-30"
     }
   ],
   "rows": [
@@ -43,9 +43,7 @@ window.CLASSROOM_DATA = {
       {
         "s": "数",
         "t": "森本",
-        "r": "HR",
-        "mk": "ワークシート(2)",
-        "ref": "math-worksheet2-oct19"
+        "r": "HR"
       },
       {
         "s": "道徳",
@@ -53,19 +51,25 @@ window.CLASSROOM_DATA = {
         "r": "HR"
       },
       {
-        "s": "英",
-        "t": "本木",
-        "r": "HR"
+        "s": "中間テスト",
+        "t": "",
+        "r": "",
+        "rs": 6,
+        "ref": "midterm-oct28"
       },
       {
-        "s": "国",
-        "t": "鈴木",
-        "r": "HR"
+        "s": "中間テスト",
+        "t": "",
+        "r": "",
+        "rs": 6,
+        "ref": "midterm-oct29"
       },
       {
-        "s": "英",
-        "t": "コリンズ・マオ",
-        "r": "LL/400"
+        "s": "中間テスト",
+        "t": "",
+        "r": "",
+        "rs": 6,
+        "ref": "midterm-oct30"
       }
     ],
     [
@@ -79,21 +83,9 @@ window.CLASSROOM_DATA = {
         "t": "担任",
         "r": "HR"
       },
-      {
-        "s": "理",
-        "t": "大越・小山",
-        "r": "理科A/B"
-      },
-      {
-        "s": "体",
-        "t": "石井",
-        "r": "HR"
-      },
-      {
-        "s": "音",
-        "t": "矢沢",
-        "r": "声楽器楽"
-      }
+      null,
+      null,
+      null
     ],
     [
       {
@@ -102,86 +94,43 @@ window.CLASSROOM_DATA = {
         "r": "声楽"
       },
       {
-        "s": "国・漢字テスト",
+        "s": "国",
         "t": "鈴木",
-        "r": "HR",
-        "mk": "漢字テスト",
-        "ref": "kanji-test-oct20"
-      },
-      {
-        "s": "数",
-        "t": "山口",
         "r": "HR"
       },
-      {
-        "s": "英",
-        "t": "磯崎・吉野",
-        "r": "HR/401"
-      },
-      {
-        "s": "数",
-        "t": "森本・山口",
-        "r": "HR/数メ"
-      }
+      null,
+      null,
+      null
     ],
     [
       {
         "s": "国",
         "t": "秋山・西出",
-        "r": "HR/405"
-      },
-      {
-        "s": "英",
-        "t": "平岡",
-        "r": "HR"
-      },
-      {
-        "s": "音",
-        "t": "矢沢",
-        "r": "声楽器楽"
-      },
-      {
-        "s": "数",
-        "t": "森本",
-        "r": "HR"
-      },
-      {
-        "s": "社",
-        "t": "平野",
-        "r": "HR"
-      }
-    ],
-    [
-      {
-        "s": "英",
-        "t": "平岡・本木",
-        "r": "HR/405"
+        "r": "HR/401"
       },
       {
         "s": "社",
         "t": "馬場",
         "r": "HR"
       },
+      null,
+      null,
+      null
+    ],
+    [
       {
-        "s": "美",
-        "t": "芝",
-        "r": "美術室",
-        "rs": 2
+        "s": "英",
+        "t": "平岡・本木",
+        "r": "HR/402"
       },
       {
-        "s": "理",
-        "t": "松本",
-        "r": "理科A",
-        "rs": 2
+        "s": "数",
+        "t": "山口",
+        "r": "HR"
       },
-      {
-        "s": "家",
-        "t": "菊池",
-        "r": "HR",
-        "rs": 2,
-        "mk": "持ち物・座席",
-        "ref": "home-preparation-oct23"
-      }
+      null,
+      null,
+      null
     ],
     [
       {
@@ -494,11 +443,11 @@ window.CLASSROOM_DATA = {
     },
     "2026-10-27": {
       "kind": "school",
-      "title": "中間テスト",
+      "title": "通常授業（中間テストは10/28〜30）",
       "time": "",
       "place": "",
-      "detail": "練習については記載なし。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "detail": "10/26週の時間割に従い、中間テストの旧表示を更新。部活動の実施について新しい記載なし。",
+      "source": "10/23配信「10月26日～」時間割"
     },
     "2026-10-28": {
       "kind": "school",
@@ -656,22 +605,6 @@ window.CLASSROOM_DATA = {
 },
   items: [
   {
-    "id": "math-proportion-test-oct15",
-    "cat": "no",
-    "dateLabel": "10/15 実施済みの案内",
-    "subject": "数学",
-    "title": "比例・反比例 小テスト【実施済みの案内あり】",
-    "details": [
-      "定規を持参。範囲：教科書p.122〜142、授業プリント(1)、もっとプリント(1)〜(5)、完成ノート1〜30番。",
-      "10/15の数学連絡では「本日実施した」と案内。欠席で未受験の人は10/19終礼清掃後に404で受験。"
-    ],
-    "thread": "数学",
-    "poster": "山口朋子",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODczODQ2NDk2Njkx",
-    "date": "2026-10-15"
-  },
-  {
     "cat": "no",
     "subject": "学校",
     "thread": "82回生",
@@ -685,120 +618,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "宮地潤子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDcwNjUwNTUx"
-  },
-  {
-    "id": "kokugo-take-home-oct15",
-    "cat": "no",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木)",
-    "subject": "国語",
-    "title": "『銀河鉄道の夜』の教材を持ち帰る",
-    "details": [
-      "文庫本と授業プリントを持ち帰っておく。"
-    ],
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczOTk0MjIwNzIx"
-  },
-  {
-    "id": "oc-my-club-oct15",
-    "title": "My Club Writing：未完了者は提出",
-    "date": "2026-10-15",
-    "dateLabel": "10/15 (木) 中",
-    "details": [
-      "未完成の人は今日中に完成させ、ロイロノートで提出。",
-      "欠席・紛失した人は「授業内共有」フォルダーの「Zoom 授業 My Club Writing」を使用。"
-    ],
-    "cat": "hw",
-    "posted": "10/15",
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "Matthew Collins",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
-  },
-  {
-    "id": "committees-survey-oct16",
-    "title": "新聞・保健・放送・図書委員：十月祭振り返り",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) まで",
-    "cat": "hw",
-    "details": [
-      "準備・立ち番・片付けの仕事についてフォームに回答。"
-    ],
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "久保文香",
-    "posted": "10/12",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODI2NjQ2MzQzOTQ0",
-    "hasLink": true
-  },
-  {
-    "id": "online-oct16",
-    "title": "10/16 オンライン授業・英語劇公演中止",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 8:35 Zoom朝礼",
-    "details": [
-      "朝礼8:35〜8:45。3組は1限 英語（本木）、2限 国語（秦野）、3限 国語（鈴木）、4限 英会話（コリンズ・マオ）、5限 社会（宮崎）、6限 家庭科（菊池）。",
-      "1限8:50〜9:40、2限9:50〜10:40、3限10:50〜11:40、4限11:50〜12:40。昼休み12:40〜13:30。5限13:30〜14:20、6限14:30〜15:20。",
-      "英語劇公演は中止。来校予定の保護者にも伝える。",
-      "Zoomの接続情報は添付PDFに記載。"
-    ],
-    "cat": "no",
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
-    "hasLink": true
-  },
-  {
-    "id": "accompanist-apply-oct16",
-    "title": "音楽会：合唱伴奏希望の申出",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) まで【希望者】",
-    "details": [
-      "伴奏希望者はロイロで申し出る。",
-      "オーディションは11/4(水)予定。時間は後日連絡。"
-    ],
-    "cat": "no",
-    "subject": "音楽",
-    "thread": "82回生",
-    "poster": "阿佐美優子",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODcwMjA0NTUzMDky",
-    "optional": true
-  },
-  {
-    "id": "math-excerpt-oct16",
-    "title": "比例反比例 抜粋No.1–2：合格締切延長",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 20:00まで",
-    "details": [
-      "合格締切を2日延長。今回のみの特別措置。",
-      "元の締切に間に合わなかった人も提出する。"
-    ],
-    "cat": "hw",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA3Mzc5NzM3"
-  },
-  {
-    "id": "oc-heart-game-oct16",
-    "title": "英会話：The Heart Game を準備",
-    "date": "2026-10-16",
-    "dateLabel": "10/16 (金) 4限オンライン",
-    "details": [
-      "The Heart Game のプリントを授業に用意。持っていない人はロイロの「授業内共有」フォルダーのコピーを使用。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "Matthew Collins",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODcwMjA3Njk4Njcx"
   },
   {
     "id": "tt8",
@@ -1201,7 +1020,7 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MDAxNzUzNTA1/details",
     "details": [
       "8:50〜9:30 数学（1次方程式の利用・40分）",
-      "9:45〜10:20 社会（馬場・35分）",
+      "9:45開始 社会（馬場）：10/23の連絡で35分から25分へ変更。開始時刻の変更連絡はなし。",
       "10:35〜11:25 国語（鈴木・50分）",
       "11:40〜11:50 英語（単語・10分）"
     ]
@@ -3000,17 +2819,18 @@ window.CLASSROOM_DATA = {
   {
     "id": "science-makeup-oct22",
     "cat": "no",
-    "title": "理科1欠席者：希望者向け追実験",
+    "title": "理科1追実験：ろうの状態変化【再延期】",
     "subject": "理科",
     "thread": "82回生",
     "poster": "松本珠希",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzMjA2NzgyNDk0",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMDc1NzI1MDY0",
     "details": [
-      "理科1の授業を欠席し、追実験を希望する人は理科Aへ。強制ではない。"
+      "10/22→10/23から、さらに10/26へ延期。理科1の授業を欠席し、追実験を希望する人が対象。",
+      "当初案内の会場は理科A。最新連絡では会場変更の記載なし。"
     ],
-    "date": "2026-10-22",
-    "dateLabel": "10/22(木) 放課後",
+    "date": "2026-10-26",
+    "dateLabel": "10/26(月) 昼",
     "optional": true
   },
   {
@@ -3166,6 +2986,288 @@ window.CLASSROOM_DATA = {
     "thread": "英語",
     "poster": "本木綾子",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkzNDczNDI1MTg1/details"
+  },
+  {
+    "id": "science-wine-oct26",
+    "cat": "no",
+    "title": "理科1追実験：赤ワイン【再延期】",
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMDc1NzI1MDY0",
+    "details": [
+      "10/22→10/23から、さらに10/26放課後へ延期。授業欠席者のうち追実験を希望する人が対象。",
+      "当初案内の会場は理科A。最新連絡では会場変更の記載なし。"
+    ],
+    "date": "2026-10-26",
+    "dateLabel": "10/26(月) 放課後",
+    "optional": true
+  },
+  {
+    "id": "history-midterm-oct28",
+    "cat": "no",
+    "title": "歴史：中間テスト範囲・試験時間変更",
+    "subject": "社会",
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1MzkwOTY1MDQ2",
+    "details": [
+      "プリントNo.8〜11。スライド・おさらいプリントも確認する。",
+      "テスト時間は35分から25分に変更。"
+    ],
+    "date": "2026-10-28",
+    "dateLabel": "10/28(水) 中間テスト"
+  },
+  {
+    "id": "kokugo-midterm-oct28",
+    "cat": "no",
+    "title": "国語（鈴木）：中間テスト範囲",
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDI3OTM3MjU1",
+    "details": [
+      "「夏の庭」10章〜終わり（学習の手引き④の第10〜15章、プリント⑤）。",
+      "「銀河鉄道の夜」1〜4章（プリント⑴・⑵）。",
+      "漢字ステップ13〜18・力だめし3、百人一首13〜18。"
+    ],
+    "date": "2026-10-28",
+    "dateLabel": "10/28(水) 中間テスト"
+  },
+  {
+    "id": "english-unit8-makeup-oct23",
+    "cat": "no",
+    "title": "英語Unit 8：欠席者の追試",
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "本木綾子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDE4MzY5ODU2",
+    "details": [
+      "10/22欠席でUnit 8テストを受けていない人は、放課後に5組の教室へ。"
+    ],
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金) 放課後"
+  },
+  {
+    "id": "lost-property-oct26",
+    "cat": "no",
+    "title": "4階廊下の落とし物：理科メディアで保管",
+    "subject": "連絡",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDM1NDUwMDM1",
+    "details": [
+      "持ち主は月曜日に理科メディアへ取りに行く。"
+    ],
+    "date": "2026-10-26",
+    "dateLabel": "10/26(月)"
+  },
+  {
+    "id": "violin-accompanists-oct23",
+    "cat": "hw",
+    "title": "音楽会行事委員：バイオリン伴奏者リスト提出",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "矢沢まどか",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDE2MDI2ODIw",
+    "details": [
+      "音楽会行事委員は矢沢先生へ必ず提出する。"
+    ],
+    "date": "2026-10-23",
+    "dateLabel": "10/23(金)まで"
+  },
+  {
+    "id": "math-print2-first-oct26",
+    "cat": "hw",
+    "title": "授業プリント(2)：未提出者は初回提出",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQzMTQ5OTI1",
+    "details": [
+      "比例反比例の授業プリント(2)。まだ一度も提出していない人は必ず月曜日に提出する。",
+      "合格期限は10/28最終下校時刻。再提出を見込み、早めに出す。"
+    ],
+    "date": "2026-10-26",
+    "dateLabel": "10/26(月) 初回提出"
+  },
+  {
+    "id": "math-print2-pass-oct28",
+    "cat": "hw",
+    "title": "授業プリント(2)：合格期限",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQzMTQ5OTI1",
+    "details": [
+      "比例反比例の授業プリント(2)は最終下校時刻までに合格すること。",
+      "一度の再提出で合格できていない人が多いため、直前ではなく早めに提出。未提出者の初回提出は10/26。"
+    ],
+    "date": "2026-10-28",
+    "dateLabel": "10/28(水) 最終下校まで"
+  },
+  {
+    "id": "math-equation-scope-oct28",
+    "cat": "no",
+    "title": "数学：1次方程式の利用・中間テスト範囲",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
+    "details": [
+      "教科書p.108〜120、p.262、および原文「p277〜179」（ページ範囲は要確認）。",
+      "完成ノートp.13〜33・35〜37。授業プリント(1)、もっと(1)〜(4)、学力推移調査の大問5。"
+    ],
+    "date": "2026-10-28",
+    "dateLabel": "10/28(水)",
+    "note": "教科書「p277〜179」は原文表記。範囲要確認。"
+  },
+  {
+    "id": "math-proportion-scope-oct30",
+    "cat": "no",
+    "title": "数学：比例反比例・中間テスト範囲",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
+    "details": [
+      "教科書p.122〜147・154〜155、完成ノートp.48〜72。",
+      "授業プリント(1)(2)、もっと(1)〜(7)、ワークシート(1)(2)。"
+    ],
+    "date": "2026-10-30",
+    "dateLabel": "10/30(金)"
+  },
+  {
+    "id": "math-graph-oct23",
+    "cat": "no",
+    "title": "グラフ用紙練習用【資料】",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk1NDQzMjY1MjYw/details",
+    "details": []
+  },
+  {
+    "id": "math-more7-oct23",
+    "cat": "no",
+    "title": "比例反比例 もっと（7）【資料】",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk1NDM3Mzg5OTI5/details",
+    "details": [
+      "プリントと解答PDFを配布。"
+    ]
+  },
+  {
+    "id": "math-print2-oct21",
+    "cat": "no",
+    "title": "比例反比例 授業プリント（2）【資料】",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "10/21",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODc0MTcxMDM4MjAw/details",
+    "details": []
+  },
+  {
+    "id": "english-pre-midterm-oct22",
+    "cat": "no",
+    "title": "プレ2学期中間テスト解答【資料】",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "磯崎亜紀子",
+    "posted": "10/22",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkzNTExOTgxMTYw/details",
+    "details": []
+  },
+  {
+    "id": "prices-nov2026",
+    "cat": "no",
+    "title": "学校指定品：11/1・12/1・1/1の価格改定",
+    "subject": "学校指定品",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODc0MjU4Nzc2MTE0/details",
+    "details": [
+      "税込価格。11/1から：水着フレンチセパレーツ上 S〜2L 5,000→5,100円、3L・4L 5,100→5,200円。",
+      "11/1から：半袖シャツ3,920→4,500円、ジャージ上6,830→7,700円・下5,980→6,600円（各SS〜3L）。",
+      "11/1から：クォーターパンツ140・150は3,580→3,800円、S〜3Lは3,740→4,100円。",
+      "ユニチカ製ハーフパンツは在庫限りで3,740円据置（M・L・2L・3L、S在庫なし）。クォーターパンツと併用可。",
+      "12/1から：体育館シューズ5,600→5,800円、グランドシューズ4,300→4,600円。",
+      "2027/1/1から：スクールバッグ11,000→12,000円、通学用リュックサック12,600→13,700円。"
+    ],
+    "date": "2027-01-01",
+    "dateLabel": "11/1・12/1・2027/1/1 段階改定"
+  },
+  {
+    "id": "mail-QANBUdM3Il",
+    "cat": "no",
+    "date": "2026-10-31",
+    "dateLabel": "10月中の注文は旧価格",
+    "subject": "学校指定品",
+    "title": "指定品価格改定：旧価格での注文・実業部営業日",
+    "details": [
+      "10/23終礼で桜楓会のお知らせを配布。PDFはClassroomで配信。",
+      "10月中の注文は旧価格で対応。実業部営業日は10/26(月)・28(水)・30(金)、いずれも8:30〜13:30。",
+      "改定は品目により11/1、12/1、2027/1/1から段階的に実施。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/23",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QANBUdM3Il"
+  },
+  {
+    "id": "loilo-history-kofun-oct27",
+    "cat": "hw",
+    "date": "2026-10-27",
+    "dateLabel": "10/27(火) 20:00まで",
+    "subject": "歴史",
+    "title": "古墳の出現",
+    "details": [],
+    "thread": "ロイロ",
+    "poster": ""
+  },
+  {
+    "id": "loilo-history-yamato-oct27",
+    "cat": "hw",
+    "date": "2026-10-27",
+    "dateLabel": "10/27(火) 20:00まで",
+    "subject": "歴史",
+    "title": "鉄から見えるヤマト王権",
+    "details": [],
+    "thread": "ロイロ",
+    "poster": ""
+  },
+  {
+    "id": "tt-oct26",
+    "cat": "no",
+    "title": "10/26〜10/30の時間割【3組】",
+    "subject": "時間割",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/23",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk1NDA2NTI5Nzky/details",
+    "details": [
+      "月曜：数学・社会・音楽・国語・英語・体育。火曜：道徳・総合・国語・社会・数学・体育。",
+      "10/28(水)〜30(金)は中間テスト。各日の科目・時刻は試験日程に掲載。"
+    ],
+    "date": "2026-10-30",
+    "dateLabel": "10/26(月)〜10/30(金)"
   }
 ]
 };
