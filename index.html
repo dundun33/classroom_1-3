@@ -213,8 +213,8 @@ const WD=['日','月','火','水','木','金','土'];
 function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d);}
 function dleft(s){return Math.round((pd(s)-today)/86400000);}
 document.getElementById('todayLabel').textContent=`今日 ${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
-const _ud=pd(DATA.fetchCheckedISO || DATA.updateISO);
-const _ut=DATA.fetchCheckedTime ?? DATA.updateTime;
+const _ud=pd(DATA.updateISO);
+const _ut=DATA.updateTime;
 function relDay(dt){ const diff=Math.round((dt-today)/86400000);
   if(diff===0)return'本日'; if(diff===-1)return'昨日'; if(diff===1)return'明日';
   return `${dt.getMonth()+1}/${dt.getDate()}(${WD[dt.getDay()]})`; }
