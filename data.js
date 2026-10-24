@@ -8,9 +8,9 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-24",
   fetchCheckedTime: "13:02",
   updateISO: "2026-10-24",
-  updateTime: "13:02",
+  updateTime: "18:25",
   timetable: {
-  "label": "10/26(月)〜10/30(金)",
+  "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
     {
       "n": "月",
@@ -51,24 +51,27 @@ window.CLASSROOM_DATA = {
         "r": "HR"
       },
       {
-        "s": "中間テスト",
-        "t": "",
+        "s": "数学",
+        "t": "1次方程式の利用",
         "r": "",
-        "rs": 6,
-        "ref": "midterm-oct28"
+        "time": "8:50〜9:30（40分）",
+        "test": true,
+        "ref": "math-equation-scope-oct28"
       },
       {
-        "s": "中間テスト",
-        "t": "",
+        "s": "理科",
+        "t": "大越・山本・小山・田悟",
         "r": "",
-        "rs": 6,
-        "ref": "midterm-oct29"
+        "time": "8:50〜9:25（35分）",
+        "test": true,
+        "ref": "science2-midterm-oct29"
       },
       {
-        "s": "中間テスト",
-        "t": "",
+        "s": "社会",
+        "t": "宮崎・平野",
         "r": "",
-        "rs": 6,
+        "time": "8:50〜9:40（50分）",
+        "test": true,
         "ref": "midterm-oct30"
       }
     ],
@@ -83,9 +86,31 @@ window.CLASSROOM_DATA = {
         "t": "担任",
         "r": "HR"
       },
-      null,
-      null,
-      null
+      {
+        "s": "社会・歴史",
+        "t": "馬場",
+        "r": "",
+        "time": "9:45開始（25分）",
+        "test": true,
+        "ref": "history-midterm-oct28",
+        "mk": "35分→25分"
+      },
+      {
+        "s": "英語",
+        "t": "本木・平岡・磯崎・吉野",
+        "r": "",
+        "time": "9:40〜10:30（50分）",
+        "test": true,
+        "ref": "english-midterm-oct29"
+      },
+      {
+        "s": "理科",
+        "t": "松本",
+        "r": "",
+        "time": "9:55〜10:30（35分）",
+        "test": true,
+        "ref": "science1-midterm-oct30"
+      }
     ],
     [
       {
@@ -98,9 +123,30 @@ window.CLASSROOM_DATA = {
         "t": "鈴木",
         "r": "HR"
       },
-      null,
-      null,
-      null
+      {
+        "s": "国語",
+        "t": "鈴木",
+        "r": "",
+        "time": "10:35〜11:25（50分）",
+        "test": true,
+        "ref": "kokugo-midterm-oct28"
+      },
+      {
+        "s": "保体",
+        "t": "石井",
+        "r": "",
+        "time": "10:45〜11:15（30分）",
+        "test": true,
+        "ref": "midterm-oct29"
+      },
+      {
+        "s": "数学",
+        "t": "比例反比例",
+        "r": "",
+        "time": "10:45〜11:35（50分）",
+        "test": true,
+        "ref": "math-proportion-scope-oct30"
+      }
     ],
     [
       {
@@ -113,9 +159,26 @@ window.CLASSROOM_DATA = {
         "t": "馬場",
         "r": "HR"
       },
-      null,
-      null,
-      null
+      {
+        "s": "英語（単語）",
+        "t": "本木・平岡・磯崎・吉野",
+        "r": "",
+        "time": "11:40〜11:50（10分）",
+        "test": true,
+        "ref": "english-midterm-words-oct28"
+      },
+      {
+        "s": "試験予定なし",
+        "t": "",
+        "r": "",
+        "rs": 3
+      },
+      {
+        "s": "試験予定なし",
+        "t": "",
+        "r": "",
+        "rs": 3
+      }
     ],
     [
       {
@@ -128,7 +191,12 @@ window.CLASSROOM_DATA = {
         "t": "山口",
         "r": "HR"
       },
-      null,
+      {
+        "s": "試験予定なし",
+        "t": "",
+        "r": "",
+        "rs": 2
+      },
       null,
       null
     ],
