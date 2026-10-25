@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-25",
-  fetchCheckedTime: "13:01",
+  fetchCheckedTime: "19:02",
   updateISO: "2026-10-25",
-  updateTime: "13:01",
+  updateTime: "19:03",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3079,6 +3079,7 @@ window.CLASSROOM_DATA = {
     "poster": "大越佳子",
     "posted": "10/23",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDM1NDUwMDM1",
+    "hasLink": true,
     "details": [
       "持ち主は月曜日に理科メディアへ取りに行く。"
     ],
