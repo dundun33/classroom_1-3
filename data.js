@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-24",
-  fetchCheckedTime: "13:02",
-  updateISO: "2026-10-24",
-  updateTime: "18:29",
+  fetchCheckedISO: "2026-10-25",
+  fetchCheckedTime: "12:02",
+  updateISO: "2026-10-25",
+  updateTime: "12:02",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -174,10 +174,13 @@ window.CLASSROOM_DATA = {
         "rs": 3
       },
       {
-        "s": "試験予定なし",
+        "s": "バスケ・ミーティング予定",
         "t": "",
         "r": "",
-        "rs": 3
+        "time": "時刻・場所調整中",
+        "mk": "試験終了後の予定",
+        "rs": 3,
+        "ref": "bball-meeting-oct30"
       }
     ],
     [
@@ -495,19 +498,19 @@ window.CLASSROOM_DATA = {
     },
     "2026-10-24": {
       "kind": "match",
-      "title": "新人大会1回戦",
+      "title": "新人大会1回戦：川中島中に敗戦",
       "time": "9:40集合／14:40頃解散",
       "place": "武蔵中原駅改札 → 宮内中",
-      "detail": "9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。 11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。 保護者観戦可。8分×4Q制。 テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。 昼食時間はないため、試合前後に各自の判断で軽食をとる。",
-      "source": "バスケ投稿 10/19"
+      "detail": "10/24の結果連絡：川中島中に敗戦（原文のスコア表記は53-25）。 9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。 11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。 保護者観戦可。8分×4Q制。 テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。 昼食時間はないため、試合前後に各自の判断で軽食をとる。",
+      "source": "バスケ投稿 10/24（結果）"
     },
     "2026-10-25": {
-      "kind": "match",
-      "title": "新人大会2回戦",
-      "time": "8:30集合／13:00頃解散予定",
-      "place": "宿河原駅改札 → 稲田中",
-      "detail": "8:30 JR南武線・宿河原駅改札前集合。稲田中まで徒歩5分、8:40到着。 10:05 犬蔵中戦（日本女子は濃色）。勝った場合は11:25 TO。13:00頃解散予定。 保護者観戦可。8分×4Q制。 テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。 昼食時間はないため、試合前後に各自の判断で軽食をとる。",
-      "source": "バスケ投稿 10/19"
+      "kind": "off",
+      "title": "新人大会2回戦：出場なし",
+      "time": "",
+      "place": "",
+      "detail": "10/24の結果連絡で1回戦敗退が判明したため、2回戦の出場予定を取り下げ。 当初の集合・対戦予定は無効。別の活動予定は発表されていない。",
+      "source": "バスケ投稿 10/24（1回戦敗戦）"
     },
     "2026-10-27": {
       "kind": "school",
@@ -535,11 +538,11 @@ window.CLASSROOM_DATA = {
     },
     "2026-10-30": {
       "kind": "practice",
-      "title": "テスト後に練習",
-      "time": "15:30 最終下校",
-      "place": "第3体育館",
-      "detail": "昼食持参。中間テスト後に練習あり。",
-      "source": "月間予定表「2026年9-10月.pdf」"
+      "title": "新チームミーティング予定",
+      "time": "ミーティング時刻調整中",
+      "place": "ミーティング会場未発表",
+      "detail": "各学年の試験終了時刻により相談して決定。月間表では第3体育館でテスト後練習・昼食持参・15:30最終下校の案内あり。練習との時間配分は未発表。",
+      "source": "バスケ投稿 10/24＋月間予定表"
     },
     "2026-11-02": {
       "kind": "practice",
@@ -686,57 +689,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "宮地潤子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDcwNjUwNTUx"
-  },
-  {
-    "id": "tt8",
-    "cat": "no",
-    "date": "2026-10-17",
-    "dateLabel": "10/12〜17（15〜17学校閉鎖）",
-    "subject": "時間割",
-    "title": "10/12〜 時間割表【資料】",
-    "details": [
-      "10/12十月祭片付け、10/13・14振替休日。10/15〜17学校閉鎖。",
-      "10/16は10/15配信のオンライン時間割に変更。8:35からZoom朝礼。英語劇公演は中止。"
-    ],
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/7",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODg5MDQwNzYwMDcx/details"
-  },
-  {
-    "id": "mail-QAF95oyOZz",
-    "cat": "no",
-    "subject": "学校",
-    "date": "2026-10-17",
-    "dateLabel": "10/15 (木)〜17 (土)",
-    "title": "学校閉鎖のお知らせ",
-    "details": [
-      "全学年で発熱・風邪症状の生徒が複数いるため、10/15は朝礼後に下校。10/15〜17は学校閉鎖。",
-      "17日までは健康な生徒も外出を避け、家庭学習を行う。",
-      "10/16の家庭学習（オンライン授業を含む）は10/15午後以降にClassroomまたはロイロで連絡予定。",
-      "インフルエンザ等に感染した生徒は登校時に出校許可書を持参。保護者による記入で可。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/15",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAF95oyOZz",
-    "note": "追記：10/16オンライン時間割配信済み。8:35 Zoom朝礼、英語劇公演は中止。"
-  },
-  {
-    "id": "bball-cancel-oct17",
-    "title": "10/17 クラブ活動中止",
-    "date": "2026-10-17",
-    "dateLabel": "10/17 (土) 中止",
-    "details": [
-      "学校閉鎖に伴い予定していたクラブ活動は中止。"
-    ],
-    "cat": "no",
-    "subject": "部活",
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkyMzA0NzQxMjEy"
   },
   {
     "id": "health-survey-oct18",
@@ -2736,13 +2688,14 @@ window.CLASSROOM_DATA = {
   {
     "id": "bball-rookie-oct24",
     "cat": "no",
-    "title": "新人大会1回戦",
+    "title": "新人大会1回戦：川中島中に敗戦",
     "subject": "部活",
     "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/19",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MDc4MjQ2MzE5",
+    "poster": "押切衣舞",
+    "posted": "10/24",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz",
     "details": [
+      "10/24の結果連絡：川中島中に敗戦（原文のスコア表記は53-25）。",
       "9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。",
       "11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。",
       "保護者観戦可。8分×4Q制。",
@@ -2755,21 +2708,18 @@ window.CLASSROOM_DATA = {
   {
     "id": "bball-rookie-oct25",
     "cat": "no",
-    "title": "新人大会2回戦",
+    "title": "新人大会2回戦：1回戦敗退により出場なし",
     "subject": "部活",
     "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/19",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MDc4MjQ2MzE5",
+    "poster": "押切衣舞",
+    "posted": "10/24",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz",
     "details": [
-      "8:30 JR南武線・宿河原駅改札前集合。稲田中まで徒歩5分、8:40到着。",
-      "10:05 犬蔵中戦（日本女子は濃色）。勝った場合は11:25 TO。13:00頃解散予定。",
-      "保護者観戦可。8分×4Q制。",
-      "テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。",
-      "昼食時間はないため、試合前後に各自の判断で軽食をとる。"
+      "10/24の結果連絡で1回戦敗退が判明したため、2回戦の出場予定を取り下げ。",
+      "当初の集合・対戦予定は無効。別の活動予定は発表されていない。"
     ],
     "date": "2026-10-25",
-    "dateLabel": "10/25(日) 8:30集合／13:00頃解散予定"
+    "dateLabel": "10/25(日) 出場なし"
   },
   {
     "id": "mail-QAJENwHOVQ",
@@ -3300,28 +3250,6 @@ window.CLASSROOM_DATA = {
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QANBUdM3Il"
   },
   {
-    "id": "loilo-history-kofun-oct27",
-    "cat": "hw",
-    "date": "2026-10-27",
-    "dateLabel": "10/27(火) 20:00まで",
-    "subject": "歴史",
-    "title": "古墳の出現",
-    "details": [],
-    "thread": "ロイロ",
-    "poster": ""
-  },
-  {
-    "id": "loilo-history-yamato-oct27",
-    "cat": "hw",
-    "date": "2026-10-27",
-    "dateLabel": "10/27(火) 20:00まで",
-    "subject": "歴史",
-    "title": "鉄から見えるヤマト王権",
-    "details": [],
-    "thread": "ロイロ",
-    "poster": ""
-  },
-  {
     "id": "tt-oct26",
     "cat": "no",
     "title": "10/26〜10/30の時間割【3組】",
@@ -3336,6 +3264,22 @@ window.CLASSROOM_DATA = {
     ],
     "date": "2026-10-30",
     "dateLabel": "10/26(月)〜10/30(金)"
+  },
+  {
+    "id": "bball-meeting-oct30",
+    "cat": "no",
+    "date": "2026-10-30",
+    "dateLabel": "10/30(金) 時刻調整中",
+    "subject": "部活",
+    "title": "バスケ：新チームに向けたミーティング予定",
+    "details": [
+      "テスト最終日にミーティングを予定。各学年の試験終了時刻により相談して決定。",
+      "開始時刻・場所は未発表。"
+    ],
+    "thread": "バスケ",
+    "poster": "押切衣舞",
+    "posted": "10/24",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz"
   }
 ]
 };
