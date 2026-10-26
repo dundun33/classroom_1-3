@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-26",
-  fetchCheckedTime: "18:56",
+  fetchCheckedTime: "21:01",
   updateISO: "2026-10-26",
-  updateTime: "18:57",
+  updateTime: "21:02",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3329,6 +3329,7 @@ window.CLASSROOM_DATA = {
     "subject": "英語",
     "poster": "平岡裕子",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODk1NzQ4MTY1NzA5",
+    "hasLink": true,
     "details": []
   }
 ]
