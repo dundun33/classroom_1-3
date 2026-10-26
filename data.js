@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-26",
-  fetchCheckedTime: "14:58",
+  fetchCheckedTime: "17:59",
   updateISO: "2026-10-26",
-  updateTime: "14:58",
+  updateTime: "18:00",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -46,9 +46,11 @@ window.CLASSROOM_DATA = {
         "r": "HR"
       },
       {
-        "s": "道徳",
-        "t": "担任",
-        "r": "HR"
+        "s": "国",
+        "t": "鈴木",
+        "r": "HR",
+        "mk": "時間割変更",
+        "ref": "tt-change-oct27"
       },
       {
         "s": "数学",
@@ -119,9 +121,12 @@ window.CLASSROOM_DATA = {
         "r": "声楽"
       },
       {
-        "s": "国",
-        "t": "鈴木",
-        "r": "HR"
+        "s": "理",
+        "t": "松本",
+        "r": "理科A",
+        "rs": 2,
+        "mk": "時間割変更",
+        "ref": "tt-change-oct27"
       },
       {
         "s": "国語",
@@ -154,11 +159,7 @@ window.CLASSROOM_DATA = {
         "t": "秋山・西出",
         "r": "HR/401"
       },
-      {
-        "s": "社",
-        "t": "馬場",
-        "r": "HR"
-      },
+      null,
       {
         "s": "英語（単語）",
         "t": "本木・平岡・磯崎・吉野",
@@ -190,9 +191,11 @@ window.CLASSROOM_DATA = {
         "r": "HR/402"
       },
       {
-        "s": "数",
-        "t": "山口",
-        "r": "HR"
+        "s": "社",
+        "t": "馬場",
+        "r": "HR",
+        "mk": "時間割変更",
+        "ref": "tt-change-oct27"
       },
       {
         "s": "試験予定なし",
@@ -210,9 +213,11 @@ window.CLASSROOM_DATA = {
         "r": "プール"
       },
       {
-        "s": "体",
-        "t": "新谷",
-        "r": "二体"
+        "s": "保健",
+        "t": "石井",
+        "r": "HR",
+        "mk": "プリント・教科書",
+        "ref": "health-class-oct27"
       },
       null,
       null,
@@ -3239,6 +3244,91 @@ window.CLASSROOM_DATA = {
     "poster": "本木綾子",
     "posted": "10/26",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODc0MjY2NjgzNTEz/details",
+    "details": []
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/26",
+    "id": "tt-change-oct27",
+    "cat": "no",
+    "title": "10/27(火) 3組の時間割変更",
+    "subject": "時間割",
+    "poster": "松本珠希",
+    "date": "2026-10-27",
+    "dateLabel": "10/27(火)",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk1NzI3NDkzMTM0/details",
+    "details": [
+      "1限 国語（鈴木・HR）、2限 総合（担任・HR）、3〜4限 理科（松本・理科A）、5限 社会（馬場・HR）、6限 保健（石井・HR）。",
+      "体育は別の連絡により保健へ変更。今までのプリントと教科書を持参。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/26",
+    "id": "health-class-oct27",
+    "cat": "no",
+    "title": "10/27の体育は保健に変更",
+    "subject": "保健体育",
+    "poster": "石井靖子",
+    "date": "2026-10-27",
+    "dateLabel": "10/27(火) 6限",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzE1MDM0MTA3",
+    "details": [
+      "1・2・3組対象。今までのプリントと教科書を持参。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/26",
+    "id": "science-rulers-oct26",
+    "cat": "no",
+    "title": "理科1：三角定規2枚・分度器を準備",
+    "subject": "理科",
+    "poster": "松本珠希",
+    "dateLabel": "中間テスト後〜期末テスト",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzMyODE5NjQy",
+    "details": [
+      "中間テスト後から期末テストまで、毎授業で三角定規2枚と分度器が必要。手元にない人は購入しておく。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/26",
+    "id": "embroidery-kit-oct26",
+    "cat": "hw",
+    "title": "刺しゅうキット未提出者は至急提出",
+    "subject": "家庭科",
+    "poster": "菊池菜々世",
+    "dateLabel": "至急",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MjY3MTU2Nzc4",
+    "details": [
+      "未完成の場合も含めて提出する。11月末の授業で使用。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/26",
+    "id": "chorus-accompanist-oct26",
+    "cat": "no",
+    "title": "音楽会「春の声」合唱伴奏者を追加募集",
+    "subject": "音楽",
+    "poster": "阿佐美優子",
+    "optional": true,
+    "dateLabel": "今週中（10/26の連絡）",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzI3ODI3MDAy",
+    "details": [
+      "希望者は今週中にロイロで申し出る。"
+    ]
+  },
+  {
+    "thread": "英語",
+    "posted": "10/26",
+    "id": "english-class-answers-oct26",
+    "cat": "no",
+    "title": "10/26 英語授業の解答",
+    "subject": "英語",
+    "poster": "平岡裕子",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODk1NzQ4MTY1NzA5",
     "details": []
   }
 ]
