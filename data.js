@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-26",
-  fetchCheckedTime: "22:58",
-  updateISO: "2026-10-26",
-  updateTime: "22:58",
+  fetchCheckedISO: "2026-10-27",
+  fetchCheckedTime: "07:03",
+  updateISO: "2026-10-27",
+  updateTime: "07:03",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -696,38 +696,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDcwNjUwNTUx"
   },
   {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
-    "id": "eng-ch13",
-    "cat": "hw",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 8:40 まで",
-    "title": "新中問 第13章 提出",
-    "details": [
-      "提出範囲: p.134〜143",
-      "ロイロで案内された提出形式はp.134〜143の画像5枚（10/19 8:40締切）。"
-    ]
-  },
-  {
-    "id": "gika-embroidery-resubmit-oct16",
-    "cat": "hw",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) まで【やり直し対象者】",
-    "subject": "技術家庭",
-    "title": "刺しゅうキット 再提出",
-    "details": [
-      "10/16の家庭科連絡で、刺しゅうキットのやり直し提出期限を休み明けの10/19までに変更。"
-    ],
-    "thread": "82回生",
-    "poster": "菊池菜々世",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
-  },
-  {
     "id": "mail-QA3IbhXvWl",
     "cat": "no",
     "dateLabel": "10/19 説明動画配信済み",
@@ -748,12 +716,10 @@ window.CLASSROOM_DATA = {
   {
     "id": "science2-resubmit-oct19",
     "title": "理科2分野：プリント再提出・貼り直し",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 16:10〜17:00",
+    "dateLabel": "再提出期限の指定なし",
     "cat": "hw",
     "details": [
-      "1・2・3組の前回授業プリントを返却。青いハンコの人は再提出。",
-      "「貼り直し」と書かれた人は10/19 16:10〜17:00に理科Bで貼り直し。再提出全般の締切は本文記載なし。"
+      "1・2・3組の前回授業プリントを返却。青いハンコの人は再提出。再提出全般の締切は本文記載なし。"
     ],
     "subject": "理科",
     "thread": "82回生",
@@ -764,8 +730,8 @@ window.CLASSROOM_DATA = {
   {
     "id": "math-absent-oct19",
     "title": "比例・反比例小テスト：欠席者の受験",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 終礼清掃後",
+    "date": "2026-10-20",
+    "dateLabel": "10/19終礼後・欠席時10/20 8:10",
     "details": [
       "10/15の小テストを欠席して未受験の人が対象。404で実施。",
       "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
@@ -778,26 +744,10 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxNDIyNTA0"
   },
   {
-    "id": "math-worksheet2-oct19",
-    "title": "比例・反比例ワークシート（2）を持参",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 数学【3組】",
-    "details": [
-      "2・3・6組は10/19の授業で使用。10/15配布のプリントを持参する。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "山口朋子",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkyMzEyNDYzOTI3/details"
-  },
-  {
     "cat": "no",
     "thread": "82回生",
     "posted": "10/16",
     "id": "sports-key-oct19",
-    "date": "2026-10-19",
     "dateLabel": "10/19(月)から",
     "subject": "体育部",
     "title": "縦割りクラス対抗 空カギチェック開始",
@@ -2566,23 +2516,6 @@ window.CLASSROOM_DATA = {
     "poster": "菊池菜々世",
     "posted": "10/16",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
-  },
-  {
-    "id": "mail-QAIIKWktbC",
-    "cat": "no",
-    "date": "2026-10-19",
-    "dateLabel": "10/19 (月) 通常登校",
-    "subject": "学校",
-    "title": "10/19(月)は通常通り登校",
-    "details": [
-      "10/18 18:20の学校連絡で、10/19(月)は通常通り登校と発表。",
-      "学校到着時・昼食前の手洗いとうがいを徹底。特に咳症状が残る生徒はマスク着用を励行。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/18",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAIIKWktbC"
   },
   {
     "id": "assembly-oct20",
