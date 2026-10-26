@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-26",
-  fetchCheckedTime: "13:00",
+  fetchCheckedTime: "14:58",
   updateISO: "2026-10-26",
-  updateTime: "13:01",
+  updateTime: "14:58",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3229,6 +3229,17 @@ window.CLASSROOM_DATA = {
     "poster": "押切衣舞",
     "posted": "10/24",
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz"
+  },
+  {
+    "id": "english-unit8-answers-oct26",
+    "cat": "no",
+    "title": "Unit 8 test 解答【資料】",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "10/26",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODc0MjY2NjgzNTEz/details",
+    "details": []
   }
 ]
 };
