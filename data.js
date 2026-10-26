@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-25",
-  fetchCheckedTime: "19:02",
-  updateISO: "2026-10-25",
-  updateTime: "19:03",
+  fetchCheckedISO: "2026-10-26",
+  fetchCheckedTime: "10:59",
+  updateISO: "2026-10-26",
+  updateTime: "10:59",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -689,41 +689,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "宮地潤子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDcwNjUwNTUx"
-  },
-  {
-    "id": "health-survey-oct18",
-    "title": "10/19登校判断のための健康調査",
-    "date": "2026-10-18",
-    "dateLabel": "10/18 (日) 17:00まで",
-    "details": [
-      "ロイロノートの健康調査カードを「提出箱」へ、10/18(日)17:00までに提出。",
-      "10/18 08:00の保護者メールで締切と方法を案内。保護者からも提出の声かけを。",
-      "10/18 18:20の続報で、10/19(月)は通常通り登校と発表。"
-    ],
-    "cat": "hw",
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxMDczMzE3",
-    "note": "10/19は通常登校（10/18 18:20の続報）"
-  },
-  {
-    "id": "mail-QAFDxdivQz",
-    "cat": "no",
-    "date": "2026-10-18",
-    "dateLabel": "10/18 (日) 17:00まで",
-    "subject": "学校",
-    "title": "健康調査の提出と10/19の登校判断について",
-    "details": [
-      "ロイロノートの健康調査カードを提出箱へ17:00までに提出。保護者からも声かけをお願いします。",
-      "10/18 18:20の続報で、10/19(月)は通常通り登校と発表。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/18",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFDxdivQz"
   },
   {
     "subject": "英語",
@@ -2613,23 +2578,6 @@ window.CLASSROOM_DATA = {
     "posted": "10/18",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAIIKWktbC"
-  },
-  {
-    "id": "mail-QAFE1s1gTw",
-    "cat": "no",
-    "date": "2026-10-18",
-    "dateLabel": "10/18 (日) 17:00まで",
-    "subject": "学校",
-    "title": "健康調査（10/18）のお願い【16時再送】",
-    "details": [
-      "朝の健康調査案内の再送。ロイロノートの健康調査カードを提出箱へ17:00までに提出。",
-      "その後10/18 18:20の続報で10/19は通常登校と確定。"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "10/18",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFE1s1gTw"
   },
   {
     "id": "assembly-oct20",
