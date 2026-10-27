@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-27",
-  fetchCheckedTime: "14:58",
+  fetchCheckedTime: "16:59",
   updateISO: "2026-10-27",
-  updateTime: "14:59",
+  updateTime: "16:59",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3263,6 +3263,80 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODk1NzQ4MTY1NzA5",
     "hasLink": true,
     "details": []
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/27",
+    "id": "kanji6-answers-oct27",
+    "cat": "no",
+    "title": "漢字テスト⑹の解答をロイロ資料箱に掲載",
+    "subject": "国語",
+    "poster": "鈴木秀一",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1OTg5MDUxODQ0",
+    "details": [
+      "先週実施したテストの解答を、ロイロノートの各クラス専用資料箱で確認する。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/27",
+    "id": "violin-audition-nov9",
+    "cat": "no",
+    "title": "音楽会バイオリン曲・ピアノ伴奏オーディション【奇数クラス】",
+    "subject": "音楽",
+    "poster": "矢沢まどか",
+    "date": "2026-11-09",
+    "dateLabel": "11/9 12:40〜（曜日要確認）",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1OTY4NTM2Mjgz",
+    "details": [
+      "1年生奇数クラスの受験者は11/9 12:40〜、声楽器楽室前に集合。",
+      "近隣のピアノが空いていれば音出しをして待ってよい。",
+      "原文は「11月9日(金)」だが、2026年11月9日は月曜日。日付と曜日の不一致は先生に確認。"
+    ],
+    "note": "原文の日付・曜日が不一致（11/9は月曜日）。"
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/27",
+    "id": "music-score-resubmit-oct27",
+    "cat": "hw",
+    "title": "楽譜：Check印がない人は次の授業で再提出",
+    "subject": "音楽",
+    "poster": "阿佐美優子",
+    "dateLabel": "次の音楽の授業",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MDE3ODQ0MTYx",
+    "details": [
+      "1・2・3組対象。表紙右下のCheck印を確認する。",
+      "印がない人はマスキングテープや記名を含めて整え、次の授業で再提出。"
+    ]
+  },
+  {
+    "thread": "地理",
+    "posted": "10/27",
+    "id": "geography20-oct27",
+    "cat": "no",
+    "title": "地理No.20「ヨーロッパ州」・おさらい問題",
+    "subject": "社会",
+    "poster": "宮崎可奈子",
+    "url": "https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODk2MDAxNjU5Mjk4/details",
+    "details": [
+      "最後の授業部分のおさらい問題も配信。授業の復習をしてテストに備える。"
+    ]
+  },
+  {
+    "thread": "",
+    "posted": "10/27",
+    "id": "mail-QARCwDjIrS",
+    "cat": "no",
+    "title": "9月の学力推移調査：結果表・数学答案を配布",
+    "subject": "学校",
+    "poster": "保護者向けメール",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QARCwDjIrS",
+    "details": [
+      "10/27の終礼で結果表と数学の答案を配布。家庭でも振り返りの時間を取る。",
+      "学校で実施しなかった教科の問題冊子（9月配布）も家庭で活用する。次回は1月実施予定。"
+    ]
   }
 ]
 };
