@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-27",
-  fetchCheckedTime: "22:57",
-  updateISO: "2026-10-27",
-  updateTime: "22:57",
+  fetchCheckedISO: "2026-10-28",
+  fetchCheckedTime: "07:03",
+  updateISO: "2026-10-28",
+  updateTime: "07:03",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -728,22 +728,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNDY2MDkzMDI4"
   },
   {
-    "id": "math-absent-oct19",
-    "title": "比例・反比例小テスト：欠席者の受験",
-    "date": "2026-10-20",
-    "dateLabel": "10/19終礼後・欠席時10/20 8:10",
-    "details": [
-      "10/15の小テストを欠席して未受験の人が対象。404で実施。",
-      "10/19も欠席する場合は10/20 8:10に校務センターで受験。"
-    ],
-    "cat": "no",
-    "posted": "10/19",
-    "subject": "数学",
-    "thread": "82回生",
-    "poster": "森本奈央",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDAxNDIyNTA0"
-  },
-  {
     "cat": "no",
     "thread": "82回生",
     "posted": "10/16",
@@ -756,56 +740,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "押切衣舞",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
-  },
-  {
-    "id": "kanji-test-oct20",
-    "cat": "no",
-    "date": "2026-10-20",
-    "dateLabel": "10/20 (火)【3組】",
-    "subject": "国語",
-    "title": "漢字豆テスト",
-    "details": [
-      "3組は10/20(火)に実施。",
-      "範囲：ステップ16〜力だめし3（p.76〜90）。",
-      "漢字のテキストを忘れずに持ち帰り、準備をしておく。"
-    ],
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "posted": "10/15",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjc4NDM4MDYy"
-  },
-  {
-    "id": "math-absent-oct20",
-    "title": "数学小テスト：10/19も欠席した場合",
-    "date": "2026-10-20",
-    "dateLabel": "10/20 (火) 8:10【該当者】",
-    "details": [
-      "小テスト未受験で10/19も欠席した人は、校務センターに受けに来る。"
-    ],
-    "cat": "no",
-    "posted": "10/15",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "森本奈央",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkyMzA5OTQ0OTI0"
-  },
-  {
-    "cat": "no",
-    "thread": "82回生",
-    "posted": "10/16",
-    "id": "geo-quiz-oct20",
-    "date": "2026-10-20",
-    "dateLabel": "10/20 16:20〜17:20",
-    "subject": "地理",
-    "optional": true,
-    "title": "【日程変更】中1 地理のテスト対策・早押しクイズ",
-    "details": [
-      "学校閉鎖のため10/20(火)・21(水)に日程変更。4Fオープンスペースで開催。",
-      "前半は暗記、後半は早押しクイズ。地理の試験範囲を扱います。",
-      "充電したタブレット必須。教科書・プリント・筆記用具を持参。"
-    ],
-    "poster": "國澤恒久",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTYwODYwMjIy/details"
   },
   {
     "cat": "no",
@@ -2518,21 +2452,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMjkxNzIwNjIz"
   },
   {
-    "id": "assembly-oct20",
-    "cat": "no",
-    "title": "体育館朝礼：8:35までに整列",
-    "subject": "学活・総合",
-    "thread": "82回生",
-    "poster": "押切衣舞",
-    "posted": "10/19",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDgyNTg2MDA2",
-    "details": [
-      "8:35には体育館に整列する。"
-    ],
-    "date": "2026-10-20",
-    "dateLabel": "10/20(火) 8:35整列"
-  },
-  {
     "id": "science1-midterm-oct30",
     "cat": "no",
     "title": "理科1分野：中間テスト範囲",
@@ -2750,21 +2669,6 @@ window.CLASSROOM_DATA = {
       "自分のチャレンジを報告する。報告フォームは82回生Classroomの「授業」にある。"
     ],
     "dateLabel": "期限の記載なし"
-  },
-  {
-    "id": "gardening-oct20",
-    "cat": "no",
-    "title": "生活部・園芸当番：鉢植えの受け取り",
-    "subject": "委員会",
-    "thread": "82回生",
-    "poster": "阿佐美優子",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyMzA0Mzc5Mzc4",
-    "details": [
-      "教員玄関前で鉢植えを受け取る。"
-    ],
-    "date": "2026-10-20",
-    "dateLabel": "10/20(火) 終礼後"
   },
   {
     "id": "math-sheet1-oct22",
@@ -3026,7 +2930,7 @@ window.CLASSROOM_DATA = {
     "subject": "数学",
     "thread": "数学",
     "poster": "山口朋子",
-    "posted": "10/23",
+    "posted": "10/27",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
     "details": [
       "教科書p.108〜120、p.262、p.277〜279。",
@@ -3042,7 +2946,7 @@ window.CLASSROOM_DATA = {
     "subject": "数学",
     "thread": "数学",
     "poster": "山口朋子",
-    "posted": "10/23",
+    "posted": "10/27",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
     "details": [
       "教科書p.122〜147・154〜155、完成ノートp.48〜72。",
