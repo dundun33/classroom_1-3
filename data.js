@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-27",
-  fetchCheckedTime: "09:05",
+  fetchCheckedTime: "13:58",
   updateISO: "2026-10-27",
-  updateTime: "09:05",
+  updateTime: "13:58",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3029,12 +3029,11 @@ window.CLASSROOM_DATA = {
     "posted": "10/23",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
     "details": [
-      "教科書p.108〜120、p.262、および原文「p277〜179」（ページ範囲は要確認）。",
+      "教科書p.108〜120、p.262、p.277〜279。",
       "完成ノートp.13〜33・35〜37。授業プリント(1)、もっと(1)〜(4)、学力推移調査の大問5。"
     ],
     "date": "2026-10-28",
-    "dateLabel": "10/28(水)",
-    "note": "教科書「p277〜179」は原文表記。範囲要確認。"
+    "dateLabel": "10/28(水)"
   },
   {
     "id": "math-proportion-scope-oct30",
