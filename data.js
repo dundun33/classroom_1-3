@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-28",
-  fetchCheckedTime: "09:04",
+  fetchCheckedTime: "12:27",
   updateISO: "2026-10-28",
-  updateTime: "09:04",
+  updateTime: "12:28",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -169,17 +169,19 @@ window.CLASSROOM_DATA = {
         "ref": "english-midterm-words-oct28"
       },
       {
-        "s": "試験予定なし",
+        "s": "スタディコモンズ",
         "t": "",
-        "r": "",
-        "rs": 3
+        "r": "LL・401・402",
+        "time": "13:00〜16:00",
+        "rs": 3,
+        "ref": "study-commons-oct28-29"
       },
       {
-        "s": "バスケ・ミーティング予定",
+        "s": "バスケ会議予定／もみじ祭内覧",
         "t": "",
         "r": "",
         "time": "時刻・場所調整中",
-        "mk": "試験終了後の予定",
+        "mk": "見学者は最終下校16:00",
         "rs": 3,
         "ref": "bball-meeting-oct30"
       }
@@ -198,10 +200,12 @@ window.CLASSROOM_DATA = {
         "ref": "tt-change-oct27"
       },
       {
-        "s": "試験予定なし",
+        "s": "スタディコモンズ",
         "t": "",
-        "r": "",
-        "rs": 2
+        "r": "LL・401・402",
+        "time": "13:00〜16:00",
+        "rs": 2,
+        "ref": "study-commons-oct28-29"
       },
       null,
       null
@@ -1404,6 +1408,7 @@ window.CLASSROOM_DATA = {
     "subject": "全体",
     "title": "スタディコモンズ利用者が多いときの注意",
     "details": [
+      "10/28・29は別途連絡を優先：13:00〜16:00、LL・401・402で実施。オープンスペースは使用不可。",
       "テスト前は利用者が増加。溢れた場合は1年1・2組の普通教室も活用（メンター指示に従う）",
       "17:40以降はスタコモ部屋に移動",
       "退室時：机・椅子を元の位置に戻す／消しカスをゴミ箱へ／机の中に忘れ物なし"
@@ -3240,6 +3245,38 @@ window.CLASSROOM_DATA = {
     "details": [
       "10/27の終礼で結果表と数学の答案を配布。家庭でも振り返りの時間を取る。",
       "学校で実施しなかった教科の問題冊子（9月配布）も家庭で活用する。次回は1月実施予定。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/28",
+    "id": "study-commons-oct28-29",
+    "cat": "no",
+    "title": "10/28・29 スタディコモンズの場所・時間変更",
+    "date": "2026-10-29",
+    "dateLabel": "10/28(水)・29(木) 13:00〜16:00",
+    "subject": "学習",
+    "poster": "國澤恒久",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MjQxNjY1NzM3",
+    "details": [
+      "オープンスペースが使用できないため、LL・401・402で実施。両日とも13:00〜16:00。"
+    ]
+  },
+  {
+    "thread": "82回生",
+    "posted": "10/28",
+    "id": "momiji-preview-oct30",
+    "cat": "no",
+    "title": "10/30 もみじ祭内覧：最終下校16時",
+    "date": "2026-10-30",
+    "dateLabel": "10/30(金) 最終下校16:00",
+    "subject": "学校",
+    "optional": true,
+    "poster": "山口朋子",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzMyMDg0MzA4",
+    "details": [
+      "見学者は配布プリントを確認し、ルール・マナーを守る。",
+      "10/30は内覧日。見学する人は保護者に必ず伝える。最終下校16時。"
     ]
   }
 ]
