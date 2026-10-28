@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-28",
-  fetchCheckedTime: "12:27",
+  fetchCheckedTime: "13:09",
   updateISO: "2026-10-28",
-  updateTime: "12:28",
+  updateTime: "13:09",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -2393,13 +2393,14 @@ window.CLASSROOM_DATA = {
   {
     "id": "momiji-visit-oct15",
     "title": "もみじ祭見学：事前予約が必要",
-    "dateLabel": "見学前に予約【希望者】",
+    "dateLabel": "10/30〜11/1【希望者・事前予約】",
     "details": [
-      "フォームで予約し、自動返信メールを印刷して当日受付へ。開催日・申込期限はこの資料に記載なし。",
-      "中学生は高校玄関前で受付後、中学玄関で上履きに履き替える。家族は高校玄関から入場し、中学校の入校証を持参。",
-      "中学生はスマートフォンで撮影不可。撮影は保護者証着用者のみ。",
-      "ほとんどの売り場はキャッシュレス。交通系ICカード等を事前にチャージ（校内チャージ不可）。卒業生バザーは現金のみ。",
-      "飲食は3G教室・3H前モール・食堂の指定場所で。食べ歩き不可。"
+      "見学可能日時：10/30(金)終礼後〜16:00、10/31(土)9:00〜16:00、11/1(日)9:00〜15:30（10/28配布資料で確認）。",
+      "標準服（セーラー服）で参加。10/15配信フォームで事前予約し、自動返信メール（入場証）を印刷して持参。申込期限の記載なし。",
+      "中学生は高校の生徒玄関で入場証を提出し、校舎外を回って中学校玄関で校内履きに履き替える。保護者は保護者証を持参し高校の生徒玄関から入場。",
+      "写真・動画の撮影は高校生とその保護者のみ。中学生は撮影不可（10/28配布資料）。",
+      "購入・大ホールの観覧は一般客を優先。荷物による席取り禁止。交通系IC等を事前チャージ（校内チャージ不可）。卒業生バザーは現金のみ。",
+      "飲食は3G教室・3H前モール・食堂。持参弁当は201教室で。食べ歩き不可。"
     ],
     "cat": "no",
     "subject": "学校",
@@ -2408,7 +2409,8 @@ window.CLASSROOM_DATA = {
     "optional": true,
     "poster": "石井靖子",
     "hasLink": true,
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNzM3MjgyNTQy"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNzM3MjgyNTQy",
+    "date": "2026-11-01"
   },
   {
     "id": "violin-audition-nov",
@@ -3275,9 +3277,11 @@ window.CLASSROOM_DATA = {
     "poster": "山口朋子",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzMyMDg0MzA4",
     "details": [
-      "見学者は配布プリントを確認し、ルール・マナーを守る。",
-      "10/30は内覧日。見学する人は保護者に必ず伝える。最終下校16時。"
-    ]
+      "10/30(金)は終礼後〜16:00に見学可能。保護者に必ず伝え、貴重品・荷物をすべて持参して16時までに下校。",
+      "内覧日の大ホール：Voice Actors 9:15〜9:52、BRASS BAND 9:53〜10:21、chorus♪ 10:22〜10:51、String Orchestra 10:52〜11:24、Ms.Freesia 11:25〜11:52。",
+      "Baton twirling 11:53〜12:39、MUSICAL 12:40〜13:45、OH*TAKARAZUKA 13:46〜14:46、Magical Dream 14:47〜15:30。中学生の見学は終礼後から。"
+    ],
+    "hasLink": true
   }
 ]
 };
