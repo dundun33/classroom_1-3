@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-29",
-  fetchCheckedTime: "17:01",
+  fetchCheckedTime: "18:59",
   updateISO: "2026-10-29",
-  updateTime: "17:01",
+  updateTime: "19:00",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3340,17 +3340,6 @@ window.CLASSROOM_DATA = {
       "再提出が一度で合格にならない場合もあるため、早めに提出する。",
       "期限までに終わらなかった人は10/30のテスト後に残って取り組む。終了時刻・教室は未発表。"
     ]
-  },
-  {
-    "id": "loilo-science16-nov2",
-    "cat": "hw",
-    "date": "2026-11-02",
-    "dateLabel": "11/2(月) 20:00まで",
-    "subject": "理科1分野",
-    "title": "16チオ硫酸ナトリウムの融点",
-    "details": [],
-    "thread": "ロイロ",
-    "poster": ""
   },
   {
     "id": "english-work-oct30",
