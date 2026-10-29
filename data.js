@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-29",
-  fetchCheckedTime: "09:24",
+  fetchCheckedTime: "11:03",
   updateISO: "2026-10-29",
-  updateTime: "09:24",
+  updateTime: "11:03",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -3251,6 +3251,60 @@ window.CLASSROOM_DATA = {
     "poster": "山本昂宏",
     "posted": "10/28",
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODk2MjYyOTU5OTIz"
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/29",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QASJua4MW7",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QASJuZBf0n",
+    "id": "mail-QASJua4MW7",
+    "title": "中学PTAだより第2号：実行委員会報告",
+    "details": [
+      "10/24開催の第2回PTA実行委員会の報告。各部の活動、学校・各学年からの報告を掲載。",
+      "中高一貫教育の制度変更について、PTAから保護者の意見を伝え、情報発信の促進と生徒・保護者との対話機会を要請。",
+      "Study Commonsは平常時30〜50人、テスト前は100人超が利用。配置等を改善中。個人欠席時の授業補完は各教科担当へ相談。",
+      "2027/1/16の能楽鑑賞会（国立能楽堂）を準備中。生徒向け事前講義を予定。",
+      "PTA役員の今後の予定：11/24私立中高振興大会、12/1 PTA連合会。2027/2/27 PTA委員総会、3/1各部会計報告、3/13決算・予算打合せ。"
+    ]
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/29",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QASJua4MW7",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QASJuZBf0n",
+    "id": "class-observation-nov5-11",
+    "title": "授業参観週間",
+    "date": "2026-11-11",
+    "dateLabel": "11/5(木)〜11/11(水)",
+    "details": [
+      "授業中の様子・勉強の進め方・授業の聞き方を参観し、家庭でも話し合う。",
+      "参観後はGoogleフォームのアンケートで感想を寄せる。具体的な受付時間は本資料に記載なし。"
+    ]
+  },
+  {
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/29",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QASJua4MW7",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QASJuZBf0n",
+    "id": "winter-school-hours-nov2026",
+    "title": "テスト明けの11月から冬時間授業",
+    "dateLabel": "テスト明け・11月から",
+    "details": [
+      "11月から冬時間の授業時間割になる。日暮れが早くなるため、下校時に注意。",
+      "具体的な授業・下校時刻は本資料に記載なし。時刻の確定案内を待って時間割へ反映する。"
+    ]
   }
 ]
 };
