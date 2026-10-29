@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-10-29",
-  fetchCheckedTime: "15:05",
+  fetchCheckedTime: "17:01",
   updateISO: "2026-10-29",
-  updateTime: "15:05",
+  updateTime: "17:01",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -178,13 +178,13 @@ window.CLASSROOM_DATA = {
         "mk": "1年待機406／昼食13時まで"
       },
       {
-        "s": "数学未完了者の残留／もみじ祭内覧",
+        "s": "数学・英語の未完了者は残留／もみじ祭内覧",
         "t": "",
         "r": "",
         "time": "内覧は終礼後〜16:00",
         "mk": "バスケ練習中止・会議確認待ち",
         "rs": 3,
-        "ref": "math-no5-oct29"
+        "ref": "english-work-oct30"
       }
     ],
     [
@@ -3351,6 +3351,22 @@ window.CLASSROOM_DATA = {
     "details": [],
     "thread": "ロイロ",
     "poster": ""
+  },
+  {
+    "id": "english-work-oct30",
+    "cat": "hw",
+    "date": "2026-10-30",
+    "dateLabel": "10/30(金) 放課後",
+    "title": "英語新中問：未提出・再提出者は学校で完了して下校",
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "本木綾子",
+    "posted": "10/29",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2NTIwOTgzMzA1",
+    "details": [
+      "未提出・再提出のものがある人は10/30放課後に学校で終わらせてから帰る。",
+      "新中問題集を持参する。教室・終了時刻は未発表。"
+    ]
   }
 ]
 };
