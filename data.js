@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-29",
-  fetchCheckedTime: "23:00",
-  updateISO: "2026-10-29",
-  updateTime: "23:00",
+  fetchCheckedISO: "2026-10-30",
+  fetchCheckedTime: "07:01",
+  updateISO: "2026-10-30",
+  updateTime: "07:01",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -745,42 +745,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "押切衣舞",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
-  },
-  {
-    "id": "mail-Q94ALwMhmu",
-    "cat": "no",
-    "date": "2026-10-22",
-    "dateLabel": "10/22 (木) 開催",
-    "subject": "全体",
-    "title": "目白キャンパスめぐり・PTA親睦会のお知らせ",
-    "details": [
-      "10月22日（木）開催「目白キャンパスめぐり・PTA親睦会」の案内",
-      "参加希望の方はQRコードより申込み（プリントも配布済み）",
-      "Classroom(峯岸憲一)でも同内容が共有されています"
-    ],
-    "thread": "",
-    "poster": "保護者向けメール",
-    "posted": "9/4",
-    "mail": true,
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/Q94ALvKCb3",
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/Q94ALwMhmu"
-  },
-  {
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "本木綾子",
-    "posted": "9/9",
-    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODc4MzgzNzg0NDQ0",
-    "hasLink": true,
-    "id": "eng-unit8",
-    "cat": "no",
-    "date": "2026-10-22",
-    "dateLabel": "10/22 (木)",
-    "title": "英語 Unit 8 テスト",
-    "details": [
-      "毎回の小テストは行わず、ユニットテストを実施",
-      "単語も出題。資料記載の単語範囲はKeyワークp.108・124・138"
-    ]
   },
   {
     "id": "violin-accompanist-oct23",
@@ -2647,21 +2611,6 @@ window.CLASSROOM_DATA = {
     "dateLabel": "期限の記載なし"
   },
   {
-    "id": "math-sheet1-oct22",
-    "cat": "hw",
-    "title": "比例反比例(1)プリントの提出",
-    "subject": "数学",
-    "thread": "82回生",
-    "poster": "森本奈央",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDg4MTI4OTg5",
-    "details": [
-      "まだスタンプをもらっていない人は提出する。"
-    ],
-    "date": "2026-10-22",
-    "dateLabel": "10/22(木) 16:30まで"
-  },
-  {
     "id": "math-test-answers-oct20",
     "cat": "no",
     "title": "比例反比例小テスト解答",
@@ -2693,36 +2642,6 @@ window.CLASSROOM_DATA = {
     "posted": "10/20",
     "url": "https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODkzMjM5NDI1OTU1/details",
     "details": []
-  },
-  {
-    "cat": "no",
-    "posted": "10/21",
-    "id": "festival-committee-oct22",
-    "title": "十月祭行事委員会",
-    "date": "2026-10-22",
-    "dateLabel": "10/22(木) 12:45",
-    "subject": "委員会",
-    "thread": "82回生",
-    "poster": "中尾有子",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDA0MzI2Mjk3",
-    "details": [
-      "400教室に集合。お弁当とiPadを持参。"
-    ]
-  },
-  {
-    "cat": "no",
-    "posted": "10/21",
-    "id": "library-committee-oct22",
-    "title": "1年図書委員会：読書会について",
-    "date": "2026-10-22",
-    "dateLabel": "10/22(木) 昼休み13:05",
-    "subject": "委員会",
-    "thread": "82回生",
-    "poster": "鈴木秀一",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MTM1NTY2NjUw",
-    "details": [
-      "1年図書委員は書道室に集合。読書会についての委員会。"
-    ]
   },
   {
     "cat": "no",
