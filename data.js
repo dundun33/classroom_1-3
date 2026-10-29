@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-28",
-  fetchCheckedTime: "16:56",
-  updateISO: "2026-10-28",
-  updateTime: "16:56",
+  fetchCheckedISO: "2026-10-29",
+  fetchCheckedTime: "09:24",
+  updateISO: "2026-10-29",
+  updateTime: "09:24",
   timetable: {
   "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
   "days": [
@@ -744,24 +744,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "押切衣舞",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
-  },
-  {
-    "cat": "no",
-    "thread": "82回生",
-    "posted": "10/16",
-    "id": "geo-quiz-oct21",
-    "date": "2026-10-21",
-    "dateLabel": "10/21 16:20〜17:20",
-    "subject": "地理",
-    "optional": true,
-    "title": "【日程変更】中1 地理のテスト対策・早押しクイズ",
-    "details": [
-      "学校閉鎖のため10/20(火)・21(水)に日程変更。4Fオープンスペースで開催。",
-      "前半は暗記、後半は早押しクイズ。地理の試験範囲を扱います。",
-      "充電したタブレット必須。教科書・プリント・筆記用具を持参。"
-    ],
-    "poster": "國澤恒久",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTYwODYwMjIy/details"
   },
   {
     "id": "mail-Q94ALwMhmu",
@@ -2598,21 +2580,6 @@ window.CLASSROOM_DATA = {
     "dateLabel": "10/23(金) 5・6限（3組）"
   },
   {
-    "id": "music-committee-oct21",
-    "cat": "no",
-    "title": "音楽会行事委員会",
-    "subject": "委員会",
-    "thread": "82回生",
-    "poster": "阿佐美優子",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyOTUzMTc1ODkz",
-    "details": [
-      "昼食持参で声楽器楽室に集合する。"
-    ],
-    "date": "2026-10-21",
-    "dateLabel": "10/21(水) 昼休み"
-  },
-  {
     "id": "ramen-contest-nov30",
     "cat": "no",
     "title": "インスタントラーメン オリジナル料理コンテスト",
@@ -2692,21 +2659,6 @@ window.CLASSROOM_DATA = {
     ],
     "date": "2026-10-22",
     "dateLabel": "10/22(木) 16:30まで"
-  },
-  {
-    "id": "bball-uniform-oct21",
-    "cat": "hw",
-    "title": "バスケ：ユニフォーム返却",
-    "subject": "部活",
-    "thread": "バスケ",
-    "poster": "山本昂宏",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MTI4NDE5ODI4",
-    "date": "2026-10-21",
-    "dateLabel": "10/21(水) まで",
-    "details": [
-      "十月祭でユニフォームを持ち帰った人は必ず返却する。今週末の大会で2年生が使用する。"
-    ]
   },
   {
     "id": "math-test-answers-oct20",
@@ -2938,7 +2890,7 @@ window.CLASSROOM_DATA = {
     "subject": "数学",
     "thread": "数学",
     "poster": "山口朋子",
-    "posted": "10/27",
+    "posted": "10/23",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
     "details": [
       "教科書p.108〜120、p.262、p.277〜279。",
@@ -2954,7 +2906,7 @@ window.CLASSROOM_DATA = {
     "subject": "数学",
     "thread": "数学",
     "poster": "山口朋子",
-    "posted": "10/27",
+    "posted": "10/23",
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQwMDkwMDgy",
     "details": [
       "教科書p.122〜147・154〜155、完成ノートp.48〜72。",
