@@ -5,37 +5,37 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-30",
-  fetchCheckedTime: "09:03",
-  updateISO: "2026-10-30",
-  updateTime: "09:07",
+  fetchCheckedISO: "2026-10-31",
+  fetchCheckedTime: "15:06",
+  updateISO: "2026-10-31",
+  updateTime: "16:38",
   timetable: {
-  "label": "10/26(月)〜10/30(金)｜28〜30日は中間テスト（時刻は各欄）",
+  "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
     {
       "n": "月",
-      "md": "10/26",
-      "iso": "2026-10-26"
+      "md": "11/2",
+      "iso": "2026-11-02"
     },
     {
       "n": "火",
-      "md": "10/27",
-      "iso": "2026-10-27"
+      "md": "11/3",
+      "iso": "2026-11-03"
     },
     {
       "n": "水",
-      "md": "10/28",
-      "iso": "2026-10-28"
+      "md": "11/4",
+      "iso": "2026-11-04"
     },
     {
       "n": "木",
-      "md": "10/29",
-      "iso": "2026-10-29"
+      "md": "11/5",
+      "iso": "2026-11-05"
     },
     {
       "n": "金",
-      "md": "10/30",
-      "iso": "2026-10-30"
+      "md": "11/6",
+      "iso": "2026-11-06"
     }
   ],
   "rows": [
@@ -46,35 +46,25 @@ window.CLASSROOM_DATA = {
         "r": "HR"
       },
       {
-        "s": "国",
-        "t": "鈴木",
-        "r": "HR",
-        "mk": "時間割変更",
-        "ref": "tt-change-oct27"
+        "s": "文化の日",
+        "t": "",
+        "r": "",
+        "rs": 6
       },
       {
-        "s": "数学",
-        "t": "1次方程式の利用",
-        "r": "",
-        "time": "8:50〜9:30（40分）",
-        "test": true,
-        "ref": "math-equation-scope-oct28"
+        "s": "理",
+        "t": "大越・小山",
+        "r": "理科A/B"
       },
       {
-        "s": "理科",
-        "t": "大越・山本・小山・田悟",
-        "r": "",
-        "time": "8:50〜9:25（35分）",
-        "test": true,
-        "ref": "science2-midterm-oct29"
+        "s": "体",
+        "t": "石井",
+        "r": "二体"
       },
       {
-        "s": "社会",
-        "t": "宮崎・平野",
-        "r": "",
-        "time": "8:50〜9:40（50分）",
-        "test": true,
-        "ref": "midterm-oct30"
+        "s": "英",
+        "t": "コリンズ・マオ",
+        "r": "LL/400"
       }
     ],
     [
@@ -83,35 +73,21 @@ window.CLASSROOM_DATA = {
         "t": "宮崎",
         "r": "HR"
       },
+      null,
       {
-        "s": "総合",
-        "t": "担任",
+        "s": "英",
+        "t": "本木",
         "r": "HR"
       },
       {
-        "s": "社会・歴史",
-        "t": "馬場",
-        "r": "",
-        "time": "9:45開始（25分）",
-        "test": true,
-        "ref": "history-midterm-oct28",
-        "mk": "35分→25分"
-      },
-      {
-        "s": "英語",
-        "t": "本木・平岡・磯崎・吉野",
-        "r": "",
-        "time": "9:40〜10:30（50分）",
-        "test": true,
-        "ref": "english-midterm-oct29"
-      },
-      {
-        "s": "理科",
+        "s": "理",
         "t": "松本",
-        "r": "",
-        "time": "9:55〜10:30（35分）",
-        "test": true,
-        "ref": "science1-midterm-oct30"
+        "r": "理科D"
+      },
+      {
+        "s": "国",
+        "t": "秦野",
+        "r": "HR"
       }
     ],
     [
@@ -120,72 +96,44 @@ window.CLASSROOM_DATA = {
         "t": "阿佐美",
         "r": "声楽"
       },
+      null,
       {
-        "s": "理",
-        "t": "松本",
-        "r": "理科A",
-        "rs": 2,
-        "mk": "時間割変更",
-        "ref": "tt-change-oct27"
+        "s": "数",
+        "t": "山口",
+        "r": "HR"
       },
       {
-        "s": "国語",
+        "s": "国",
         "t": "鈴木",
-        "r": "",
-        "time": "10:35〜11:25（50分）",
-        "test": true,
-        "ref": "kokugo-midterm-oct28"
+        "r": "HR"
       },
       {
-        "s": "保体",
-        "t": "石井",
-        "r": "",
-        "time": "10:45〜11:15（30分）",
-        "test": true,
-        "ref": "midterm-oct29"
-      },
-      {
-        "s": "数学",
-        "t": "比例反比例",
-        "r": "",
-        "time": "10:45〜11:35（50分）",
-        "test": true,
-        "ref": "math-proportion-scope-oct30"
+        "s": "家",
+        "t": "菊池",
+        "r": "図書室",
+        "rs": 2
       }
     ],
     [
       {
-        "s": "国",
+        "s": "国W／マイクロディベート",
         "t": "秋山・西出",
-        "r": "HR/401"
+        "r": "HR",
+        "mk": "移動なし・5分前着席",
+        "ref": "kokugo-debate-nov2026"
       },
       null,
       {
-        "s": "英語（単語）",
-        "t": "本木・平岡・磯崎・吉野",
-        "r": "",
-        "time": "11:40〜11:50（10分）",
-        "test": true,
-        "ref": "english-midterm-words-oct28"
+        "s": "音",
+        "t": "矢沢",
+        "r": "声楽器楽"
       },
       {
-        "s": "スタディコモンズ",
-        "t": "",
-        "r": "403・404・405",
-        "time": "13:00〜16:00",
-        "rs": 3,
-        "ref": "study-commons-oct29",
-        "mk": "1年待機406／昼食13時まで"
+        "s": "数",
+        "t": "山口",
+        "r": "HR"
       },
-      {
-        "s": "数学・英語の未完了者は残留／もみじ祭内覧",
-        "t": "",
-        "r": "",
-        "time": "内覧は終礼後〜16:00",
-        "mk": "バスケ練習中止・会議確認待ち",
-        "rs": 3,
-        "ref": "english-work-oct30"
-      }
+      null
     ],
     [
       {
@@ -193,40 +141,40 @@ window.CLASSROOM_DATA = {
         "t": "平岡・本木",
         "r": "HR/402"
       },
+      null,
+      {
+        "s": "美",
+        "t": "芝",
+        "r": "美術室",
+        "rs": 2
+      },
+      {
+        "s": "英語劇公演",
+        "t": "",
+        "r": "",
+        "rs": 2,
+        "ref": "timetable-nov2"
+      },
       {
         "s": "社",
-        "t": "馬場",
-        "r": "HR",
-        "mk": "時間割変更",
-        "ref": "tt-change-oct27"
-      },
-      {
-        "s": "スタディコモンズ",
-        "t": "",
-        "r": "LL・401・402",
-        "time": "13:00〜16:00",
-        "rs": 2,
-        "ref": "study-commons-oct28-29"
-      },
-      null,
-      null
+        "t": "平野",
+        "r": "HR"
+      }
     ],
     [
       {
         "s": "体",
-        "t": "佐々木・齋藤",
-        "r": "プール"
-      },
-      {
-        "s": "保健",
         "t": "石井",
-        "r": "HR",
-        "mk": "プリント・教科書",
-        "ref": "health-class-oct27"
+        "r": "HR"
       },
       null,
       null,
-      null
+      null,
+      {
+        "s": "数",
+        "t": "森本・山口",
+        "r": "HR/数メ"
+      }
     ]
   ]
 },
@@ -955,73 +903,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
   },
   {
-    "id": "violin-accompanist-oct23",
-    "title": "音楽会行事委員：バイオリン伴奏候補者を報告",
-    "date": "2026-10-23",
-    "dateLabel": "10/23 (金) まで",
-    "details": [
-      "終礼ボックス配布の用紙に伴奏オーディション希望者名を記入し、矢沢先生へ提出。",
-      "候補者がいない場合もその旨を伝える。"
-    ],
-    "cat": "hw",
-    "subject": "音楽",
-    "thread": "82回生",
-    "posted": "10/15",
-    "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwNTEzNjY2NTQx"
-  },
-  {
-    "cat": "no",
-    "optional": true,
-    "subject": "校外活動",
-    "thread": "82回生",
-    "poster": "國澤恒久",
-    "posted": "10/16",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTI0NzA3NDQw/details",
-    "id": "thinkflat-entry-oct23",
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金) 一次プレエントリー",
-    "title": "THINK FLAT CAMP U-18：一次応募",
-    "details": [
-      "中1〜高3の希望者向け。主催者フォームでプレエントリー後、送付されるエントリーシート（小論文2題）を10/26(月)までに提出。合格発表は11/2(月)。",
-      "学校投稿の締切は10/24と記載されていますが、添付チラシ・主催者サイトは10/23。申込時に確認し、10/23までの対応を。"
-    ],
-    "note": "一次締切の記載相違：主催者は10/23、学校投稿は10/24"
-  },
-  {
-    "cat": "no",
-    "thread": "82回生",
-    "posted": "10/16",
-    "id": "tt9",
-    "date": "2026-10-23",
-    "dateLabel": "10/19(月)〜23(金)",
-    "subject": "時間割",
-    "title": "10/19〜 時間割表【資料】",
-    "details": [
-      "3組の列を反映。水曜5・6限は美術、木曜5・6限は理科、金曜5・6限は家庭科。",
-      "10/24(土)は原資料で空欄。10/21・22の英語ダブル教室変更連絡は他組対象。",
-      "10/18 18:20の学校連絡で、10/19は通常登校と確定。"
-    ],
-    "poster": "松本珠希",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkyNTU5NDM3OTQ2/details"
-  },
-  {
-    "cat": "no",
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/17",
-    "id": "stargazing-apply-oct23",
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金)まで",
-    "title": "【締切延長】11/6天体観望会の申し込み",
-    "details": [
-      "申込締切を10/19(月)から10/23(金)へ延長。参加希望者は申込書を提出する。"
-    ],
-    "subject": "理科",
-    "optional": true,
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNzg5NTYzNTA0"
-  },
-  {
     "id": "noh-apply-oct25",
     "title": "能楽鑑賞会の申込み",
     "date": "2026-10-25",
@@ -1094,8 +975,8 @@ window.CLASSROOM_DATA = {
   {
     "id": "sogaku-apply-oct30",
     "title": "式典の奏楽オーディション：応募受付",
-    "date": "2026-10-30",
-    "dateLabel": "10/30 (金) まで【希望者】",
+    "date": "2026-11-05",
+    "dateLabel": "11/5 (木) まで【延長】",
     "details": [
       "始業式・終業式などの式典奏者を募集。クラシック音楽で5分以内ほどの曲が望ましい。",
       "ロイロノート（ヴァイオリン）の資料箱の案内を参考に音楽科へ応募。",
@@ -1105,10 +986,10 @@ window.CLASSROOM_DATA = {
     "cat": "no",
     "subject": "音楽",
     "thread": "82回生",
-    "posted": "10/15",
+    "posted": "10/30",
     "optional": true,
     "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2NzQyMjYwNzU3"
   },
   {
     "id": "midterm-oct30",
@@ -1244,15 +1125,15 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-11",
     "dateLabel": "11/11 (水) 昼休み",
     "details": [
-      "声楽器楽室で実施。応募締切は10/30。詳細は後日Classroom配信。"
+      "声楽器楽室で実施。応募締切は11/5へ延長。詳細は後日Classroom配信。"
     ],
     "cat": "no",
     "subject": "音楽",
     "thread": "82回生",
-    "posted": "10/15",
+    "posted": "10/30",
     "optional": true,
     "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODYxNjYwODAzNTYw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2NzQyMjYwNzU3"
   },
   {
     "cat": "no",
@@ -2736,23 +2617,6 @@ window.CLASSROOM_DATA = {
     "mailUrl": "https://youtu.be/8jLflWptaZo"
   },
   {
-    "id": "home-preparation-oct23",
-    "cat": "no",
-    "title": "家庭科：今週の授業準備・調理実習班の座席",
-    "subject": "技術家庭",
-    "thread": "82回生",
-    "poster": "菊池菜々世",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODczNzY4NjI4MTQ5",
-    "details": [
-      "ジャパンナレッジスクールを使うため、Googleのgseアカウントのメールアドレスとパスワードを控えてくる。",
-      "授業はHRで調理実習の班ごとに着席。ロイロ資料箱「座席表→1年教室(調理実習班)」を確認。",
-      "持ち物はファイル・iPad・教科書。"
-    ],
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金) 5・6限（3組）"
-  },
-  {
     "id": "ramen-contest-nov30",
     "cat": "no",
     "title": "インスタントラーメン オリジナル料理コンテスト",
@@ -2770,22 +2634,6 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-30",
     "dateLabel": "11/30(月) 応募締切",
     "hasLink": true
-  },
-  {
-    "id": "lost-property-oct23",
-    "cat": "no",
-    "title": "落とし物・置き傘の引き取り",
-    "subject": "学校",
-    "thread": "82回生",
-    "poster": "西出春菜",
-    "posted": "10/20",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzMTkwMzg2NDky",
-    "details": [
-      "十月祭までの落とし物は校務センター、置きっぱなしの傘は生徒玄関にある。",
-      "10/23(金)放課後に処分予定のため、それまでに自分のものを引き取る。"
-    ],
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金) 放課後の処分前まで"
   },
   {
     "id": "science-makeup-oct22",
@@ -2934,21 +2782,6 @@ window.CLASSROOM_DATA = {
     "dateLabel": "10/28(水) 中間テスト"
   },
   {
-    "id": "english-unit8-makeup-oct23",
-    "cat": "no",
-    "title": "英語Unit 8：欠席者の追試",
-    "subject": "英語",
-    "thread": "82回生",
-    "poster": "本木綾子",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDE4MzY5ODU2",
-    "details": [
-      "10/22欠席でUnit 8テストを受けていない人は、放課後に5組の教室へ。"
-    ],
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金) 放課後"
-  },
-  {
     "id": "lost-property-oct26",
     "cat": "no",
     "title": "4階廊下の落とし物：理科メディアで保管",
@@ -2963,21 +2796,6 @@ window.CLASSROOM_DATA = {
     ],
     "date": "2026-10-26",
     "dateLabel": "10/26(月)"
-  },
-  {
-    "id": "violin-accompanists-oct23",
-    "cat": "hw",
-    "title": "音楽会行事委員：バイオリン伴奏者リスト提出",
-    "subject": "音楽",
-    "thread": "82回生",
-    "poster": "矢沢まどか",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDE2MDI2ODIw",
-    "details": [
-      "音楽会行事委員は矢沢先生へ必ず提出する。"
-    ],
-    "date": "2026-10-23",
-    "dateLabel": "10/23(金)まで"
   },
   {
     "id": "math-print2-first-oct26",
@@ -3231,18 +3049,20 @@ window.CLASSROOM_DATA = {
   },
   {
     "thread": "82回生",
-    "posted": "10/26",
+    "posted": "10/30",
     "id": "chorus-accompanist-oct26",
     "cat": "no",
     "title": "音楽会「春の声」合唱伴奏者を追加募集",
     "subject": "音楽",
     "poster": "阿佐美優子",
     "optional": true,
-    "dateLabel": "今週中（10/26の連絡）",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzI3ODI3MDAy",
+    "dateLabel": "10/30まで",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MjQ0MDcwNTMx",
     "details": [
-      "希望者は今週中にロイロで申し出る。"
-    ]
+      "「春の声」の追加伴奏希望者は10/30中に申し出る。",
+      "オーディション希望者には本日ロイロで時刻を通知。届いていない人は申し出る。"
+    ],
+    "date": "2026-10-30"
   },
   {
     "thread": "英語",
@@ -3505,15 +3325,15 @@ window.CLASSROOM_DATA = {
     "posted": "10/30",
     "id": "kokugo-debate-nov2026",
     "title": "来週の国語W：マイクロディベート",
-    "dateLabel": "来週の国語W・開始5分前着席",
+    "dateLabel": "11/2 4限・開始5分前着席",
     "subject": "国語",
     "thread": "82回生",
     "poster": "西出春菜",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MDEwMTY1ODIy",
     "details": [
-      "教室移動をせず待機する。机の移動等の準備があるため、開始5分前に着席。",
-      "具体的な曜日・時限は次週時間割の確認後に反映。"
-    ]
+      "11/2の4限にマイクロディベート。教室移動をせずHRで待機。机の移動等の準備があるため、開始5分前に着席。"
+    ],
+    "date": "2026-11-02"
   },
   {
     "cat": "no",
@@ -3532,6 +3352,124 @@ window.CLASSROOM_DATA = {
       "冬休み活動は参考予定。スキー教室期間12/21〜24は練習できないため、それ以外に集中。",
       "12/19午前、12/25・28・29と1/4〜7は終日練習の参考予定。12/28午前はバレー部合同練習。"
     ]
+  },
+  {
+    "id": "korea-winter2026",
+    "cat": "no",
+    "optional": true,
+    "date": "2026-11-17",
+    "dateLabel": "1次申込11/17まで・研修12/24〜30",
+    "subject": "国際交流",
+    "title": "冬休みの韓国研修（学外・希望者）",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/30",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk2MDM4MjY4NjU3/details",
+    "details": [
+      "学校主催ではない学外研修。中1〜高3対象、12/24〜30に韓国のヤンピョンキャンパスで実施。",
+      "1次申込は11/17まで。残席がある場合のみ11/18〜12/15に2次募集。",
+      "研修費用43万円（燃油サーチャージ等別）。1次申込は1万5千円割引。募集30名・最少催行15名。",
+      "主催者案内：https://www.ai2010.net/global-camp-in-korea-winter"
+    ]
+  },
+  {
+    "id": "moire-oct30",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西田早苗",
+    "posted": "10/30",
+    "title": "モアレ検査結果・二次検査案内",
+    "details": [
+      "二次検査が必要な人・次年度検査の指示がある人には担任から通知。通知がない人は異常なし。健康手帳を確認。",
+      "医療機関受診後は保健室へ連絡。二次検査の日程が合わない場合は東京都予防医学協会へ直接相談。",
+      "検査費は予納金から支出。未検査者には返金あり。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MDA4NDk3ODY1",
+    "dateLabel": "通知・健康手帳を確認"
+  },
+  {
+    "id": "gardening-oct30",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "10/30",
+    "title": "生活部園芸係：作業集合",
+    "details": [
+      "12:20に必要なものを持って国語メディアへ集合。参加できない場合は必ず代理を立てる。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2MjQ0MDIyMDk2",
+    "date": "2026-10-30",
+    "dateLabel": "10/30 12:20"
+  },
+  {
+    "id": "umbrellas-oct30",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "10/30",
+    "title": "生活部：回収した傘について",
+    "details": [
+      "置きっぱなしの傘を回収。傘がほしい人は生活部の西出先生へ声をかける。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMTcyMzk3OTk2",
+    "dateLabel": "当面の間"
+  },
+  {
+    "id": "commons-nov2026",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "國澤恒久",
+    "posted": "10/30",
+    "title": "11月スタディコモンズ：冬時間15:30〜18:30",
+    "details": [
+      "通常開室は15:30〜18:30。11/30のみ12:30〜18:30。",
+      "開室日は11/2・4〜6・9〜13・16・19・20・24〜27・30。11/3・17・18・23は開室予定なし。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk2Mjk2NDYxNzIy/details",
+    "date": "2026-11-30",
+    "dateLabel": "11月・11/30は12:30開始"
+  },
+  {
+    "id": "timetable-nov2",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "10/30",
+    "title": "11/2〜6の時間割",
+    "details": [
+      "11/3は文化の日で授業なし。11/5の5・6限は英語劇公演。",
+      "11/2の4限は国語Wのマイクロディベート。教室移動なし、開始5分前着席。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkwNjkwMTk5MDQy/details",
+    "date": "2026-11-06",
+    "dateLabel": "11/2〜6"
+  },
+  {
+    "id": "mail-QAUG6knBnr",
+    "cat": "no",
+    "optional": true,
+    "subject": "行事",
+    "date": "2027-01-17",
+    "dateLabel": "1/17 (日)・申込12/20まで",
+    "title": "西生田キャンパス・里山保全活動",
+    "details": [
+      "2027/1/17（日）9:30に中高グラウンド入口集合。活動10:00〜11:45、12:30頃解散。雨天中止・予備日なし。",
+      "水田記念公園周辺の下草刈り・落ち葉かきと、中高グラウンドで焼き芋作り。",
+      "附属校園（卒業生含む）の保護者、生徒・児童・家族（小4以上）対象。小3以下同伴時の安全確保は保護者が行う。",
+      "作業しやすい服装・靴。更衣室なし。保護者証、軍手、飲み物、タオル、お手拭きを持参。使い慣れた道具・焼き芋持ち帰り袋は任意。",
+      "12/20までに申込：https://forms.cloud.microsoft/r/3H60LiV4ss"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "10/31",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAUG6knBnr",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QAUG6jEuYO"
   }
 ]
 };
