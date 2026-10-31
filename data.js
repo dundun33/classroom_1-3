@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-10-31",
-  fetchCheckedTime: "19:07",
-  updateISO: "2026-10-31",
-  updateTime: "19:07",
+  fetchCheckedISO: "2026-11-01",
+  fetchCheckedTime: "06:56",
+  updateISO: "2026-11-01",
+  updateTime: "06:56",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -2533,26 +2533,6 @@ window.CLASSROOM_DATA = {
     "posted": "10/19",
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkyNTc2NzM2ODg0/details",
     "details": []
-  },
-  {
-    "id": "bball-rookie-oct24",
-    "cat": "no",
-    "title": "新人大会1回戦：川中島中に敗戦",
-    "subject": "部活",
-    "thread": "バスケ",
-    "poster": "押切衣舞",
-    "posted": "10/24",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz",
-    "details": [
-      "10/24の結果連絡：川中島中に敗戦（原文のスコア表記は53-25）。",
-      "9:40 JR南武線・武蔵中原駅改札前集合。宮内中まで徒歩12分、9:55到着・アップ開始。",
-      "11:25 川中島中戦（日本女子は白）。12:45 TOは勝敗に関係なく担当。14:40頃解散予定。",
-      "保護者観戦可。8分×4Q制。",
-      "テスト前のため承諾書提出者のみ参加。テスト勉強道具を持参。",
-      "昼食時間はないため、試合前後に各自の判断で軽食をとる。"
-    ],
-    "date": "2026-10-24",
-    "dateLabel": "10/24(土) 9:40集合／14:40頃解散"
   },
   {
     "id": "bball-rookie-oct25",
