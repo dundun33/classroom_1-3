@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-01",
-  fetchCheckedTime: "09:58",
+  fetchCheckedTime: "13:33",
   updateISO: "2026-11-01",
-  updateTime: "09:58",
+  updateTime: "13:33",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -3450,6 +3450,19 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAUG6knBnr",
     "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QAUG6jEuYO"
+  },
+  {
+    "id": "loilo-science16-nov2",
+    "cat": "hw",
+    "date": "2026-11-02",
+    "dateLabel": "11/2 (月) 20:00まで",
+    "subject": "理科1分野",
+    "title": "16チオ硫酸ナトリウムの融点",
+    "details": [
+      "ロイロノートで募集中。締切は11/2 20:00。"
+    ],
+    "thread": "ロイロ",
+    "poster": ""
   }
 ]
 };
