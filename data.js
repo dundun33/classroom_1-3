@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-02",
   fetchCheckedTime: "09:29",
   updateISO: "2026-11-02",
-  updateTime: "09:29",
+  updateTime: "13:05",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -111,7 +111,9 @@ window.CLASSROOM_DATA = {
         "s": "家",
         "t": "菊池",
         "r": "図書室",
-        "rs": 2
+        "rs": 2,
+        "mk": "iPad・No.3プリント等",
+        "ref": "home-nov6"
       }
     ],
     [
@@ -3492,6 +3494,47 @@ window.CLASSROOM_DATA = {
     "poster": "山本昂宏",
     "posted": "11/2",
     "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk3MDA2NTAyNDQ3"
+  },
+  {
+    "id": "home-nov6",
+    "cat": "hw",
+    "subject": "家庭科",
+    "dateLabel": "今週の授業・締切明記なし",
+    "title": "混合だしwebカード提出・家庭科の持ち物",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1MzgyMDYyMTYw",
+    "details": [
+      "混合だしのサイトを1つ選び、ロイロ「混合だしwebカード(個人)」へwebカードを提出。締切は本文に明記なし。",
+      "3組の授業は11/6の3・4限、図書室。iPad、ファイル（情報×調理実験No.3必須）、ライティングリテラシー、オレンジの教科書を持参。"
+    ]
+  },
+  {
+    "id": "loilo-science16-nov2",
+    "cat": "hw",
+    "subject": "理科1分野",
+    "title": "16チオ硫酸ナトリウムの融点",
+    "date": "2026-11-02",
+    "dateLabel": "11/2 20:00まで",
+    "thread": "ロイロ",
+    "poster": "",
+    "details": [
+      "ロイロノートで募集中。"
+    ]
+  },
+  {
+    "id": "loilo-debate-nov3",
+    "cat": "hw",
+    "subject": "国語ダブル",
+    "title": "マイクロディベート対戦記録シート",
+    "date": "2026-11-03",
+    "dateLabel": "11/3 8:30まで",
+    "thread": "ロイロ",
+    "poster": "",
+    "details": [
+      "ロイロノートで募集中。"
+    ]
   }
 ]
 };
