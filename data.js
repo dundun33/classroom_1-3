@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-02",
   fetchCheckedTime: "09:29",
   updateISO: "2026-11-02",
-  updateTime: "13:05",
+  updateTime: "15:04",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -59,7 +59,9 @@ window.CLASSROOM_DATA = {
       {
         "s": "体",
         "t": "石井",
-        "r": "二体"
+        "r": "二体",
+        "mk": "再試対象者は授業前8:10 LL",
+        "ref": "math-retest-nov5"
       },
       {
         "s": "英",
@@ -82,7 +84,9 @@ window.CLASSROOM_DATA = {
       {
         "s": "理",
         "t": "松本",
-        "r": "理科D"
+        "r": "理科D",
+        "mk": "分度器・三角定規2枚",
+        "ref": "science-rulers-oct26"
       },
       {
         "s": "国",
@@ -578,11 +582,11 @@ window.CLASSROOM_DATA = {
     },
     "2026-11-03": {
       "kind": "morning",
-      "title": "午前練習・午後自主練可",
+      "title": "新チーム会議・午前練習",
       "time": "8:30〜12:00",
       "place": "第3体育館",
-      "detail": "文化の日",
-      "source": "11〜12月予定表（10/30配信）"
+      "detail": "通常通り第3体育館で準備、8:30に教室へ移動して方針発表。教室名未発表。午後自主練可。",
+      "source": "11/2新チーム会議連絡・11〜12月予定表"
     },
     "2026-11-08": {
       "kind": "uncertain",
@@ -2968,16 +2972,17 @@ window.CLASSROOM_DATA = {
   },
   {
     "thread": "82回生",
-    "posted": "10/26",
+    "posted": "11/2",
     "id": "science-rulers-oct26",
     "cat": "no",
     "title": "理科1：三角定規2枚・分度器を準備",
     "subject": "理科",
     "poster": "松本珠希",
     "dateLabel": "中間テスト後〜期末テスト",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NzMyODE5NjQy",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3MDE4NDE2OTQy",
     "details": [
-      "中間テスト後から期末テストまで、毎授業で三角定規2枚と分度器が必要。手元にない人は購入しておく。"
+      "次回授業から分度器・三角定規2枚を持参。期末テストでも使用するため、持っていない人は購入。",
+      "しばらく割烹着・保護メガネは不要。"
     ]
   },
   {
@@ -3511,30 +3516,78 @@ window.CLASSROOM_DATA = {
     ]
   },
   {
-    "id": "loilo-science16-nov2",
-    "cat": "hw",
-    "subject": "理科1分野",
-    "title": "16チオ硫酸ナトリウムの融点",
-    "date": "2026-11-02",
-    "dateLabel": "11/2 20:00まで",
-    "thread": "ロイロ",
-    "poster": "",
+    "id": "library-nov2",
+    "title": "図書委員会：読書会について",
     "details": [
-      "ロイロノートで募集中。"
-    ]
+      "終礼後15:30から数学メディア。約30分の予定。"
+    ],
+    "date": "2026-11-02",
+    "dateLabel": "11/2 15:30〜約30分",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3MDI0NDYxNzY0",
+    "poster": "鈴木秀一"
   },
   {
-    "id": "loilo-debate-nov3",
-    "cat": "hw",
-    "subject": "国語ダブル",
-    "title": "マイクロディベート対戦記録シート",
-    "date": "2026-11-03",
-    "dateLabel": "11/3 8:30まで",
-    "thread": "ロイロ",
-    "poster": "",
+    "id": "math-redo-nov4",
+    "title": "方程式の利用：再試対象者のやり直し答案",
     "details": [
-      "ロイロノートで募集中。"
-    ]
+      "43点以下の再試対象者は11/4 20:00までにロイロへ提出。",
+      "44点以上55点未満は再試・課題なし。復習する。"
+    ],
+    "date": "2026-11-04",
+    "dateLabel": "11/4 20:00まで・再試対象者",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk2NzY1MTM0Njk4",
+    "poster": "森本奈央"
+  },
+  {
+    "id": "math-retest-nov5",
+    "title": "方程式の利用：再試・補習",
+    "details": [
+      "43点以下対象。11/5 8:10開始、3組はLL教室。遅刻厳禁。",
+      "不合格の場合は11/5放課後に補習・再々試。他の予定より優先し、11/6放課後にも続く。"
+    ],
+    "date": "2026-11-05",
+    "dateLabel": "11/5 8:10・LL教室",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk2NzY1MTM0Njk4",
+    "poster": "森本奈央"
+  },
+  {
+    "id": "english-words-answer-nov2",
+    "title": "2学期中間：英語単語テスト解答",
+    "details": [],
+    "dateLabel": "復習用資料",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODk2OTIwODQwNjA1/details",
+    "poster": "本木綾子"
+  },
+  {
+    "id": "bball-meeting-nov3",
+    "title": "バスケ：新チームミーティング",
+    "details": [
+      "通常通り体育館へ集合して準備。8:30に教室へ移動して方針発表。教室名は未発表。"
+    ],
+    "date": "2026-11-03",
+    "dateLabel": "11/3 8:30から",
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODk3MDMyMzI5NjA4",
+    "poster": "山本昂宏"
   }
 ]
 };
