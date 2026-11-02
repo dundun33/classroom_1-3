@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-02",
-  fetchCheckedTime: "09:29",
+  fetchCheckedTime: "18:59",
   updateISO: "2026-11-02",
-  updateTime: "17:06",
+  updateTime: "18:59",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
