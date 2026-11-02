@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-02",
-  fetchCheckedTime: "20:55",
-  updateISO: "2026-11-02",
-  updateTime: "20:56",
+  fetchCheckedISO: "2026-11-03",
+  fetchCheckedTime: "08:25",
+  updateISO: "2026-11-03",
+  updateTime: "08:26",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -2588,23 +2588,6 @@ window.CLASSROOM_DATA = {
     "hasLink": true
   },
   {
-    "id": "science-makeup-oct22",
-    "cat": "no",
-    "title": "理科1追実験：ろうの状態変化【再延期】",
-    "subject": "理科",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMDc1NzI1MDY0",
-    "details": [
-      "10/22→10/23から、さらに10/26へ延期。理科1の授業を欠席し、追実験を希望する人が対象。",
-      "当初案内の会場は理科A。最新連絡では会場変更の記載なし。"
-    ],
-    "date": "2026-10-26",
-    "dateLabel": "10/26(月) 昼",
-    "optional": true
-  },
-  {
     "id": "future-challenge-oct20",
     "cat": "hw",
     "title": "「ミライへの種まき」へチャレンジを報告",
@@ -2684,23 +2667,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkzNDczNDI1MTg1/details"
   },
   {
-    "id": "science-wine-oct26",
-    "cat": "no",
-    "title": "理科1追実験：赤ワイン【再延期】",
-    "subject": "理科",
-    "thread": "82回生",
-    "poster": "松本珠希",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMDc1NzI1MDY0",
-    "details": [
-      "10/22→10/23から、さらに10/26放課後へ延期。授業欠席者のうち追実験を希望する人が対象。",
-      "当初案内の会場は理科A。最新連絡では会場変更の記載なし。"
-    ],
-    "date": "2026-10-26",
-    "dateLabel": "10/26(月) 放課後",
-    "optional": true
-  },
-  {
     "id": "history-midterm-oct28",
     "cat": "no",
     "title": "歴史：中間テスト範囲・試験時間変更",
@@ -2732,38 +2698,6 @@ window.CLASSROOM_DATA = {
     ],
     "date": "2026-10-28",
     "dateLabel": "10/28(水) 中間テスト"
-  },
-  {
-    "id": "lost-property-oct26",
-    "cat": "no",
-    "title": "4階廊下の落とし物：理科メディアで保管",
-    "subject": "連絡",
-    "thread": "82回生",
-    "poster": "大越佳子",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk1NDM1NDUwMDM1",
-    "hasLink": true,
-    "details": [
-      "持ち主は月曜日に理科メディアへ取りに行く。"
-    ],
-    "date": "2026-10-26",
-    "dateLabel": "10/26(月)"
-  },
-  {
-    "id": "math-print2-first-oct26",
-    "cat": "hw",
-    "title": "授業プリント(2)：未提出者は初回提出",
-    "subject": "数学",
-    "thread": "数学",
-    "poster": "山口朋子",
-    "posted": "10/23",
-    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk1NDQzMTQ5OTI1",
-    "details": [
-      "比例反比例の授業プリント(2)。まだ一度も提出していない人は必ず月曜日に提出する。",
-      "合格期限は10/28最終下校時刻。再提出を見込み、早めに出す。"
-    ],
-    "date": "2026-10-26",
-    "dateLabel": "10/26(月) 初回提出"
   },
   {
     "id": "math-print2-pass-oct28",
