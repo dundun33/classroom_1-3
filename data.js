@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-02",
   fetchCheckedTime: "09:29",
   updateISO: "2026-11-02",
-  updateTime: "15:04",
+  updateTime: "17:06",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -968,7 +968,7 @@ window.CLASSROOM_DATA = {
       "始業式・終業式などの式典奏者を募集。クラシック音楽で5分以内ほどの曲が望ましい。",
       "ロイロノート（ヴァイオリン）の資料箱の案内を参考に音楽科へ応募。",
       "全員分の学年・組・番号・氏名、作曲者と作品名（作品番号・調性・楽章）、編成、演奏時間を伝える。",
-      "オーディションは11/11昼休み、声楽器楽室。詳細は後日Classroom配信。"
+      "オーディションは11/11 12:45開始、声楽器楽室。昼食後に集合し、音鳴らしをして待つ。学年順に実施。"
     ],
     "cat": "no",
     "subject": "音楽",
@@ -1110,17 +1110,18 @@ window.CLASSROOM_DATA = {
     "id": "sogaku-audition-nov11",
     "title": "式典の奏楽オーディション",
     "date": "2026-11-11",
-    "dateLabel": "11/11 (水) 昼休み",
+    "dateLabel": "11/11 (水) 12:45開始",
     "details": [
-      "声楽器楽室で実施。応募締切は11/5へ延長。詳細は後日Classroom配信。"
+      "受験申込済みの生徒は、昼食後に声楽器楽室へ集合。12:45開始。",
+      "学年順に実施。音鳴らしをして待つ。応募締切は11/5。"
     ],
     "cat": "no",
     "subject": "音楽",
     "thread": "82回生",
-    "posted": "10/30",
+    "posted": "11/2",
     "optional": true,
     "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk2NzQyMjYwNzU3"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDg0MjQ0NDk2"
   },
   {
     "cat": "no",
@@ -3588,6 +3589,49 @@ window.CLASSROOM_DATA = {
     "posted": "11/2",
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODk3MDMyMzI5NjA4",
     "poster": "山本昂宏"
+  },
+  {
+    "id": "math-proportion-more-nov2",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "11/2",
+    "title": "比例反比例の利用：もっと（1）",
+    "dateLabel": "復習用資料",
+    "details": [
+      "問題と解答のPDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MDQzMjU0MDIx/details"
+  },
+  {
+    "id": "math-proportion-notes-nov2",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "11/2",
+    "title": "比例反比例の利用：完成ノート解答",
+    "dateLabel": "復習用資料",
+    "details": [
+      "抜粋プリントと完成ノートの解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MDQzNjAzOTc1/details"
+  },
+  {
+    "id": "mail-QB2CMC8c71",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/2",
+    "title": "中高一体化・一貫化：FAQを11月末までに更新予定",
+    "dateLabel": "11月末までに更新予定",
+    "details": [
+      "説明動画のアンケート回答への御礼。寄せられた意見・質問を参考にFAQを更新予定。"
+    ],
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QB2CMC8c71"
   }
 ]
 };
