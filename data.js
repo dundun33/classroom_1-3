@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-01",
-  fetchCheckedTime: "19:18",
-  updateISO: "2026-11-01",
-  updateTime: "19:19",
+  fetchCheckedISO: "2026-11-02",
+  fetchCheckedTime: "09:29",
+  updateISO: "2026-11-02",
+  updateTime: "09:29",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -901,25 +901,6 @@ window.CLASSROOM_DATA = {
     ],
     "poster": "押切衣舞",
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkyNTMxNTczOTQx"
-  },
-  {
-    "id": "noh-apply-oct25",
-    "title": "能楽鑑賞会の申込み",
-    "date": "2026-10-25",
-    "dateLabel": "10/25 (日) 申込締切【希望者】",
-    "details": [
-      "2027/1/16開催分。メール内の申込フォームから申し込む。",
-      "1人2,000円。定員超過時は抽選。"
-    ],
-    "cat": "no",
-    "subject": "学校",
-    "thread": "",
-    "posted": "10/15",
-    "optional": true,
-    "poster": "保護者向けメール",
-    "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
   },
   {
     "id": "midterm-oct28",
@@ -2535,22 +2516,6 @@ window.CLASSROOM_DATA = {
     "details": []
   },
   {
-    "id": "bball-rookie-oct25",
-    "cat": "no",
-    "title": "新人大会2回戦：1回戦敗退により出場なし",
-    "subject": "部活",
-    "thread": "バスケ",
-    "poster": "押切衣舞",
-    "posted": "10/24",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODc0MzE1MDUyNTMz",
-    "details": [
-      "10/24の結果連絡で1回戦敗退が判明したため、2回戦の出場予定を取り下げ。",
-      "当初の集合・対戦予定は無効。別の活動予定は発表されていない。"
-    ],
-    "date": "2026-10-25",
-    "dateLabel": "10/25(日) 出場なし"
-  },
-  {
     "id": "mail-QAJENwHOVQ",
     "cat": "no",
     "subject": "学校から",
@@ -3450,6 +3415,83 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAUG6knBnr",
     "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QAUG6jEuYO"
+  },
+  {
+    "id": "english-past-nov10",
+    "cat": "no",
+    "subject": "英語",
+    "title": "過去形不規則動詞テスト：be〜get",
+    "date": "2026-11-10",
+    "dateLabel": "11/10",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODk2OTE4Mzk3MTk1/details",
+    "details": [
+      "Keyワークp.192。原形・過去形・意味を確認。範囲はbe〜get。"
+    ]
+  },
+  {
+    "id": "english-past-nov11",
+    "cat": "no",
+    "subject": "英語",
+    "title": "過去形不規則動詞テスト：go〜say",
+    "date": "2026-11-11",
+    "dateLabel": "11/11",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODk2OTE4Mzk3MTk1/details",
+    "details": [
+      "Keyワークp.192。原形・過去形・意味を確認。範囲はgo〜say。"
+    ]
+  },
+  {
+    "id": "english-past-nov17",
+    "cat": "no",
+    "subject": "英語",
+    "title": "過去形不規則動詞テスト：see〜write",
+    "date": "2026-11-17",
+    "dateLabel": "11/17（曜日表記要確認）",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODk2OTE4Mzk3MTk1/details",
+    "details": [
+      "Keyワークp.192。原形・過去形・意味を確認。範囲はsee〜write。",
+      "原資料は11/17（月）と記載。2026年11/17は火曜日のため、日付・曜日を先生に確認。"
+    ]
+  },
+  {
+    "id": "english-past-nov26",
+    "cat": "no",
+    "subject": "英語",
+    "title": "過去形不規則動詞テスト：全範囲",
+    "date": "2026-11-26",
+    "dateLabel": "11/26",
+    "thread": "英語",
+    "poster": "本木綾子",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODk2OTE4Mzk3MTk1/details",
+    "details": [
+      "Keyワークp.192。原形・過去形・意味を確認。範囲は全範囲。"
+    ]
+  },
+  {
+    "id": "somu-help-nov2",
+    "cat": "no",
+    "optional": true,
+    "subject": "委員会",
+    "title": "総務：11月の立ち番準備・アンケート集計の協力募集",
+    "date": "2026-11-02",
+    "dateLabel": "11/2 終礼・清掃後",
+    "details": [
+      "協力できる人は終礼・清掃後に自治会室へ。11月の立ち番準備とアンケート集計を手伝う。"
+    ],
+    "thread": "総務",
+    "poster": "山本昂宏",
+    "posted": "11/2",
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk3MDA2NTAyNDQ3"
   }
 ]
 };
