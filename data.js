@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-03",
-  fetchCheckedTime: "08:25",
+  fetchCheckedTime: "08:29",
   updateISO: "2026-11-03",
-  updateTime: "08:26",
+  updateTime: "08:30",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -3566,6 +3566,19 @@ window.CLASSROOM_DATA = {
     ],
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QB2CMC8c71"
+  },
+  {
+    "id": "loilo-math-redo-nov4",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "ロイロ",
+    "poster": "",
+    "title": "【再試対象者のみ提出】方程式の利用 やり直し課題",
+    "date": "2026-11-04",
+    "dateLabel": "11/4 (水) 20:00",
+    "details": [
+      "ロイロで募集中。43点以下の再試対象者のみ提出。"
+    ]
   }
 ]
 };
