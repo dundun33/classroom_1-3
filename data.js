@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-03",
-  fetchCheckedTime: "11:00",
+  fetchCheckedTime: "15:06",
   updateISO: "2026-11-03",
-  updateTime: "11:00",
+  updateTime: "15:45",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -85,7 +85,7 @@ window.CLASSROOM_DATA = {
         "s": "理",
         "t": "松本",
         "r": "理科D",
-        "mk": "分度器・三角定規2枚",
+        "mk": "分度器・三角定規2枚／参観は30分後",
         "ref": "science-rulers-oct26"
       },
       {
@@ -109,7 +109,9 @@ window.CLASSROOM_DATA = {
       {
         "s": "国",
         "t": "鈴木",
-        "r": "HR"
+        "r": "HR",
+        "mk": "参観不可",
+        "ref": "mail-QB3B7DT2f2"
       },
       {
         "s": "家",
@@ -137,7 +139,9 @@ window.CLASSROOM_DATA = {
       {
         "s": "数",
         "t": "山口",
-        "r": "HR"
+        "r": "HR",
+        "mk": "参観は10分後",
+        "ref": "mail-QB3B7DT2f2"
       },
       null
     ],
@@ -159,7 +163,8 @@ window.CLASSROOM_DATA = {
         "t": "",
         "r": "",
         "rs": 2,
-        "ref": "timetable-nov2"
+        "ref": "mail-QB3B7DT2f2",
+        "mk": "保護者観劇500円"
       },
       {
         "s": "社",
@@ -3122,7 +3127,8 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/5(木)〜11/11(水)",
     "details": [
       "授業中の様子・勉強の進め方・授業の聞き方を参観し、家庭でも話し合う。",
-      "参観後はGoogleフォームのアンケートで感想を寄せる。具体的な受付時間は本資料に記載なし。"
+      "参観後はGoogleフォームのアンケートで感想を寄せる。具体的な受付時間は本資料に記載なし。",
+      "11/3配信の変更済み時間割と参観不可時間は「授業参観週間：変更済み時間割」の連絡を参照。"
     ]
   },
   {
@@ -3566,6 +3572,28 @@ window.CLASSROOM_DATA = {
     ],
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QB2CMC8c71"
+  },
+  {
+    "id": "mail-QB3B7DT2f2",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/3",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QB3B7DT2f2",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QB3B7CGAlL",
+    "title": "授業参観週間：変更済み時間割・英語劇の保護者観劇",
+    "date": "2026-11-11",
+    "dateLabel": "11/5(木)〜11/11(水)",
+    "details": [
+      "11/5の5・6限はオーストラリアの劇団による英語劇。観劇希望の保護者は当日現金500円を用意（なるべく釣銭なし）。",
+      "3組の11/5：2限理科は前半30分、3限国語は全時間、4限数学は前半10分がテスト返却のため参観不可。",
+      "11/6の3組：1限英会話は1〜20番がLL、21〜42番が400。6限数学は1〜21番が数学メディア、22〜42番がHR。",
+      "11/9の3組は1限数学・2限社会・3限音楽・4限国語W・5限英語・6限体育。2限社会は前半25分、6限水泳実技テストは参観不可。英語は1〜21番がHR以外、22〜42番がHR。",
+      "11/10の3組は1限道徳・2限理科・3限国語・4限社会・5限体育・6限英語。3限国語は全時間、4限社会は前半25分が参観不可。",
+      "11/11の3組は1限理科・2限英語・3限数学・4限音楽・5〜6限美術。"
+    ]
   }
 ]
 };
