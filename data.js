@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-03",
-  fetchCheckedTime: "19:16",
-  updateISO: "2026-11-03",
-  updateTime: "19:16",
+  fetchCheckedISO: "2026-11-04",
+  fetchCheckedTime: "16:27",
+  updateISO: "2026-11-04",
+  updateTime: "16:28",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -163,8 +163,8 @@ window.CLASSROOM_DATA = {
         "t": "",
         "r": "",
         "rs": 2,
-        "ref": "mail-QB3B7DT2f2",
-        "mk": "保護者観劇500円"
+        "ref": "english-play-nov5",
+        "mk": "出演者12:45／他は13:00整列"
       },
       {
         "s": "社",
@@ -3594,6 +3594,39 @@ window.CLASSROOM_DATA = {
       "11/10の3組は1限道徳・2限理科・3限国語・4限社会・5限体育・6限英語。3限国語は全時間、4限社会は前半25分が参観不可。",
       "11/11の3組は1限理科・2限英語・3限数学・4限音楽・5〜6限美術。"
     ]
+  },
+  {
+    "id": "english-play-nov5",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "本木綾子",
+    "posted": "11/4",
+    "title": "英語劇鑑賞：集合時刻と準備",
+    "date": "2026-11-05",
+    "dateLabel": "11/5(木) 5・6限",
+    "details": [
+      "出演者は12:45に大ホールへ集合。",
+      "それ以外は13:00に教室前で名簿順に並び、大ホールへ移動開始。",
+      "英語で質問を考えてくる。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3NTAyNzE1NzIy"
+  },
+  {
+    "id": "shop-nov2026",
+    "cat": "no",
+    "subject": "全体",
+    "thread": "82回生",
+    "poster": "宮地潤子",
+    "posted": "11/4",
+    "title": "実業部開室日程（11月）",
+    "date": "2026-11-30",
+    "dateLabel": "11月の開室日程",
+    "details": [
+      "開室日は11/4・6・9・11・13・16・18・20・25・27・30、いずれも8:30〜13:30。",
+      "通学靴（牛革ローファー）の見本あり。商品の交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk3MDY3NjU0NzA5/details"
   }
 ]
 };
