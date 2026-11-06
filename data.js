@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-04",
-  fetchCheckedTime: "17:03",
-  updateISO: "2026-11-04",
-  updateTime: "17:04",
+  fetchCheckedISO: "2026-11-06",
+  fetchCheckedTime: "13:12",
+  updateISO: "2026-11-06",
+  updateTime: "13:12",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -3627,6 +3627,66 @@ window.CLASSROOM_DATA = {
       "通学靴（牛革ローファー）の見本あり。商品の交換は事前連絡のうえ、購入時の状態・レシート付きで7営業日以内に持参。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk3MDY3NjU0NzA5/details"
+  },
+  {
+    "id": "bibliotalk-nov9",
+    "cat": "no",
+    "subject": "図書",
+    "thread": "82回生",
+    "poster": "久保文香",
+    "posted": "11/5",
+    "optional": true,
+    "title": "ビブリオトーク：参加者募集",
+    "date": "2026-11-09",
+    "dateLabel": "11/9(月) 放課後",
+    "details": [
+      "聞くだけの参加は出入り自由。",
+      "参加希望のフォーム回答は投稿時点で11/5を目安として案内。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3Nzc5MzE0MTQy"
+  },
+  {
+    "id": "japanese-opinion-essay-nov5",
+    "cat": "hw",
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "11/5",
+    "optional": true,
+    "title": "200字意見分④：添削希望者の提出",
+    "dateLabel": "次回の国語授業まで・希望者",
+    "details": [
+      "200字意見分④は自由課題。添削を希望する場合は国語科研究室のトレイへ提出。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3Nzc2MzEwNzc2"
+  },
+  {
+    "id": "math-proportion-more-2-nov6",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "11/6",
+    "title": "比例反比例の利用：もっと（2）",
+    "dateLabel": "復習用資料",
+    "details": [
+      "問題と解答のPDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk4MDEwNDQ4MDIx/details"
+  },
+  {
+    "id": "math-proportion-more-3-nov6",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "11/6",
+    "title": "比例反比例の利用：もっと（3）",
+    "dateLabel": "復習用資料",
+    "details": [
+      "問題と解答のPDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODgzMjkwMDQzMDcy/details"
   }
 ]
 };
