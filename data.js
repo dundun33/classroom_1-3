@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-06",
   fetchCheckedTime: "13:12",
   updateISO: "2026-11-06",
-  updateTime: "13:12",
+  updateTime: "13:36",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -3687,6 +3687,24 @@ window.CLASSROOM_DATA = {
       "問題と解答のPDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODgzMjkwMDQzMDcy/details"
+  },
+  {
+    "id": "mail-QB6CrV4Njg",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/6",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QB6CrV4Njg",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QB6CrVt6YE",
+    "title": "冬用コート在庫：第2報",
+    "dateLabel": "11/5時点",
+    "details": [
+      "11/4の案内後も注文があり、欠品・在庫僅少の商品が増加。現在生産中の商品は12月中旬の納品見込み。",
+      "Pコート（B）はS・M・LLが在庫僅少、Lは在庫なし。ダッフルコートはS・LLが在庫僅少、Lは在庫なし。",
+      "購入前に実業部へ必ず問い合わせ。掲載外の商品も在庫僅少となる場合があります。"
+    ]
   }
 ]
 };
