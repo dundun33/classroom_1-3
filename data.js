@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-06",
   fetchCheckedTime: "13:12",
   updateISO: "2026-11-06",
-  updateTime: "13:36",
+  updateTime: "13:37",
   timetable: {
   "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
   "days": [
@@ -1184,25 +1184,24 @@ window.CLASSROOM_DATA = {
   },
   {
     "id": "mail-QAFGSt99fG",
-    "title": "第49回 能楽鑑賞会",
+    "title": "第49回 能楽鑑賞会：二次募集",
     "date": "2027-01-16",
     "dateLabel": "2027/1/16 (土) 14:00開演",
     "details": [
       "国立能楽堂。13:00開場、14:00開演、16:10終演予定。能「葵上」、狂言「棒縛」。",
       "1・2年生は希望者参加。家族・友人も参加可。本校中学生は標準服着用。",
-      "1人2,000円、納入後は返金不可。申込みは10/15〜25、定員超過時は抽選。",
-      "支払い・チケットは案内可能な方に11月下旬頃メール連絡。",
-      "学校閉鎖で配れなかった印刷物は10/19終礼に配布予定。"
+      "1人2,000円、納入後は返金不可。二次申込みは11/2〜13で、定員超過時は抽選。",
+      "支払い・チケットは参加可能な方へ11月中旬頃メールで連絡。"
     ],
     "cat": "no",
     "subject": "学校",
     "thread": "",
-    "posted": "10/15",
+    "posted": "11/2",
     "optional": true,
     "poster": "保護者向けメール",
     "mail": true,
-    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAFGSt99fG",
-    "mailUrl": "https://object-storage.tyo2.conoha.io/v1/nc_8bd5c69d2f434c1eb45a209a9092bdeb/y-line-jwu-j-net/QAFGStaN26"
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QAUDsjGPXL",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QAUDsiHvEn"
   },
   {
     "id": "gika-sakurabo-sep18",
