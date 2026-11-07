@@ -5,187 +5,81 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-06",
-  fetchCheckedTime: "13:12",
-  updateISO: "2026-11-06",
-  updateTime: "13:37",
+  fetchCheckedISO: "2026-11-07",
+  fetchCheckedTime: "18:07",
+  updateISO: "2026-11-07",
+  updateTime: "18:07",
   timetable: {
-  "label": "11/2(月)〜11/6(金)｜11/3文化の日・11/5午後は英語劇",
+  "label": "11/9(月)〜11/13(金)",
   "days": [
     {
       "n": "月",
-      "md": "11/2",
-      "iso": "2026-11-02"
+      "md": "11/9",
+      "iso": "2026-11-09"
     },
     {
       "n": "火",
-      "md": "11/3",
-      "iso": "2026-11-03"
+      "md": "11/10",
+      "iso": "2026-11-10"
     },
     {
       "n": "水",
-      "md": "11/4",
-      "iso": "2026-11-04"
+      "md": "11/11",
+      "iso": "2026-11-11"
     },
     {
       "n": "木",
-      "md": "11/5",
-      "iso": "2026-11-05"
+      "md": "11/12",
+      "iso": "2026-11-12"
     },
     {
       "n": "金",
-      "md": "11/6",
-      "iso": "2026-11-06"
+      "md": "11/13",
+      "iso": "2026-11-13"
     }
   ],
   "rows": [
     [
-      {
-        "s": "数",
-        "t": "森本",
-        "r": "HR"
-      },
-      {
-        "s": "文化の日",
-        "t": "",
-        "r": "",
-        "rs": 6
-      },
-      {
-        "s": "理",
-        "t": "大越・小山",
-        "r": "理科A/B"
-      },
-      {
-        "s": "体",
-        "t": "石井",
-        "r": "二体",
-        "mk": "再試対象者は授業前8:10 LL",
-        "ref": "math-retest-nov5"
-      },
-      {
-        "s": "英",
-        "t": "コリンズ・マオ",
-        "r": "LL/400"
-      }
+      { "s": "数" },
+      { "s": "道徳" },
+      { "s": "理" },
+      { "s": "国" },
+      { "s": "数" }
     ],
     [
-      {
-        "s": "社",
-        "t": "宮崎",
-        "r": "HR"
-      },
-      null,
-      {
-        "s": "英",
-        "t": "本木",
-        "r": "HR"
-      },
-      {
-        "s": "理",
-        "t": "松本",
-        "r": "理科D",
-        "mk": "分度器・三角定規2枚／参観は30分後",
-        "ref": "science-rulers-oct26"
-      },
-      {
-        "s": "国",
-        "t": "秦野",
-        "r": "HR"
-      }
+      { "s": "社" },
+      { "s": "理" },
+      { "s": "英" },
+      { "s": "体" },
+      { "s": "国" }
     ],
     [
-      {
-        "s": "音",
-        "t": "阿佐美",
-        "r": "声楽"
-      },
-      null,
-      {
-        "s": "数",
-        "t": "山口",
-        "r": "HR"
-      },
-      {
-        "s": "国",
-        "t": "鈴木",
-        "r": "HR",
-        "mk": "参観不可",
-        "ref": "mail-QB3B7DT2f2"
-      },
-      {
-        "s": "家",
-        "t": "菊池",
-        "r": "図書室",
-        "rs": 2,
-        "mk": "iPad・No.3プリント等",
-        "ref": "home-nov6"
-      }
+      { "s": "音" },
+      { "s": "国" },
+      { "s": "数" },
+      { "s": "英" },
+      { "s": "家" }
     ],
     [
-      {
-        "s": "国W／マイクロディベート",
-        "t": "秋山・西出",
-        "r": "HR",
-        "mk": "移動なし・5分前着席",
-        "ref": "kokugo-debate-nov2026"
-      },
-      null,
-      {
-        "s": "音",
-        "t": "矢沢",
-        "r": "声楽器楽"
-      },
-      {
-        "s": "数",
-        "t": "山口",
-        "r": "HR",
-        "mk": "参観は10分後",
-        "ref": "mail-QB3B7DT2f2"
-      },
-      null
+      { "s": "国W" },
+      { "s": "社" },
+      { "s": "音" },
+      { "s": "数" },
+      { "s": "家" }
     ],
     [
-      {
-        "s": "英",
-        "t": "平岡・本木",
-        "r": "HR/402"
-      },
-      null,
-      {
-        "s": "美",
-        "t": "芝",
-        "r": "美術室",
-        "rs": 2
-      },
-      {
-        "s": "英語劇公演",
-        "t": "",
-        "r": "",
-        "rs": 2,
-        "ref": "english-play-nov5",
-        "mk": "出演者12:45／他は13:00整列"
-      },
-      {
-        "s": "社",
-        "t": "平野",
-        "r": "HR"
-      }
+      { "s": "英" },
+      { "s": "体" },
+      { "s": "美", "rs": 2 },
+      { "s": "理" },
+      { "s": "社" }
     ],
     [
-      {
-        "s": "体",
-        "t": "石井",
-        "r": "HR"
-      },
+      { "s": "体" },
+      { "s": "英" },
       null,
-      null,
-      null,
-      {
-        "s": "数",
-        "t": "森本・山口",
-        "r": "HR/数メ"
-      }
+      { "s": "理" },
+      { "s": "数" }
     ]
   ]
 },
@@ -3704,6 +3598,144 @@ window.CLASSROOM_DATA = {
       "Pコート（B）はS・M・LLが在庫僅少、Lは在庫なし。ダッフルコートはS・LLが在庫僅少、Lは在庫なし。",
       "購入前に実業部へ必ず問い合わせ。掲載外の商品も在庫僅少となる場合があります。"
     ]
+  },
+  {
+    "id": "math-makeup-nov10",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "82回生",
+    "poster": "松本",
+    "posted": "11/6",
+    "optional": true,
+    "title": "数学テスト未受験者：受験案内",
+    "date": "2026-11-10",
+    "dateLabel": "11/10(火) 昼休み・該当者",
+    "details": [
+      "未受験者は昼食後に体操服へ着替え、第2体育館へ集合。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4MDIxNDE1ODI3"
+  },
+  {
+    "id": "finland-exchange-jan15",
+    "cat": "no",
+    "subject": "国際交流",
+    "thread": "82回生",
+    "poster": "82回生",
+    "posted": "11/6",
+    "optional": true,
+    "title": "日本・フィンランド オンライン文化交流会：参加募集",
+    "date": "2027-01-15",
+    "dateLabel": "1/15(金) 放課後｜申込 11/20まで・先着20名",
+    "details": [
+      "Googleフォームで11/20(金)までに申し込む。先着20名。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMjY5MDgwNDQ1"
+  },
+  {
+    "id": "sailor-sales-nov10",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "82回生",
+    "posted": "11/6",
+    "optional": true,
+    "title": "セーラー服：出張販売",
+    "date": "2026-11-10",
+    "dateLabel": "11/10(火) 放課後",
+    "details": [
+      "学校事務室前中央の小会議室で実施。必要な人は利用する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMjkxMjg1NDEy"
+  },
+  {
+    "id": "representatives-nov11",
+    "cat": "no",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "82回生",
+    "posted": "11/6",
+    "optional": true,
+    "title": "代表委員会",
+    "date": "2026-11-11",
+    "dateLabel": "11/11(水) 放課後・代表委員",
+    "details": [
+      "代表委員は欠席しないよう案内。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3OTk2NTQ0NjUy"
+  },
+  {
+    "id": "family-web-card-nov13",
+    "cat": "hw",
+    "subject": "家庭科",
+    "thread": "82回生",
+    "poster": "82回生",
+    "posted": "11/6",
+    "title": "家庭科：webカード提出",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金)まで",
+    "details": [
+      "「出典ワークシート」と自分で調べたwebカードを、ロイロの「情報No.4→webカード(個人)」へ提出。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4MDE0OTQ3ODY5"
+  },
+  {
+    "id": "math-proportion-print1-nov6",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "山口朋子",
+    "posted": "11/6",
+    "title": "比例反比例の利用：授業プリント（1）",
+    "dateLabel": "授業用資料",
+    "details": [
+      "問題プリントを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk4MDA5MTYwNDQw/details"
+  },
+  {
+    "id": "math-quiz-nov12",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/6",
+    "title": "比例反比例の利用：小テスト",
+    "date": "2026-11-12",
+    "dateLabel": "11/12(木)",
+    "details": [
+      "範囲：教科書pp.148〜152・282〜283、完成ノートpp.73〜82、授業プリント（1）、もっと（1）〜（3）。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk3ODEzMDE3MTAw"
+  },
+  {
+    "id": "english-oc-listening-unit3-nov6",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "英語",
+    "posted": "11/6",
+    "title": "OC Class Unit 3：Listening Practice",
+    "dateLabel": "家庭学習用資料",
+    "details": [
+      "p.29のListening Practiceは自宅でも音声を聞き、スクリプトを確認できる。"
+    ],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODk3NzY5MzIwODc4"
+  },
+  {
+    "id": "somu-volunteer-nov10",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "総務",
+    "poster": "菊池菜々世",
+    "posted": "11/6",
+    "optional": true,
+    "title": "みのりの家：ボランティア企画",
+    "date": "2026-11-10",
+    "dateLabel": "11/10(火) 放課後・希望者",
+    "details": [
+      "自治会室で企画を行う。詳細は総務から説明。"
+    ],
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODgzMjkxMDMwNDE5"
   }
 ]
 };
