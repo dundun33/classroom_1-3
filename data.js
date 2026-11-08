@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-07",
-  fetchCheckedTime: "22:19",
-  updateISO: "2026-11-07",
-  updateTime: "22:19",
+  fetchCheckedISO: "2026-11-08",
+  fetchCheckedTime: "09:48",
+  updateISO: "2026-11-08",
+  updateTime: "09:48",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
