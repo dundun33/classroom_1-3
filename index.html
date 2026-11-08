@@ -29,7 +29,8 @@
   .today .big{font-family:"Zen Maru Gothic",sans-serif;font-size:18px;font-weight:700;color:var(--accent)}
   .updated{font-size:12px;color:var(--ink-soft)}
 
-  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto;align-items:center}
+  .controls-label{font-size:12.5px;font-weight:700;color:var(--ink-soft)}
   .toggle{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-soft);
     background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;user-select:none}
   .toggle input{accent-color:var(--accent);width:15px;height:15px;margin:0}
@@ -121,6 +122,29 @@
 dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:calc(100% - 32px);padding:24px;color:var(--ink);box-shadow:0 20px 80px #1b2a4a33}dialog::backdrop{background:#1b2a4a66}dialog h3{margin:0 0 12px}dialog p{font-size:14px;line-height:1.8}dialog button{border:1px solid var(--line);border-radius:8px;padding:8px 20px;background:var(--head-soft);color:var(--ink);font:inherit}button:focus-visible,select:focus-visible{outline:3px solid #9caccb;outline-offset:3px}
 @media(max-width:640px){.club-grid{display:block}.club-day{display:grid;grid-template-columns:66px 1fr;gap:0 10px;min-height:0;padding:8px 14px;border:0;border-bottom:1px solid var(--line)}.club-day:last-child{border-bottom:0}.club-date{display:block;margin:0;font-size:12px}.club-date span{display:inline}.club-day h3{font-size:14px}.club-badge{margin-bottom:4px}.club-nav{width:100%}.club-nav select{flex:1}.club-head{gap:10px}.club-small{font-size:12px}.club-summary{font-size:11px}.club-foot{line-height:1.8}}
 
+/* iPhoneでは横スクロール表を、内容がすべて見えるカード一覧に切り替える */
+@media(max-width:640px){
+  .topbar{align-items:flex-start}.controls{margin-left:0;gap:6px}.controls-label{width:100%;margin:2px 0 -1px}
+  .toggle{font-size:12px;padding:5px 10px;gap:5px}.toggle input{width:14px;height:14px}
+  .tbl-wrap{overflow-x:hidden}
+  .tbl-wrap table{display:block;min-width:0;width:100%}
+  .tbl-wrap thead{display:none}
+  .tbl-wrap tbody{display:block}
+  .tbl-wrap tbody tr{display:grid;grid-template-columns:42px minmax(0,1fr);padding:14px 12px 14px 7px;border-left-width:5px}
+  .tbl-wrap tbody td{display:block;border:0;padding:0;min-width:0;font-size:14px}
+  .tbl-wrap tbody .c-chk{grid-column:1;grid-row:1 / span 3;padding-top:3px}
+  .tbl-wrap tbody .c-date{grid-column:2;grid-row:1;white-space:normal;font-size:16px;line-height:1.45}
+  .tbl-wrap tbody .todo{grid-column:2;grid-row:2;margin-top:9px}
+  .tbl-wrap tbody .todo b{font-size:15px;line-height:1.55}
+  .tbl-wrap tbody .todo li{font-size:13px;line-height:1.55}
+  .tbl-wrap tbody .c-thread{grid-column:2;grid-row:3;margin-top:9px;white-space:normal;font-size:12px}
+  .tbl-wrap tbody .c-thread .c-postline{display:inline;margin:0 0 0 7px;font-size:11px;white-space:normal}
+  .tbl-wrap tbody .c-thread .c-newline{display:inline;margin:0 0 0 6px}
+  .tbl-wrap tbody .c-date .c-subline{display:inline-block;margin:0 0 0 7px}
+  .tbl-wrap tbody .countdown{margin-top:5px}
+  .dlink,.mailbadge,.mlink{margin:5px 5px 0 0}
+}
+
 /* 小さい画面でも7日分を横並びで確認する */
 @media(max-width:640px){
   .club-panel{overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -141,12 +165,13 @@ dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:cal
         <span class="updated" id="updateLabel"></span>
       </div>
       <div class="controls">
-        <label class="toggle"><input type="checkbox" id="hideDone"> 完了を隠す</label>
-        <label class="toggle"><input type="checkbox" id="hidePast"> 過去を隠す</label>
-        <label class="toggle"><input type="checkbox" id="hideOpt"> 希望者を隠す</label>
-        <label class="toggle"><input type="checkbox" id="hideClub"> 部活を隠す</label>
-        <label class="toggle"><input type="checkbox" id="hideLoilo"> ロイロを隠す</label>
-        <label class="toggle"><input type="checkbox" id="hideMail"> 保護者向けを隠す</label>
+        <span class="controls-label">隠す</span>
+        <label class="toggle"><input type="checkbox" id="hideDone"> 完了</label>
+        <label class="toggle"><input type="checkbox" id="hidePast"> 過去</label>
+        <label class="toggle"><input type="checkbox" id="hideOpt"> 希望者</label>
+        <label class="toggle"><input type="checkbox" id="hideClub"> 部活</label>
+        <label class="toggle"><input type="checkbox" id="hideLoilo"> ロイロ</label>
+        <label class="toggle"><input type="checkbox" id="hideMail"> 保護者向け</label>
       </div>
     </div>
   </header>
