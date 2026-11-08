@@ -124,7 +124,7 @@ dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:cal
 
 /* iPhoneでは横スクロール表を、内容がすべて見えるカード一覧に切り替える */
 @media(max-width:640px){
-  .topbar{align-items:flex-start}.controls{margin-left:0;gap:6px}.controls-label{width:100%;margin:2px 0 -1px}
+  .topbar{align-items:flex-start}.controls{margin-left:0;gap:6px}.controls-label{margin:0}
   .toggle{font-size:12px;padding:5px 10px;gap:5px}.toggle input{width:14px;height:14px}
   .tbl-wrap{overflow-x:hidden}
   .tbl-wrap table{display:block;min-width:0;width:100%}
@@ -145,13 +145,14 @@ dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:cal
   .dlink,.mailbadge,.mlink{margin:5px 5px 0 0}
 }
 
-/* 小さい画面でも7日分を横並びで確認する */
+/* iPhoneでは時間割と同じ、横並びの週予定表にする */
 @media(max-width:640px){
   .club-panel{overflow-x:auto;-webkit-overflow-scrolling:touch}
-  .club-grid{display:grid;grid-template-columns:repeat(7,minmax(125px,1fr));min-width:875px}
-  .club-day{display:block;min-height:110px;padding:10px 10px 12px;border-bottom:0;border-right:1px solid var(--line)}
+  .club-grid{display:grid;grid-template-columns:repeat(7,minmax(110px,1fr));min-width:770px}
+  .club-day{display:block;min-height:110px;padding:10px;border-bottom:0;border-right:1px solid var(--line)}
   .club-day:last-child{border-right:0}
-  .club-date{display:flex;justify-content:space-between;margin-bottom:10px}
+  .club-date{display:flex;flex-direction:column;justify-content:flex-start;gap:0;margin:0 0 10px;font-size:12px;line-height:1.45}
+  .club-date .club-weekday{font-size:13px}
   .club-day h3{font-size:13px}
 }
 </style>
@@ -183,8 +184,8 @@ dialog{border:1px solid var(--line);border-radius:16px;max-width:460px;width:cal
 
 
   <section id="sec-club" aria-labelledby="club-title">
-    <div class="club-head"><div><h2 id="club-title">🏀 バスケ予定</h2></div>
-    <nav class="club-nav" aria-label="バスケの表示週"><button id="club-prev" aria-label="前の週">‹</button><select id="club-weeks" aria-label="表示する週"></select><button id="club-next" aria-label="次の週">›</button><button id="club-home">時間割と同じ週</button></nav></div>
+    <div class="club-head"><div><h2 id="club-title">🏀 バスケ</h2></div>
+    <nav class="club-nav" aria-label="バスケの表示週"><button id="club-prev" aria-label="前の週">‹</button><select id="club-weeks" aria-label="表示する週"></select><button id="club-next" aria-label="次の週">›</button></nav></div>
     <div class="club-panel"><div class="club-grid" id="club-grid" aria-live="polite"></div></div>
 
   </section>
@@ -351,8 +352,7 @@ clubStart.setDate(clubStart.getDate()-(clubStart.getDay()+6)%7);
 const clubEnd=pd(DATA.basketball?.end || DATA.updateISO);
 for(let d=new Date(clubStart);d<=clubEnd;d.setDate(d.getDate()+7))clubWeeks.push(new Date(d));
 const schoolWeek=pd(DATA.timetable?.days?.[0]?.iso || DATA.updateISO);
-const clubHome=Math.max(0,Math.min(clubWeeks.length-1,Math.floor((schoolWeek-clubStart)/604800000)));
-let clubIndex=clubHome;
+let clubIndex=Math.max(0,Math.min(clubWeeks.length-1,Math.floor((schoolWeek-clubStart)/604800000)));
 const isoDate=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 const shortDate=d=>`${d.getMonth()+1}/${d.getDate()}`;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -365,11 +365,11 @@ function renderClub(){
  let html='',special=0,uncertain=0;
  for(let j=0;j<7;j++){let d=new Date(clubWeeks[clubIndex]);d.setDate(d.getDate()+j);const iso=isoDate(d),e=CLUB_EVENTS[iso];if(e?.kind==='match')special++;if(e?.kind==='uncertain')uncertain++;
  const outside=iso<'2026-09-01'||iso>'2026-10-31';
- html+=`<article class="club-day ${j>4?'weekend ':''}${e?.kind||''}"><div class="club-date"><span>${shortDate(d)}</span><span>（${WD[d.getDay()]}）</span></div><div>${e?`<span class="club-badge">${badges[e.kind]}</span><h3>${esc(e.title)}</h3>${e.time && e.time!=='時間記載なし'?`<p class="club-time">${esc(e.time)}</p>`:''}${e.place?`<p class="club-place">${esc(e.place)}</p>`:''}`:''}</div></article>`;
+ html+=`<article class="club-day ${j>4?'weekend ':''}${e?.kind||''}"><div class="club-date"><span class="club-weekday">${WD[d.getDay()]}</span><span>${shortDate(d)}</span></div><div>${e?`<span class="club-badge">${badges[e.kind]}</span><h3>${esc(e.title)}</h3>${e.time && e.time!=='時間記載なし'?`<p class="club-time">${esc(e.time)}</p>`:''}${e.place?`<p class="club-place">${esc(e.place)}</p>`:''}`:''}</div></article>`;
  }
  document.getElementById('club-grid').innerHTML=html;
 
 }
 weekSelect.onchange=()=>{clubIndex=Number(weekSelect.value);renderClub()};
-document.getElementById('club-prev').onclick=()=>{clubIndex--;renderClub()};document.getElementById('club-next').onclick=()=>{clubIndex++;renderClub()};document.getElementById('club-home').onclick=()=>{clubIndex=clubHome;renderClub()};document.getElementById('hideClub').addEventListener('change',renderClub);renderClub();
+document.getElementById('club-prev').onclick=()=>{clubIndex--;renderClub()};document.getElementById('club-next').onclick=()=>{clubIndex++;renderClub()};document.getElementById('hideClub').addEventListener('change',renderClub);renderClub();
 </script>
