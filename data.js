@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-09",
-  fetchCheckedTime: "17:55",
+  fetchCheckedTime: "19:00",
   updateISO: "2026-11-09",
-  updateTime: "17:55",
+  updateTime: "19:00",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3811,6 +3811,34 @@ window.CLASSROOM_DATA = {
       "全クラス、次回の授業にコンパスを持参。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwOTA3NzMzOTk0"
+  },
+  {
+    "id": "math-plane-figures-more1-nov9",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/9",
+    "title": "平面図形：もっと（1）",
+    "dateLabel": "学習資料",
+    "details": [
+      "問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkwMTY3NTU5/details"
+  },
+  {
+    "id": "math-plane-figures-notebook5-nov9",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/9",
+    "title": "完成ノート5章：平面図形 p.89〜115",
+    "dateLabel": "学習資料",
+    "details": [
+      "抜粋問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkxODY5NTEz/details"
   }
 ]
 };
