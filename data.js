@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-09",
-  fetchCheckedTime: "09:18",
+  fetchCheckedTime: "09:22",
   updateISO: "2026-11-09",
-  updateTime: "09:18",
+  updateTime: "09:22",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3736,6 +3736,20 @@ window.CLASSROOM_DATA = {
       "自治会室で企画を行う。詳細は総務から説明。"
     ],
     "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODgzMjkxMDMwNDE5"
+  },
+  {
+    "id": "geography-print22-asia-nov19",
+    "cat": "hw",
+    "subject": "地理",
+    "thread": "ロイロ",
+    "poster": "宮崎",
+    "posted": "11/9",
+    "title": "プリントNo.22：アジア州 自然環境",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木) 8:30まで",
+    "details": [
+      "ロイロノートで募集中のプリント課題。"
+    ]
   }
 ]
 };
