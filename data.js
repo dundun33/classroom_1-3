@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-09",
-  fetchCheckedTime: "13:01",
+  fetchCheckedTime: "15:05",
   updateISO: "2026-11-09",
-  updateTime: "13:01",
+  updateTime: "15:05",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -1011,8 +1011,8 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-11",
     "dateLabel": "11/11 (水) 12:45開始",
     "details": [
-      "受験申込済みの生徒は、昼食後に声楽器楽室へ集合。12:45開始。",
-      "学年順に実施。音鳴らしをして待つ。応募締切は11/5。"
+      "受験申込済みの生徒は、昼食後に声楽器楽室へ集合。1年生の合奏は12:57頃の開始予定。",
+      "スムーズに準備できるよう集合し、音鳴らしをして待つ。応募締切は11/5。"
     ],
     "cat": "no",
     "subject": "音楽",
@@ -3533,8 +3533,8 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-09",
     "dateLabel": "11/9(月) 放課後",
     "details": [
-      "聞くだけの参加は出入り自由。",
-      "参加希望のフォーム回答は投稿時点で11/5を目安として案内。"
+      "発表する人は本を持ち、15:45に図書室の閲覧席へ集合。",
+      "聞くだけの人は15:50に図書室の閲覧席へ。途中出入り自由。しおりも配布中。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3Nzc5MzE0MTQy"
   },
@@ -3750,6 +3750,67 @@ window.CLASSROOM_DATA = {
     "details": [
       "ロイロノートで募集中のプリント課題。"
     ]
+  },
+  {
+    "id": "broadcast-morning-nov10",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "押切衣舞",
+    "posted": "11/9",
+    "title": "放送朝礼",
+    "date": "2026-11-10",
+    "dateLabel": "11/10(火) 8:35までに着席",
+    "details": [
+      "明日は放送朝礼。8:35には着席する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwODQ0NzQzNzYw"
+  },
+  {
+    "id": "home-economics-cooking-week-nov9",
+    "cat": "no",
+    "subject": "家庭科",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "11/9",
+    "title": "家庭科：今週の調理実習の準備",
+    "dateLabel": "今週の家庭科",
+    "details": [
+      "持ち物：調理用割烹着、手拭きタオル、水筒、ボールペン、マスク。",
+      "爪を切り、髪は束ねる。セーターは脱いでから調理室に入る。",
+      "分注当番は当日8:00に、割烹着とタオルを持って調理室へ集合。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMjkxMTQzNjU4"
+  },
+  {
+    "id": "oc-class-nov10-preparation",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "Matthew Collins",
+    "posted": "11/9",
+    "title": "OC Class：持ち物・教室",
+    "date": "2026-11-10",
+    "dateLabel": "11/10(火) OC Class（4・5・6組）",
+    "details": [
+      "持ち物：教科書、クリアファイル、iPad、筆箱。",
+      "前半はLL、後半は400教室。"
+    ],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODk3NzkxNTE4MzAz"
+  },
+  {
+    "id": "science-compass-next-class-nov9",
+    "cat": "no",
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "11/9",
+    "title": "理科2分野：コンパスを持参",
+    "dateLabel": "次回の理科2分野授業",
+    "details": [
+      "全クラス、次回の授業にコンパスを持参。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkwOTA3NzMzOTk0"
   }
 ]
 };
