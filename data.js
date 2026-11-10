@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-10",
-  fetchCheckedTime: "15:13",
+  fetchCheckedTime: "17:04",
   updateISO: "2026-11-10",
-  updateTime: "15:13",
+  updateTime: "17:04",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -602,10 +602,10 @@ window.CLASSROOM_DATA = {
     "2026-12-12": {
       "kind": "school",
       "title": "音楽会",
-      "time": "",
-      "place": "",
-      "detail": "",
-      "source": "11〜12月予定表（10/30配信）"
+      "time": "13:00開演（12:30開場、16:00頃終演予定）",
+      "place": "西生田成瀬講堂",
+      "detail": "保護者は各家庭2名以内。11:45以降に来校。",
+      "source": "保護者向けメール（11/10配信）"
     },
     "2026-12-14": {
       "kind": "school",
@@ -3884,6 +3884,25 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/16(月) 20:00まで",
     "details": [
       "ロイロノートで募集中の課題。"
+    ]
+  },
+  {
+    "id": "mail-QBAGxtxRgT",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/10",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBAGxtxRgT",
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QBAGxtk7G2",
+    "title": "音楽会のお知らせ",
+    "date": "2026-12-12",
+    "dateLabel": "12/12(土) 13:00開演（12:30開場）",
+    "details": [
+      "会場は西生田成瀬講堂。16:00頃の終演予定。午前中はリハーサルのため、11:45以降に来校する。",
+      "講堂内は保護者席に限りがあるため、各家庭2名以内で来校。出演生徒の保護者を優先して案内。",
+      "当日の写真・動画撮影は控える。DVD・ブルーレイ販売は後日案内。"
     ]
   }
 ]
