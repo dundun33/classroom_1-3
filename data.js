@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-10",
-  fetchCheckedTime: "13:01",
+  fetchCheckedTime: "14:58",
   updateISO: "2026-11-10",
-  updateTime: "13:01",
+  updateTime: "14:58",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3657,11 +3657,11 @@ window.CLASSROOM_DATA = {
     "optional": true,
     "title": "代表委員会",
     "date": "2026-11-11",
-    "dateLabel": "11/11(水) 放課後・代表委員",
+    "dateLabel": "11/11(水) 放課後・南ホール・代表委員",
     "details": [
-      "代表委員は欠席しないよう案内。"
+      "南ホールで実施。代表委員は欠席しないよう案内。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3OTk2NTQ0NjUy"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NTg3MzI0NzM2"
   },
   {
     "id": "family-web-card-nov13",
