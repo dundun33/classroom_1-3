@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-10",
-  fetchCheckedTime: "14:58",
+  fetchCheckedTime: "15:13",
   updateISO: "2026-11-10",
-  updateTime: "14:58",
+  updateTime: "15:13",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3857,6 +3857,34 @@ window.CLASSROOM_DATA = {
       "細かい落とし物は自治会室前の落とし物棚を確認。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NTYxMjg2NTc1"
+  },
+  {
+    "id": "geography-midterm-reflection-nov15",
+    "cat": "hw",
+    "subject": "地理",
+    "thread": "ロイロ",
+    "poster": "宮崎",
+    "posted": "11/10",
+    "title": "2学期 中間テスト振り返り",
+    "date": "2026-11-15",
+    "dateLabel": "11/15(日) 17:00まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
+    ]
+  },
+  {
+    "id": "science1-18-visible-things-nov16",
+    "cat": "hw",
+    "subject": "理科",
+    "thread": "ロイロ",
+    "poster": "理科1分野",
+    "posted": "11/10",
+    "title": "18 ものが見えるとは",
+    "date": "2026-11-16",
+    "dateLabel": "11/16(月) 20:00まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
+    ]
   }
 ]
 };
