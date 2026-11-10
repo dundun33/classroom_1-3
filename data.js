@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-10",
-  fetchCheckedTime: "00:19",
+  fetchCheckedTime: "09:01",
   updateISO: "2026-11-10",
-  updateTime: "00:19",
+  updateTime: "09:01",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3731,11 +3731,12 @@ window.CLASSROOM_DATA = {
     "optional": true,
     "title": "みのりの家：ボランティア企画",
     "date": "2026-11-10",
-    "dateLabel": "11/10(火) 放課後・希望者",
+    "dateLabel": "11/10(火) 15:30・希望者",
     "details": [
-      "自治会室で企画を行う。詳細は総務から説明。"
+      "放課後15:30から自治会室で、みのりの家で行うボランティアの企画を行う。",
+      "詳細は総務から説明。興味のある人は参加。"
     ],
-    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODgzMjkxMDMwNDE5"
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk4NTYxMjg2NTc1"
   },
   {
     "id": "geography-print22-asia-nov19",
@@ -3839,6 +3840,23 @@ window.CLASSROOM_DATA = {
       "抜粋問題PDFと解答PDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkxODY5NTEz/details"
+  },
+  {
+    "id": "lost-property-nov10",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "西出春菜",
+    "posted": "11/10",
+    "title": "生活部：落とし物の確認",
+    "date": "2026-11-30",
+    "dateLabel": "11/30(月)まで（弁当）",
+    "details": [
+      "今週までの落とし物は、心当たりがあれば校務センターで受け取る。",
+      "弁当は衛生上、11/30までに受け取らない場合は処分。",
+      "細かい落とし物は自治会室前の落とし物棚を確認。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NTYxMjg2NTc1"
   }
 ]
 };
