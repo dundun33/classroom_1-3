@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-11",
-  fetchCheckedTime: "15:03",
+  fetchCheckedTime: "17:00",
   updateISO: "2026-11-11",
-  updateTime: "15:04",
+  updateTime: "17:00",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -4005,6 +4005,20 @@ window.CLASSROOM_DATA = {
       "問題PDFと解答PDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkxOTc1NjIz/details"
+  },
+  {
+    "id": "lost-property-ovoshi-nov11",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "11/11",
+    "title": "落とし物",
+    "dateLabel": "11/11(水) 掲載",
+    "details": [
+      "落とし物に関する案内を掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4ODQxNzE0MzU3"
   },
   {
     "id": "mail-QBAGxtxRgT",
