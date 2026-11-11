@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-10",
-  fetchCheckedTime: "17:04",
-  updateISO: "2026-11-10",
-  updateTime: "17:04",
+  fetchCheckedISO: "2026-11-11",
+  fetchCheckedTime: "09:38",
+  updateISO: "2026-11-11",
+  updateTime: "09:39",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -1011,16 +1011,16 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-11",
     "dateLabel": "11/11 (水) 12:45開始",
     "details": [
-      "受験申込済みの生徒は、昼食後に声楽器楽室へ集合。1年生の合奏は12:57頃の開始予定。",
+      "受験申込済みの生徒は、昼食後に声楽室へ集合。1年生の合奏は12:57頃の開始予定。",
       "スムーズに準備できるよう集合し、音鳴らしをして待つ。応募締切は11/5。"
     ],
     "cat": "no",
     "subject": "音楽",
     "thread": "82回生",
-    "posted": "11/2",
+    "posted": "11/11",
     "optional": true,
     "poster": "矢沢まどか",
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODc0MDg0MjQ0NDk2"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMDc1Njk3NjQ5"
   },
   {
     "cat": "no",
@@ -3904,6 +3904,20 @@ window.CLASSROOM_DATA = {
       "講堂内は保護者席に限りがあるため、各家庭2名以内で来校。出演生徒の保護者を優先して案内。",
       "当日の写真・動画撮影は控える。DVD・ブルーレイ販売は後日案内。"
     ]
+  },
+  {
+    "id": "bball-rookie-final-results-nov11",
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "11/11",
+    "title": "2026新人大会 最終結果【資料】",
+    "dateLabel": "大会結果",
+    "details": [
+      "女子・男子のトーナメント最終結果PDFを配布。"
+    ],
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODk4ODAwNDMxNzI2/details"
   }
 ]
 };
