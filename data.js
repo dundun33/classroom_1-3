@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-11",
-  fetchCheckedTime: "13:30",
+  fetchCheckedTime: "15:03",
   updateISO: "2026-11-11",
-  updateTime: "13:30",
+  updateTime: "15:04",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3659,7 +3659,7 @@ window.CLASSROOM_DATA = {
     "date": "2026-11-11",
     "dateLabel": "11/11(水) 放課後・南ホール・代表委員",
     "details": [
-      "南ホールで実施。代表委員は欠席しないよう案内。"
+      "南ホールで15:40開始。代表委員は遅れないよう案内。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NTg3MzI0NzM2"
   },
@@ -3899,6 +3899,112 @@ window.CLASSROOM_DATA = {
     "details": [
       "ロイロノートで募集中の課題。"
     ]
+  },
+  {
+    "id": "math-plane-figures-extract-nov13",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "ロイロ",
+    "poster": "数学",
+    "posted": "11/11",
+    "title": "平面図形 抜粋No.1-3",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 8:30まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
+    ]
+  },
+  {
+    "id": "entrance-supporters-briefing-nov12",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "11/11",
+    "optional": true,
+    "title": "入試体験会サポーターズ：事前説明",
+    "date": "2026-11-12",
+    "dateLabel": "11/12(木) 12:40・理科C・申込者",
+    "details": [
+      "11/14の入試体験会広報サポーターズを対象に、当日の説明を実施。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4ODMzODk5MTE2"
+  },
+  {
+    "id": "math-compass-and-ruler-nov12",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "82回生",
+    "poster": "森本奈央",
+    "posted": "11/11",
+    "title": "数学：コンパスと定規を持参",
+    "date": "2026-11-12",
+    "dateLabel": "11/12(木)から毎回の数学授業",
+    "details": [
+      "1〜3組は11/12から、コンパスと分度器機能のない定規が必須。",
+      "自宅課題でもコンパスを使うため、学校・自宅の両方で使えるよう準備する。コンパス未使用の提出物は受け付けない。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk3MzAxNDAwNTY3"
+  },
+  {
+    "id": "reading-circle-book-nov13",
+    "cat": "no",
+    "subject": "図書",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/11",
+    "title": "読書会の図書",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 入荷予定",
+    "details": [
+      "2学期の読書会の本は『あの花が咲く丘で君とまた会えたら』（汐見夏衛）。",
+      "読書会までの期間が短いため、返本は行わない。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMDc5MTM4NjQ3"
+  },
+  {
+    "id": "culture-festival-briefing-nov16",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "石井靖子",
+    "posted": "11/11",
+    "optional": true,
+    "title": "2027年度文化祭説明会",
+    "date": "2026-11-16",
+    "dateLabel": "11/16(月) 15:40・南ホール・希望者",
+    "details": [
+      "2027年度文化祭について説明会を実施。先日のアンケート未回答者も参加可能。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMzIxODMxNjUz"
+  },
+  {
+    "id": "art-makeup-nov11",
+    "cat": "no",
+    "subject": "美術",
+    "thread": "82回生",
+    "poster": "芝咲耶子",
+    "posted": "11/11",
+    "title": "美術：補習期間",
+    "dateLabel": "11/11放課後、11/12・16・17 朝・昼",
+    "details": [
+      "来週の授業までに版画の凹凸を貼り終えられない場合は、計画的に補習へ参加する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NjAzOTE2Mjc5"
+  },
+  {
+    "id": "math-plane-figures-more2-nov11",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/11",
+    "title": "平面図形：もっと（2）",
+    "dateLabel": "学習資料",
+    "details": [
+      "問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkxOTc1NjIz/details"
   },
   {
     "id": "mail-QBAGxtxRgT",
