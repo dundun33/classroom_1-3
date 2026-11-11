@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-11",
-  fetchCheckedTime: "17:00",
+  fetchCheckedTime: "19:01",
   updateISO: "2026-11-11",
-  updateTime: "17:18",
+  updateTime: "19:01",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -4019,6 +4019,22 @@ window.CLASSROOM_DATA = {
       "落とし物に関する案内を掲載。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4ODQxNzE0MzU3"
+  },
+  {
+    "id": "vocal-practical-test-nov11",
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "11/11",
+    "optional": true,
+    "title": "声楽実技テスト：行事委員への案内",
+    "dateLabel": "組み合わせ表を配布済み",
+    "details": [
+      "音楽会行事委員は組み合わせ表を作成し、音楽科教員へ提出する。",
+      "伴奏はロイロの資料箱で確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMDg5NjI4NDk1"
   },
   {
     "id": "mail-QBAGxtxRgT",
