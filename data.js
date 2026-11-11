@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-11",
-  fetchCheckedTime: "09:44",
+  fetchCheckedTime: "13:30",
   updateISO: "2026-11-11",
-  updateTime: "09:44",
+  updateTime: "13:30",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3882,6 +3882,20 @@ window.CLASSROOM_DATA = {
     "title": "18 ものが見えるとは",
     "date": "2026-11-16",
     "dateLabel": "11/16(月) 20:00まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
+    ]
+  },
+  {
+    "id": "english-key-p150-151-nov13",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "ロイロ",
+    "poster": "英語",
+    "posted": "11/11",
+    "title": "Key p.150-151",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 8:40まで",
     "details": [
       "ロイロノートで募集中の課題。"
     ]
