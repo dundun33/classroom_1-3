@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-12",
-  fetchCheckedTime: "13:50",
+  fetchCheckedTime: "15:03",
   updateISO: "2026-11-12",
-  updateTime: "13:50",
+  updateTime: "15:03",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3954,11 +3954,11 @@ window.CLASSROOM_DATA = {
     "poster": "鈴木秀一",
     "posted": "11/11",
     "title": "読書会の図書",
-    "date": "2026-11-13",
-    "dateLabel": "11/13(金) 入荷予定",
+    "date": "2026-11-24",
+    "dateLabel": "11/24(火) 読書会",
     "details": [
       "2学期の読書会の本は『あの花が咲く丘で君とまた会えたら』（汐見夏衛）。",
-      "読書会までの期間が短いため、返本は行わない。"
+      "課題図書は予定より早く11/11に到着。読書会までの期間が短いため、返本は行わない。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMDc5MTM4NjQ3"
   },
@@ -4049,6 +4049,38 @@ window.CLASSROOM_DATA = {
       "先日の練習前に説明した新チーム方針を投稿で共有。本文・添付の掲載はなし。"
     ],
     "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODk4OTc1MjgwMjY5"
+  },
+  {
+    "id": "library-committee-reading-circle-nov13",
+    "cat": "no",
+    "subject": "図書",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/12",
+    "optional": true,
+    "title": "図書委員会：読書会の打合せ",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 12:30・LL教室・図書委員",
+    "details": [
+      "読書会について委員会を実施。昼食を持参してLL教室へ集合。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4OTkyOTA4ODU0"
+  },
+  {
+    "id": "school-guide-photo-nov13",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "11/12",
+    "title": "学校案内用の写真撮影",
+    "date": "2026-11-13",
+    "dateLabel": "11/13(金) 授業中",
+    "details": [
+      "撮影中は机上の水筒・ペットボトル・未使用iPadをしまい、鞄のチャックを閉め、床に物を置かない。",
+      "セーターを脱ぎ、名札を外して、整理整頓と身だしなみを整える。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5MDExMzcyNDA1"
   },
   {
     "id": "mail-QBAGxtxRgT",
