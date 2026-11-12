@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-12",
-  fetchCheckedTime: "07:00",
+  fetchCheckedTime: "09:06",
   updateISO: "2026-11-12",
-  updateTime: "07:00",
+  updateTime: "09:06",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -4035,6 +4035,20 @@ window.CLASSROOM_DATA = {
       "伴奏はロイロの資料箱で確認する。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMDg5NjI4NDk1"
+  },
+  {
+    "id": "bball-new-team-policy-nov12",
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "11/12",
+    "title": "バスケ：2026年度新チーム方針",
+    "dateLabel": "11/12(木) 掲載",
+    "details": [
+      "先日の練習前に説明した新チーム方針を投稿で共有。本文・添付の掲載はなし。"
+    ],
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODk4OTc1MjgwMjY5"
   },
   {
     "id": "mail-QBAGxtxRgT",
