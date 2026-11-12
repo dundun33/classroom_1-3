@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-12",
-  fetchCheckedTime: "15:03",
+  fetchCheckedTime: "17:06",
   updateISO: "2026-11-12",
-  updateTime: "15:03",
+  updateTime: "17:06",
   timetable: {
   "label": "11/9(月)〜11/13(金)",
   "days": [
@@ -3882,6 +3882,20 @@ window.CLASSROOM_DATA = {
     "title": "18 ものが見えるとは",
     "date": "2026-11-16",
     "dateLabel": "11/16(月) 20:00まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
+    ]
+  },
+  {
+    "id": "science1-17-ammonia-nov18",
+    "cat": "hw",
+    "subject": "理科",
+    "thread": "ロイロ",
+    "poster": "理科1分野",
+    "posted": "11/12",
+    "title": "17 アンモニアの発生",
+    "date": "2026-11-18",
+    "dateLabel": "11/18(水) 20:00まで",
     "details": [
       "ロイロノートで募集中の課題。"
     ]
