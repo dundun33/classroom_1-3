@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-13",
-  fetchCheckedTime: "16:59",
+  fetchCheckedTime: "17:13",
   updateISO: "2026-11-13",
-  updateTime: "16:59",
+  updateTime: "17:13",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4216,6 +4216,34 @@ window.CLASSROOM_DATA = {
     "dateLabel": "該当者",
     "details": [
       "展示された三角巾は一度持ち帰って洗濯し、再度提出する。展示はおよそ1年間の予定。"
+    ]
+  },
+  {
+    "id": "oc-my-favorite-room-nov17",
+    "cat": "hw",
+    "subject": "OC",
+    "thread": "ロイロ",
+    "poster": "OC",
+    "posted": "11/13",
+    "title": "Homework: My Favorite Room",
+    "date": "2026-11-17",
+    "dateLabel": "11/17(火) 8:00まで",
+    "details": [
+      "ロイロノートで募集中のOC課題。"
+    ]
+  },
+  {
+    "id": "english-shinchumon15-nov20",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "ロイロ",
+    "poster": "英語",
+    "posted": "11/13",
+    "title": "新中問15章 p.154-159 スライド3枚",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 8:40まで",
+    "details": [
+      "ロイロノートで募集中の課題。"
     ]
   }
 ]
