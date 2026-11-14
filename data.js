@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-14",
   fetchCheckedTime: "17:56",
   updateISO: "2026-11-14",
-  updateTime: "17:56",
+  updateTime: "17:59",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -3740,16 +3740,15 @@ window.CLASSROOM_DATA = {
   },
   {
     "id": "geography-print22-asia-nov19",
-    "cat": "hw",
+    "cat": "no",
     "subject": "地理",
     "thread": "ロイロ",
     "poster": "宮崎",
     "posted": "11/9",
     "title": "プリントNo.22：アジア州 自然環境",
-    "date": "2026-11-19",
-    "dateLabel": "11/19(木) 8:30まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中のプリント課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   },
   {
@@ -3860,44 +3859,41 @@ window.CLASSROOM_DATA = {
   },
   {
     "id": "geography-midterm-reflection-nov15",
-    "cat": "hw",
+    "cat": "no",
     "subject": "地理",
     "thread": "ロイロ",
     "poster": "宮崎",
     "posted": "11/10",
     "title": "2学期 中間テスト振り返り",
-    "date": "2026-11-15",
-    "dateLabel": "11/15(日) 17:00まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中の課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   },
   {
     "id": "science1-18-visible-things-nov16",
-    "cat": "hw",
+    "cat": "no",
     "subject": "理科",
     "thread": "ロイロ",
     "poster": "理科1分野",
     "posted": "11/10",
     "title": "18 ものが見えるとは",
-    "date": "2026-11-16",
-    "dateLabel": "11/16(月) 20:00まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中の課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   },
   {
     "id": "science1-17-ammonia-nov18",
-    "cat": "hw",
+    "cat": "no",
     "subject": "理科",
     "thread": "ロイロ",
     "poster": "理科1分野",
     "posted": "11/12",
     "title": "17 アンモニアの発生",
-    "date": "2026-11-18",
-    "dateLabel": "11/18(水) 20:00まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中の課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   },
   {
@@ -4220,30 +4216,28 @@ window.CLASSROOM_DATA = {
   },
   {
     "id": "oc-my-favorite-room-nov17",
-    "cat": "hw",
+    "cat": "no",
     "subject": "OC",
     "thread": "ロイロ",
     "poster": "OC",
     "posted": "11/13",
     "title": "Homework: My Favorite Room",
-    "date": "2026-11-17",
-    "dateLabel": "11/17(火) 8:00まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中のOC課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   },
   {
     "id": "english-shinchumon15-nov20",
-    "cat": "hw",
+    "cat": "no",
     "subject": "英語",
     "thread": "ロイロ",
     "poster": "英語",
     "posted": "11/13",
     "title": "新中問15章 p.154-159 スライド3枚",
-    "date": "2026-11-20",
-    "dateLabel": "11/20(金) 8:40まで",
+    "dateLabel": "ロイロ受付終了（11/14確認）",
     "details": [
-      "ロイロノートで募集中の課題。"
+      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
     ]
   }
 ]
