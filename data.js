@@ -8,7 +8,7 @@ window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-14",
   fetchCheckedTime: "17:56",
   updateISO: "2026-11-14",
-  updateTime: "18:10",
+  updateTime: "18:15",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -3739,21 +3739,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk4NTYxMjg2NTc1"
   },
   {
-    "id": "geography-print22-asia-nov19",
-    "cat": "no",
-    "subject": "地理",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/14489020?tab=submissionBox",
-    "hasLink": true,
-    "poster": "宮崎",
-    "posted": "11/9",
-    "title": "プリントNo.22：アジア州 自然環境",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  },
-  {
     "id": "broadcast-morning-nov10",
     "cat": "no",
     "subject": "学校",
@@ -3858,83 +3843,6 @@ window.CLASSROOM_DATA = {
       "細かい落とし物は自治会室前の落とし物棚を確認。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4NTYxMjg2NTc1"
-  },
-  {
-    "id": "geography-midterm-reflection-nov15",
-    "cat": "no",
-    "subject": "地理",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/14489020?tab=submissionBox",
-    "hasLink": true,
-    "poster": "宮崎",
-    "posted": "11/10",
-    "title": "2学期 中間テスト振り返り",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  },
-  {
-    "id": "science1-18-visible-things-nov16",
-    "cat": "no",
-    "subject": "理科",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true,
-    "poster": "理科1分野",
-    "posted": "11/10",
-    "title": "18 ものが見えるとは",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  },
-  {
-    "id": "science1-17-ammonia-nov18",
-    "cat": "no",
-    "subject": "理科",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true,
-    "poster": "理科1分野",
-    "posted": "11/12",
-    "title": "17 アンモニアの発生",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  },
-  {
-    "id": "english-key-p150-151-nov13",
-    "cat": "hw",
-    "subject": "英語",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
-    "hasLink": true,
-    "poster": "英語",
-    "posted": "11/11",
-    "title": "Key p.150-151",
-    "date": "2026-11-13",
-    "dateLabel": "11/13(金) 8:40まで",
-    "details": [
-      "ロイロノートで募集中の課題。"
-    ]
-  },
-  {
-    "id": "math-plane-figures-extract-nov13",
-    "cat": "hw",
-    "subject": "数学",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13601994?tab=submissionBox",
-    "hasLink": true,
-    "poster": "数学",
-    "posted": "11/11",
-    "title": "平面図形 抜粋No.1-3",
-    "date": "2026-11-13",
-    "dateLabel": "11/13(金) 8:30まで",
-    "details": [
-      "ロイロノートで募集中の課題。"
-    ]
   },
   {
     "id": "entrance-supporters-briefing-nov12",
@@ -4226,35 +4134,5 @@ window.CLASSROOM_DATA = {
       "展示された三角巾は一度持ち帰って洗濯し、再度提出する。展示はおよそ1年間の予定。"
     ]
   },
-  {
-    "id": "oc-my-favorite-room-nov17",
-    "cat": "no",
-    "subject": "OC",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13602004?tab=submissionBox",
-    "hasLink": true,
-    "poster": "OC",
-    "posted": "11/13",
-    "title": "Homework: My Favorite Room",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  },
-  {
-    "id": "english-shinchumon15-nov20",
-    "cat": "no",
-    "subject": "英語",
-    "thread": "ロイロ",
-    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
-    "hasLink": true,
-    "poster": "英語",
-    "posted": "11/13",
-    "title": "新中問15章 p.154-159 スライド3枚",
-    "dateLabel": "ロイロ受付終了（11/14確認）",
-    "details": [
-      "ロイロの募集中一覧から消えたため、受付終了として扱う。個別の提出済み状況はロイロで確認。"
-    ]
-  }
 ]
 };
