@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-16",
-  fetchCheckedTime: "00:00",
+  fetchCheckedTime: "08:25",
   updateISO: "2026-11-16",
-  updateTime: "00:00",
+  updateTime: "08:25",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -3935,6 +3935,20 @@ window.CLASSROOM_DATA = {
       "問題PDFと解答PDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkxOTc1NjIz/details"
+  },
+  {
+    "id": "math-plane-figures-more3-nov16",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/16",
+    "title": "平面図形：もっと（3）",
+    "dateLabel": "学習資料",
+    "details": [
+      "問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkxMDk2ODU3MzQ0/details"
   },
   {
     "id": "lost-property-ovoshi-nov11",
