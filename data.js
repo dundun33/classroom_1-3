@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-16",
-  fetchCheckedTime: "08:25",
+  fetchCheckedTime: "08:59",
   updateISO: "2026-11-16",
-  updateTime: "08:25",
+  updateTime: "08:59",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4106,6 +4106,23 @@ window.CLASSROOM_DATA = {
       "分度器機能のない定規とコンパスを持参。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk3MzAxNjc3OTgx"
+  },
+  {
+    "id": "math-proportion-quiz-retest-nov16",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/16",
+    "title": "比例反比例の利用：小テスト再試・提出案内",
+    "date": "2026-11-16",
+    "dateLabel": "11/16(月) 20:00 提出",
+    "details": [
+      "9点以下の人は、終礼で配布するやり直しプリントを解き、丸付け直しの上でロイロへ提出。",
+      "再試①：11/17(火) 8:10〜（3組はLL教室）。",
+      "再試②：11/19(木) 8:10〜（400教室）、再試③：同日終礼後（402）。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk5NDMzNzgwNTcy/details"
   },
   {
     "id": "oc-absence-room-presentation-nov13",
