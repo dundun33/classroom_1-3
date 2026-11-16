@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-16",
-  fetchCheckedTime: "13:56",
+  fetchCheckedTime: "16:29",
   updateISO: "2026-11-16",
-  updateTime: "13:56",
+  updateTime: "16:29",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4115,14 +4115,164 @@ window.CLASSROOM_DATA = {
     "poster": "森本奈央",
     "posted": "11/16",
     "title": "比例反比例の利用：小テスト再試・提出案内",
-    "date": "2026-11-16",
-    "dateLabel": "11/16(月) 20:00 提出",
+    "dateLabel": "提出期限の記載を要確認",
     "details": [
-      "9点以下の人は、終礼で配布するやり直しプリントを解き、丸付け直しの上でロイロへ提出。",
+      "9点以下の人は、11/17終礼配布予定のやり直しプリントを解き、丸付け直しの上でロイロへ提出。",
+      "提出期限が11/16(月)20:00とも記載されており、配布日と矛盾するためClassroomの最新連絡を確認。",
       "再試①：11/17(火) 8:10〜（3組はLL教室）。",
       "再試②：11/19(木) 8:10〜（400教室）、再試③：同日終礼後（402）。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk5NDMzNzgwNTcy/details"
+  },
+  {
+    "id": "school-photo-nov17",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "宮崎可奈子",
+    "posted": "11/16",
+    "title": "広報写真撮影：授業中の協力依頼",
+    "date": "2026-11-17",
+    "dateLabel": "11/17(火) 授業中",
+    "details": [
+      "机上の水筒・ペットボトル・未使用iPadをしまい、鞄のチャックを閉める。",
+      "床に物を置かず、撮影中はセーターと名札を外して身だしなみを整える。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMjcyMTY2ODE4"
+  },
+  {
+    "id": "loaned-instrument-51-nov16",
+    "cat": "no",
+    "subject": "音楽",
+    "thread": "82回生",
+    "poster": "矢沢まどか",
+    "posted": "11/16",
+    "title": "貸出楽器（51番）の確認依頼",
+    "dateLabel": "該当者",
+    "details": [
+      "所在に心当たりがある人は、矢沢先生またはロイロのカードで連絡。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNDgyNDUwOTMx"
+  },
+  {
+    "id": "science-triangles-nov16",
+    "cat": "hw",
+    "subject": "理科2分野",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "11/16",
+    "title": "理科2分野：三角定規（2枚）を持参",
+    "dateLabel": "次回授業",
+    "details": [
+      "三角定規を2枚持ってくる。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NDQzMjc4MzY2"
+  },
+  {
+    "id": "music-festival-committee-nov17",
+    "cat": "no",
+    "subject": "音楽会",
+    "thread": "82回生",
+    "poster": "阿佐美優子",
+    "posted": "11/16",
+    "title": "音楽会行事委員：委員会と整列図の提出",
+    "date": "2026-11-17",
+    "dateLabel": "11/17(火) 昼休み・該当者",
+    "details": [
+      "昼食持参で声楽器楽室に集合。",
+      "整列図担当は、翌日の委員会で配布するため11/16中に提出。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMjY1ODU3MTcw"
+  },
+  {
+    "id": "gym-shoes-check-nov16",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/16",
+    "title": "体育館シューズ：取り違え確認のお願い",
+    "dateLabel": "該当者",
+    "details": [
+      "体育館シューズが自身のものか確認し、取り違えに気づいた場合は松本先生へ届ける。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNDc5NDAzMDM1"
+  },
+  {
+    "id": "admission-experience-volunteer-dec5",
+    "cat": "no",
+    "subject": "学校行事",
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "11/16",
+    "optional": true,
+    "title": "入試体験会サポーターズ募集",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金) 締切・希望者",
+    "details": [
+      "12/5(土)の受付・教室／控室担当・相談コーナーの補助を募集。",
+      "集合は早い係で12:00頃、解散は遅い係で16:30頃の予定。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NTQ0Mjk0NDQ5"
+  },
+  {
+    "id": "reading-circle-prep-nov17",
+    "cat": "hw",
+    "subject": "学活",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/16",
+    "title": "読書会準備：課題図書を持参",
+    "date": "2026-11-17",
+    "dateLabel": "11/17(火) 学活",
+    "details": [
+      "読書会準備の会は読書中心のため、配布済みの課題図書を持参。",
+      "図書委員は事前にワークシートを配布し、来週の読書会までに記入するよう案内。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NTU3MDQ3MTAx"
+  },
+  {
+    "id": "representatives-committee-nov19",
+    "cat": "no",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "山本昂宏",
+    "posted": "11/16",
+    "title": "代表委員会",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木)・該当者",
+    "details": [
+      "欠席する場合は代理を立てる。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NzAyNjIwNDc3"
+  },
+  {
+    "id": "eiken-grade3-text-correction-nov16",
+    "cat": "no",
+    "subject": "英検講座",
+    "thread": "82回生",
+    "poster": "中尾有子",
+    "posted": "11/16",
+    "title": "英検講座3級：テキスト名訂正",
+    "dateLabel": "訂正",
+    "details": [
+      "「DAILY3週間」ではなく、市販の「DAILY15日間」が正しいテキスト名。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NDI2MDQ3MzE0"
+  },
+  {
+    "id": "math-plane-figures-more4-nov16",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/16",
+    "title": "平面図形：もっと（4）",
+    "dateLabel": "学習資料",
+    "details": [
+      "問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzNTUxMTMz/details"
   },
   {
     "id": "oc-absence-room-presentation-nov13",
