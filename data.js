@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-16",
-  fetchCheckedTime: "16:58",
+  fetchCheckedTime: "17:07",
   updateISO: "2026-11-16",
-  updateTime: "16:58",
+  updateTime: "17:07",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4273,6 +4273,66 @@ window.CLASSROOM_DATA = {
       "問題PDFと解答PDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzNTUxMTMz/details"
+  },
+  {
+    "id": "loilo-math-plane-extract-45-nov18",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "ロイロ",
+    "poster": "ロイロ提出箱",
+    "title": "平面図形：抜粋No.4・5（コンパスの直しは裏面）",
+    "date": "2026-11-18",
+    "dateLabel": "11/18(水) 20:00",
+    "details": [
+      "ロイロ提出箱で募集中。"
+    ],
+    "url": "https://loilonote.app/_/13601994?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-science-visible-nov16",
+    "cat": "hw",
+    "subject": "理科1分野",
+    "thread": "ロイロ",
+    "poster": "ロイロ提出箱",
+    "title": "18 ものが見えるとは",
+    "date": "2026-11-16",
+    "dateLabel": "11/16(月) 20:00",
+    "details": [
+      "ロイロ提出箱で募集中。"
+    ],
+    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-science-ammonia-nov18",
+    "cat": "hw",
+    "subject": "理科1分野",
+    "thread": "ロイロ",
+    "poster": "ロイロ提出箱",
+    "title": "17 アンモニアの発生",
+    "date": "2026-11-18",
+    "dateLabel": "11/18(水) 20:00",
+    "details": [
+      "ロイロ提出箱で募集中。"
+    ],
+    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-english-shinchumon15-nov20",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "ロイロ",
+    "poster": "ロイロ提出箱",
+    "title": "新中問15章 pp.154〜159：スライド3枚",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 8:40",
+    "details": [
+      "ロイロ提出箱で募集中。"
+    ],
+    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
+    "hasLink": true
   },
   {
     "id": "oc-absence-room-presentation-nov13",
