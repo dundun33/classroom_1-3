@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-17",
-  fetchCheckedTime: "13:00",
+  fetchCheckedTime: "15:05",
   updateISO: "2026-11-17",
-  updateTime: "13:00",
+  updateTime: "15:05",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -3621,15 +3621,15 @@ window.CLASSROOM_DATA = {
     "subject": "国際交流",
     "thread": "82回生",
     "poster": "82回生",
-    "posted": "11/6",
+    "posted": "11/17",
     "optional": true,
-    "title": "日本・フィンランド オンライン文化交流会：参加募集",
+    "title": "日本・フィンランド オンライン文化交流会：満席",
     "date": "2027-01-15",
-    "dateLabel": "1/15(金) 放課後｜申込 11/20まで・先着20名",
+    "dateLabel": "受付終了（満席）",
     "details": [
-      "Googleフォームで11/20(金)までに申し込む。先着20名。"
+      "定員20名に達したため、今年度の新規受付は終了。来年度に改めて実施予定。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzMjY5MDgwNDQ1"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5OTEzNTI0MTI3"
   },
   {
     "id": "sailor-sales-nov10",
@@ -4174,15 +4174,131 @@ window.CLASSROOM_DATA = {
     "subject": "音楽会",
     "thread": "82回生",
     "poster": "阿佐美優子",
-    "posted": "11/16",
-    "title": "音楽会行事委員：委員会と整列図の提出",
-    "date": "2026-11-17",
-    "dateLabel": "11/17(火) 昼休み・該当者",
+    "posted": "11/17",
+    "title": "音楽会行事委員：合唱整列図の確認・掲示",
+    "dateLabel": "該当者",
     "details": [
-      "昼食持参で声楽器楽室に集合。",
-      "整列図担当は、翌日の委員会で配布するため11/16中に提出。"
+      "合唱の整列図をクラスボックスに配置。各クラスで確認後、教室に掲示する。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMjY1ODU3MTcw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5OTQ2MjczNjg1"
+  },
+  {
+    "id": "culture-festival-briefing-material-nov17",
+    "cat": "no",
+    "subject": "学校行事",
+    "thread": "82回生",
+    "poster": "石井靖子",
+    "posted": "11/17",
+    "title": "文化祭説明会資料",
+    "dateLabel": "説明会配布資料",
+    "details": [
+      "文化祭説明会で使用したPDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODk5OTM4MzM0MTU3/details"
+  },
+  {
+    "id": "library-committee-nov19",
+    "cat": "no",
+    "subject": "委員会",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/17",
+    "title": "図書委員会",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木) 12:30・該当者",
+    "details": [
+      "昼食持参で400教室に集合。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMTg1Mjg2MDM2"
+  },
+  {
+    "id": "english-unit9-test-nov19",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "82回生",
+    "poster": "平岡裕子",
+    "posted": "11/17",
+    "title": "Unit 9 まとめテスト",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木)",
+    "details": [
+      "範囲：Keyワークpp.146〜157、文法プリント⑩〜⑬。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5OTE4OTMzNTcx"
+  },
+  {
+    "id": "math-proportion-print1-deadline-nov19",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/17",
+    "title": "比例反比例（1）プリント：合格期限",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木) 合格期限",
+    "details": [
+      "11/19放課後は手渡しのみ受け付け。忘れずに提出する。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODkxMzE2OTU0ODgx"
+  },
+  {
+    "id": "tech-home-class-nov17",
+    "cat": "hw",
+    "subject": "技術家庭",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "11/17",
+    "title": "技術家庭科：食分野の授業と実習記録プリント",
+    "date": "2026-11-17",
+    "dateLabel": "11/17(火) 提出",
+    "details": [
+      "教室で食分野の続きを実施。ファイル・iPad・定規を持参。",
+      "実習の記録プリントの提出は本日まで。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMTM1ODM0NzIy"
+  },
+  {
+    "id": "math-plane-figures-1-nov17",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/17",
+    "title": "平面図形（1）：紙で提出するプリント",
+    "dateLabel": "提出期限未記載",
+    "details": [
+      "学校で紙で提出する。欠席者も提出し、自宅でA4印刷したものでも可。",
+      "問題PDFと解答PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk4ODc5Mjk5Njk1/details"
+  },
+  {
+    "id": "english-merry-christmas-nov17",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "平岡裕子",
+    "posted": "11/17",
+    "title": "We Wish You a Merry Christmas",
+    "dateLabel": "学習資料",
+    "details": [
+      "PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODkxMDg0MTI3MDI2/details"
+  },
+  {
+    "id": "english-first-time-forever-nov17",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "平岡裕子",
+    "posted": "11/17",
+    "title": "For the First Time in Forever",
+    "dateLabel": "学習資料",
+    "details": [
+      "PDFを掲載。"
+    ],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/ODc0MTY3OTMyOTIx/details"
   },
   {
     "id": "gym-shoes-check-nov16",
