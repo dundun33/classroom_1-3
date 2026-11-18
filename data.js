@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-18",
-  fetchCheckedTime: "13:15",
+  fetchCheckedTime: "15:05",
   updateISO: "2026-11-18",
-  updateTime: "13:15",
+  updateTime: "15:06",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4389,66 +4389,6 @@ window.CLASSROOM_DATA = {
       "問題PDFと解答PDFを掲載。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzNTUxMTMz/details"
-  },
-  {
-    "id": "loilo-history-buddhism-nov24",
-    "cat": "hw",
-    "subject": "歴史",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "中国との交流と最初の仏教文化",
-    "date": "2026-11-24",
-    "dateLabel": "11/24(火) 20:00",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13601991?tab=submissionBox",
-    "hasLink": true
-  },
-  {
-    "id": "loilo-science-ammonia-nov18",
-    "cat": "hw",
-    "subject": "理科1分野",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "17 アンモニアの発生",
-    "date": "2026-11-18",
-    "dateLabel": "11/18(水) 20:00",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true
-  },
-  {
-    "id": "loilo-english-key-pages-nov19",
-    "cat": "hw",
-    "subject": "英語",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "Key pp.152〜153・158〜159：2枚をつなげて提出",
-    "date": "2026-11-19",
-    "dateLabel": "11/19(木) 8:40",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
-    "hasLink": true
-  },
-  {
-    "id": "loilo-reading-circle-worksheet-nov23",
-    "cat": "hw",
-    "subject": "学活・総合",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "読書会ワークシート📚",
-    "date": "2026-11-23",
-    "dateLabel": "11/23(月) 8:30",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13602005?tab=submissionBox",
-    "hasLink": true
   },
   {
     "id": "oc-absence-room-presentation-nov13",
