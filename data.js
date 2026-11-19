@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-19",
-  fetchCheckedTime: "09:12",
+  fetchCheckedTime: "11:04",
   updateISO: "2026-11-19",
-  updateTime: "09:13",
+  updateTime: "11:04",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4404,21 +4404,6 @@ window.CLASSROOM_DATA = {
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzNTUxMTMz/details"
   },
   {
-    "id": "loilo-history-buddhism-nov24",
-    "cat": "hw",
-    "subject": "歴史",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "中国との交流と最初の仏教文化",
-    "date": "2026-11-24",
-    "dateLabel": "11/24(火) 20:00",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13601991?tab=submissionBox",
-    "hasLink": true
-  },
-  {
     "id": "eiken-application-nov19",
     "cat": "no",
     "subject": "英検",
@@ -4447,21 +4432,6 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/20(金) 3限・家庭科",
     "details": ["今週の家庭科の授業は、これまでの持ち物に加えて教科書も持参する。"],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwMzU5MDQyOTg4"
-  },
-  {
-    "id": "loilo-reading-circle-worksheet-nov23",
-    "cat": "hw",
-    "subject": "学活・総合",
-    "thread": "ロイロ",
-    "poster": "ロイロ提出箱",
-    "title": "読書会ワークシート📚",
-    "date": "2026-11-23",
-    "dateLabel": "11/23(月) 8:30",
-    "details": [
-      "ロイロ提出箱で募集中。"
-    ],
-    "url": "https://loilonote.app/_/13602005?tab=submissionBox",
-    "hasLink": true
   },
   {
     "id": "oc-absence-room-presentation-nov13",
