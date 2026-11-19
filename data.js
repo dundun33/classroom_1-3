@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "07:28",
+  fetchCheckedTime: "08:57",
   updateISO: "2026-11-20",
-  updateTime: "07:28",
+  updateTime: "08:58",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4521,6 +4521,22 @@ window.CLASSROOM_DATA = {
       "立ち番表の作成を手伝える人も自治会室へ。"
     ],
     "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk5OTIxNjkyNjE4"
+  },
+  {
+    "id": "japanese-grammar-final-scope-nov20",
+    "cat": "no",
+    "subject": "国語",
+    "thread": "国語",
+    "poster": "秦野桃子",
+    "posted": "11/20",
+    "title": "国語（文法）：2学期期末テスト範囲",
+    "dateLabel": "期末テスト範囲・試験日未記載",
+    "details": [
+      "「つまずかない！文法の学習」pp.20〜33。",
+      "プリント：二学期①品詞分類表、②動詞の活用、③動詞確認プリント、活用表練習プリント。",
+      "豆プリント⑧〜⑬（⑫・⑬は最後の授業で配布）。活用表を何も見ずに書けるよう練習する。"
+    ],
+    "url": "https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODkxMzg2Mjk3OTY4"
   },
 ]
 };
