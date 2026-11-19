@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-19",
-  fetchCheckedTime: "09:08",
+  fetchCheckedTime: "09:12",
   updateISO: "2026-11-19",
-  updateTime: "09:09",
+  updateTime: "09:13",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -58,7 +58,7 @@ window.CLASSROOM_DATA = {
       { "s": "国", "t": "鈴木", "r": "HR" },
       null,
       { "s": "英", "t": "磯崎・吉野", "r": "HR/402" },
-      { "s": "家", "t": "菊池", "r": "HR" }
+      { "s": "家", "t": "菊池", "r": "HR", "mk": "教科書", "ref": "home-textbook-nov19" }
     ],
     [
       { "s": "国", "t": "秋山・西出", "r": "HR/401" },
@@ -4417,6 +4417,36 @@ window.CLASSROOM_DATA = {
     ],
     "url": "https://loilonote.app/_/13601991?tab=submissionBox",
     "hasLink": true
+  },
+  {
+    "id": "eiken-application-nov19",
+    "cat": "no",
+    "subject": "英検",
+    "thread": "82回生",
+    "poster": "中尾有子",
+    "posted": "11/19",
+    "optional": true,
+    "title": "英検申込み：11/20朝までに事務室納入口へ",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 朝まで・申込者",
+    "details": [
+      "申込みは11/19・20の2日間。",
+      "申込書を持参したら、できるだけ朝のうちに事務室納入口へ入れる。納入口が開いていない場合があるため早めに対応する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxMzcyNTYwOTY1"
+  },
+  {
+    "id": "home-textbook-nov19",
+    "cat": "no",
+    "subject": "家庭科",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "11/19",
+    "title": "家庭科：今週の授業に教科書も持参",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 3限・家庭科",
+    "details": ["今週の家庭科の授業は、これまでの持ち物に加えて教科書も持参する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwMzU5MDQyOTg4"
   },
   {
     "id": "loilo-reading-circle-worksheet-nov23",
