@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-19",
-  fetchCheckedTime: "13:22",
+  fetchCheckedTime: "15:07",
   updateISO: "2026-11-19",
-  updateTime: "13:22",
+  updateTime: "15:07",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -51,7 +51,7 @@ window.CLASSROOM_DATA = {
       { "s": "総合", "t": "担任", "r": "HR" },
       null,
       { "s": "体", "t": "石井", "r": "一体" },
-      { "s": "国", "t": "秦野", "r": "HR" }
+      { "s": "国", "t": "秦野", "r": "HR", "mk": "文法の持ち物", "ref": "japanese-grammar-materials-nov20" }
     ],
     [
       { "s": "社", "t": "宮崎", "r": "HR" },
@@ -4366,14 +4366,16 @@ window.CLASSROOM_DATA = {
     "subject": "委員会",
     "thread": "82回生",
     "poster": "山本昂宏",
-    "posted": "11/16",
+    "posted": "11/19",
     "title": "代表委員会",
     "date": "2026-11-19",
-    "dateLabel": "11/19(木)・該当者",
+    "dateLabel": "11/19(木) 15:40・理科C・該当者",
     "details": [
-      "欠席する場合は代理を立てる。"
+      "15:40から理科Cで実施。",
+      "先週配布した規約改正のプリントを持参。",
+      "欠席する場合は必ず代理を立てる。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NzAyNjIwNDc3"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwMzYyNzU3MDk3"
   },
   {
     "id": "eiken-grade3-text-correction-nov16",
@@ -4473,6 +4475,52 @@ window.CLASSROOM_DATA = {
     "details": [
       "展示された三角巾は一度持ち帰って洗濯し、再度提出する。展示はおよそ1年間の予定。"
     ]
+  },
+  {
+    "id": "math-unsubmitted-nov19",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "82回生",
+    "poster": "森本奈央",
+    "posted": "11/19",
+    "title": "数学：未合格・未提出プリントの放課後対応",
+    "date": "2026-11-19",
+    "dateLabel": "11/19(木) 終礼清掃後・404教室",
+    "details": [
+      "比例反比例の利用（1）のプリントが未合格の人は、終礼清掃後に404教室へ。放課後は手渡しのみで、棚への提出はできない。",
+      "平面図形No.4・5が未提出の人も404教室で取り組む。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwMzkzMjUxNDY0"
+  },
+  {
+    "id": "japanese-grammar-materials-nov20",
+    "cat": "no",
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "附属中学校伝達用",
+    "posted": "11/19",
+    "title": "国語（文法）：テキストと前回配布プリント2種を持参",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 国語（文法）・1〜3組",
+    "details": ["テキスト、前回配布の「動詞の活用」と「活用表練習」のプリントを忘れずに持参する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk4MDA4ODQyMDQ0"
+  },
+  {
+    "id": "winter-volunteer-nov20",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "総務",
+    "poster": "菊池菜々世",
+    "posted": "11/19",
+    "optional": true,
+    "title": "ウィンターボランティア企画・立ち番表作成",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 放課後15:30・自治会室・希望者",
+    "details": [
+      "ウィンターボランティアの企画を進める。前回参加できなかった人も参加可。",
+      "立ち番表の作成を手伝える人も自治会室へ。"
+    ],
+    "url": "https://classroom.google.com/c/ODYxMzQ0NDY1OTgx/p/ODk5OTIxNjkyNjE4"
   },
 ]
 };
