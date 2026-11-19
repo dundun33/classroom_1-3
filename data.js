@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-18",
-  fetchCheckedTime: "21:12",
-  updateISO: "2026-11-18",
-  updateTime: "21:12",
+  fetchCheckedISO: "2026-11-19",
+  fetchCheckedTime: "09:08",
+  updateISO: "2026-11-19",
+  updateTime: "09:09",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -512,12 +512,12 @@ window.CLASSROOM_DATA = {
       "source": "11〜12月予定表（10/30配信）"
     },
     "2026-11-21": {
-      "kind": "uncertain",
-      "title": "午前練習？午後の可能性",
-      "time": "",
-      "place": "",
-      "detail": "時間帯未確定",
-      "source": "11〜12月予定表（10/30配信）"
+      "kind": "practice",
+      "title": "午後練習",
+      "time": "時間記載なし",
+      "place": "第3体育館",
+      "detail": "11/19のバスケClassroom連絡で午後練習として確定。",
+      "source": "バスケClassroom 11/19"
     },
     "2026-11-23": {
       "kind": "school",
@@ -3123,7 +3123,7 @@ window.CLASSROOM_DATA = {
   },
   {
     "cat": "no",
-    "posted": "10/30",
+    "posted": "11/19",
     "id": "bsched-nov-dec",
     "title": "バスケ11〜12月予定表・冬休み参考予定",
     "date": "2027-01-07",
@@ -3131,13 +3131,26 @@ window.CLASSROOM_DATA = {
     "subject": "部活",
     "thread": "バスケ",
     "poster": "山本昂宏",
-    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/m/ODk2NzI0NzQ1OTI4/details",
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkxNDI0NjY3OTEw",
     "details": [
-      "11/14は午前8:30〜12:00・第2体育館へ変更。11/8は午前練習試合（未定）、午後自主練も未確定。11/21は午前か午後か未確定。",
+      "11/14は午前8:30〜12:00・第2体育館へ変更。11/8は午前練習試合（未定）、午後自主練も未確定。11/21は第3体育館で午後練習に確定（時間記載なし）。",
       "12/4はテスト後の午後練習・昼食持参。12/5は終日練習。12/11は「練習なし？」で未確定。",
       "冬休み活動は参考予定。スキー教室期間12/21〜24は練習できないため、それ以外に集中。",
       "12/19午前、12/25・28・29と1/4〜7は終日練習の参考予定。12/28午前はバレー部合同練習。"
     ]
+  },
+  {
+    "id": "bball-afternoon-practice-nov21",
+    "cat": "no",
+    "subject": "部活",
+    "thread": "バスケ",
+    "poster": "山本昂宏",
+    "posted": "11/19",
+    "title": "バスケ：11/21(土) 午後練習に確定",
+    "date": "2026-11-21",
+    "dateLabel": "11/21(土) 午後・第3体育館",
+    "details": ["正式に午後練習へ変更。開始・終了時刻は記載なし。"],
+    "url": "https://classroom.google.com/c/MzI3NTczNzQyMTQy/p/ODkxNDI0NjY3OTEw"
   },
   {
     "id": "korea-winter2026",
