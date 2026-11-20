@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "15:07",
+  fetchCheckedTime: "15:32",
   updateISO: "2026-11-20",
-  updateTime: "15:07",
+  updateTime: "15:32",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4692,6 +4692,19 @@ window.CLASSROOM_DATA = {
       "テストには分度器と普通の定規を1本持参する。貸し借りはしない。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDc1NTIyOTE2"
+  },
+  {
+    "id": "sports-key-final-tally-nov20",
+    "cat": "hw",
+    "subject": "体育部",
+    "thread": "82回生",
+    "poster": "押切衣舞",
+    "posted": "11/20",
+    "title": "体育部：空カギ最終集計をロイロで送信",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 終礼後すぐ",
+    "details": ["体育部部長は、終礼後すぐに空カギの最終集計結果をロイロで押切先生へ送信する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDM5MjgyNjEw"
   },
 ]
 };
