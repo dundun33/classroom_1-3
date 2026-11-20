@@ -6,80 +6,80 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "12:42",
+  fetchCheckedTime: "15:07",
   updateISO: "2026-11-20",
-  updateTime: "12:42",
+  updateTime: "15:07",
   timetable: {
-  "label": "11/16(月)〜11/20(金)",
+  "label": "11/23(月)〜11/27(金)",
   "days": [
     {
       "n": "月",
-      "md": "11/16",
-      "iso": "2026-11-16"
+      "md": "11/23",
+      "iso": "2026-11-23"
     },
     {
       "n": "火",
-      "md": "11/17",
-      "iso": "2026-11-17"
+      "md": "11/24",
+      "iso": "2026-11-24"
     },
     {
       "n": "水",
-      "md": "11/18",
-      "iso": "2026-11-18"
+      "md": "11/25",
+      "iso": "2026-11-25"
     },
     {
       "n": "木",
-      "md": "11/19",
-      "iso": "2026-11-19"
+      "md": "11/26",
+      "iso": "2026-11-26"
     },
     {
       "n": "金",
-      "md": "11/20",
-      "iso": "2026-11-20"
+      "md": "11/27",
+      "iso": "2026-11-27"
     }
   ],
   "rows": [
     [
-      { "s": "音", "t": "阿佐美", "r": "声楽" },
-      { "s": "道徳", "t": "担任", "r": "HR" },
-      { "s": "家庭学習日", "t": "", "r": "", "rs": 6 },
-      { "s": "国", "t": "鈴木", "r": "HR" },
-      { "s": "英", "t": "コリンズ・マオ", "r": "LL/400" }
-    ],
-    [
+      { "s": "勤労感謝の日", "t": "", "r": "", "rs": 6 },
+      { "s": "読書会", "t": "", "r": "", "rs": 2, "ref": "reading-circle-nov24" },
+      { "s": "理", "t": "大越・小山", "r": "理科A/B" },
       { "s": "数", "t": "森本", "r": "HR" },
-      { "s": "総合", "t": "担任", "r": "HR" },
+      { "s": "数", "t": "森本", "r": "HR" }
+    ],
+    [
       null,
+      null,
+      { "s": "英", "t": "本木", "r": "HR" },
       { "s": "体", "t": "石井", "r": "一体" },
-      { "s": "国", "t": "秦野", "r": "HR", "mk": "文法の持ち物", "ref": "japanese-grammar-materials-nov20" }
+      { "s": "社", "t": "馬場", "r": "HR" }
     ],
     [
-      { "s": "社", "t": "宮崎", "r": "HR" },
-      { "s": "国", "t": "鈴木", "r": "HR" },
       null,
+      { "s": "美", "t": "芝", "r": "美術室" },
+      { "s": "数", "t": "山口", "r": "HR" },
       { "s": "英", "t": "磯崎・吉野", "r": "HR/402" },
-      { "s": "家", "t": "菊池", "r": "HR", "mk": "教科書", "ref": "home-textbook-nov19" }
+      { "s": "家", "t": "菊池", "r": "HR" }
     ],
     [
-      { "s": "国", "t": "秋山・西出", "r": "HR/401" },
-      { "s": "社", "t": "馬場", "r": "HR" },
       null,
-      { "s": "数", "t": "山口", "r": "HR", "mk": "平面図形小テスト", "test": true, "ref": "math-plane-geometry-quiz-nov19" },
-      { "s": "社", "t": "菊池", "r": "HR" }
+      { "s": "美", "t": "芝", "r": "美術室" },
+      { "s": "音", "t": "矢沢", "r": "声楽" },
+      { "s": "国", "t": "西出・秦野", "r": "HR/405" },
+      { "s": "理", "t": "松本", "r": "理科A" }
     ],
     [
-      { "s": "英", "t": "平岡・本木", "r": "HR/402" },
+      null,
       { "s": "体", "t": "新谷", "r": "二体" },
-      null,
-      { "s": "理", "t": "松本", "r": "理科A" },
-      { "s": "社", "t": "平野", "r": "HR" }
+      { "s": "英", "t": "平岡・吉野", "r": "HR/402" },
+      { "s": "理", "t": "松本", "r": "理科A", "mk": "期末テスト範囲", "ref": "science1-final-scope-nov20" },
+      { "s": "理", "t": "松本", "r": "理科A" }
     ],
     [
-      { "s": "体", "t": "佐々木・齋藤", "r": "プール" },
-      { "s": "英", "t": "平岡", "r": "HR" },
       null,
+      { "s": "英", "t": "平岡", "r": "HR" },
+      { "s": "社", "t": "馬場", "r": "HR" },
       { "s": "理", "t": "松本", "r": "理科A" },
-      { "s": "数", "t": "森本・山口", "r": "HR/数メ" }
+      { "s": "社", "t": "宮崎", "r": "HR" }
     ]
   ]
 },
@@ -4553,6 +4553,145 @@ window.CLASSROOM_DATA = {
       "メニュー開発、生成AI、マーケティングに興味がある人を追加募集。11/20締切だった申込プリントは、締切後も引き続き受け付ける。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwNTg0OTY4NDEy"
+  },
+  {
+    "id": "timetable-nov23",
+    "cat": "no",
+    "subject": "時間割",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/20",
+    "title": "11/23〜11/27の時間割【3組】",
+    "date": "2026-11-27",
+    "dateLabel": "11/23(月)〜11/27(金)",
+    "details": [
+      "11/23(月)は勤労感謝の日で休み。",
+      "11/24(火)の1・2限は読書会。持ち物は班で決めた本とプリント。",
+      "3組の時間割はページ上部の週間時間割に反映。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/OTAwNjAzMzg4MDk5/details"
+  },
+  {
+    "id": "final-exams-dec2026",
+    "cat": "no",
+    "subject": "試験",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/20",
+    "title": "2学期期末テスト時間割（1年）",
+    "date": "2026-12-04",
+    "dateLabel": "12/1(火)〜12/4(金)",
+    "details": [
+      "12/1(火)：英語 8:50〜9:40、社会 9:55〜10:35、国語 10:50〜11:40。",
+      "12/2(水)：数学（平面図形）8:50〜9:45、理科2 10:00〜10:40、英単語・OC 10:55〜11:25。",
+      "12/3(木)：理科1 8:50〜9:25、国語 9:40〜10:30、数学（比例反比例の利用）10:45〜11:25。",
+      "12/4(金)：社会 8:50〜9:20、技家 9:35〜10:05。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/OTAwNjAxMDc5Mzg4/details"
+  },
+  {
+    "id": "broadcast-assembly-nov24",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/20",
+    "title": "放送朝礼：8:35までに着席",
+    "date": "2026-11-24",
+    "dateLabel": "11/24(火) 8:35まで",
+    "details": ["放送朝礼のため、8:35までに教室で着席する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDM5NDYzMzI2"
+  },
+  {
+    "id": "lost-property-office-nov30",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/20",
+    "title": "落とし物：職員室保管の水筒・お弁当箱は11/30まで",
+    "date": "2026-11-30",
+    "dateLabel": "11/30(月)まで",
+    "details": [
+      "食べ物は落とし物置場に置かず、職員室へ届ける。",
+      "職員室保管の水筒・お弁当箱は11/30までに持ち主が取りに来ない場合、処分する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDQwNTc5Njkw"
+  },
+  {
+    "id": "reading-circle-nov24",
+    "cat": "no",
+    "subject": "学活",
+    "thread": "82回生",
+    "poster": "松本珠希",
+    "posted": "11/20",
+    "title": "1年生：読書会（1・2限）",
+    "date": "2026-11-24",
+    "dateLabel": "11/24(火) 1・2限",
+    "details": [
+      "班で決めた本とプリントを持参する。",
+      "図書委員は班分けを発表し、班の一覧を掲示する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwNTk3MTYyNDg5"
+  },
+  {
+    "id": "regulation-amendment-vote-dec4",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "生徒会総務",
+    "posted": "11/20",
+    "title": "生徒会規約改正：12/4に全校学級投票",
+    "date": "2026-12-04",
+    "dateLabel": "12/4(金) 全校学級投票",
+    "details": [
+      "2学期制への移行に伴う生徒会規約改正案が代表委員会で可決。",
+      "12/4の投票前に、改正案を読んで確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDc1Mjc5MDgy"
+  },
+  {
+    "id": "dream-notebook-dec9",
+    "cat": "hw",
+    "subject": "学校",
+    "thread": "生徒会総務",
+    "poster": "生徒会総務",
+    "posted": "11/20",
+    "title": "Dream Notebook：学級名も記入して提出",
+    "date": "2026-12-09",
+    "dateLabel": "12/9(水) 提出",
+    "details": ["Dream Notebookに学級名も記入し、終礼時の箱へ提出する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNTk0MDUyMzE5"
+  },
+  {
+    "id": "minori-house-volunteer-nov27",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "生徒会総務",
+    "poster": "生徒会総務",
+    "posted": "11/20",
+    "optional": true,
+    "title": "みのりの家ボランティア：希望者募集",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金) 締切・希望者",
+    "details": ["配布したチラシまたは学校掲示の案内を確認し、希望者は締切までに申し込む。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNTk0MDUyMzE5"
+  },
+  {
+    "id": "science1-final-scope-nov20",
+    "cat": "no",
+    "subject": "理科",
+    "thread": "82回生",
+    "poster": "松本俊彦",
+    "posted": "11/20",
+    "title": "理科1分野：2学期期末テスト範囲・持ち物",
+    "date": "2026-12-03",
+    "dateLabel": "12/3(木) 期末テスト",
+    "details": [
+      "範囲：プリントNo.11・No.11-2（酸素・窒素・二酸化炭素・水素のみ）、No.17（アンモニアの発生）、No.18「ものが見える」〜No.22（凸レンズ1）。",
+      "テストには分度器と普通の定規を1本持参する。貸し借りはしない。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDc1NTIyOTE2"
   },
 ]
 };
