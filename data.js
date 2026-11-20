@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "15:32",
+  fetchCheckedTime: "17:02",
   updateISO: "2026-11-20",
-  updateTime: "15:32",
+  updateTime: "17:02",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4705,6 +4705,40 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/20(金) 終礼後すぐ",
     "details": ["体育部部長は、終礼後すぐに空カギの最終集計結果をロイロで押切先生へ送信する。"],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDM5MjgyNjEw"
+  },
+  {
+    "id": "english-oc-final-study-guide-nov20",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "Matthew Collins",
+    "posted": "11/20",
+    "title": "英語OC：期末テスト学習ガイド・配布物",
+    "date": "2026-12-02",
+    "dateLabel": "12/2(水) 英単語・OCテスト",
+    "details": [
+      "学習ガイドを確認して、記載の範囲を学習する。",
+      "配布物が手元にない場合は、添付資料を確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/p/ODkxNDc3NTUyMjY5"
+  },
+  {
+    "id": "mail-QBJJS1uFla",
+    "cat": "no",
+    "date": "2026-11-20",
+    "dateLabel": "11/20(金) 配信",
+    "subject": "学校",
+    "title": "中高一体化・一貫化の新たな体制づくり：経過報告",
+    "details": [
+      "10/19公開の動画と、その後のアンケートへの協力に対する経過報告。",
+      "土曜日の登校は、生徒・保護者の負担軽減と教育目標の両立を目指して検討中。11月末までに報告予定。",
+      "十月祭・もみじ祭については、中高とも生徒との対話の機会を設け、検討を進めている。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/20",
+    "mail": true,
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBJJS1uFla"
   },
 ]
 };
