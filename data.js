@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "10:59",
+  fetchCheckedTime: "12:42",
   updateISO: "2026-11-20",
-  updateTime: "10:59",
+  updateTime: "12:42",
   timetable: {
   "label": "11/16(月)〜11/20(金)",
   "days": [
@@ -4537,6 +4537,22 @@ window.CLASSROOM_DATA = {
       "豆プリント⑧〜⑬（⑫・⑬は最後の授業で配布）。活用表を何も見ずに書けるよう練習する。"
     ],
     "url": "https://classroom.google.com/c/ODY0MDgzNTIwNTQ5/p/ODkxMzg2Mjk3OTY4"
+  },
+  {
+    "id": "menu-development-project-nov20",
+    "cat": "no",
+    "subject": "学校",
+    "thread": "82回生",
+    "poster": "遠山弥生",
+    "posted": "11/20",
+    "optional": true,
+    "title": "食堂メニュー開発プロジェクト：追加メンバー募集",
+    "dateLabel": "引き続き募集・希望者",
+    "details": [
+      "食堂とコラボしたメニュー開発と、生成AIを活用したPRに取り組むプロジェクト。",
+      "メニュー開発、生成AI、マーケティングに興味がある人を追加募集。11/20締切だった申込プリントは、締切後も引き続き受け付ける。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwNTg0OTY4NDEy"
   },
 ]
 };
