@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-20",
-  fetchCheckedTime: "18:59",
+  fetchCheckedTime: "19:40",
   updateISO: "2026-11-20",
-  updateTime: "19:00",
+  updateTime: "19:40",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4739,6 +4739,76 @@ window.CLASSROOM_DATA = {
     "posted": "11/20",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBJJS1uFla"
+  },
+  {
+    "id": "loilo-japanese-verb-check-nov21",
+    "cat": "hw",
+    "subject": "国語",
+    "thread": "国語（秦野）",
+    "poster": "ロイロノート",
+    "posted": "11/20",
+    "title": "二学期③ 動詞確認プリント",
+    "date": "2026-11-21",
+    "dateLabel": "11/21(土) 20:00 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/14421904?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-science-refraction1-nov25",
+    "cat": "hw",
+    "subject": "理科",
+    "thread": "理科1分野",
+    "poster": "ロイロノート",
+    "posted": "11/20",
+    "title": "20 光の屈折1",
+    "date": "2026-11-25",
+    "dateLabel": "11/25(水) 20:00 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-science-refraction2-nov25",
+    "cat": "hw",
+    "subject": "理科",
+    "thread": "理科1分野",
+    "poster": "ロイロノート",
+    "posted": "11/20",
+    "title": "21 光の屈折2",
+    "date": "2026-11-25",
+    "dateLabel": "11/25(水) 20:00 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-science-mirror-nov30",
+    "cat": "hw",
+    "subject": "理科",
+    "thread": "理科1分野",
+    "poster": "ロイロノート",
+    "posted": "11/20",
+    "title": "19 鏡に映る像",
+    "date": "2026-11-30",
+    "dateLabel": "11/30(月) 20:00 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-english-key-162-163-nov24",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "ロイロノート",
+    "posted": "11/20",
+    "title": "Key p.162-163",
+    "date": "2026-11-24",
+    "dateLabel": "11/24(火) 8:40 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
+    "hasLink": true
   },
 ]
 };
