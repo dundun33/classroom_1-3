@@ -7,8 +7,8 @@
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-21",
   fetchCheckedTime: "10:39",
-  updateISO: "2026-11-21",
-  updateTime: "10:39",
+  updateISO: "2026-11-22",
+  updateTime: "15:58",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4741,20 +4741,6 @@ window.CLASSROOM_DATA = {
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBJJS1uFla"
   },
   {
-    "id": "loilo-japanese-verb-check-nov21",
-    "cat": "hw",
-    "subject": "国語",
-    "thread": "国語（秦野）",
-    "poster": "ロイロノート",
-    "posted": "11/21",
-    "title": "二学期③ 動詞確認プリント",
-    "date": "2026-11-21",
-    "dateLabel": "11/21(土) 20:00 提出",
-    "details": ["ロイロ提出箱で募集中。"],
-    "url": "https://loilonote.app/_/14421904?tab=submissionBox",
-    "hasLink": true
-  },
-  {
     "id": "loilo-science-refraction1-nov25",
     "cat": "hw",
     "subject": "理科",
@@ -4797,15 +4783,15 @@ window.CLASSROOM_DATA = {
     "hasLink": true
   },
   {
-    "id": "loilo-english-key-162-163-nov24",
+    "id": "loilo-english-shinchumon-16-nov27",
     "cat": "hw",
     "subject": "英語",
     "thread": "英語",
     "poster": "ロイロノート",
-    "posted": "11/21",
-    "title": "Key p.162-163",
-    "date": "2026-11-24",
-    "dateLabel": "11/24(火) 8:40 提出",
+    "posted": "11/22",
+    "title": "新中問16章p.167 スライド4枚",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金) 8:40 提出",
     "details": ["ロイロ提出箱で募集中。"],
     "url": "https://loilonote.app/_/13602003?tab=submissionBox",
     "hasLink": true
