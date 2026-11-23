@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-21",
+  fetchCheckedISO: "2026-11-23",
   fetchCheckedTime: "10:39",
-  updateISO: "2026-11-22",
-  updateTime: "15:58",
+  updateISO: "2026-11-23",
+  updateTime: "10:39",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4795,6 +4795,22 @@ window.CLASSROOM_DATA = {
     "details": ["ロイロ提出箱で募集中。"],
     "url": "https://loilonote.app/_/13602003?tab=submissionBox",
     "hasLink": true
+  },
+  {
+    "id": "science2-final-scope-nov21",
+    "cat": "hw",
+    "subject": "理科2分野",
+    "thread": "82回生",
+    "poster": "大越佳子",
+    "posted": "11/21",
+    "title": "理科2分野：2学期期末テスト範囲",
+    "date": "2026-12-02",
+    "dateLabel": "12/2(水) 理科2分野テスト",
+    "details": [
+      "範囲：プリントNo.15〜19。",
+      "11月の星空、関連する理科便覧とマイクリアも確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNTIyMDU3NzYy"
   },
 ]
 };
