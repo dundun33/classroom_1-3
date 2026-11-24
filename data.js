@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-24",
-  fetchCheckedTime: "11:10",
+  fetchCheckedTime: "13:01",
   updateISO: "2026-11-24",
-  updateTime: "11:10",
+  updateTime: "13:01",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4827,6 +4827,24 @@ window.CLASSROOM_DATA = {
       "当日放課後は手渡しのみ受け付ける。今日持っている人は提出してから帰る。"
     ],
     "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/OTAwOTkwMDExMjU5"
+  },
+  {
+    "id": "mail-QBOCfCdRaz",
+    "cat": "no",
+    "date": "2027-01-01",
+    "dateLabel": "2027年1月から",
+    "subject": "学校",
+    "title": "災害給付金制度：申請システムをリニューアル",
+    "details": [
+      "学校管理下の災害給付金制度（日本スポーツ振興センター・JSC）の申請システムが2027年1月から新しくなる。",
+      "保護者向け案内の配布資料を確認する。"
+    ],
+    "thread": "",
+    "poster": "保護者向けメール",
+    "posted": "11/24",
+    "mail": true,
+    "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QBOCfC7Hjd",
+    "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBOCfCdRaz"
   },
 ]
 };
