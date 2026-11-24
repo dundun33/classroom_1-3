@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-23",
-  fetchCheckedTime: "11:08",
-  updateISO: "2026-11-23",
-  updateTime: "11:08",
+  fetchCheckedISO: "2026-11-24",
+  fetchCheckedTime: "10:04",
+  updateISO: "2026-11-24",
+  updateTime: "10:04",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4811,6 +4811,22 @@ window.CLASSROOM_DATA = {
       "11月の星空、関連する理科便覧とマイクリアも確認する。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNTIyMDU3NzYy"
+  },
+  {
+    "id": "math-plane-figure1-deadline-nov27",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/24",
+    "title": "平面図形(1)プリント：合格締切",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金) 放課後まで",
+    "details": [
+      "平面図形(1)のプリントは11/27(金)までに合格する。",
+      "当日放課後は手渡しのみ受け付ける。今日持っている人は提出してから帰る。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/OTAwOTkwMDExMjU5"
   },
 ]
 };
