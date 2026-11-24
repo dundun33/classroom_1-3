@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-24",
-  fetchCheckedTime: "13:01",
+  fetchCheckedTime: "16:20",
   updateISO: "2026-11-24",
-  updateTime: "13:01",
+  updateTime: "16:20",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4173,13 +4173,14 @@ window.CLASSROOM_DATA = {
     "subject": "理科2分野",
     "thread": "82回生",
     "poster": "大越佳子",
-    "posted": "11/16",
+    "posted": "11/24",
     "title": "理科2分野：三角定規（2枚）を持参",
-    "dateLabel": "次回授業",
+    "date": "2026-11-25",
+    "dateLabel": "11/25(水) 授業",
     "details": [
-      "三角定規を2枚持ってくる。"
+      "三角定規を2枚持参する。できればハサミも持参する。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODk5NDQzMjc4MzY2"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwMzgyOTg5MDEy"
   },
   {
     "id": "music-festival-committee-nov17",
@@ -4845,6 +4846,124 @@ window.CLASSROOM_DATA = {
     "mail": true,
     "mailUrl": "https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QBOCfC7Hjd",
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBOCfCdRaz"
+  },
+  {
+    "id": "eiken-online-conversation-nov24",
+    "cat": "no",
+    "optional": true,
+    "subject": "英検",
+    "thread": "82回生",
+    "poster": "斉当かおり",
+    "posted": "11/24",
+    "title": "英検2次対策：希望者向けオンライン英会話",
+    "date": "2026-12-03",
+    "dateLabel": "12/3(木) 申込締切・希望者",
+    "details": [
+      "3月末の英検2次試験に向けた希望者対象のオンライン英会話。",
+      "申込みは12/3(木)まで、入金は12/4(金)まで。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNTg5NDM5NTcy",
+    "hasLink": true
+  },
+  {
+    "id": "kanji-kentei-feb2027-nov24",
+    "cat": "no",
+    "optional": true,
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/24",
+    "title": "漢字検定：インターネット申込み締切",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金) 申込締切・希望者",
+    "details": [
+      "2027/2/5(金)実施の漢字検定。昨年と異なりインターネットで申し込む。",
+      "パソコンの不具合に備え、余裕をもって手続きする。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDc0MjU3MDMx"
+  },
+  {
+    "id": "history-final-scope-nov24",
+    "cat": "hw",
+    "subject": "社会",
+    "thread": "82回生",
+    "poster": "馬場友紀",
+    "posted": "11/24",
+    "title": "歴史：期末テスト範囲・試験時間変更",
+    "date": "2026-12-01",
+    "dateLabel": "12/1(火) 社会テスト",
+    "details": [
+      "範囲：プリントNo.11〜13。内容がまたがるためNo.11も含む。",
+      "授業スライドとおさらいプリントも確認する。テスト時間は30分から25分へ変更。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNTg1NjQxMjE3"
+  },
+  {
+    "id": "home-lesson-supplies-nov24",
+    "cat": "no",
+    "subject": "家庭科",
+    "thread": "82回生",
+    "poster": "菊池菜々世",
+    "posted": "11/24",
+    "title": "家庭科：今週の授業の持ち物・場所",
+    "dateLabel": "今週の授業・1・2・3・5・6組",
+    "details": [
+      "ファイル、オレンジの教科書、裁縫箱、刺繍枠・針糸などのキット、iPadを持参する。",
+      "場所は被服室B。プリントを整理し、忘れ物がないよう確認する。"
+    ],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwNzQyOTU3NDk2"
+  },
+  {
+    "id": "japanese-textbook-nov24",
+    "cat": "no",
+    "subject": "国語",
+    "thread": "82回生",
+    "poster": "鈴木秀一",
+    "posted": "11/24",
+    "title": "国語（鈴木）：次回から教科書を持参",
+    "dateLabel": "次回の授業から",
+    "details": ["国語（鈴木）の授業には、次の時間から教科書を持参する。"],
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMDIxMjk3NTA1"
+  },
+  {
+    "id": "math-plane-more5-nov24",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/24",
+    "title": "平面図形 もっと（5）：問題・解答PDF",
+    "dateLabel": "11/24(火) 配布",
+    "details": ["平面図形「もっと（5）」の問題PDFと解答PDFを配布。"],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzODE4MDQ5/details"
+  },
+  {
+    "id": "math-plane-quiz-retest-nov24",
+    "cat": "no",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/24",
+    "title": "平面図形小テスト：再試・解き直し案内",
+    "date": "2026-11-25",
+    "dateLabel": "11/25(水) 20:00まで・該当者",
+    "details": [
+      "9点以下の人は、やり直しプリントを丸付け・直しまで行い、11/25(水)20:00までにロイロへ提出する。",
+      "再試は11/26(木)・11/27(金)朝8:10から400教室、または11/27(金)終礼後に402教室。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/OTAwMTc4NTIxMzYz/details"
+  },
+  {
+    "id": "english-unit9-model-answer-nov24",
+    "cat": "no",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "平岡裕子",
+    "posted": "11/24",
+    "title": "Unit 9：テスト模範解答PDF",
+    "dateLabel": "11/24(火) 配布",
+    "details": ["Unit 9テストの模範解答PDFを配布。"],
+    "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMDAwMTA0Mzcx/details"
   },
 ]
 };
