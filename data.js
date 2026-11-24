@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-24",
-  fetchCheckedTime: "10:04",
+  fetchCheckedTime: "11:10",
   updateISO: "2026-11-24",
-  updateTime: "10:04",
+  updateTime: "11:10",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4789,7 +4789,7 @@ window.CLASSROOM_DATA = {
     "thread": "英語",
     "poster": "ロイロノート",
     "posted": "11/22",
-    "title": "新中問16章p.167 スライド4枚",
+    "title": "新中問16章p.167までスライド4枚",
     "date": "2026-11-27",
     "dateLabel": "11/27(金) 8:40 提出",
     "details": ["ロイロ提出箱で募集中。"],
