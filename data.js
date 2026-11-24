@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-24",
-  fetchCheckedTime: "16:20",
+  fetchCheckedTime: "21:11",
   updateISO: "2026-11-24",
-  updateTime: "16:20",
+  updateTime: "21:11",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4793,6 +4793,20 @@ window.CLASSROOM_DATA = {
     "title": "新中問16章p.167までスライド4枚",
     "date": "2026-11-27",
     "dateLabel": "11/27(金) 8:40 提出",
+    "details": ["ロイロ提出箱で募集中。"],
+    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
+    "hasLink": true
+  },
+  {
+    "id": "loilo-english-key-164-165-nov26",
+    "cat": "hw",
+    "subject": "英語",
+    "thread": "英語",
+    "poster": "ロイロノート",
+    "posted": "11/24",
+    "title": "Key p.164-165",
+    "date": "2026-11-26",
+    "dateLabel": "11/26(木) 8:40 提出",
     "details": ["ロイロ提出箱で募集中。"],
     "url": "https://loilonote.app/_/13602003?tab=submissionBox",
     "hasLink": true
