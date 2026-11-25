@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-25",
-  fetchCheckedTime: "13:04",
+  fetchCheckedTime: "14:59",
   updateISO: "2026-11-25",
-  updateTime: "13:04",
+  updateTime: "14:59",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,7 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'loilo-english-key-166-167-nov27', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/25', title:'Key p.166-167', date:'2026-11-27', dateLabel:'11/27(金) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
     { id:'english-jingle-bells-nov25', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/25', title:'Jingle Bells', dateLabel:'学習資料', details:['PDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAwNzkzODI0MDA1/details' },
   {
     "cat": "no",
