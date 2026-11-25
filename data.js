@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-25",
-  fetchCheckedTime: "17:04",
+  fetchCheckedTime: "18:58",
   updateISO: "2026-11-25",
-  updateTime: "17:04",
+  updateTime: "18:58",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4742,48 +4742,6 @@ window.CLASSROOM_DATA = {
     "posted": "11/20",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBJJS1uFla"
-  },
-  {
-    "id": "loilo-science-refraction1-nov25",
-    "cat": "hw",
-    "subject": "理科",
-    "thread": "理科1分野",
-    "poster": "ロイロノート",
-    "posted": "11/21",
-    "title": "20 光の屈折1",
-    "date": "2026-11-25",
-    "dateLabel": "11/25(水) 20:00 提出",
-    "details": ["ロイロ提出箱で募集中。"],
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true
-  },
-  {
-    "id": "loilo-science-refraction2-nov25",
-    "cat": "hw",
-    "subject": "理科",
-    "thread": "理科1分野",
-    "poster": "ロイロノート",
-    "posted": "11/21",
-    "title": "21 光の屈折2",
-    "date": "2026-11-25",
-    "dateLabel": "11/25(水) 20:00 提出",
-    "details": ["ロイロ提出箱で募集中。"],
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true
-  },
-  {
-    "id": "loilo-science-mirror-nov30",
-    "cat": "hw",
-    "subject": "理科",
-    "thread": "理科1分野",
-    "poster": "ロイロノート",
-    "posted": "11/21",
-    "title": "19 鏡に映る像",
-    "date": "2026-11-30",
-    "dateLabel": "11/30(月) 20:00 提出",
-    "details": ["ロイロ提出箱で募集中。"],
-    "url": "https://loilonote.app/_/13601995?tab=submissionBox",
-    "hasLink": true
   },
   {
     "id": "loilo-english-shinchumon-16-nov27",
