@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-25",
-  fetchCheckedTime: "18:58",
+  fetchCheckedTime: "22:01",
   updateISO: "2026-11-25",
-  updateTime: "18:58",
+  updateTime: "22:01",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,7 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'loilo-science-mirror-nov30', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/21', title:'19 鏡に映る像', date:'2026-11-30', dateLabel:'11/30(月) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
     { id:'lost-property-cafeteria-nov25', cat:'no', subject:'学校', thread:'82回生', poster:'芝咲耶子', posted:'11/25', title:'落とし物：豊明の卒業記念品', dateLabel:'心当たりのある人', details:['11/20 16:40ごろ食堂前の棚にあった、82回生のものと思われる卒業記念品。心当たりのある人は申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTYwMDkyMDk5' },
     { id:'loilo-english-key-166-167-nov27', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/25', title:'Key p.166-167', date:'2026-11-27', dateLabel:'11/27(金) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
     { id:'english-jingle-bells-nov25', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/25', title:'Jingle Bells', dateLabel:'学習資料', details:['PDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAwNzkzODI0MDA1/details' },
