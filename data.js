@@ -5,10 +5,10 @@
 /* items      : 各行のデータ。Claudeが返す塊をそのまま貼る     */
 
 window.CLASSROOM_DATA = {
-  fetchCheckedISO: "2026-11-24",
-  fetchCheckedTime: "21:13",
-  updateISO: "2026-11-24",
-  updateTime: "21:13",
+  fetchCheckedISO: "2026-11-25",
+  fetchCheckedTime: "09:21",
+  updateISO: "2026-11-25",
+  updateTime: "09:21",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -4609,15 +4609,14 @@ window.CLASSROOM_DATA = {
     "subject": "学校",
     "thread": "82回生",
     "poster": "松本珠希",
-    "posted": "11/20",
-    "title": "落とし物：職員室保管の水筒・お弁当箱は11/30まで",
+    "posted": "11/25",
+    "title": "落とし物：来週月曜までに引き取り",
     "date": "2026-11-30",
     "dateLabel": "11/30(月)まで",
     "details": [
-      "食べ物は落とし物置場に置かず、職員室へ届ける。",
-      "職員室保管の水筒・お弁当箱は11/30までに持ち主が取りに来ない場合、処分する。"
+      "落とし物に心当たりがある人は、来週月曜までに引き取る。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDQwNTc5Njkw"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTM1OTQ3MDM2"
   },
   {
     "id": "reading-circle-nov24",
@@ -4978,6 +4977,22 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/24(火) 配布",
     "details": ["Unit 9テストの模範解答PDFを配布。"],
     "url": "https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMDAwMTA0Mzcx/details"
+  },
+  {
+    "id": "math-final-scope-nov25",
+    "cat": "hw",
+    "subject": "数学",
+    "thread": "数学",
+    "poster": "森本奈央",
+    "posted": "11/25",
+    "title": "数学：2学期期末テスト範囲（平面図形・比例反比例）",
+    "date": "2026-12-03",
+    "dateLabel": "12/2(水)・12/3(木) 数学テスト",
+    "details": [
+      "平面図形：教科書p.158〜187・p.284〜286、完成ノートp.89〜120、プリント(1)(2)・もっと(1)〜(7)・抜粋No.1〜7。分度器機能のない定規とコンパスを持参。",
+      "比例反比例の利用：教科書p.148〜152・p.282〜283、完成ノートp.73〜82、授業プリント(1)・もっと(1)〜(3)・抜粋No.1〜2。"
+    ],
+    "url": "https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/p/ODk3MzAxNjMzNDY5"
   },
 ]
 };
