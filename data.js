@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-26",
-  fetchCheckedTime: "15:01",
+  fetchCheckedTime: "17:02",
   updateISO: "2026-11-26",
-  updateTime: "15:01",
+  updateTime: "17:02",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,8 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'loilo-math-plane-6-7-nov26', cat:'hw', subject:'数学', thread:'数学', poster:'ロイロノート', posted:'11/26', title:'平面図形 抜粋No.6,7', date:'2026-11-26', dateLabel:'11/26(木) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601994?tab=submissionBox', hasLink:true },
+    { id:'mail-QBQDSMKmrh', cat:'no', subject:'学校', thread:'', poster:'保護者向けメール', posted:'11/26', mail:true, optional:true, title:'漢検の申し込みについて', date:'2026-11-27', dateLabel:'11/27(金)まで・希望者', details:['漢検のインターネット申込は11/27中まで。団体申込は1000円割引。'], mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBQDSMKmrh' },
     { id:'oc-word-test-time-nov26', cat:'no', subject:'英語', thread:'82回生', poster:'本木綾子', posted:'11/26', title:'12/2 英単語・OCテスト時間変更', date:'2026-12-02', dateLabel:'12/2(水) 期末テスト', details:['テスト時間は30分から35分に変更。開始時刻の変更は発表されていません。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQwOTQwODEx' },
     { id:'loilo-science-22-dec2', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/26', title:'22 光の屈折2', date:'2026-12-02', dateLabel:'12/2(水) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
     { id:'loilo-science-23-dec2', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/26', title:'23 凸レンズによってできる像', date:'2026-12-02', dateLabel:'12/2(水) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
