@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-26",
-  fetchCheckedTime: "13:02",
+  fetchCheckedTime: "15:01",
   updateISO: "2026-11-26",
-  updateTime: "13:02",
+  updateTime: "15:01",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -747,7 +747,13 @@ window.CLASSROOM_DATA = {
 },
   items: [
     { id:'oc-word-test-time-nov26', cat:'no', subject:'英語', thread:'82回生', poster:'本木綾子', posted:'11/26', title:'12/2 英単語・OCテスト時間変更', date:'2026-12-02', dateLabel:'12/2(水) 期末テスト', details:['テスト時間は30分から35分に変更。開始時刻の変更は発表されていません。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQwOTQwODEx' },
-    { id:'loilo-science-mirror-nov30', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/21', title:'19 鏡に映る像', date:'2026-11-30', dateLabel:'11/30(月) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
+    { id:'loilo-science-22-dec2', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/26', title:'22 光の屈折2', date:'2026-12-02', dateLabel:'12/2(水) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
+    { id:'loilo-science-23-dec2', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/26', title:'23 凸レンズによってできる像', date:'2026-12-02', dateLabel:'12/2(水) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
+    { id:'saijiki-dec3-nov26', cat:'hw', subject:'国語', thread:'82回生', poster:'西出春菜', posted:'11/26', title:'歳時記ノートをロイロに提出', date:'2026-12-03', dateLabel:'12/3(木)まで', details:['9・10・11月に季節で感じたことを、3か月分で3ページ以上書いて提出。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQ4MTI1MTQz' },
+    { id:'japanese-w-final-nov26', cat:'no', subject:'国語', thread:'82回生', poster:'西出春菜', posted:'11/26', title:'国語ダブル：期末テスト', date:'2026-12-03', dateLabel:'12/3(木) 期末テスト', details:['200字の意見文を出題。これまでの意見文を見直して練習する。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQ4MTI1MTQz' },
+    { id:'finland-briefing-nov27', cat:'no', subject:'学校', thread:'82回生', poster:'Matthew Collins', posted:'11/26', optional:true, title:'フィンランド交流会参加者への説明会', date:'2026-11-27', dateLabel:'11/27(金) 15:40', details:['リーフラボで説明会。出席できない場合はLLで直接またはロイロノートのメッセージでCollins先生に連絡。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNjM5MDA0NTU2' },
+    { id:'violin-return-dec1', cat:'hw', subject:'音楽', thread:'82回生', poster:'矢沢まどか', posted:'11/26', title:'貸出バイオリンの返却', date:'2026-12-01', dateLabel:'12/1(火)まで・貸出者', details:['音楽会練習週間に備え、借りている生徒は返却手続きをする。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQxNzE5OTE2' },
+    { id:'math-plane-more7-nov26', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/26', title:'平面図形 もっと（7）', dateLabel:'学習資料', details:[], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkwMDkwNTQ4/details' },
     { id:'lost-property-cafeteria-nov25', cat:'no', subject:'学校', thread:'82回生', poster:'芝咲耶子', posted:'11/25', title:'落とし物：豊明の卒業記念品', dateLabel:'心当たりのある人', details:['11/20 16:40ごろ食堂前の棚にあった、82回生のものと思われる卒業記念品。心当たりのある人は申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTYwMDkyMDk5' },
     { id:'loilo-english-key-166-167-nov27', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/25', title:'Key p.166-167', date:'2026-11-27', dateLabel:'11/27(金) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
     { id:'english-jingle-bells-nov25', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/25', title:'Jingle Bells', dateLabel:'学習資料', details:['PDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAwNzkzODI0MDA1/details' },
@@ -4553,12 +4559,13 @@ window.CLASSROOM_DATA = {
     "posted": "11/20",
     "optional": true,
     "title": "食堂メニュー開発プロジェクト：追加メンバー募集",
-    "dateLabel": "引き続き募集・希望者",
+    "date": "2026-11-27",
+    "dateLabel": "11/27(金)まで・希望者",
     "details": [
       "食堂とコラボしたメニュー開発と、生成AIを活用したPRに取り組むプロジェクト。",
-      "メニュー開発、生成AI、マーケティングに興味がある人を追加募集。11/20締切だった申込プリントは、締切後も引き続き受け付ける。"
+      "希望者は11/27までに申込用紙を提出。提出・質問は押切先生または遠山先生へ。"
     ],
-    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAwNTg0OTY4NDEy"
+    "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTU5NjQ2NTIw"
   },
   {
     "id": "timetable-nov23",
@@ -4840,7 +4847,7 @@ window.CLASSROOM_DATA = {
     "dateLabel": "11/27(金) 申込締切・希望者",
     "details": [
       "2027/2/5(金)実施の漢字検定。昨年と異なりインターネットで申し込む。",
-      "パソコンの不具合に備え、余裕をもって手続きする。"
+      "11/27の日付が変わるまで申込可能。団体申込は1000円割引。余裕をもって手続きする。"
     ],
     "url": "https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkxNDc0MjU3MDMx"
   },
