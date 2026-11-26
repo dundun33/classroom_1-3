@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-26",
-  fetchCheckedTime: "12:05",
+  fetchCheckedTime: "13:02",
   updateISO: "2026-11-26",
-  updateTime: "12:05",
+  updateTime: "13:02",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,7 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'oc-word-test-time-nov26', cat:'no', subject:'英語', thread:'82回生', poster:'本木綾子', posted:'11/26', title:'12/2 英単語・OCテスト時間変更', date:'2026-12-02', dateLabel:'12/2(水) 期末テスト', details:['テスト時間は30分から35分に変更。開始時刻の変更は発表されていません。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQwOTQwODEx' },
     { id:'loilo-science-mirror-nov30', cat:'hw', subject:'理科', thread:'理科1分野', poster:'ロイロノート', posted:'11/21', title:'19 鏡に映る像', date:'2026-11-30', dateLabel:'11/30(月) 20:00 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13601995?tab=submissionBox', hasLink:true },
     { id:'lost-property-cafeteria-nov25', cat:'no', subject:'学校', thread:'82回生', poster:'芝咲耶子', posted:'11/25', title:'落とし物：豊明の卒業記念品', dateLabel:'心当たりのある人', details:['11/20 16:40ごろ食堂前の棚にあった、82回生のものと思われる卒業記念品。心当たりのある人は申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTYwMDkyMDk5' },
     { id:'loilo-english-key-166-167-nov27', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/25', title:'Key p.166-167', date:'2026-11-27', dateLabel:'11/27(金) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
@@ -4588,7 +4589,7 @@ window.CLASSROOM_DATA = {
     "dateLabel": "12/1(火)〜12/4(金)",
     "details": [
       "12/1(火)：英語 8:50〜9:40、社会 9:55〜10:35、国語 10:50〜11:40。",
-      "12/2(水)：数学（平面図形）8:50〜9:45、理科2 10:00〜10:40、英単語・OC 10:55〜11:25。",
+      "12/2(水)：数学（平面図形）8:50〜9:45、理科2 10:00〜10:40、英単語・OCは10:55開始予定・35分に変更。終了時刻は要確認。",
       "12/3(木)：理科1 8:50〜9:25、国語 9:40〜10:30、数学（比例反比例の利用）10:45〜11:25。",
       "12/4(金)：社会 8:50〜9:20、技家 9:35〜10:05。"
     ],
