@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-27",
-  fetchCheckedTime: "16:48",
+  fetchCheckedTime: "20:58",
   updateISO: "2026-11-27",
-  updateTime: "16:48",
+  updateTime: "20:58",
   timetable: {
   "label": "11/30(月)〜12/4(金)・火〜金は期末テスト",
   "days": [
@@ -738,6 +738,9 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'loilo-geography-palm-oil-nov30', cat:'hw', subject:'地理', thread:'地理', poster:'ロイロノート', posted:'11/27', title:'「植物油脂」「パーム油」を探せ', date:'2026-11-30', dateLabel:'11/30(月) 8:30 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/14489020?tab=submissionBox', hasLink:true },
+    { id:'loilo-home-food6-nov30', cat:'hw', subject:'家庭科', thread:'ロイロ', poster:'ロイロノート', posted:'11/27', optional:true, title:'食物No.6補足プリント', date:'2026-11-30', dateLabel:'11/30(月) 18:00・任意', details:['任意の提出。ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602002?tab=submissionBox', hasLink:true },
+    { id:'mail-QBRFcKSEQG', cat:'no', subject:'学校', thread:'', poster:'保護者向けメール', posted:'11/27', mail:true, title:'中高一体化・一貫化：FAQ更新', dateLabel:'学校からの案内', details:['アンケートを踏まえてFAQを更新。土曜日の登校に関し、月2回程度の土曜休校日を設けると回答。','文化祭について、生徒との対話・検討状況と開催日程案をFAQに掲載。閲覧用パスワードは別メールで案内。'], mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBRFcKSEQG' },
     { id:'schedule-nov30-dec4', cat:'no', subject:'時間割', thread:'82回生', poster:'松本珠希', posted:'11/27', title:'11/30〜12/4の時間割【3組】', date:'2026-12-04', dateLabel:'11/30(月)〜12/4(金)', details:['11/30は体育・数学・社会・国語・社会・英語。12/1〜4は期末テスト。','元の週間表には木・金の日付に誤記があるため、曜日と期末試験日程に照合して表示。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkzNzk2MjU0MDYw/details' },
     { id:'geography-asia21-23-nov27', cat:'hw', subject:'地理', thread:'地理', poster:'宮崎可奈子', posted:'11/27', title:'アジア州No.22：未提出者はロイロ提出', dateLabel:'週末の前半・未提出者', details:['No.22「自然環境」の未提出者は週末の前半にロイロへ提出。No.21〜23のプリントとおさらい問題も配信。'], url:'https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODkzODA5NTU2NTU5/details' },
     { id:'home-economics-nov27', cat:'no', subject:'家庭科', thread:'82回生', poster:'菊池菜々世', posted:'11/27', title:'家庭科：裁縫道具と自由課題', dateLabel:'当面の間', details:['裁縫道具と刺しゅうキットは冬休みまで使わないため持ち帰り可。自由課題のレポート用紙は被服室BのクラスBOX上。','被服室Bで風呂敷と余り布の落とし物。心当たりのある人はクラスBOX上を確認。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNjgyNzE5Njg1' },
