@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-27",
-  fetchCheckedTime: "13:03",
+  fetchCheckedTime: "14:57",
   updateISO: "2026-11-27",
-  updateTime: "13:03",
+  updateTime: "14:57",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,12 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'science1-answer-correction-nov27', cat:'no', subject:'理科1分野', thread:'82回生', poster:'松本珠希', posted:'11/27', title:'理科1：No.11模範解答を訂正', dateLabel:'期末テスト準備', details:['資料箱のNo.11模範解答でアンモニアを発生させる薬品の誤りを修正。授業で板書したNo.18〜22も資料箱に掲載。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzI1MzA2MzQy' },
+    { id:'math-plane-deadline-nov27', cat:'hw', subject:'数学', thread:'82回生', poster:'森本奈央', posted:'11/27', title:'平面図形（1）の合格締切', date:'2026-11-27', dateLabel:'11/27(金) 終礼・清掃後', details:['未合格者は402に来て取り組み、直接見せる。昨日締切の抜粋No.6・7を未提出の人も402へ。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzM5NDgwMDM2' },
+    { id:'japanese-suzuki-final-nov27', cat:'no', subject:'国語', thread:'82回生', poster:'鈴木秀一', posted:'11/27', title:'国語（鈴木）期末テスト範囲', date:'2026-12-01', dateLabel:'12/1(火) 期末テスト', details:['銀河鉄道の夜は「六、銀河ステーション」から最後まで。「言葉」をもつ鳥、シジュウカラは授業・プリントを復習。','百人一首19〜24、漢字ステップ19〜力だめし4（p.92〜118）。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzI0NDY4NTQz' },
+    { id:'student-lecture-sheet-nov27', cat:'no', subject:'学校', thread:'82回生', poster:'山本昂宏', posted:'11/27', title:'講演会プリントの保管', dateLabel:'講演会当日まで', details:['配布された講演会のプリントを当日までなくさず保管する。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzM5MTUyNDYy' },
+    { id:'eiken-course-check-nov27', cat:'no', subject:'英語', thread:'82回生', poster:'中尾有子', posted:'11/27', optional:true, title:'英検対策講座：申込内容の確認', dateLabel:'申込者・早めに確認', details:['クラスに配布された申込者名簿で受験コースなどを確認し、訂正があればすぐ英語科教員へ申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjYwODAxNTg2' },
+    { id:'english-pre-final-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'プレ2学期期末テスト', dateLabel:'期末テスト準備', details:['問題などのPDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMjYwNzM3NjIx/details' },
     { id:'loilo-math-more6-nov28', cat:'hw', subject:'数学', thread:'数学', poster:'ロイロノート', posted:'11/27', title:'もっと（6）：丸つけ・直しをして提出', date:'2026-11-28', dateLabel:'11/28(土) 20:00 提出', details:['授業で13分間のテスト形式で実施。欠席者も丸つけ・直しをして提出。返却はないが提出物として扱うため、直しを完了してから出す。'], url:'https://loilonote.app/_/13601994?tab=submissionBox', hasLink:true },
     { id:'english-final-scope-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'2学期期末テスト範囲：英語・単語', date:'2026-12-02', dateLabel:'12/1(火) 英語・12/2(水) 英単語', details:['教科書テスト（100点・50分）：教科書p.103〜122（Program 9〜10）、Keyワークp.146〜177（宿題以外も範囲）、新中問14〜16章。','授業プリント（文法⑩〜⑯）、動詞変化表（過去形）、Frozen p.5まで、Unitテスト。','単語テスト（30点・10分）：Keyワークp.152・168。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMzIxOTExNzQ4/details' },
     { id:'math-plane-more6-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形 もっと（6）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkwODA2ODIxMjUw/details' },
