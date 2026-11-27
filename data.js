@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-27",
-  fetchCheckedTime: "07:31",
+  fetchCheckedTime: "09:01",
   updateISO: "2026-11-27",
-  updateTime: "07:31",
+  updateTime: "09:01",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,9 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'english-final-scope-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'2学期期末テスト範囲：英語・単語', date:'2026-12-02', dateLabel:'12/1(火) 英語・12/2(水) 英単語', details:['教科書テスト（100点・50分）：教科書p.103〜122（Program 9〜10）、Keyワークp.146〜177（宿題以外も範囲）、新中問14〜16章。','授業プリント（文法⑩〜⑯）、動詞変化表（過去形）、Frozen p.5まで、Unitテスト。','単語テスト（30点・10分）：Keyワークp.152・168。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMzIxOTExNzQ4/details' },
+    { id:'math-plane-more6-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形 もっと（6）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkwODA2ODIxMjUw/details' },
+    { id:'math-plane2-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形（2）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzMTc1MzQx/details' },
     { id:'loilo-english-key-168-175-nov30', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/27', title:'Key p.168-169, p. 174-175', date:'2026-11-30', dateLabel:'11/30(月) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
     { id:'mail-QBQDSMKmrh', cat:'no', subject:'学校', thread:'', poster:'保護者向けメール', posted:'11/26', mail:true, optional:true, title:'漢検の申し込みについて', date:'2026-11-27', dateLabel:'11/27(金)まで・希望者', details:['漢検のインターネット申込は11/27中まで。団体申込は1000円割引。'], mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBQDSMKmrh' },
     { id:'oc-word-test-time-nov26', cat:'no', subject:'英語', thread:'82回生', poster:'本木綾子', posted:'11/26', title:'12/2 英単語・OCテスト時間変更', date:'2026-12-02', dateLabel:'12/2(水) 期末テスト', details:['テスト時間は30分から35分に変更。開始時刻の変更は発表されていません。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQwOTQwODEx' },
@@ -757,7 +760,6 @@ window.CLASSROOM_DATA = {
     { id:'violin-return-dec1', cat:'hw', subject:'音楽', thread:'82回生', poster:'矢沢まどか', posted:'11/26', title:'貸出バイオリンの返却', date:'2026-12-01', dateLabel:'12/1(火)まで・貸出者', details:['音楽会練習週間に備え、借りている生徒は返却手続きをする。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjQxNzE5OTE2' },
     { id:'math-plane-more7-nov26', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/26', title:'平面図形 もっと（7）', dateLabel:'学習資料', details:[], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkwMDkwNTQ4/details' },
     { id:'lost-property-cafeteria-nov25', cat:'no', subject:'学校', thread:'82回生', poster:'芝咲耶子', posted:'11/25', title:'落とし物：豊明の卒業記念品', dateLabel:'心当たりのある人', details:['11/20 16:40ごろ食堂前の棚にあった、82回生のものと思われる卒業記念品。心当たりのある人は申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMTYwMDkyMDk5' },
-    { id:'loilo-english-key-166-167-nov27', cat:'hw', subject:'英語', thread:'英語', poster:'ロイロノート', posted:'11/25', title:'Key p.166-167', date:'2026-11-27', dateLabel:'11/27(金) 8:40 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602003?tab=submissionBox', hasLink:true },
     { id:'english-jingle-bells-nov25', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/25', title:'Jingle Bells', dateLabel:'学習資料', details:['PDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAwNzkzODI0MDA1/details' },
   {
     "cat": "no",
@@ -4753,20 +4755,6 @@ window.CLASSROOM_DATA = {
     "posted": "11/20",
     "mail": true,
     "mailPageUrl": "https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBJJS1uFla"
-  },
-  {
-    "id": "loilo-english-shinchumon-16-nov27",
-    "cat": "hw",
-    "subject": "英語",
-    "thread": "英語",
-    "poster": "ロイロノート",
-    "posted": "11/22",
-    "title": "新中問16章p.167までスライド4枚",
-    "date": "2026-11-27",
-    "dateLabel": "11/27(金) 8:40 提出",
-    "details": ["ロイロ提出箱で募集中。"],
-    "url": "https://loilonote.app/_/13602003?tab=submissionBox",
-    "hasLink": true
   },
   {
     "id": "science2-final-scope-nov21",
