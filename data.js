@@ -6,80 +6,72 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-27",
-  fetchCheckedTime: "14:57",
+  fetchCheckedTime: "16:48",
   updateISO: "2026-11-27",
-  updateTime: "14:57",
+  updateTime: "16:48",
   timetable: {
-  "label": "11/23(月)〜11/27(金)",
+  "label": "11/30(月)〜12/4(金)・火〜金は期末テスト",
   "days": [
     {
       "n": "月",
-      "md": "11/23",
-      "iso": "2026-11-23"
+      "md": "11/30",
+      "iso": "2026-11-30"
     },
     {
       "n": "火",
-      "md": "11/24",
-      "iso": "2026-11-24"
+      "md": "12/1",
+      "iso": "2026-12-01"
     },
     {
       "n": "水",
-      "md": "11/25",
-      "iso": "2026-11-25"
+      "md": "12/2",
+      "iso": "2026-12-02"
     },
     {
       "n": "木",
-      "md": "11/26",
-      "iso": "2026-11-26"
+      "md": "12/3",
+      "iso": "2026-12-03"
     },
     {
       "n": "金",
-      "md": "11/27",
-      "iso": "2026-11-27"
+      "md": "12/4",
+      "iso": "2026-12-04"
     }
   ],
   "rows": [
     [
-      { "s": "勤労感謝の日", "t": "", "r": "", "rs": 6 },
-      { "s": "読書会", "t": "", "r": "", "rs": 2, "ref": "reading-circle-nov24" },
-      { "s": "理", "t": "大越・小山", "r": "理科A/B" },
+      { "s": "体", "t": "佐々木・齋藤", "r": "プール" },
+      { "s": "英語テスト", "time": "8:50〜9:40", "test": true, "ref": "english-final-scope-nov27" },
+      { "s": "数学（平面図形）テスト", "time": "8:50〜9:45", "test": true, "ref": "math-final-scope-nov25" },
+      { "s": "理科1テスト", "time": "8:50〜9:25", "test": true, "ref": "science1-final-scope-nov20" },
+      { "s": "社会テスト", "time": "8:50〜9:20", "test": true, "ref": "final-exams-dec2026" }
+    ],
+    [
       { "s": "数", "t": "森本", "r": "HR" },
-      { "s": "数", "t": "森本", "r": "HR" }
+      { "s": "社会テスト", "time": "9:55〜10:35", "test": true, "ref": "final-exams-dec2026" },
+      { "s": "理科2テスト", "time": "10:00〜10:40", "test": true, "ref": "science2-final-scope-nov21" },
+      { "s": "国語テスト", "time": "9:40〜10:30", "test": true, "ref": "japanese-w-final-nov26" },
+      { "s": "技家テスト", "time": "9:35〜10:05", "test": true, "ref": "final-exams-dec2026" }
     ],
     [
-      null,
-      null,
-      { "s": "英", "t": "本木", "r": "HR" },
-      { "s": "体", "t": "石井", "r": "一体" },
-      { "s": "社", "t": "馬場", "r": "HR" }
+      { "s": "社", "t": "宮崎", "r": "HR" },
+      { "s": "国語テスト", "time": "10:50〜11:40", "test": true, "ref": "japanese-suzuki-final-nov27" },
+      { "s": "英単語・OCテスト", "time": "10:55開始予定・35分", "test": true, "ref": "oc-word-test-time-nov26" },
+      { "s": "数学（比例反比例）テスト", "time": "10:45〜11:25", "test": true, "ref": "math-final-scope-nov25" },
+      { "s": "試験予定なし", "rs": 4 }
     ],
     [
-      null,
-      { "s": "美", "t": "芝", "r": "美術室" },
-      { "s": "数", "t": "山口", "r": "HR" },
-      { "s": "英", "t": "磯崎・吉野", "r": "HR/402" },
-      { "s": "家", "t": "菊池", "r": "HR" }
+      { "s": "国", "t": "秋山・西出", "r": "HR/404" },
+      { "s": "試験予定なし", "rs": 3 },
+      { "s": "試験予定なし", "rs": 3 },
+      { "s": "試験予定なし", "rs": 3 },
+      null
     ],
     [
-      null,
-      { "s": "美", "t": "芝", "r": "美術室" },
-      { "s": "音", "t": "矢沢", "r": "声楽" },
-      { "s": "国", "t": "西出・秦野", "r": "HR/405" },
-      { "s": "理", "t": "松本", "r": "理科A" }
+      { "s": "社", "t": "馬場", "r": "HR" }, null, null, null, null
     ],
     [
-      null,
-      { "s": "体", "t": "新谷", "r": "二体" },
-      { "s": "英", "t": "平岡・吉野", "r": "HR/402" },
-      { "s": "理", "t": "松本", "r": "理科A", "mk": "期末テスト範囲", "ref": "science1-final-scope-nov20" },
-      { "s": "理", "t": "松本", "r": "理科A" }
-    ],
-    [
-      null,
-      { "s": "英", "t": "平岡", "r": "HR" },
-      { "s": "社", "t": "馬場", "r": "HR" },
-      { "s": "理", "t": "松本", "r": "理科A" },
-      { "s": "社", "t": "宮崎", "r": "HR" }
+      { "s": "英", "t": "平岡・本木", "r": "HR/401" }, null, null, null, null
     ]
   ]
 },
@@ -746,6 +738,11 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'schedule-nov30-dec4', cat:'no', subject:'時間割', thread:'82回生', poster:'松本珠希', posted:'11/27', title:'11/30〜12/4の時間割【3組】', date:'2026-12-04', dateLabel:'11/30(月)〜12/4(金)', details:['11/30は体育・数学・社会・国語・社会・英語。12/1〜4は期末テスト。','元の週間表には木・金の日付に誤記があるため、曜日と期末試験日程に照合して表示。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/m/ODkzNzk2MjU0MDYw/details' },
+    { id:'geography-asia21-23-nov27', cat:'hw', subject:'地理', thread:'地理', poster:'宮崎可奈子', posted:'11/27', title:'アジア州No.22：未提出者はロイロ提出', dateLabel:'週末の前半・未提出者', details:['No.22「自然環境」の未提出者は週末の前半にロイロへ提出。No.21〜23のプリントとおさらい問題も配信。'], url:'https://classroom.google.com/c/ODY1MzU4MzYwMzcx/m/ODkzODA5NTU2NTU5/details' },
+    { id:'home-economics-nov27', cat:'no', subject:'家庭科', thread:'82回生', poster:'菊池菜々世', posted:'11/27', title:'家庭科：裁縫道具と自由課題', dateLabel:'当面の間', details:['裁縫道具と刺しゅうキットは冬休みまで使わないため持ち帰り可。自由課題のレポート用紙は被服室BのクラスBOX上。','被服室Bで風呂敷と余り布の落とし物。心当たりのある人はクラスBOX上を確認。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODgzNjgyNzE5Njg1' },
+    { id:'supporters-dec5-nov27', cat:'no', subject:'学校', thread:'82回生', poster:'馬場友紀', posted:'11/27', optional:true, title:'12/5入試体験会サポーター募集', date:'2026-11-27', dateLabel:'11/27(金) 17:00締切・希望者', details:['受付・教室や控室・相談コーナーを担当。集合は早い係で12:00頃、解散は遅い係で16:30頃の予定。申込者には後日説明会。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/ODkzODA3ODgxMDU0' },
+    { id:'mail-QBQFYL6q0P', cat:'no', subject:'学校', thread:'', poster:'保護者向けメール', posted:'11/27', mail:true, optional:true, title:'生徒会総務主催講演会へのお誘い', date:'2026-12-18', dateLabel:'12/18(金) 9:30〜11:00', details:['終業式後、大ホールで竹内將人氏による講演会。保護者も参加可能。','9:30開始、9:35講演・質疑応答、10:50終わりの言葉。保護者は保護者証を持参し、ホワイエから直接入場。'], mailUrl:'https://object-storage.c3j1.conoha.io/v1/AUTH_adf35b4d7a594dd89ae73ed67cfc1169/jwu-j-net/QBQFYLHgqt', mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBQFYL6q0P' },
     { id:'science1-answer-correction-nov27', cat:'no', subject:'理科1分野', thread:'82回生', poster:'松本珠希', posted:'11/27', title:'理科1：No.11模範解答を訂正', dateLabel:'期末テスト準備', details:['資料箱のNo.11模範解答でアンモニアを発生させる薬品の誤りを修正。授業で板書したNo.18〜22も資料箱に掲載。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzI1MzA2MzQy' },
     { id:'math-plane-deadline-nov27', cat:'hw', subject:'数学', thread:'82回生', poster:'森本奈央', posted:'11/27', title:'平面図形（1）の合格締切', date:'2026-11-27', dateLabel:'11/27(金) 終礼・清掃後', details:['未合格者は402に来て取り組み、直接見せる。昨日締切の抜粋No.6・7を未提出の人も402へ。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzM5NDgwMDM2' },
     { id:'japanese-suzuki-final-nov27', cat:'no', subject:'国語', thread:'82回生', poster:'鈴木秀一', posted:'11/27', title:'国語（鈴木）期末テスト範囲', date:'2026-12-01', dateLabel:'12/1(火) 期末テスト', details:['銀河鉄道の夜は「六、銀河ステーション」から最後まで。「言葉」をもつ鳥、シジュウカラは授業・プリントを復習。','百人一首19〜24、漢字ステップ19〜力だめし4（p.92〜118）。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzI0NDY4NTQz' },
