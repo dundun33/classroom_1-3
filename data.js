@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-27",
-  fetchCheckedTime: "11:01",
+  fetchCheckedTime: "13:03",
   updateISO: "2026-11-27",
-  updateTime: "11:01",
+  updateTime: "13:03",
   timetable: {
   "label": "11/23(月)〜11/27(金)",
   "days": [
@@ -746,6 +746,7 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'loilo-math-more6-nov28', cat:'hw', subject:'数学', thread:'数学', poster:'ロイロノート', posted:'11/27', title:'もっと（6）：丸つけ・直しをして提出', date:'2026-11-28', dateLabel:'11/28(土) 20:00 提出', details:['授業で13分間のテスト形式で実施。欠席者も丸つけ・直しをして提出。返却はないが提出物として扱うため、直しを完了してから出す。'], url:'https://loilonote.app/_/13601994?tab=submissionBox', hasLink:true },
     { id:'english-final-scope-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'2学期期末テスト範囲：英語・単語', date:'2026-12-02', dateLabel:'12/1(火) 英語・12/2(水) 英単語', details:['教科書テスト（100点・50分）：教科書p.103〜122（Program 9〜10）、Keyワークp.146〜177（宿題以外も範囲）、新中問14〜16章。','授業プリント（文法⑩〜⑯）、動詞変化表（過去形）、Frozen p.5まで、Unitテスト。','単語テスト（30点・10分）：Keyワークp.152・168。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMzIxOTExNzQ4/details' },
     { id:'math-plane-more6-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形 もっと（6）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkwODA2ODIxMjUw/details' },
     { id:'math-plane2-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形（2）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzMTc1MzQx/details' },
