@@ -6,9 +6,9 @@
 
 window.CLASSROOM_DATA = {
   fetchCheckedISO: "2026-11-28",
-  fetchCheckedTime: "14:24",
+  fetchCheckedTime: "21:35",
   updateISO: "2026-11-28",
-  updateTime: "14:24",
+  updateTime: "21:35",
   timetable: {
   "label": "11/30(月)〜12/4(金)・火〜金は期末テスト",
   "days": [
@@ -738,6 +738,7 @@ window.CLASSROOM_DATA = {
   }
 },
   items: [
+    { id:'kanji-test8-return-nov30', cat:'no', subject:'国語', thread:'82回生', poster:'鈴木秀一', posted:'11/28', title:'漢字テスト⑧の返却・解答', date:'2026-11-30', dateLabel:'11/30(月) 終礼', details:['終礼で返却。解答はロイロノートの各クラス専用資料箱に掲載。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxNDE2NzA0OTA5' },
     { id:'loilo-geography-palm-oil-nov30', cat:'hw', subject:'地理', thread:'地理', poster:'ロイロノート', posted:'11/27', title:'「植物油脂」「パーム油」を探せ', date:'2026-11-30', dateLabel:'11/30(月) 8:30 提出', details:['ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/14489020?tab=submissionBox', hasLink:true },
     { id:'loilo-home-food6-nov30', cat:'hw', subject:'家庭科', thread:'ロイロ', poster:'ロイロノート', posted:'11/27', optional:true, title:'食物No.6補足プリント', date:'2026-11-30', dateLabel:'11/30(月) 18:00・任意', details:['任意の提出。ロイロ提出箱で募集中。'], url:'https://loilonote.app/_/13602002?tab=submissionBox', hasLink:true },
     { id:'mail-QBRFcKSEQG', cat:'no', subject:'学校', thread:'', poster:'保護者向けメール', posted:'11/27', mail:true, title:'中高一体化・一貫化：FAQ更新', dateLabel:'学校からの案内', details:['アンケートを踏まえてFAQを更新。土曜日の登校に関し、月2回程度の土曜休校日を設けると回答。','文化祭について、生徒との対話・検討状況と開催日程案をFAQに掲載。閲覧用パスワードは別メールで案内。'], mailPageUrl:'https://www.y.line-nt.com/linenet/member/jwu-j-net/Q2INSF1UQi/mail/QBRFcKSEQG' },
@@ -752,7 +753,6 @@ window.CLASSROOM_DATA = {
     { id:'student-lecture-sheet-nov27', cat:'no', subject:'学校', thread:'82回生', poster:'山本昂宏', posted:'11/27', title:'講演会プリントの保管', dateLabel:'講演会当日まで', details:['配布された講演会のプリントを当日までなくさず保管する。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMzM5MTUyNDYy' },
     { id:'eiken-course-check-nov27', cat:'no', subject:'英語', thread:'82回生', poster:'中尾有子', posted:'11/27', optional:true, title:'英検対策講座：申込内容の確認', dateLabel:'申込者・早めに確認', details:['クラスに配布された申込者名簿で受験コースなどを確認し、訂正があればすぐ英語科教員へ申し出る。'], url:'https://classroom.google.com/c/ODU4NTUxNTUzOTEy/p/OTAxMjYwODAxNTg2' },
     { id:'english-pre-final-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'プレ2学期期末テスト', dateLabel:'期末テスト準備', details:['問題などのPDFを掲載。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMjYwNzM3NjIx/details' },
-    { id:'loilo-math-more6-nov28', cat:'hw', subject:'数学', thread:'数学', poster:'ロイロノート', posted:'11/27', title:'もっと（6）：丸つけ・直しをして提出', date:'2026-11-28', dateLabel:'11/28(土) 20:00 提出', details:['授業で13分間のテスト形式で実施。欠席者も丸つけ・直しをして提出。返却はないが提出物として扱うため、直しを完了してから出す。'], url:'https://loilonote.app/_/13601994?tab=submissionBox', hasLink:true },
     { id:'english-final-scope-nov27', cat:'no', subject:'英語', thread:'英語', poster:'本木綾子', posted:'11/27', title:'2学期期末テスト範囲：英語・単語', date:'2026-12-02', dateLabel:'12/1(火) 英語・12/2(水) 英単語', details:['教科書テスト（100点・50分）：教科書p.103〜122（Program 9〜10）、Keyワークp.146〜177（宿題以外も範囲）、新中問14〜16章。','授業プリント（文法⑩〜⑯）、動詞変化表（過去形）、Frozen p.5まで、Unitテスト。','単語テスト（30点・10分）：Keyワークp.152・168。'], url:'https://classroom.google.com/c/ODU5Mzk5NTI1NzA5/m/OTAxMzIxOTExNzQ4/details' },
     { id:'math-plane-more6-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形 もっと（6）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODkwODA2ODIxMjUw/details' },
     { id:'math-plane2-nov27', cat:'no', subject:'数学', thread:'数学', poster:'森本奈央', posted:'11/27', title:'平面図形（2）', dateLabel:'学習資料', details:['問題と解答のPDFを掲載。'], url:'https://classroom.google.com/c/ODQ5MzY4MjU2Mzg0/m/ODk3MjkzMTc1MzQx/details' },
